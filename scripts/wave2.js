@@ -92,25 +92,54 @@ function extractEmail(text) {
 
       const q = `site:nextdoor.co.uk/pages ${trade} ${town}`;
       try {
-        await page.goto('https://www.bing.com/search?q=' + encodeURIComponent(q) + '&count=30',
-          { waitUntil: 'domcontentloaded', timeout: 45000 });
-        await sleep(2500);
-        const links = await page.evaluate(() =>
-          [...document.querySelectorAll('a')].map(a => a.href)
-            .filter(h => h.includes('nextdoor.co.uk/pages/'))
-            .map(h => { try { const u = new URL(h); return 'https://nextdoor.co.uk' + u.pathname; } catch { return null; } })
-            .filter(Boolean));
+        // DuckDuckGo html endpoint first: works without a logged-in profile.
+        let links = [];
+        let engine = 'ddg';
+        try {
+          await page.goto('https://html.duckduckgo.com/html/?q=' + encodeURIComponent(q),
+            { waitUntil: 'domcontentloaded', timeout: 45000 });
+          await sleep(2200);
+          const st = await page.evaluate(() => document.body ? document.body.innerText.slice(0,300) : '');
+          if (/202|anomaly|rate limit|unusual traffic/i.test(st) && !/nextdoor/i.test(st)) {
+            engine = 'ddg_blocked';
+          }
+          links = await page.evaluate(() => {
+            const out = [];
+            for (const a of document.querySelectorAll('a')) {
+              let h = a.href || '';
+              const m = h.match(/uddg=([^&]+)/);
+              if (m) { try { h = decodeURIComponent(m[1]); } catch {} }
+              if (h.includes('nextdoor.co.uk/pages/')) out.push(h);
+            }
+            return out.map(h => { try { const u = new URL(h); return 'https://nextdoor.co.uk' + u.pathname.replace(/\/$/, ''); } catch { return null; } }).filter(Boolean);
+          });
+        } catch (e) { engine = 'ddg_err'; }
+
+        // Bing fallback (only useful with a warmed profile, harmless otherwise).
+        if (links.length === 0) {
+          try {
+            await page.goto('https://www.bing.com/search?q=' + encodeURIComponent(q) + '&count=30',
+              { waitUntil: 'domcontentloaded', timeout: 45000 });
+            await sleep(2500);
+            links = await page.evaluate(() =>
+              [...document.querySelectorAll('a')].map(a => a.href)
+                .filter(h => h.includes('nextdoor.co.uk/pages/'))
+                .map(h => { try { const u = new URL(h); return 'https://nextdoor.co.uk' + u.pathname.replace(/\/$/, ''); } catch { return null; } })
+                .filter(Boolean));
+            if (links.length) engine = 'bing';
+          } catch (e) {}
+        }
         const uniq = [...new Set(links)];
         let added = 0;
         for (const u of uniq) {
           if (!state.discovered.find(d => d.url === u)) {
-            state.discovered.push({ url: u, town, trade, found_via: 'bing' });
+            state.discovered.push({ url: u, town, trade, found_via: engine });
             added++;
           }
         }
         state.queries.push(key);
         saveState(state);
-        log(`DISC ${key} -> ${uniq.length} links, +${added} new (total ${state.discovered.length})`);
+        log(`DISC[${engine}] ${key} -> ${uniq.length} links, +${added} new (total ${state.discovered.length})`);
       } catch (e) {
         log(`DISC_ERR ${key} ${String(e.message).slice(0, 60)}`);
       }
