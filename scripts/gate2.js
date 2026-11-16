@@ -217,6 +217,12 @@ function normProv(v) {
                 return { x: r.x, y: r.y, w: r.width, h: r.height };
               })()
             : null,
+          h1Box: h1
+            ? (() => {
+                const r = h1.getBoundingClientRect();
+                return { x: r.x, y: r.y, w: r.width, h: r.height };
+              })()
+            : null,
         };
       });
 
@@ -232,6 +238,34 @@ function normProv(v) {
         if (info.h1Color) {
           const pure = /^rgb\(255,\s*255,\s*255\)$/.test(info.h1Color);
           check(`[${vp.name}] H1 is pure white`, pure, info.h1Color);
+        }
+        // ---- Rule 4: measured text contrast, not assumed contrast.
+        // Sample the pixels actually BEHIND the H1 and require a real ratio
+        // against pure white. Catches a right-weighted hero whose brightest
+        // region sits exactly where the headline is.
+        if (info.h1Box && !liveUrl && vp.width === 1440) {
+          const shot = path.join(dir, `.gate2-h1-${vp.name}.png`);
+          await p.screenshot({ path: shot, clip: { x: 0, y: 0, width: vp.width, height: Math.min(vp.height, 900) } });
+          const bx = Math.max(0, Math.round(info.h1Box.x));
+          const by = Math.max(0, Math.round(info.h1Box.y));
+          const bw = Math.min(Math.round(info.h1Box.w), vp.width - bx);
+          const bh = Math.min(Math.round(info.h1Box.h), 900 - by);
+          let bgLum = null;
+          if (bw > 10 && bh > 10) {
+            bgLum = parseFloat(
+              execFileSync('convert', [shot, '-crop', `${bw}x${bh}+${bx}+${by}`, '+repage',
+                '-colorspace', 'gray', '-format', '%[fx:mean*255]', 'info:'], { encoding: 'utf8' })
+            );
+          }
+          try { fs.unlinkSync(shot); } catch {}
+          if (bgLum !== null) {
+            // WCAG relative luminance for the average backdrop
+            const srgb = (c) => { c /= 255; return c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4); };
+            const Lbg = srgb(bgLum);
+            const ratio = (1.0 + 0.05) / (Lbg + 0.05); // white text vs sampled backdrop
+            check('[1440] H1 legible over hero (contrast >= 4.5:1)', ratio >= 4.5,
+              `backdrop lum ${bgLum.toFixed(1)} -> ${ratio.toFixed(2)}:1`);
+          }
         }
         // luminance ramp measured on the widest desktop viewport only (stable)
         if (vp.width === 1440 && info.heroBox && !liveUrl) {

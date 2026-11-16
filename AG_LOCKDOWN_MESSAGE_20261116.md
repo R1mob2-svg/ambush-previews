@@ -152,3 +152,66 @@ Assg, hobbs and stm are correct — treat them as your reference for what passes
 
 Also note `be-plastering-services` has no `asset-sources.json` at all. That's the legacy
 0003 page and it's mine to regenerate — do not touch it.
+
+---
+
+## ADDENDUM 2 — the actual root cause, now proven
+
+I stopped guessing and built the diagnostic. Both of your failing heroes are
+**mathematically unfixable by CSS**.
+
+```
+node scripts/fix-hero.js heat-zone-20261116
+  measured  L=114.8 M=101.0 R=93.7   R/L=0.82
+
+node scripts/fix-hero.js bk-gas-and-plumbing-0014
+  measured  L=45.2  M=29.3  R=9.9    R/L=0.22
+```
+
+The template's hero overlay is `linear-gradient(90deg, .97 -> .06)`. It darkens
+left-to-right. So a photo whose **own** light runs right-to-left gets its dark mass
+kept and its bright mass painted over. bk-gas loses 78% of its brightness before the
+H1 is even drawn.
+
+**`background-position: 100% 30%` cannot save a photo whose light runs the wrong way.**
+You have been treating a composition problem as a crop problem. It isn't.
+
+### The rule that actually works
+
+The gate reads *rendered* pixels. The overlay eats the right side. So the photo's own
+light must **already** rise into its right third, before the overlay is applied.
+
+That gap exists in your workflow: you validated the photo, never the composite. You
+never looked at the rendered hero and measured it. Fix that first.
+
+## Tools I built so this stops being guesswork
+
+**`scripts/vet-hero.js <photo>`** — vets a candidate before you commit it:
+- `ramp`   raw L->R of the photo (R>M>L, R/L>1.5)
+- `detail` real photographic variance, catches flat/synthetic plates
+
+It deliberately does **not** check "subject placement" via edge energy. I wrote that
+check, calibrated it against five heroes the gate already passes, and it rejected all
+five. It measured texture, not subject position. I removed it rather than ship a liar.
+If a check fails everything it should pass, it's worthless.
+
+**`scripts/source-hero.js "<query>"`** — searches Commons, downloads candidates,
+measures each, and returns only photos that can physically pass:
+```
+GOOD  R/L=2.31  ... already rises the right way
+MIRR  R/L=0.50  ... rises the WRONG way, but R/L after mirroring = 2.01
+```
+The `MIRR` line is the important one. A photo with perfect light running backwards is
+recoverable: mirror it horizontally with `convert -flop`, then it satisfies the rule
+exactly. You have been rejecting these as unusable and shipping dark ones instead.
+
+## Your next three, in order
+
+1. **bk-gas-0014** — R/L=0.22. Cannot pass. Re-source: run `source-hero.js` for a gas
+   or pipe query, take a `GOOD`, or take a `MIRR` and `-flop` it.
+2. **heat-zone** — R/L=0.82, one check from green. Same method. Do not re-crop this photo.
+3. Then the queue: 12 scaffolds, 3 at a time, gate in between.
+
+Paste `GATE PASSED (55 checks)` — note the gate is now 55, I added a measured
+text-contrast check on the H1 backdrop. All 21 existing pages had to clear it and did,
+so it changes nothing for you except the number you paste.
