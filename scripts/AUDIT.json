@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-16T23:13:27.412Z",
+  "generated": "2026-11-16T23:23:47.412Z",
   "results": [
     {
       "slug": "a-r-gas-services-0025",
       "passed": false,
-      "checks": 54,
+      "checks": 55,
       "failed": 2,
       "failures": [
         "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
@@ -15,7 +15,7 @@
     {
       "slug": "alto-barren-plumbing-heating-0018",
       "passed": false,
-      "checks": 54,
+      "checks": 55,
       "failed": 2,
       "failures": [
         "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
@@ -26,7 +26,7 @@
     {
       "slug": "assg-plumbing-and-heating-services-0013",
       "passed": true,
-      "checks": 54,
+      "checks": 55,
       "failed": 0,
       "failures": [],
       "error": null
@@ -34,7 +34,7 @@
     {
       "slug": "be-plastering-services",
       "passed": false,
-      "checks": 49,
+      "checks": 50,
       "failed": 4,
       "failures": [
         "asset-sources.json present — MISSING — cannot prove distinct origins",
@@ -47,7 +47,7 @@
     {
       "slug": "bk-gas-and-plumbing-0014",
       "passed": false,
-      "checks": 54,
+      "checks": 55,
       "failed": 2,
       "failures": [
         "[1440] hero luminance rises left->right — L=25.8 M=21.1 R=10.6",
@@ -58,7 +58,7 @@
     {
       "slug": "bl-holliday-roofing-20261116",
       "passed": true,
-      "checks": 54,
+      "checks": 55,
       "failed": 0,
       "failures": [],
       "error": null
@@ -66,7 +66,7 @@
     {
       "slug": "cannock-mechanical-solutions-0016",
       "passed": false,
-      "checks": 54,
+      "checks": 55,
       "failed": 2,
       "failures": [
         "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
@@ -77,7 +77,7 @@
     {
       "slug": "cheek-electrical-20261116",
       "passed": true,
-      "checks": 54,
+      "checks": 55,
       "failed": 0,
       "failures": [],
       "error": null
@@ -85,7 +85,7 @@
     {
       "slug": "dbritain-home-improvements-20261116",
       "passed": true,
-      "checks": 54,
+      "checks": 55,
       "failed": 0,
       "failures": [],
       "error": null
@@ -93,7 +93,7 @@
     {
       "slug": "elite-gas-coventry-0022",
       "passed": false,
-      "checks": 54,
+      "checks": 55,
       "failed": 2,
       "failures": [
         "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
@@ -104,7 +104,7 @@
     {
       "slug": "heat-zone-20261116",
       "passed": false,
-      "checks": 54,
+      "checks": 55,
       "failed": 1,
       "failures": [
         "[1440] hero has real focal weight (not flat) — R/L = 1.34 (need >1.5)"
@@ -114,7 +114,7 @@
     {
       "slug": "hobbs-hodgetts-0015",
       "passed": true,
-      "checks": 54,
+      "checks": 55,
       "failed": 0,
       "failures": [],
       "error": null
@@ -122,7 +122,7 @@
     {
       "slug": "innovate-electrical-services-0026",
       "passed": false,
-      "checks": 54,
+      "checks": 55,
       "failed": 2,
       "failures": [
         "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
@@ -133,7 +133,7 @@
     {
       "slug": "instyle-installations-0024",
       "passed": false,
-      "checks": 54,
+      "checks": 55,
       "failed": 2,
       "failures": [
         "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
@@ -144,7 +144,7 @@
     {
       "slug": "pb-smart-solutions-0023",
       "passed": false,
-      "checks": 54,
+      "checks": 55,
       "failed": 2,
       "failures": [
         "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
@@ -155,7 +155,7 @@
     {
       "slug": "razak-heating-0017",
       "passed": false,
-      "checks": 54,
+      "checks": 55,
       "failed": 2,
       "failures": [
         "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
@@ -166,7 +166,7 @@
     {
       "slug": "renovatez-heating-plumbing-0020",
       "passed": false,
-      "checks": 54,
+      "checks": 55,
       "failed": 2,
       "failures": [
         "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
@@ -177,7 +177,7 @@
     {
       "slug": "roc-heating-mechanical-services-0021",
       "passed": false,
-      "checks": 54,
+      "checks": 55,
       "failed": 2,
       "failures": [
         "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
@@ -188,7 +188,7 @@
     {
       "slug": "rso-developments-0019",
       "passed": false,
-      "checks": 54,
+      "checks": 55,
       "failed": 2,
       "failures": [
         "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
@@ -199,7 +199,7 @@
     {
       "slug": "stm-plumbing-heating-uk-0012",
       "passed": true,
-      "checks": 54,
+      "checks": 55,
       "failed": 0,
       "failures": [],
       "error": null
@@ -207,7 +207,7 @@
     {
       "slug": "walsall-plumbing-and-gas-20261116",
       "passed": true,
-      "checks": 54,
+      "checks": 55,
       "failed": 0,
       "failures": [],
       "error": null
