@@ -18,6 +18,15 @@
     "ALTO BARREN PLUMBING & HEATING LIMITED": [
       "alto-barren-plumbing-heating-0018"
     ],
+    "https://commons.wikimedia.org/wiki/File:Replacement_of_a_central_heating_radiator,_Hillegersberg,_Rotterdam_(2022)_01.jpg": [
+      "assg-plumbing-and-heating-services-0013"
+    ],
+    "https://commons.wikimedia.org/wiki/File:Copper_water_pipes.jpg": [
+      "assg-plumbing-and-heating-services-0013"
+    ],
+    "https://commons.wikimedia.org/wiki/File:Stillson_Pipe_Wrench_of_Stephen_and_Elmer_Braun.jpg": [
+      "assg-plumbing-and-heating-services-0013"
+    ],
     "assg-plumbing-and-heating-services-0013": [
       "assg-plumbing-and-heating-services-0013"
     ],
@@ -26,6 +35,15 @@
     ],
     "ASSG PLUMBING AND HEATING SERVICES LTD": [
       "assg-plumbing-and-heating-services-0013"
+    ],
+    "https://commons.wikimedia.org/wiki/File:Gas_Pipe_Installation_In_A_Construction_Site.jpg": [
+      "bk-gas-and-plumbing-0014"
+    ],
+    "https://commons.wikimedia.org/wiki/File:PEX_installation_tools_and_fittings.jpg": [
+      "bk-gas-and-plumbing-0014"
+    ],
+    "https://commons.wikimedia.org/wiki/File:Pipe_clamp_1.jpg": [
+      "bk-gas-and-plumbing-0014"
     ],
     "bk-gas-and-plumbing-0014": [
       "bk-gas-and-plumbing-0014"
@@ -72,18 +90,14 @@
     "commons:Electrician_installing_socket_20160817.jpg": [
       "cheek-electrical-20261116"
     ],
-    "https://commons.wikimedia.org/wiki/File:A_plumber_and_water_tank.jpg": [
+    "https://commons.wikimedia.org/wiki/File:Bathroom_faucet_installation.jpg": [
       "dbritain-home-improvements-20261116"
     ],
-    "https://commons.wikimedia.org/wiki/File:Copper_Water_Pipes_and_Water_Line_Shutoff.jpg": [
-      "dbritain-home-improvements-20261116",
-      "heat-zone-20261116",
-      "walsall-plumbing-and-gas-20261116"
+    "https://commons.wikimedia.org/wiki/File:Plumber_uses_two_wrenches_to_tighten_a_fitting.jpg": [
+      "dbritain-home-improvements-20261116"
     ],
-    "https://commons.wikimedia.org/wiki/File:Brasure_sur_tube_cuivre,_la_chauffe.jpg": [
-      "dbritain-home-improvements-20261116",
-      "heat-zone-20261116",
-      "walsall-plumbing-and-gas-20261116"
+    "https://commons.wikimedia.org/wiki/File:Cast-iron_plumbing_pipe.jpg": [
+      "dbritain-home-improvements-20261116"
     ],
     "dbritain-home-improvements-20261116": [
       "dbritain-home-improvements-20261116"
@@ -103,9 +117,14 @@
     "ELITE GAS COVENTRY LTD": [
       "elite-gas-coventry-0022"
     ],
-    "https://commons.wikimedia.org/wiki/File:Dornbirn-Ebnit-underfloor_heating-system-01ASD.jpg": [
-      "heat-zone-20261116",
-      "walsall-plumbing-and-gas-20261116"
+    "https://commons.wikimedia.org/wiki/File:Public_domain_image_-_underfloor_heating_installation.JPG": [
+      "heat-zone-20261116"
+    ],
+    "https://commons.wikimedia.org/wiki/File:Thermostatic_Radiator_Valve.jpg": [
+      "heat-zone-20261116"
+    ],
+    "https://commons.wikimedia.org/wiki/File:Heizkreisverteiler.jpg": [
+      "heat-zone-20261116"
     ],
     "heat-zone-20261116": [
       "heat-zone-20261116"
@@ -115,6 +134,15 @@
     ],
     "HEAT ZONE LIMITED": [
       "heat-zone-20261116"
+    ],
+    "https://commons.wikimedia.org/wiki/File:ModCon_boiler_system.jpg": [
+      "hobbs-hodgetts-0015"
+    ],
+    "https://commons.wikimedia.org/wiki/File:Replacement_of_a_central_heating_radiator,_Hillegersberg,_Rotterdam_(2022)_03.jpg": [
+      "hobbs-hodgetts-0015"
+    ],
+    "https://commons.wikimedia.org/wiki/File:Plumber_wrench_tools.jpg": [
+      "hobbs-hodgetts-0015"
     ],
     "hobbs-hodgetts-0015": [
       "hobbs-hodgetts-0015"
@@ -188,6 +216,15 @@
     "RSO DEVELOPMENTS LTD": [
       "rso-developments-0019"
     ],
+    "https://commons.wikimedia.org/wiki/File:Plumber_01.jpg": [
+      "stm-plumbing-heating-uk-0012"
+    ],
+    "https://commons.wikimedia.org/wiki/File:Propane_torch_soldering_copper_pipe.jpg": [
+      "stm-plumbing-heating-uk-0012"
+    ],
+    "https://commons.wikimedia.org/wiki/File:Wall_mounted_boiler_in_kitchen.jpg": [
+      "stm-plumbing-heating-uk-0012"
+    ],
     "stm-plumbing-heating-uk-0012": [
       "stm-plumbing-heating-uk-0012"
     ],
@@ -196,6 +233,15 @@
     ],
     "STM PLUMBING & HEATING (UK) LIMITED": [
       "stm-plumbing-heating-uk-0012"
+    ],
+    "https://commons.wikimedia.org/wiki/File:Brasure_sur_tube_cuivre,_la_chauffe.jpg": [
+      "walsall-plumbing-and-gas-20261116"
+    ],
+    "https://commons.wikimedia.org/wiki/File:Copper_Water_Pipes_and_Water_Line_Shutoff.jpg": [
+      "walsall-plumbing-and-gas-20261116"
+    ],
+    "https://commons.wikimedia.org/wiki/File:Dornbirn-Ebnit-underfloor_heating-system-01ASD.jpg": [
+      "walsall-plumbing-and-gas-20261116"
     ],
     "walsall-plumbing-and-gas-20261116": [
       "walsall-plumbing-and-gas-20261116"
@@ -210,11 +256,19 @@
   "hashes": {
     "a-r-gas-services-0025": [],
     "alto-barren-plumbing-heating-0018": [],
-    "assg-plumbing-and-heating-services-0013": [],
+    "assg-plumbing-and-heating-services-0013": [
+      "d77b6793aeab12f35f86d07767f659b9354bb8a817c495420c940948ef6bdc59",
+      "4bb5cf69ebf1145082ecd8f9180266a78c6fbedaff9a985f5a5d8e890018d67d",
+      "06495fc7f8ea040d803d6b246fdb0cdc733d1124ab88709627246229c8d6513a"
+    ],
     "be-plastering-services": [],
-    "bk-gas-and-plumbing-0014": [],
+    "bk-gas-and-plumbing-0014": [
+      "e7483415e2935d55fd1ab7ebcaa5179486a683e8e38c044e1b7473b7a8be282b",
+      "fda770233ac586bade162e0739640c6b11e24f6e160494e45ae043947d4cc038",
+      "e785138ce1acc015490dc72798ae69ff2513fcab924d695a80137a33ade2b1ab"
+    ],
     "bl-holliday-roofing-20261116": [
-      "848a3cf87363b632f8c73f0448b717327cd03dbb0482f8984c441a686f415860",
+      "2fb2d1b2e90377af1440c42eab87e35d4c216508c7231f2b9008e4adc0088213",
       "c298fb3eec217774056ef5b3961d850292be7f7341b6152b92c9674fc022970f",
       "6e38370222781d00d668d26fdaa7278a5a5f6bdafca4f6a00be023c301893681"
     ],
@@ -225,17 +279,21 @@
       "ebd5a6ebdefd3902eb76e183e7e233beccf4d2f78288839b95bb7a17bb66532d"
     ],
     "dbritain-home-improvements-20261116": [
-      "b4de5e67c783eb3b8a86f39003dfd08c07a10a77c8baed5387c6279dbb1d0848",
-      "cb803cd78ce79f4bd0321f45c227abfc8b2151fc892a0723352255bfd7b4304b",
-      "f5bacc64f8c556f4b785e1361f5adfd125c832c062fcd4ce589e4a5d67bff2b4"
+      "bd4b79caf1f2195fa0185ec1ccc89bcbecbaba8790acb9824f24a27b19c529c7",
+      "2561c0e41a77136f4fc51dd86a0c873e4508f8b029e8ee230d67de39c411245e",
+      "d10d76999117cb246ce784a48ed324f7feaff4d1980f47cf09c33d6c03a84480"
     ],
     "elite-gas-coventry-0022": [],
     "heat-zone-20261116": [
-      "de693aaf2226cd44674b22e4477072543b645abf2aa118db77c91dc1d4cef0be",
-      "f5bacc64f8c556f4b785e1361f5adfd125c832c062fcd4ce589e4a5d67bff2b4",
-      "cb803cd78ce79f4bd0321f45c227abfc8b2151fc892a0723352255bfd7b4304b"
+      "4f0503cad4ac324548279058da187e3d4e7b7bbf210931c53f355d679b7e3af3",
+      "e489b28b6fc90699f8060f96647540bd0e5bd8e07ce527b4f7b051371514bf40",
+      "839de946197654e200f66fd18eefced7865d2fa17cb8d7d02829674822cfea74"
     ],
-    "hobbs-hodgetts-0015": [],
+    "hobbs-hodgetts-0015": [
+      "418e22601e00cbc0c694d5523809bcc1d4fb08353a4e04d229f3ca4cf09cf701",
+      "01abd120cab4482afca9a20dce4b1e9e3d53b41a6ac00425cac47f8dfe093ab0",
+      "4d538b812755540e857e3c537d570593f48d58a5da0e285e358b5574a67c223b"
+    ],
     "innovate-electrical-services-0026": [],
     "instyle-installations-0024": [],
     "pb-smart-solutions-0023": [],
@@ -243,7 +301,11 @@
     "renovatez-heating-plumbing-0020": [],
     "roc-heating-mechanical-services-0021": [],
     "rso-developments-0019": [],
-    "stm-plumbing-heating-uk-0012": [],
+    "stm-plumbing-heating-uk-0012": [
+      "6dbdedff2e3b0b513370c7c088e79c52c28972057980a7a6365291d82692a991",
+      "87e2347c22f4278b2ce73c6229b2e2f0d42c27e4494a21aeef1215ece88621b2",
+      "a47e43cf4e668d5688b0dd10a958bc187b3c80d840d65eee3338b2e5aadbc110"
+    ],
     "walsall-plumbing-and-gas-20261116": [
       "7a9dca741ef3bdb5b1265c63309a55eaa3ecd06fd0fecd2b41bbf3c08df2c4cd",
       "cb803cd78ce79f4bd0321f45c227abfc8b2151fc892a0723352255bfd7b4304b",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T22:56:54.209Z",
+  "generated": "2026-11-16T23:13:27.412Z",
   "results": [
     {
       "slug": "a-r-gas-services-0025",
@@ -25,13 +25,10 @@
     },
     {
       "slug": "assg-plumbing-and-heating-services-0013",
-      "passed": false,
+      "passed": true,
       "checks": 54,
-      "failed": 2,
-      "failures": [
-        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
-        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
-      ],
+      "failed": 0,
+      "failures": [],
       "error": null
     },
     {
@@ -53,23 +50,17 @@
       "checks": 54,
       "failed": 2,
       "failures": [
-        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
-        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
+        "[1440] hero luminance rises left->right — L=25.8 M=21.1 R=10.6",
+        "[1440] hero has real focal weight (not flat) — R/L = 0.41 (need >1.5)"
       ],
       "error": null
     },
     {
       "slug": "bl-holliday-roofing-20261116",
-      "passed": false,
+      "passed": true,
       "checks": 54,
-      "failed": 5,
-      "failures": [
-        "[1024] hero background-position right-weighted — 50% 40%",
-        "[1280] hero background-position right-weighted — 50% 40%",
-        "[1440] hero background-position right-weighted — 50% 40%",
-        "[1440] hero luminance rises left->right — L=68.6 M=87.5 R=87.4",
-        "[1440] hero has real focal weight (not flat) — R/L = 1.28 (need >1.5)"
-      ],
+      "failed": 0,
+      "failures": [],
       "error": null
     },
     {
@@ -93,15 +84,10 @@
     },
     {
       "slug": "dbritain-home-improvements-20261116",
-      "passed": false,
+      "passed": true,
       "checks": 54,
-      "failed": 4,
-      "failures": [
-        "zero identical asset bytes across the board — service-1.jpg == heat-zone-20261116; service-1.jpg == walsall-plumbing-and-gas-20261116; service-2.jpg == heat-zone-20261116",
-        "[1024] hero background-position right-weighted — 50% 35%",
-        "[1280] hero background-position right-weighted — 50% 35%",
-        "[1440] hero background-position right-weighted — 50% 35%"
-      ],
+      "failed": 0,
+      "failures": [],
       "error": null
     },
     {
@@ -119,25 +105,18 @@
       "slug": "heat-zone-20261116",
       "passed": false,
       "checks": 54,
-      "failed": 5,
+      "failed": 1,
       "failures": [
-        "zero identical asset bytes across the board — service-1.jpg == dbritain-home-improvements-20261116; service-2.jpg == dbritain-home-improvements-20261116; service-2.jpg == walsall-plumbing-and-gas-20261116",
-        "[1024] hero background-position right-weighted — 50% 40%",
-        "[1280] hero background-position right-weighted — 50% 40%",
-        "[1440] hero background-position right-weighted — 50% 40%",
-        "[1440] hero has real focal weight (not flat) — R/L = 1.21 (need >1.5)"
+        "[1440] hero has real focal weight (not flat) — R/L = 1.34 (need >1.5)"
       ],
       "error": null
     },
     {
       "slug": "hobbs-hodgetts-0015",
-      "passed": false,
+      "passed": true,
       "checks": 54,
-      "failed": 2,
-      "failures": [
-        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
-        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
-      ],
+      "failed": 0,
+      "failures": [],
       "error": null
     },
     {
@@ -219,23 +198,18 @@
     },
     {
       "slug": "stm-plumbing-heating-uk-0012",
-      "passed": false,
+      "passed": true,
       "checks": 54,
-      "failed": 2,
-      "failures": [
-        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
-        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
-      ],
+      "failed": 0,
+      "failures": [],
       "error": null
     },
     {
       "slug": "walsall-plumbing-and-gas-20261116",
-      "passed": false,
+      "passed": true,
       "checks": 54,
-      "failed": 1,
-      "failures": [
-        "zero identical asset bytes across the board — service-1.jpg == dbritain-home-improvements-20261116; service-1.jpg == heat-zone-20261116"
-      ],
+      "failed": 0,
+      "failures": [],
       "error": null
     }
   ]

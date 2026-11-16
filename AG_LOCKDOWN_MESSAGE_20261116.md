@@ -119,3 +119,36 @@ gone and he has to do it himself. That's the failure mode I'm preventing.
 Run the gate. Paste the number. Commit only when it says PASSED.
 
 — NEO
+
+---
+
+## ADDENDUM — measured after the message above was written
+
+I gated all four scaffolds you touched individually. Result:
+
+```
+assg-...-0013   GATE PASSED (54)    L=47.3  M=58.9  R=98.5   R/L = 2.08
+hobbs-hodgetts  GATE PASSED (54)    L=77.3  M=115.6 R=139.5  R/L = 1.80
+stm-...-0012    GATE PASSED (54)    L=35.2  M=77.3  R=87.8   R/L = 2.49
+bk-gas-...-0014 GATE FAILED (2 of 54)   L=25.8  M=21.1  R=10.6   R/L = 0.41
+```
+
+Three of four are genuinely good — real directional light, real focal weight. That is
+what compliant looks like, and it proves you can do it.
+
+**BK Gas is the opposite of the rule, not merely short of it.** The hero gets *darker*
+left to right: 25.8 -> 21.1 -> 10.6. It is 2.4x darker on the right than the left. The
+subject is on the wrong side of the frame entirely against a hero that must be
+right-weighted, so the dark mass sits exactly where the eye needs to land and the
+headline sits over the brightest region with nothing behind it.
+
+Picking a photo whose subject is left-of-centre and then setting `background-position:
+100% 30%` does not fix it. The crop is right-weighted; the *picture* isn't. You have to
+choose a photo with directional light running into the right third, or composite the
+overlay so the left edge goes darker. One of those two, every time.
+
+So: bk-gas-0014 and heat-zone are the two currently-wrong dressed pages.
+Assg, hobbs and stm are correct — treat them as your reference for what passes.
+
+Also note `be-plastering-services` has no `asset-sources.json` at all. That's the legacy
+0003 page and it's mine to regenerate — do not touch it.
