@@ -6,26 +6,26 @@
     "hero.jpg": {
       "role": "hero",
       "dimensions": "1440x720",
-      "sha256": "b4de5e67c783eb3b8a86f39003dfd08c07a10a77c8baed5387c6279dbb1d0848",
-      "source_url": "https://commons.wikimedia.org/wiki/File:A_plumber_and_water_tank.jpg",
+      "sha256": "bd4b79caf1f2195fa0185ec1ccc89bcbecbaba8790acb9824f24a27b19c529c7",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bathroom_faucet_installation.jpg",
       "license": "CC BY-SA 4.0",
-      "notes": "Plumber and heating engineer inspecting domestic thermal hot water storage cylinder."
+      "notes": "Chrome ceramic disc basin mixer tap and sanitary plumbing installation."
     },
     "service-1.jpg": {
       "role": "service-1",
       "dimensions": "1200x900",
-      "sha256": "cb803cd78ce79f4bd0321f45c227abfc8b2151fc892a0723352255bfd7b4304b",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Copper_Water_Pipes_and_Water_Line_Shutoff.jpg",
-      "license": "CC0",
-      "notes": "Domestic copper plumbing supply pipework and full-bore lever ball shutoff valves."
+      "sha256": "2561c0e41a77136f4fc51dd86a0c873e4508f8b029e8ee230d67de39c411245e",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Plumber_uses_two_wrenches_to_tighten_a_fitting.jpg",
+      "license": "CC BY-SA 2.0",
+      "notes": "Plumber using dual Stillson wrenches to securely tighten pipe fittings."
     },
     "service-2.jpg": {
       "role": "service-2",
       "dimensions": "1200x900",
-      "sha256": "f5bacc64f8c556f4b785e1361f5adfd125c832c062fcd4ce589e4a5d67bff2b4",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Brasure_sur_tube_cuivre,_la_chauffe.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Brazed copper pipework joint in bench vice with precision heating torch."
+      "sha256": "d10d76999117cb246ce784a48ed324f7feaff4d1980f47cf09c33d6c03a84480",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cast-iron_plumbing_pipe.jpg",
+      "license": "CC0 / Public Domain",
+      "notes": "Heavy-duty domestic drainage and waste pipework installation."
     },
     "favicon.png": "generated:monogram"
   }

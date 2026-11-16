@@ -6,26 +6,26 @@
     "hero.jpg": {
       "role": "hero",
       "dimensions": "1440x720",
-      "sha256": "de693aaf2226cd44674b22e4477072543b645abf2aa118db77c91dc1d4cef0be",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Dornbirn-Ebnit-underfloor_heating-system-01ASD.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Underfloor heating manifold circuits and loops. Clean technical installation, unbranded manifold valves."
+      "sha256": "4f0503cad4ac324548279058da187e3d4e7b7bbf210931c53f355d679b7e3af3",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Public_domain_image_-_underfloor_heating_installation.JPG",
+      "license": "CC0 / Public Domain",
+      "notes": "Underfloor heating pipe installation and structural floor loops, right weighted."
     },
     "service-1.jpg": {
       "role": "service-1",
       "dimensions": "1200x900",
-      "sha256": "f5bacc64f8c556f4b785e1361f5adfd125c832c062fcd4ce589e4a5d67bff2b4",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Brasure_sur_tube_cuivre,_la_chauffe.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Precision torch heating on copper tube in bench vice."
+      "sha256": "e489b28b6fc90699f8060f96647540bd0e5bd8e07ce527b4f7b051371514bf40",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Thermostatic_Radiator_Valve.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Thermostatic radiator control valve and central heating system balancing."
     },
     "service-2.jpg": {
       "role": "service-2",
       "dimensions": "1200x900",
-      "sha256": "cb803cd78ce79f4bd0321f45c227abfc8b2151fc892a0723352255bfd7b4304b",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Copper_Water_Pipes_and_Water_Line_Shutoff.jpg",
-      "license": "CC0",
-      "notes": "Domestic copper water line with full-bore lever shutoff ball valves."
+      "sha256": "839de946197654e200f66fd18eefced7865d2fa17cb8d7d02829674822cfea74",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Heizkreisverteiler.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Precision manifold distribution circuits and flow meters."
     },
     "favicon.png": "generated:monogram"
   }
