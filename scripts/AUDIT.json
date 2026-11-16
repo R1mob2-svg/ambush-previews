@@ -1,0 +1,242 @@
+{
+  "generated": "2026-11-16T22:56:54.209Z",
+  "results": [
+    {
+      "slug": "a-r-gas-services-0025",
+      "passed": false,
+      "checks": 54,
+      "failed": 2,
+      "failures": [
+        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
+        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "alto-barren-plumbing-heating-0018",
+      "passed": false,
+      "checks": 54,
+      "failed": 2,
+      "failures": [
+        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
+        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "assg-plumbing-and-heating-services-0013",
+      "passed": false,
+      "checks": 54,
+      "failed": 2,
+      "failures": [
+        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
+        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "be-plastering-services",
+      "passed": false,
+      "checks": 49,
+      "failed": 4,
+      "failures": [
+        "asset-sources.json present — MISSING — cannot prove distinct origins",
+        "every declared image exists on disk — missing: uk-plastering-service-001.jpg, uk-plastering-service-002.jpg, uk-plastering-service-003.jpg, uk-plastering-hero-001.jpg, uk-plastering-coverage-001.jpg",
+        "[1440] hero luminance rises left->right — L=103.5 M=106.1 R=72.5",
+        "[1440] hero has real focal weight (not flat) — R/L = 0.70 (need >1.5)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "bk-gas-and-plumbing-0014",
+      "passed": false,
+      "checks": 54,
+      "failed": 2,
+      "failures": [
+        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
+        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "bl-holliday-roofing-20261116",
+      "passed": false,
+      "checks": 54,
+      "failed": 5,
+      "failures": [
+        "[1024] hero background-position right-weighted — 50% 40%",
+        "[1280] hero background-position right-weighted — 50% 40%",
+        "[1440] hero background-position right-weighted — 50% 40%",
+        "[1440] hero luminance rises left->right — L=68.6 M=87.5 R=87.4",
+        "[1440] hero has real focal weight (not flat) — R/L = 1.28 (need >1.5)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "cannock-mechanical-solutions-0016",
+      "passed": false,
+      "checks": 54,
+      "failed": 2,
+      "failures": [
+        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
+        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "cheek-electrical-20261116",
+      "passed": true,
+      "checks": 54,
+      "failed": 0,
+      "failures": [],
+      "error": null
+    },
+    {
+      "slug": "dbritain-home-improvements-20261116",
+      "passed": false,
+      "checks": 54,
+      "failed": 4,
+      "failures": [
+        "zero identical asset bytes across the board — service-1.jpg == heat-zone-20261116; service-1.jpg == walsall-plumbing-and-gas-20261116; service-2.jpg == heat-zone-20261116",
+        "[1024] hero background-position right-weighted — 50% 35%",
+        "[1280] hero background-position right-weighted — 50% 35%",
+        "[1440] hero background-position right-weighted — 50% 35%"
+      ],
+      "error": null
+    },
+    {
+      "slug": "elite-gas-coventry-0022",
+      "passed": false,
+      "checks": 54,
+      "failed": 2,
+      "failures": [
+        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
+        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "heat-zone-20261116",
+      "passed": false,
+      "checks": 54,
+      "failed": 5,
+      "failures": [
+        "zero identical asset bytes across the board — service-1.jpg == dbritain-home-improvements-20261116; service-2.jpg == dbritain-home-improvements-20261116; service-2.jpg == walsall-plumbing-and-gas-20261116",
+        "[1024] hero background-position right-weighted — 50% 40%",
+        "[1280] hero background-position right-weighted — 50% 40%",
+        "[1440] hero background-position right-weighted — 50% 40%",
+        "[1440] hero has real focal weight (not flat) — R/L = 1.21 (need >1.5)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "hobbs-hodgetts-0015",
+      "passed": false,
+      "checks": 54,
+      "failed": 2,
+      "failures": [
+        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
+        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "innovate-electrical-services-0026",
+      "passed": false,
+      "checks": 54,
+      "failed": 2,
+      "failures": [
+        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
+        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "instyle-installations-0024",
+      "passed": false,
+      "checks": 54,
+      "failed": 2,
+      "failures": [
+        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
+        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "pb-smart-solutions-0023",
+      "passed": false,
+      "checks": 54,
+      "failed": 2,
+      "failures": [
+        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
+        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "razak-heating-0017",
+      "passed": false,
+      "checks": 54,
+      "failed": 2,
+      "failures": [
+        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
+        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "renovatez-heating-plumbing-0020",
+      "passed": false,
+      "checks": 54,
+      "failed": 2,
+      "failures": [
+        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
+        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "roc-heating-mechanical-services-0021",
+      "passed": false,
+      "checks": 54,
+      "failed": 2,
+      "failures": [
+        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
+        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "rso-developments-0019",
+      "passed": false,
+      "checks": 54,
+      "failed": 2,
+      "failures": [
+        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
+        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "stm-plumbing-heating-uk-0012",
+      "passed": false,
+      "checks": 54,
+      "failed": 2,
+      "failures": [
+        "every image slot has a declared source photo — service-1.jpg, service-2.jpg, hero.jpg",
+        "[1440] hero has real focal weight (not flat) — R/L = 1.01 (need >1.5)"
+      ],
+      "error": null
+    },
+    {
+      "slug": "walsall-plumbing-and-gas-20261116",
+      "passed": false,
+      "checks": 54,
+      "failed": 1,
+      "failures": [
+        "zero identical asset bytes across the board — service-1.jpg == dbritain-home-improvements-20261116; service-1.jpg == heat-zone-20261116"
+      ],
+      "error": null
+    }
+  ]
+}

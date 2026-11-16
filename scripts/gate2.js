@@ -1,0 +1,284 @@
+#!/usr/bin/env node
+/**
+ * NEO GATE v2 — build 2. Supersedes scripts/preview-gate.js (v1, 14 checks).
+ *
+ * Founder-locked rules (Rob, 2026-11-16 PIPELINE LOCKDOWN):
+ *   1. Right-weighted hero: background-position 100% 30%, luminance ramps L->R
+ *   2. Zero image recycling: no photo may appear on 2+ prospects, nor 2+ slots
+ *   3. Strict math supremacy: nothing ships without GATE PASSED
+ *   4. No sloppy bypasses: dead-centre crop or flat lighting = instant reject
+ *
+ * Usage:
+ *   node scripts/gate2.js <page.html> [liveUrl]
+ *   node scripts/gate2.js <page.html> [liveUrl] --registry <global-registry.json>
+ *
+ * Exit 0 = PASS. Exit 1 = FAIL. Exit 2 = cannot run.
+ */
+const { chromium } = require('playwright');
+const fs = require('fs');
+const path = require('path');
+const crypto = require('crypto');
+const { execFileSync } = require('child_process');
+
+const pageArg = process.argv[2] || 'index.html';
+const liveUrl = process.argv[3] && !process.argv[3].startsWith('--') ? process.argv[3] : null;
+const regIdx = process.argv.indexOf('--registry');
+const registryPath = regIdx > -1 ? process.argv[regIdx + 1] : null;
+
+const results = [];
+let failed = 0;
+const check = (name, pass, detail) => {
+  results.push({ name, pass, detail });
+  if (!pass) failed++;
+  console.log(`${pass ? 'PASS' : 'FAIL'}  ${name}${detail ? ' — ' + detail : ''}`);
+};
+
+// Founder-mandated viewport matrix
+const VIEWPORTS = [
+  { name: '320', width: 320, height: 800 },
+  { name: '390', width: 390, height: 844 },
+  { name: '430', width: 430, height: 932 },
+  { name: '768', width: 768, height: 1024 },
+  { name: '820', width: 820, height: 1180 },
+  { name: '1024', width: 1024, height: 768 },
+  { name: '1280', width: 1280, height: 800 },
+  { name: '1440', width: 1440, height: 900 },
+];
+
+const sha = (p) => crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+
+/** Normalise a provenance entry from either schema shape into {origin, sha256}. */
+function normProv(v) {
+  if (!v) return null;
+  if (typeof v === 'string') {
+    return v.startsWith('generated:') ? { origin: v, sha256: null, generated: true } : { origin: v, sha256: null };
+  }
+  return {
+    origin: v.source_url || v.source || v.origin || JSON.stringify(v),
+    sha256: v.sha256 || null,
+    license: v.license || null,
+    generated: false,
+  };
+}
+
+(async () => {
+  const abs = path.resolve(pageArg);
+  if (!fs.existsSync(abs)) {
+    console.error('missing page: ' + abs);
+    process.exit(2);
+  }
+  const html = fs.readFileSync(abs, 'utf8');
+  const dir = path.dirname(abs);
+  const slug = path.basename(dir);
+
+  // ---------- collect on-page image slots ----------
+  const srcs = [...html.matchAll(/<img[^>]+src=["']([^"']+)["']/g)].map((m) => m[1]);
+  const bgs = [...html.matchAll(/url\(["']?([^"')]+\.(?:jpg|jpeg|png|webp))["']?\)/gi)].map((m) => m[1]);
+  const bgSlots = new Set();
+  for (const m of html.matchAll(/([.#][\w-]+(?:\s*[^{}]*?)?)\{[^{}]*?url\(["']?([^"')]+\.(?:jpg|jpeg|png|webp))["']?\)/gi)) {
+    bgSlots.add(path.basename(m[2]).toLowerCase());
+  }
+  const imgSlots = srcs.map((s) => path.basename(s).toLowerCase());
+  const all = [...new Set([...imgSlots, ...bgSlots])];
+
+  const byFile = {};
+  for (const s of imgSlots) byFile[s] = (byFile[s] || 0) + 1;
+  const dupFiles = Object.entries(byFile).filter(([, n]) => n > 1);
+  check('<img> src not reused on page', dupFiles.length === 0,
+    dupFiles.length ? dupFiles.map(([f, n]) => `${f} x${n}`).join('; ') : `${imgSlots.length} img refs unique`);
+
+  // ---------- provenance ----------
+  const mapPath = path.join(dir, 'asset-sources.json');
+  const phantom = [];
+  const assetDir = path.join(dir, 'assets');
+  const onDisk = fs.existsSync(assetDir) ? fs.readdirSync(assetDir) : [];
+  const resolveAsset = (name) => onDisk.find((f) => f.toLowerCase() === name.toLowerCase()) || null;
+  if (!fs.existsSync(mapPath)) {
+    check('asset-sources.json present', false, 'MISSING — cannot prove distinct origins');
+  } else {
+    check('asset-sources.json present', true, 'found');
+    const prov = JSON.parse(fs.readFileSync(mapPath, 'utf8'));
+    const flat = { ...(prov.assets || {}) };
+    for (const [k, v] of Object.entries(prov)) if (k !== 'assets') flat[k] = v;
+    const provLower = Object.fromEntries(Object.entries(flat).map(([k, v]) => [k.toLowerCase(), normProv(v)]));
+
+    const noOrigin = [];
+    const perOrigin = {};
+    for (const s of all) {
+      if (s === 'favicon.png') continue;
+      const e = provLower[s];
+      if (!e || !e.origin || (typeof e.origin === 'string' && e.origin === 'PENDING_AG')) {
+        noOrigin.push(s);
+        continue;
+      }
+      (perOrigin[e.origin] = perOrigin[e.origin] || []).push(s);
+    }
+    check('every image slot has a declared source photo', noOrigin.length === 0,
+      noOrigin.length ? noOrigin.join(', ') : 'all declared');
+    const repeats = Object.entries(perOrigin).filter(([, f]) => f.length > 1);
+    check('no source photo used by 2+ slots on this page', repeats.length === 0,
+      repeats.length ? repeats.map(([o, f]) => `${o.split('/').pop()} -> ${f.join(', ')}`) : 'every slot distinct');
+
+    // ---- zero-recycling across the WHOLE board ----
+    if (registryPath && fs.existsSync(registryPath)) {
+      const reg = JSON.parse(fs.readFileSync(registryPath, 'utf8'));
+      const borrowed = [];
+      for (const s of all) {
+        if (s === 'favicon.png') continue;
+        const e = provLower[s];
+        if (!e || !e.origin) continue;
+        for (const [otherSlug, otherAssets] of Object.entries(reg)) {
+          if (otherSlug === slug) continue;
+          if (Array.isArray(otherAssets) && otherAssets.includes(e.origin)) {
+            borrowed.push(`${s} <-> ${otherSlug}`);
+          }
+        }
+      }
+      check('zero image recycling across the board', borrowed.length === 0,
+        borrowed.length ? borrowed.join('; ') : 'no photo shared with any other prospect');
+
+      // identical bytes anywhere else is also recycling
+      const hashBorrowed = [];
+      for (const s of all) {
+        if (s === 'favicon.png') continue;
+        const real = resolveAsset(s);
+        const f = real ? path.join(assetDir, real) : null;
+        if (!f) { phantom.push(s); continue; }
+        const h = sha(f);
+        for (const [otherSlug, hashes] of Object.entries(reg.hashes || {})) {
+          if (otherSlug === slug) continue;
+          if (Array.isArray(hashes) && hashes.includes(h)) hashBorrowed.push(`${s} == ${otherSlug}`);
+        }
+      }
+      check('zero identical asset bytes across the board', hashBorrowed.length === 0,
+        hashBorrowed.length ? hashBorrowed.join('; ') : 'all asset bytes unique');
+
+      // declared sha256 must match the bytes on disk
+      const provMismatch = [];
+      for (const s of all) {
+        if (s === 'favicon.png') continue;
+        const e = provLower[s];
+        const real = resolveAsset(s);
+        const f = real ? path.join(assetDir, real) : null;
+        if (!e || !e.sha256 || !f) continue;
+        if (sha(f) !== e.sha256) provMismatch.push(s);
+      }
+      check('declared sha256 matches bytes on disk', provMismatch.length === 0,
+        provMismatch.length ? provMismatch.join(', ') : 'all hashes verified');
+    }
+  }
+
+  // Resolve slot basenames to real files case-insensitively (CHEEK-HERO-METER.jpg
+  // in HTML vs asset-sources.json keys is not a failure, just a naming case).
+  for (const s of all) {
+    if (s === 'favicon.png') continue;
+    if (!resolveAsset(s)) phantom.push(s);
+  }
+  check('every declared image exists on disk', phantom.length === 0,
+    phantom.length ? `missing: ${[...new Set(phantom)].join(', ')}` : 'all present');
+
+  // favicon
+  const hasFavicon = /<link[^>]+rel=["'](?:icon|shortcut icon)["']/i.test(html) || fs.existsSync(path.join(dir, 'favicon.png'));
+  check('favicon present', hasFavicon, hasFavicon ? 'yes' : 'none');
+
+  // ---------- render matrix ----------
+  const browser = await chromium.launch();
+  const lumByVp = {};
+  const heroShots = [];
+  try {
+    for (const vp of VIEWPORTS) {
+      const p = await browser.newPage({ viewport: { width: vp.width, height: vp.height } });
+      const errs = [];
+      const bad = [];
+      p.on('pageerror', (e) => errs.push(String(e).slice(0, 120)));
+      p.on('response', (r) => {
+        if (r.status() >= 400 && !r.url().startsWith('data:')) bad.push(r.status() + ' ' + path.basename(r.url()));
+      });
+      await p.goto(liveUrl || 'file://' + abs, { waitUntil: 'load', timeout: 60000 });
+      await p.waitForTimeout(250);
+
+      const info = await p.evaluate(() => {
+        const bg = document.querySelector('.hero-bg');
+        const wm = document.querySelector('.hero-wordmark');
+        const h1 = document.querySelector('h1');
+        const nav = document.querySelector('.nav-links');
+        const h1cs = h1 ? getComputedStyle(h1) : null;
+        return {
+          bgPos: bg ? getComputedStyle(bg).backgroundPosition : null,
+          wmSize: wm ? parseFloat(getComputedStyle(wm).fontSize) : null,
+          h1Size: h1 ? parseFloat(h1cs.fontSize) : null,
+          h1Color: h1cs ? h1cs.color : null,
+          navDisplay: nav ? getComputedStyle(nav).display : null,
+          overflowX: document.documentElement.scrollWidth - document.documentElement.clientWidth,
+          broken: [...document.images].filter((i) => !i.complete || i.naturalWidth === 0).length,
+          heroBox: bg
+            ? (() => {
+                const r = bg.getBoundingClientRect();
+                return { x: r.x, y: r.y, w: r.width, h: r.height };
+              })()
+            : null,
+        };
+      });
+
+      const isDesktop = vp.width >= 1024;
+
+      if (isDesktop) {
+        if (info.bgPos) {
+          const m = info.bgPos.match(/^([\d.]+%?)\s+([\d.]+%?)$/);
+          const rx = m ? m[1] : info.bgPos;
+          const rightWeighted = /100%|right/.test(rx) && !/^(center|50%)$/.test(rx);
+          check(`[${vp.name}] hero background-position right-weighted`, rightWeighted, info.bgPos);
+        }
+        if (info.h1Color) {
+          const pure = /^rgb\(255,\s*255,\s*255\)$/.test(info.h1Color);
+          check(`[${vp.name}] H1 is pure white`, pure, info.h1Color);
+        }
+        // luminance ramp measured on the widest desktop viewport only (stable)
+        if (vp.width === 1440 && info.heroBox && !liveUrl) {
+          const shot = path.join(dir, '.gate2-hero.png');
+          const clipH = Math.min(640, Math.max(320, info.heroBox.h));
+          await p.screenshot({
+            path: shot,
+            clip: { x: Math.max(0, info.heroBox.x), y: Math.max(0, info.heroBox.y), width: vp.width, height: clipH },
+          });
+          heroShots.push(shot);
+          const col = (x) =>
+            parseFloat(
+              execFileSync('convert', [shot, '-crop', `160x${Math.round(clipH * 0.8)}+${x}+20`, '+repage',
+                '-colorspace', 'gray', '-format', '%[fx:mean*255]', 'info:'], { encoding: 'utf8' })
+            );
+          const L = col(Math.round(vp.width * 0.62));
+          const M = col(Math.round(vp.width * 0.75));
+          const R = col(Math.round(vp.width * 0.87));
+          lumByVp[vp.name] = { L, M, R };
+          const rising = R > M && M > L;
+          const strong = R > L * 1.5;
+          check('[1440] hero luminance rises left->right', rising, `L=${L.toFixed(1)} M=${M.toFixed(1)} R=${R.toFixed(1)}`);
+          check('[1440] hero has real focal weight (not flat)', strong, `R/L = ${(R / L).toFixed(2)} (need >1.5)`);
+        }
+      }
+
+      // nav must collapse below 900px
+      if (vp.width < 900 && info.navDisplay) {
+        check(`[${vp.name}] .nav-links hidden below 900px`, info.navDisplay === 'none', info.navDisplay);
+      }
+
+      check(`[${vp.name}] no js errors`, errs.length === 0, errs.join('; ') || 'clean');
+      check(`[${vp.name}] no http errors`, bad.length === 0, bad.join('; ') || 'clean');
+      check(`[${vp.name}] no broken images`, info.broken === 0, `${info.broken} broken`);
+      check(`[${vp.name}] no horizontal overflow`, info.overflowX === 0, `${info.overflowX}px`);
+      await p.close();
+    }
+  } finally {
+    await browser.close();
+    for (const s of heroShots) {
+      try { fs.unlinkSync(s); } catch {}
+    }
+  }
+
+  console.log('\n' + (failed ? `GATE FAILED (${failed} of ${results.length})` : `GATE PASSED (${results.length} checks)`));
+  process.exit(failed ? 1 : 0);
+})().catch((e) => {
+  console.error('GATE ERROR: ' + e.message);
+  process.exit(2);
+});
