@@ -3,9 +3,30 @@
   "prospect_id": "WM-LTD-20261116-0014",
   "business_name": "BK GAS AND PLUMBING LTD",
   "assets": {
-    "hero.jpg": "PENDING_AG",
-    "service-1.jpg": "PENDING_AG",
-    "service-2.jpg": "PENDING_AG",
+    "hero.jpg": {
+      "role": "hero",
+      "dimensions": "1440x720",
+      "sha256": "e7483415e2935d55fd1ab7ebcaa5179486a683e8e38c044e1b7473b7a8be282b",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gas_Pipe_Installation_In_A_Construction_Site.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Certified gas line pipework installation and pressure safety checks."
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "dimensions": "1200x900",
+      "sha256": "fda770233ac586bade162e0739640c6b11e24f6e160494e45ae043947d4cc038",
+      "source_url": "https://commons.wikimedia.org/wiki/File:PEX_installation_tools_and_fittings.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Modern multi-layer barrier pipe crimping and precision plumbing fittings."
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "dimensions": "1200x900",
+      "sha256": "e785138ce1acc015490dc72798ae69ff2513fcab924d695a80137a33ade2b1ab",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pipe_clamp_1.jpg",
+      "license": "CC0 / Public Domain",
+      "notes": "Structural steel pipe anchoring and vibration-damped bracket mounting."
+    },
     "favicon.png": "generated:monogram"
   }
 }

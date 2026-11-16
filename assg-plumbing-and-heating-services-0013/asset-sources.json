@@ -3,9 +3,30 @@
   "prospect_id": "WM-LTD-20261116-0013",
   "business_name": "ASSG PLUMBING AND HEATING SERVICES LTD",
   "assets": {
-    "hero.jpg": "PENDING_AG",
-    "service-1.jpg": "PENDING_AG",
-    "service-2.jpg": "PENDING_AG",
+    "hero.jpg": {
+      "role": "hero",
+      "dimensions": "1440x720",
+      "sha256": "d77b6793aeab12f35f86d07767f659b9354bb8a817c495420c940948ef6bdc59",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Replacement_of_a_central_heating_radiator,_Hillegersberg,_Rotterdam_(2022)_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Heating technician replacing domestic central heating radiator and pipe fittings."
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "dimensions": "1200x900",
+      "sha256": "4bb5cf69ebf1145082ecd8f9180266a78c6fbedaff9a985f5a5d8e890018d67d",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Copper_water_pipes.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Domestic copper pipe installation with precision soldered joints."
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "dimensions": "1200x900",
+      "sha256": "06495fc7f8ea040d803d6b246fdb0cdc733d1124ab88709627246229c8d6513a",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Stillson_Pipe_Wrench_of_Stephen_and_Elmer_Braun.jpg",
+      "license": "CC0 / Public Domain",
+      "notes": "Heavy-duty Stillson plumbing wrench for precision pipe fitting and repairs."
+    },
     "favicon.png": "generated:monogram"
   }
 }

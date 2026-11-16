@@ -3,9 +3,30 @@
   "prospect_id": "WM-LTD-20261116-0015",
   "business_name": "HOBBS & HODGETTS LIMITED",
   "assets": {
-    "hero.jpg": "PENDING_AG",
-    "service-1.jpg": "PENDING_AG",
-    "service-2.jpg": "PENDING_AG",
+    "hero.jpg": {
+      "role": "hero",
+      "dimensions": "1440x720",
+      "sha256": "418e22601e00cbc0c694d5523809bcc1d4fb08353a4e04d229f3ca4cf09cf701",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ModCon_boiler_system.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "High efficiency condensing boiler and multi-zone heating distribution system."
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "dimensions": "1200x900",
+      "sha256": "01abd120cab4482afca9a20dce4b1e9e3d53b41a6ac00425cac47f8dfe093ab0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Replacement_of_a_central_heating_radiator,_Hillegersberg,_Rotterdam_(2022)_03.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Radiator pipe connection and system pressure regulation valves."
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "dimensions": "1200x900",
+      "sha256": "4d538b812755540e857e3c537d570593f48d58a5da0e285e358b5574a67c223b",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Plumber_wrench_tools.jpg",
+      "license": "CC0 / Public Domain",
+      "notes": "Professional plumbing and pipe assembly wrench kit."
+    },
     "favicon.png": "generated:monogram"
   }
 }
