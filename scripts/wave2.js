@@ -72,11 +72,12 @@ function extractEmail(text) {
   } catch (e) { log('SEED_SKIP ' + String(e.message).slice(0, 60)); }
   log(`START discovered=${state.discovered.length} probed=${state.probed.length}`);
 
-  const userDataDir = 'C:/Users/tauru/AppData/Local/Google/Chrome/User Data';
+  // Dedicated profile: avoids locking Rob's live Chrome session (66 procs observed).
+  const userDataDir = 'C:/Users/tauru/ambush/chrome-wave2';
   const ctx = await chromium.launchPersistentContext(userDataDir, {
     executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe',
     headless: false,
-    args: ['--profile-directory=Default', '--no-first-run', '--disable-blink-features=AutomationControlled'],
+    args: ['--no-first-run', '--no-default-browser-check', '--disable-blink-features=AutomationControlled'],
     viewport: { width: 1366, height: 900 },
   });
   const page = ctx.pages()[0] || await ctx.newPage();
