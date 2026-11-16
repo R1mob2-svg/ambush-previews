@@ -55,7 +55,14 @@ function check(name, pass, detail) {
   } else {
     const prov = JSON.parse(fs.readFileSync(mapPath, 'utf8'));
     const used = {};
-    const provLower = Object.fromEntries(Object.entries(prov).map(([k, v]) => [k.toLowerCase(), v]));
+    // AG provenance schema nests entries under .assets as objects with source_url.
+    const flat = Object.fromEntries(
+      Object.entries(prov.assets || {}).map(([k, v]) => [
+        k.toLowerCase(),
+        typeof v === 'string' ? v : (v && (v.source_url || v.source || JSON.stringify(v))),
+      ])
+    );
+    const provLower = { ...Object.fromEntries(Object.entries(prov).filter(([k]) => k !== 'assets').map(([k, v]) => [k.toLowerCase(), v])), ...flat };
     for (const s of all) {
       const base = path.basename(s).toLowerCase();
       const origin = provLower[base];
