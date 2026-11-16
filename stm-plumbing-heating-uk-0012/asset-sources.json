@@ -3,9 +3,30 @@
   "prospect_id": "WM-LTD-20261116-0012",
   "business_name": "STM PLUMBING & HEATING (UK) LIMITED",
   "assets": {
-    "hero.jpg": "PENDING_AG",
-    "service-1.jpg": "PENDING_AG",
-    "service-2.jpg": "PENDING_AG",
+    "hero.jpg": {
+      "role": "hero",
+      "dimensions": "1440x720",
+      "sha256": "6dbdedff2e3b0b513370c7c088e79c52c28972057980a7a6365291d82692a991",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Plumber_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Authentic professional plumber carrying out domestic water connection work. Right-weighted trade action."
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "dimensions": "1200x900",
+      "sha256": "87e2347c22f4278b2ce73c6229b2e2f0d42c27e4494a21aeef1215ece88621b2",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Propane_torch_soldering_copper_pipe.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Precision propane torch soldering on domestic copper water line."
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "dimensions": "1200x900",
+      "sha256": "a47e43cf4e668d5688b0dd10a958bc187b3c80d840d65eee3338b2e5aadbc110",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wall_mounted_boiler_in_kitchen.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Domestic wall-mounted heating boiler system in residential installation."
+    },
     "favicon.png": "generated:monogram"
   }
 }
