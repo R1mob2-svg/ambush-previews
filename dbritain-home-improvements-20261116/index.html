@@ -103,9 +103,9 @@ h2{font-size:clamp(1.6rem,3.2vw,2rem);line-height:1.15;letter-spacing:-.02em;mar
 .step h3{font-size:1.0625rem;font-weight:700;margin-bottom:8px}
 .step p{color:var(--muted);font-size:var(--fs-small)}
 
-/* ---------- COVERAGE ---------- */
-.coverage{position:relative;isolation:isolate;overflow:hidden}
-.coverage:before{content:"";position:absolute;inset:0;z-index:-2;background:radial-gradient(1200px 520px at 78% 0%,rgba(2,132,199,.12),transparent 62%),linear-gradient(180deg,#0F172A,#080D18)}
+/* ---------- COVERAGE : faded photo behind whole section ---------- */
+.coverage{position:relative;isolation:isolate;overflow:hidden;border-top:1px solid var(--border)}
+.coverage:before{content:"";position:absolute;inset:0;z-index:-2;background-image:url("./assets/hero.jpg");background-size:cover;background-position:center 35%;opacity:.18}
 .coverage:after{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(120% 90% at 20% 40%,rgba(15,23,42,.97) 0%,rgba(15,23,42,.88) 45%,rgba(15,23,42,.74) 100%)}
 .areas{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px;list-style:none}
 .areas li{border:1px solid rgba(255,255,255,.16);border-radius:99px;padding:8px 16px;font-size:var(--fs-small);color:#CBD5E1;background:rgba(15,23,42,.46)}

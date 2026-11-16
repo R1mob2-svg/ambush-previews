@@ -96,9 +96,9 @@ section{padding:84px 0}
 .step h3{font-size:1.0625rem;font-weight:700;margin-bottom:8px}
 .step p{color:var(--muted);font-size:var(--fs-small)}
 
-/* ---------- COVERAGE : faded wash, no photo ---------- */
-.coverage{position:relative;isolation:isolate;overflow:hidden}
-.coverage:before{content:"";position:absolute;inset:0;z-index:-2;background:radial-gradient(1200px 520px at 78% 0%,rgba(59,130,246,.12),transparent 62%),linear-gradient(180deg,#0B1329,#080E1F)}
+/* ---------- COVERAGE : faded photo behind whole section ---------- */
+.coverage{position:relative;isolation:isolate;overflow:hidden;border-top:1px solid var(--border)}
+.coverage:before{content:"";position:absolute;inset:0;z-index:-2;background-image:url("./assets/hero.jpg");background-size:cover;background-position:center 45%;opacity:.18}
 .coverage:after{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(120% 90% at 20% 40%,rgba(11,19,41,.97) 0%,rgba(11,19,41,.88) 45%,rgba(11,19,41,.74) 100%)}
 .areas{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px;list-style:none}
 .areas li{border:1px solid rgba(255,255,255,.16);border-radius:99px;padding:8px 16px;font-size:var(--fs-small);color:#D3DBE6;background:rgba(11,19,41,.42)}
