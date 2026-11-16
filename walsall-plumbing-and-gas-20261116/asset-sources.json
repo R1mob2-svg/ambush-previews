@@ -1,6 +1,32 @@
 {
-  "hero.jpg": "PENDING_AG",
-  "service-1.jpg": "PENDING_AG",
-  "service-2.jpg": "PENDING_AG",
-  "favicon.png": "generated:monogram"
+  "slug": "walsall-plumbing-and-gas-20261116",
+  "prospect_id": "WM-LTD-20261116-0008",
+  "business_name": "WALSALL PLUMBING AND GAS LIMITED",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "dimensions": "1440x720",
+      "sha256": "7a9dca741ef3bdb5b1265c63309a55eaa3ecd06fd0fecd2b41bbf3c08df2c4cd",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Brasure_sur_tube_cuivre,_la_chauffe.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Oxy-acetylene torch heating copper pipe in vice before brazing. Clean trade realism, zero manufacturer branding."
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "dimensions": "1200x900",
+      "sha256": "cb803cd78ce79f4bd0321f45c227abfc8b2151fc892a0723352255bfd7b4304b",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Copper_Water_Pipes_and_Water_Line_Shutoff.jpg",
+      "license": "CC0",
+      "notes": "Domestic copper plumbing with lever ball valves and brass compression fittings."
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "dimensions": "1200x900",
+      "sha256": "26a344f29a2be11f98bb3cd79980dbf4f724553030b7a4f691f8b00ea0221523",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dornbirn-Ebnit-underfloor_heating-system-01ASD.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Underfloor heating manifold loops and distribution system, unbranded."
+    },
+    "favicon.png": "generated:monogram"
+  }
 }
