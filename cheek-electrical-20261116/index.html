@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cheek Electrical | Electrician in Shirley, Solihull &amp; the West Midlands</title>
+<meta name="description" content="Cheek Electrical Limited — domestic and commercial electrical work across Shirley, Solihull and the West Midlands. Consumer units, rewires, fault finding, sockets and lighting. Clean work, clear pricing.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#0B111C">
+<link rel="icon" href="./favicon.png" type="image/png">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{max-width:100%;overflow-x:hidden}
+:root{
+  --primary:#0B111C;
+  --surface:#141C2B;
+  --surface-2:#182135;
+  --accent:#E8930C;
+  --accent-hover:#FFA92E;
+  --text:#F8FAFC;
+  --muted:#A3B1C6;
+  --border:rgba(255,255,255,.09);
+  --fs-body:1rem;--fs-small:.875rem;--fs-micro:.75rem;
+}
+body{background:var(--primary);color:var(--text);font:var(--fs-body)/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.wrap>*{min-width:0}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+
+/* ---------- HEADER ---------- */
+header{position:sticky;top:0;z-index:50;background:rgba(11,17,28,.86);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;height:72px}
+.brand{display:flex;align-items:center;gap:11px;min-width:0}
+.brand-mark{width:36px;height:36px;flex:none;border-radius:9px;background:linear-gradient(140deg,var(--accent),#B96F00);display:grid;place-items:center;font-weight:800;color:#160D00;font-size:1rem;letter-spacing:-.03em;box-shadow:0 4px 14px rgba(232,147,12,.28)}
+.brand-name{font-weight:800;letter-spacing:-.02em;font-size:1.1875rem;white-space:nowrap}
+.brand-name span{color:var(--accent)}
+.brand-sub{display:block;font-size:.6875rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-top:-3px}
+.nav-links{display:flex;gap:28px;list-style:none}
+.nav-links a{font-size:var(--fs-small);font-weight:500;color:var(--muted);transition:color .2s}
+.nav-links a:hover{color:var(--text)}
+.cta{display:inline-flex;align-items:center;gap:9px;background:var(--accent);color:#160D00;padding:12px 21px;border-radius:9px;font-weight:700;font-size:var(--fs-small);transition:background .2s,transform .2s;white-space:nowrap}
+.cta:hover{background:var(--accent-hover);transform:translateY(-1px)}
+.ghost{display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(255,255,255,.24);color:var(--text);padding:12px 21px;border-radius:9px;font-weight:600;font-size:var(--fs-small);transition:border-color .2s,background .2s;white-space:nowrap}
+.ghost:hover{border-color:rgba(255,255,255,.5);background:rgba(255,255,255,.05)}
+
+/* ---------- HERO ---------- */
+.hero{position:relative;isolation:isolate;display:flex;align-items:center;min-height:min(580px,74vh);padding:88px 0 80px;border-bottom:1px solid var(--border);overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:-2;background-image:url("./assets/CHEEK-HERO-METER.jpg");background-size:cover;background-position:right center;background-repeat:no-repeat}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:
+  linear-gradient(90deg,rgba(7,12,20,.97) 0%,rgba(7,12,20,.94) 34%,rgba(7,12,20,.74) 56%,rgba(7,12,20,.30) 78%,rgba(7,12,20,.06) 100%),
+  linear-gradient(180deg,rgba(7,12,20,.5) 0%,rgba(7,12,20,0) 30%,rgba(7,12,20,0) 64%,rgba(7,12,20,.6) 100%)}
+.hero-inner{width:100%}
+.hero-copy{max-width:600px}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--accent);font-weight:700;font-size:var(--fs-micro);letter-spacing:.14em;text-transform:uppercase;margin-bottom:20px}
+.eyebrow:before{content:"";width:26px;height:1px;background:var(--accent);display:inline-block}
+h1{font-size:clamp(2.15rem,5vw,3.35rem);line-height:1.06;letter-spacing:-.03em;font-weight:800;color:#fff}
+h1 .h1-line{display:block}
+h1 em{font-style:normal;color:var(--accent)}
+.lede{color:#D3DBE6;font-size:1.125rem;margin-top:22px;max-width:31em}
+.hero-actions{display:flex;gap:14px;margin-top:34px;flex-wrap:wrap}
+.hero-meta{display:flex;gap:22px;flex-wrap:wrap;margin-top:34px;padding-top:24px;border-top:1px solid var(--border)}
+.hero-meta div{font-size:var(--fs-small);color:var(--muted)}
+.hero-meta strong{display:block;color:var(--text);font-size:1.0625rem;font-weight:700;letter-spacing:-.01em}
+
+/* ---------- TRUST RIBBON ---------- */
+.ribbon{border-bottom:1px solid var(--border);background:rgba(20,28,43,.55)}
+.ribbon ul{display:flex;flex-wrap:wrap;gap:12px 34px;list-style:none;padding:20px 0}
+.ribbon li{display:flex;align-items:center;gap:9px;font-size:var(--fs-small);font-weight:600;color:var(--muted)}
+.ribbon li:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent);flex:none}
+
+/* ---------- SECTIONS ---------- */
+section{padding:84px 0;border-top:1px solid var(--border)}
+.section-head{margin-bottom:42px;max-width:44em}
+h2{font-size:clamp(1.6rem,3.2vw,2rem);line-height:1.15;letter-spacing:-.02em;margin-bottom:14px}
+.sub{color:var(--muted);font-size:1.0625rem}
+
+/* ---------- SERVICES : 2+1 BENTO ---------- */
+.services-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.service-card{position:relative;isolation:isolate;display:flex;align-items:flex-end;border-radius:18px;overflow:hidden;border:1px solid var(--border);min-height:380px;aspect-ratio:1/1;min-width:0}
+.service-card--wide{grid-column:1 / -1;aspect-ratio:auto;min-height:300px}
+.service-card img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.service-card:hover img{transform:scale(1.04)}
+.service-card--s1 img{object-position:center 40%}
+.service-card--s2 img{object-position:center 60%}
+.service-card--s3 img{object-position:center 45%}
+.service-card:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(7,12,20,0) 26%,rgba(7,12,20,.58) 60%,rgba(7,12,20,.96) 100%)}
+.service-body{position:relative;padding:30px;max-width:560px}
+.service-body .tag{display:inline-block;margin-bottom:13px;font-size:var(--fs-micro);font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#F5B558;text-shadow:0 1px 3px rgba(0,0,0,.6)}
+.service-body h3{font-size:1.35rem;line-height:1.25;font-weight:700;margin-bottom:10px}
+.service-body p{color:#C9D2DF;font-size:var(--fs-small);max-width:42em}
+
+/* ---------- PROCESS : plain dark, no imagery ---------- */
+.process{background:#070C14}
+.process .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.step{border:1px solid var(--border);border-radius:14px;padding:26px 24px;transition:border-color .25s,background .25s;min-width:0}
+.step:hover{border-color:rgba(232,147,12,.55);background:rgba(232,147,12,.05)}
+.step .num{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:10px;border:1px solid rgba(232,147,12,.42);color:var(--accent);font-weight:800;font-size:var(--fs-small);margin-bottom:18px;letter-spacing:.04em}
+.step h3{font-size:1.0625rem;font-weight:700;margin-bottom:8px}
+.step p{color:var(--muted);font-size:var(--fs-small)}
+
+/* ---------- COVERAGE : faded photo ---------- */
+.coverage{position:relative;isolation:isolate;overflow:hidden}
+.coverage:before{content:"";position:absolute;inset:0;z-index:-2;background-image:url("./assets/CHEEK-HERO-METER.jpg");background-size:cover;background-position:center 30%;opacity:.16}
+.coverage:after{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(120% 90% at 20% 40%,rgba(11,17,28,.97) 0%,rgba(11,17,28,.88) 45%,rgba(11,17,28,.74) 100%)}
+.areas{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px;list-style:none}
+.areas li{border:1px solid rgba(255,255,255,.16);border-radius:99px;padding:8px 16px;font-size:var(--fs-small);color:#D3DBE6;background:rgba(11,17,28,.42)}
+.coverage .note{margin-top:26px;color:var(--muted);font-size:var(--fs-small);max-width:52em}
+.coverage .cov-inner{display:grid;grid-template-columns:1fr minmax(260px,.72fr);gap:48px;align-items:start}
+.coverage .cov-aside{border:1px solid var(--border);border-radius:16px;padding:26px;background:rgba(11,17,28,.66)}
+.coverage .cov-aside h3{font-size:1.0625rem;margin-bottom:10px}
+.coverage .cov-aside p{color:var(--muted);font-size:var(--fs-small)}
+.coverage .cov-aside a{display:inline-flex;align-items:center;gap:8px;margin-top:16px;color:var(--accent);font-weight:700;font-size:var(--fs-small);border-bottom:1px solid rgba(232,147,12,.4);padding-bottom:2px}
+@media(max-width:860px){.coverage .cov-inner{grid-template-columns:1fr;gap:30px}}
+
+/* ---------- FAQ : zero imagery ---------- */
+.faq{background:#0B121E}
+.faq details{border:1px solid var(--border);border-radius:12px;padding:0;margin-bottom:12px;background:rgba(20,28,43,.4);overflow:hidden}
+.faq summary{cursor:pointer;padding:20px 24px;font-weight:650;font-size:1.0625rem;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";color:var(--accent);font-size:1.35rem;font-weight:700;line-height:1;flex:none}
+.faq details[open] summary:after{content:"–"}
+.faq .answer{padding:0 24px 22px;color:var(--muted);font-size:var(--fs-small);max-width:64em}
+
+/* ---------- CLOSING CTA ---------- */
+.band{display:flex;justify-content:space-between;align-items:center;gap:32px;flex-wrap:wrap;background:linear-gradient(135deg,var(--surface) 0%,var(--surface-2) 100%);border:1px solid var(--border);border-radius:20px;padding:46px}
+.band h2{font-size:1.625rem;margin-bottom:8px}
+.band p{color:var(--muted);max-width:34em}
+.band .actions{display:flex;gap:12px;flex-wrap:wrap}
+
+/* ---------- FOOTER ---------- */
+footer{border-top:1px solid var(--border);padding:38px 0;color:var(--muted);font-size:var(--fs-small);background:#070C14}
+footer strong{color:var(--text)}
+footer .fnote{margin-top:12px;font-size:var(--fs-micro);letter-spacing:.02em;opacity:.72;max-width:60em}
+
+/* ---------- RESPONSIVE ---------- */
+@media(max-width:900px){
+  .nav-links{display:none}
+  .hero{min-height:0;padding:0 0 48px;display:block;align-items:initial}
+  .hero::before{display:none}
+  .hero-bg{display:none}
+  .hero-banner{display:block;margin:0 0 26px;height:196px;border-radius:0;background-image:url("./assets/CHEEK-HERO-METER.jpg");background-size:cover;background-position:center 32%}
+  .hero-copy{max-width:none}
+  .services-grid{grid-template-columns:1fr}
+  .service-card{aspect-ratio:auto;min-height:340px}
+  .process .steps{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:640px){
+  .wrap{padding:0 20px}
+  .nav{height:60px;gap:10px}
+  .brand-name{font-size:1.0625rem}
+  .brand-sub{display:none}
+  .brand-mark{width:34px;height:34px}
+  /* compact call button: icon + word only, generous tap height */
+  header .cta{padding:11px 14px;font-size:.8125rem;min-height:44px;border-radius:10px}
+  header .cta .cta-num{display:none}
+  .hero-banner{border-radius:0}
+  section{padding:62px 0}
+  .process .steps{grid-template-columns:1fr}
+  .band{padding:30px}
+  .hero-actions{gap:12px}
+  .hero-actions .cta,.hero-actions .ghost{flex:1 1 100%;justify-content:center;min-height:48px}
+  .hero-meta{gap:16px}
+  .hero-meta div{flex:1 1 40%}
+  footer{font-size:.9375rem}
+  footer .fnote{font-size:.8125rem}
+}
+@media(max-width:400px){
+  .brand-name{font-size:1rem}
+  .brand-mark{width:32px;height:32px}
+  header .cta{padding:10px 12px;font-size:.78rem;gap:7px}
+}
+@media(max-width:340px){
+  .brand-name{display:none}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Cheek Electrical — home">
+      <span class="brand-mark" aria-hidden="true">CE</span>
+      <span>
+        <span class="brand-name">Cheek <span>Electrical</span></span>
+        <span class="brand-sub">Shirley &amp; Solihull</span>
+      </span>
+    </a>
+    <nav aria-label="Main">
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#how">How we work</a></li>
+        <li><a href="#areas">Areas</a></li>
+        <li><a href="#faq">FAQs</a></li>
+      </ul>
+    </nav>
+    <a class="cta" href="tel:+447540847285"><span class="cta-ic" aria-hidden="true">☎</span><span class="cta-word">Call</span>&nbsp;<span class="cta-num">07540 847285</span></a>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero" style="border-top:0">
+    <div class="hero-bg" role="img" aria-label="Electrician working on an electrical distribution board"></div>
+    <div class="hero-banner" role="img" aria-label="Electrician working on an electrical distribution board"></div>
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <span class="eyebrow">Local electrician · Solihull</span>
+        <h1>
+          <span class="h1-line">Proper electrical work,</span>
+          <span class="h1-line">done <em>once</em>, done right.</span>
+        </h1>
+        <p class="lede">Cheek Electrical is a Solihull-based electrician handling consumer unit upgrades, rewires, fault finding, sockets and lighting for homes and small businesses across Shirley and the West Midlands.</p>
+        <div class="hero-actions">
+          <a class="cta" href="tel:+447540847285">Call 07540 847285</a>
+          <a class="ghost" href="mailto:jackcheek@hotmail.co.uk?subject=Electrical%20work%20enquiry">Email an enquiry</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>Shirley, Solihull</strong>B90 4TA base</div>
+          <div><strong>Domestic &amp; commercial</strong>Small works welcome</div>
+          <div><strong>Direct to the tradesman</strong>No call centre</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ribbon">
+    <div class="wrap">
+      <ul>
+        <li>Consumer unit upgrades</li>
+        <li>Full &amp; partial rewires</li>
+        <li>Fault finding &amp; repairs</li>
+        <li>Sockets, lighting &amp; outdoor power</li>
+        <li>Clear pricing before work starts</li>
+      </ul>
+    </div>
+  </div>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>What we do</h2>
+        <p class="sub">Straightforward electrical work for homeowners, landlords and small businesses — explained properly, priced properly.</p>
+      </div>
+      <div class="services-grid">
+        <article class="service-card service-card--s1">
+          <img src="./assets/CHEEK-SVC-CONSUMER.jpg" alt="Close-up of electrical terminals and wiring being connected in a distribution point" loading="lazy">
+          <div class="service-body">
+            <span class="tag">Consumer units</span>
+            <h3>Fuse box &amp; consumer unit upgrades</h3>
+            <p>Replacing an old fuse board for a modern unit with proper RCD protection — the single most common fix for nuisance tripping and unsafe old wiring.</p>
+          </div>
+        </article>
+        <article class="service-card service-card--s2">
+          <img src="./assets/CHEEK-SVC-WIRING.jpg" alt="Electrician's hands connecting coloured electrical wiring at a ceiling fitting" loading="lazy">
+          <div class="service-body">
+            <span class="tag">Rewires &amp; wiring</span>
+            <h3>Full and partial rewires</h3>
+            <p>Old rubber or undersized cable replaced throughout, or just the rooms that need it. Neat routes, made good, and a clear explanation of what changed.</p>
+          </div>
+        </article>
+        <article class="service-card service-card--wide service-card--s3">
+          <img src="./assets/CHEEK-SVC-FAULTCALL.jpg" alt="Electrician stripping and preparing wiring for a lighting or socket circuit" loading="lazy">
+          <div class="service-body">
+            <span class="tag">Repairs &amp; fault finding</span>
+            <h3>Tripping, dead sockets and lighting faults</h3>
+            <p>Chasing down the actual cause instead of swapping parts — tripping breakers, dead circuits, faulty sockets, outdoor and shed power, extra lights and outdoor sockets fitted where you need them.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" class="process">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>How a job runs</h2>
+        <p class="sub">No mystery, no vanishing act mid-job.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <span class="num">01</span>
+          <h3>Get in touch</h3>
+          <p>Call or email with what's going on. Photos help and usually save a visit.</p>
+        </div>
+        <div class="step">
+          <span class="num">02</span>
+          <h3>Look and price</h3>
+          <p>We look at the job properly and give you a clear price before any work starts.</p>
+        </div>
+        <div class="step">
+          <span class="num">03</span>
+          <h3>Do the work</h3>
+          <p>Work carried out tidily, with the power back on and the mess cleared up behind us.</p>
+        </div>
+        <div class="step">
+          <span class="num">04</span>
+          <h3>Explain it</h3>
+          <p>What was done, what to watch for, and what it means for the rest of the installation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="areas" class="coverage">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Where we work</h2>
+        <p class="sub">Based in Shirley, covering Solihull and the surrounding West Midlands.</p>
+      </div>
+      <div class="cov-inner">
+        <div>
+          <ul class="areas">
+            <li>Shirley</li>
+            <li>Solihull</li>
+            <li>Hall Green</li>
+            <li>Acocks Green</li>
+            <li>Yardley</li>
+            <li>Olton</li>
+            <li>Dorridge</li>
+            <li>Knowle</li>
+            <li>Birmingham south</li>
+            <li>Balsall Common</li>
+            <li>Meriden</li>
+            <li>Hockley Heath</li>
+          </ul>
+          <p class="note">If you're just outside these, it's still worth a ring — most of the surrounding B90 and B9x postcodes are a normal trip.</p>
+        </div>
+        <aside class="cov-aside">
+          <h3>Based in Shirley</h3>
+          <p>74 Hay Lane, Shirley, Solihull, B90 4TA. Working across Solihull and south Birmingham, domestic and small commercial.</p>
+          <a href="tel:+447540847285">Call 07540 847285</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Questions we get asked</h2>
+      </div>
+      <details>
+        <summary>Do you give a price before starting?</summary>
+        <div class="answer">Yes. For anything beyond a small repair you'll get the price up front, and if a job turns out bigger than expected we stop and talk to you before carrying on.</div>
+      </details>
+      <details>
+        <summary>Can you work around us being at work?</summary>
+        <div class="answer">Usually, yes. Access arrangements and key handover are standard for a lot of the domestic work — just say what suits you when you get in touch.</div>
+      </details>
+      <details>
+        <summary>My fuse board keeps tripping — is it urgent?</summary>
+        <div class="answer">Not always, but it shouldn't be left. Constant tripping usually points at a fault or an old board without proper protection, and both get worse rather than better. Worth a look sooner rather than later.</div>
+      </details>
+      <details>
+        <summary>Do you do small jobs?</summary>
+        <div class="answer">Yes — extra sockets, a new light, an outside socket, sorting a dead circuit. Small jobs are a normal part of the week.</div>
+      </details>
+      <details>
+        <summary>Do you cover commercial premises?</summary>
+        <div class="answer">Small commercial and light industrial work is fine. For anything larger, ring and we'll be straight with you about whether it's the right fit.</div>
+      </details>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="band">
+        <div>
+          <h2>Need an electrician in Solihull?</h2>
+          <p>Ring or email with a quick description of the job. Straight answers, no hard sell.</p>
+        </div>
+        <div class="actions">
+          <a class="cta" href="tel:+447540847285">07540 847285</a>
+          <a class="ghost" href="mailto:jackcheek@hotmail.co.uk?subject=Electrical%20work%20enquiry">jackcheek@hotmail.co.uk</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <strong>Cheek Electrical Limited</strong> · 74 Hay Lane, Shirley, Solihull, B90 4TA · 07540 847285
+    <p class="fnote">This page is a design preview prepared for Cheek Electrical Limited. Imagery is licensed stock used illustratively and does not depict the company's own staff or completed work.</p>
+  </div>
+</footer>
+
+</body>
+</html>
