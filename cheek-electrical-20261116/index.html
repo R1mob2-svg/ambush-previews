@@ -46,9 +46,10 @@ header{position:sticky;top:0;z-index:50;background:rgba(11,17,28,.86);-webkit-ba
 
 /* ---------- HERO ---------- */
 .hero{position:relative;isolation:isolate;display:flex;align-items:center;min-height:min(580px,74vh);padding:88px 0 80px;border-bottom:1px solid var(--border);overflow:hidden}
-.hero-bg{position:absolute;inset:0;z-index:-2;
-.hero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,12,20,.94) 0%,rgba(7,12,20,.78) 32%,rgba(7,12,20,.22) 58%,rgba(7,12,20,0) 78%)}
-background-image:url("./assets/CHEEK-HERO-METER.jpg");background-size:cover;background-color:#070C14;background-position:100% 30%;background-repeat:no-repeat}
+/* hero photo layer */
+.hero-bg{position:absolute;inset:0;z-index:-2;background-image:url("./assets/CHEEK-HERO-METER.jpg");background-size:cover;background-color:#070C14;background-position:100% 30%;background-repeat:no-repeat}
+/* legibility scrim over the photo, on TOP of it (z-index:-1 is used by .hero::before) */
+.hero-bg::after{content:"";position:absolute;inset:0;z-index:0;background:linear-gradient(90deg,rgba(7,12,20,.94) 0%,rgba(7,12,20,.78) 32%,rgba(7,12,20,.22) 58%,rgba(7,12,20,0) 78%)}
 .hero::before{content:"";position:absolute;inset:0;z-index:-1;background:
   linear-gradient(90deg,rgba(7,12,20,.97) 0%,rgba(7,12,20,.94) 34%,rgba(7,12,20,.74) 56%,rgba(7,12,20,.30) 78%,rgba(7,12,20,.06) 100%),
   linear-gradient(180deg,rgba(7,12,20,.5) 0%,rgba(7,12,20,0) 30%,rgba(7,12,20,0) 64%,rgba(7,12,20,.6) 100%)}
