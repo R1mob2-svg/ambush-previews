@@ -1,0 +1,7 @@
+node_modules/
+package-lock.json
+pool_downloads/
+test_assets/
+scripts/__pycache__/
+*.d.png
+.gate2-*.png
