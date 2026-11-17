@@ -41,7 +41,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(11,17,28,.82);-webkit-ba
 /* ---------- HERO : full-bleed photo behind everything ---------- */
 .hero{position:relative;isolation:isolate;display:flex;align-items:center;min-height:min(560px,72vh);padding:84px 0 76px;border-bottom:1px solid var(--border);overflow:hidden}
 .hero-banner{display:none}
-.hero-bg{position:absolute;inset:0;z-index:-2;background-image:url("../assets/plastering/UK-PLASTERING-HERO-001.jpg");background-size:cover;background-position:right center;background-repeat:no-repeat}
+.hero-bg{position:absolute;inset:0;z-index:-2;background-image:url("./assets/hero.jpg");background-size:cover;background-position:right center;background-repeat:no-repeat}
 /* directional scrim: dense left, clear right over the trowel/hands */
 .hero::before{content:"";position:absolute;inset:0;z-index:-1;background:
   linear-gradient(90deg,rgba(7,12,20,.97) 0%,rgba(7,12,20,.93) 34%,rgba(7,12,20,.72) 54%,rgba(7,12,20,.30) 76%,rgba(7,12,20,.08) 100%),
@@ -94,7 +94,7 @@ h2{font-size:var(--fs-h2);line-height:1.15;letter-spacing:-.02em;margin-bottom:1
 
 /* ---------- COVERAGE : faded photo behind whole section ---------- */
 .coverage{position:relative;isolation:isolate;overflow:hidden;border-top:1px solid var(--border)}
-.coverage:before{content:"";position:absolute;inset:0;z-index:-2;background-image:url("../assets/plastering/UK-PLASTERING-COVERAGE-001.jpg");background-size:cover;background-position:center 40%;opacity:.17}
+.coverage:before{content:"";position:absolute;inset:0;z-index:-2;background-image:url("./assets/coverage.jpg");background-size:cover;background-position:center 40%;opacity:.17}
 .coverage:after{content:"";position:absolute;inset:0;z-index:-1;background:
   radial-gradient(120% 90% at 20% 40%,rgba(11,17,28,.96) 0%,rgba(11,17,28,.86) 45%,rgba(11,17,28,.72) 100%)}
 .areas{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px;list-style:none}
@@ -127,7 +127,7 @@ footer .fnote{margin-top:10px;font-size:var(--fs-micro);letter-spacing:.02em;opa
   /* Law 1: dedicated mobile photo banner instead of muddying the copy area */
   .hero{display:block;min-height:auto;padding:20px 0 44px;background:#070C14}
   .hero-bg,.hero::before{display:none}
-  .hero-banner{display:block;height:240px;border-radius:12px;margin:0 0 30px;background-image:url("../assets/plastering/UK-PLASTERING-HERO-001.jpg");background-size:cover;background-position:70% 45%;background-repeat:no-repeat;border:1px solid var(--border);overflow:hidden}
+  .hero-banner{display:block;height:240px;border-radius:12px;margin:0 0 30px;background-image:url("./assets/hero.jpg");background-size:cover;background-position:70% 45%;background-repeat:no-repeat;border:1px solid var(--border);overflow:hidden}
   .hero-inner{padding-top:0}
   .hero-copy{max-width:100%}
   .lede{margin-top:18px}
@@ -167,9 +167,9 @@ footer .fnote{margin-top:10px;font-size:var(--fs-micro);letter-spacing:.02em;opa
 
 <!-- HERO -->
 <section class="hero" style="border-top:none">
-  <div class="hero-bg" role="img" aria-label="Plasterer applying a smooth white skim coat to a wall with a steel trowel and putty knife" data-hero-subject="hands applying plaster skim coat with trowel and putty knife" data-asset-id="UK-PLASTERING-HERO-001" data-asset-sha256="2f6b3b0e7a5a8bcd2201754587b743e7273b7609ea9162387d8d8c7f461c6425"></div>
+  <div class="hero-bg" role="img" aria-label="Two plasterers on scaffolding applying base-coat render to an external wall" data-hero-subject="plasterers applying render to external wall on scaffolding" data-asset-id="PLASTER-RENDER-HERO" data-asset-sha256="0dc67c848e716bc19595ecf255d196554b3a8bd7b771e15d70f8e70ba6f7acc0"></div>
   <div class="wrap hero-inner">
-    <div class="hero-banner" role="img" aria-label="Plasterer applying a smooth white skim coat to a wall with a steel trowel and putty knife"></div>
+    <div class="hero-banner" role="img" aria-label="Two plasterers on scaffolding applying base-coat render to an external wall"></div>
     <div class="hero-copy">
       <span class="eyebrow">Bromsgrove &middot; Birmingham &middot; West Midlands</span>
       <h1><span class="h1-line">Straight walls.</span> <span class="h1-line">Clean finish.</span> <span class="h1-line">No mess left behind.</span></h1>
@@ -204,8 +204,8 @@ footer .fnote{margin-top:10px;font-size:var(--fs-micro);letter-spacing:.02em;opa
     <div class="services-grid">
 
       <article class="service-card service-card--s1">
-        <img src="../assets/plastering/UK-PLASTERING-SERVICE-001.jpg" alt="Plaster and mortar being applied to a block wall during rendering work" loading="lazy"
-             data-asset-id="UK-PLASTERING-SERVICE-001" data-asset-sha256="9c07a6cf5b3e91d4519a64bc53cf2e64d5a261fcc0113f65cfaf71fd81c003e2">
+        <img src="./assets/service-1.jpg" alt="Freshly plastered and finished internal walls with smooth uniform finish" loading="lazy"
+             data-asset-id="PLASTER-FINISH-001" data-asset-sha256="009c6f834688a7cd26ff0c7265229f3d36992f01a0efd2dfa3bf048087124a16">
         <div class="service-body">
           <span class="tag">Domestic plastering</span>
           <h3>Domestic plastering</h3>
@@ -214,8 +214,8 @@ footer .fnote{margin-top:10px;font-size:var(--fs-micro);letter-spacing:.02em;opa
       </article>
 
       <article class="service-card service-card--s2">
-        <img src="../assets/plastering/UK-PLASTERING-SERVICE-002.jpg" alt="New interior walls framed and boarded out ready for plaster" loading="lazy"
-             data-asset-id="UK-PLASTERING-SERVICE-002" data-asset-sha256="658b6e2011939a2cf8937a03d1fa8c9ccc4469d4dd7e80d4454db9bc1afcd71b">
+        <img src="./assets/service-2.jpg" alt="Plasterboard sheets fixed with tapered edge joints, ready for skimming" loading="lazy"
+             data-asset-id="PLASTER-BOARD-002" data-asset-sha256="995b5ff019c46cd49a44264a8c496f81f530b71849575d1ceae45a1b2f92777b">
         <div class="service-body">
           <span class="tag">External rendering</span>
           <h3>External rendering</h3>
@@ -224,7 +224,7 @@ footer .fnote{margin-top:10px;font-size:var(--fs-micro);letter-spacing:.02em;opa
       </article>
 
       <article class="service-card service-card--wide service-card--s3">
-        <img src="../assets/plastering/UK-PLASTERING-SERVICE-003.jpg" alt="Interior room mid-renovation with walls being made good before redecorating" loading="lazy"
+        <img src="./assets/service-3.jpg" alt="Interior room mid-renovation with walls being made good before redecorating" loading="lazy"
              data-asset-id="UK-PLASTERING-SERVICE-003" data-asset-sha256="5e0c29f6f31bb79e60f1e3e3b683b414a174aef20ebcf0d6bed0f1ec5462c981">
         <div class="service-body">
           <span class="tag">Repairs &amp; make-good</span>

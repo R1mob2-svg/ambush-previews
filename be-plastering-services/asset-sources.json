@@ -1,0 +1,52 @@
+{
+  "prospect_id": "WM-LTD-20261113-0003",
+  "business_name": "B&E PLASTERING SERVICES LTD",
+  "slug": "be-plastering-services",
+  "trade_category": "plastering",
+  "sic_code": "43310",
+  "asset_set": "9a71d395",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "dimensions": "1920x1080",
+      "sha256": "0dc67c848e716bc19595ecf255d196554b3a8bd7b771e15d70f8e70ba6f7acc0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Plastering.jpg",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Haktwo2004",
+      "notes": "Two plasterers on scaffolding applying base-coat render to an external wall. Replaced prior hero (R/L=0.54, lit left-to-right against a left-dark scrim = inverted). This photo passes the composite gate at R/L=1.65."
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "dimensions": "1920x1440",
+      "sha256": "009c6f834688a7cd26ff0c7265229f3d36992f01a0efd2dfa3bf048087124a16",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Plasterwork,_White_walls,_Rostov-on-Don,_Russia.jpg",
+      "license": "CC BY 4.0",
+      "notes": "Freshly plastered and finished white interior walls, smooth uniform finish with protective floor sheeting. Replaces prior asset which showed concrete blocklaying (masonry, not plastering)."
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "dimensions": "1920x2560",
+      "sha256": "995b5ff019c46cd49a44264a8c496f81f530b71849575d1ceae45a1b2f92777b",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gib_board_aka_plasterboard_tapered_edges_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Plasterboard sheets fixed with tapered edge joint and screws, pre-skim drylining stage. Replaces prior asset which showed bare metal stud framing with no plasterboard or plaster present."
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "dimensions": "1920x2562",
+      "sha256": "5e0c29f6f31bb79e60f1e3e3b683b414a174aef20ebcf0d6bed0f1ec5462c981",
+      "source_url": "https://images.unsplash.com/photo-1768321902263-81ad5e7494f1",
+      "license": "Commercial-licence Unsplash",
+      "notes": "Interior drylining in progress: stud framing with plasterboard partially fixed, visible electrical boxes. Trade-correct."
+    },
+    "coverage.jpg": {
+      "role": "coverage",
+      "dimensions": "1920x2879",
+      "sha256": "113a7fd71d6667cd7839a374791ad3bf27e760352dafd6fe0bd925d78a894275",
+      "source_url": "https://images.unsplash.com/photo-1770838773417-08b18661c62f",
+      "license": "Commercial-licence Unsplash",
+      "notes": "Faded background panel behind coverage-area scrim at 0.17 opacity."
+    },
+    "favicon.png": "generated:monogram"
+  }
+}
