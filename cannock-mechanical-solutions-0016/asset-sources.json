@@ -3,9 +3,30 @@
   "prospect_id": "WM-LTD-20261116-0016",
   "business_name": "CANNOCK MECHANICAL SOLUTIONS LIMITED",
   "assets": {
-    "hero.jpg": "PENDING_AG",
-    "service-1.jpg": "PENDING_AG",
-    "service-2.jpg": "PENDING_AG",
+    "hero.jpg": {
+      "role": "hero",
+      "dimensions": "1440x720",
+      "sha256": "2b69198c663600ccd7cc2ce88acd910f4b3059eedb8bececa881f3b3c281f615",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Heating_Plant-Bemidji_State_University.jpg",
+      "license": "CC BY 4.0",
+      "notes": "Commercial mechanical heating plant and pipework installation."
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "dimensions": "1200x900",
+      "sha256": "29a72bf80789fc46fe3bbcb5bf52059b80882847bcd6be2c7b17d1a7835a3b01",
+      "source_url": "https://commons.wikimedia.org/wiki/File:EU-EE-Tallinn-PT-Kopli-Heat-only_boiler_station.JPG",
+      "license": "CC0 / Public Domain",
+      "notes": "Industrial boiler station and heavy-duty mechanical pipework."
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "dimensions": "1200x900",
+      "sha256": "207bd5d4c67296cee2c74553e46f87b34c01c4b650d3feff1b7388bdf37376fe",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Shusha_heating_systems_operating_area_(boiler_room_58_slash_7)_06.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Mechanical heating distribution manifold and valve assembly."
+    },
     "favicon.png": "generated:monogram"
   }
 }
