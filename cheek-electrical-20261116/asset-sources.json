@@ -1,7 +1,9 @@
 {
-    "prospect_id":  "WM-LTD-20261116-0007",
-    "CHEEK-HERO-METER.jpg":  "commons:Electricians_fixing_electricity_meter_5.jpg",
-    "CHEEK-SVC-CONSUMER.jpg":  "commons:Electrician_installing_socket.jpg",
-    "CHEEK-SVC-WIRING.jpg":  "commons:Electrician_installing_socket_20160817.jpg",
-    "favicon.png":  "generated:monogram"
+    "prospect_id": "WM-LTD-20261116-0007",
+    "CHEEK-HERO-METER.jpg": "commons:Electricians_fixing_electricity_meter_5.jpg",
+    "CHEEK-SVC-CONSUMER.jpg": "commons:Electrician_installing_socket.jpg",
+    "CHEEK-SVC-WIRING.jpg": "commons:Electrician_installing_socket_20160817.jpg",
+    "favicon.png": "generated:monogram",
+    "CHEEK-SVC-FAULTS.jpg": "commons:Switches_for_lights.jpg",
+    "CHEEK-PROC-CONSUMER.jpg": "commons:Linnamae_37_-_fuse_box_is_wired.JPG"
 }

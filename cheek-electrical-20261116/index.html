@@ -32,11 +32,11 @@ img{display:block;max-width:100%}
 header{position:sticky;top:0;z-index:50;background:rgba(11,17,28,.86);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
 .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;height:72px}
 .brand{display:flex;align-items:center;gap:11px;min-width:0}
-.brand-mark{width:36px;height:36px;flex:none;border-radius:9px;background:linear-gradient(140deg,var(--accent),#B96F00);display:grid;place-items:center;font-weight:800;color:#160D00;font-size:1rem;letter-spacing:-.03em;box-shadow:0 4px 14px rgba(232,147,12,.28)}
-.brand-name{font-weight:800;letter-spacing:-.02em;font-size:1.1875rem;white-space:nowrap}
+
+.brand-name{font-weight:800;letter-spacing:-.025em;font-size:1.65rem;line-height:1.05;white-space:nowrap}
 .brand-name span{color:var(--accent)}
 .brand-sub{display:block;font-size:.6875rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-top:-3px}
-.nav-links{display:flex;gap:28px;list-style:none}
+.nav-links{display:flex;gap:28px;list-style:none;font-size:.9375rem;font-weight:600}
 .nav-links a{font-size:var(--fs-small);font-weight:500;color:var(--muted);transition:color .2s}
 .nav-links a:hover{color:var(--text)}
 .cta{display:inline-flex;align-items:center;gap:9px;background:var(--accent);color:#160D00;padding:12px 21px;border-radius:9px;font-weight:700;font-size:var(--fs-small);transition:background .2s,transform .2s;white-space:nowrap}
@@ -46,14 +46,16 @@ header{position:sticky;top:0;z-index:50;background:rgba(11,17,28,.86);-webkit-ba
 
 /* ---------- HERO ---------- */
 .hero{position:relative;isolation:isolate;display:flex;align-items:center;min-height:min(580px,74vh);padding:88px 0 80px;border-bottom:1px solid var(--border);overflow:hidden}
-.hero-bg{position:absolute;inset:0;z-index:-2;background-image:url("./assets/CHEEK-HERO-METER.jpg");background-size:cover;background-color:#070C14;background-position:100% 30%;background-repeat:no-repeat}
+.hero-bg{position:absolute;inset:0;z-index:-2;
+.hero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,12,20,.94) 0%,rgba(7,12,20,.78) 32%,rgba(7,12,20,.22) 58%,rgba(7,12,20,0) 78%)}
+background-image:url("./assets/CHEEK-HERO-METER.jpg");background-size:cover;background-color:#070C14;background-position:100% 30%;background-repeat:no-repeat}
 .hero::before{content:"";position:absolute;inset:0;z-index:-1;background:
   linear-gradient(90deg,rgba(7,12,20,.97) 0%,rgba(7,12,20,.94) 34%,rgba(7,12,20,.74) 56%,rgba(7,12,20,.30) 78%,rgba(7,12,20,.06) 100%),
   linear-gradient(180deg,rgba(7,12,20,.5) 0%,rgba(7,12,20,0) 30%,rgba(7,12,20,0) 64%,rgba(7,12,20,.6) 100%)}
 .hero-inner{width:100%}
 .hero-copy{max-width:600px}
 .hero-brand{display:flex;align-items:center;gap:18px;margin-bottom:26px}
-.hero-brand .hero-mark{width:64px;height:64px;flex:none;border-radius:14px;background:linear-gradient(140deg,var(--accent),#B96F00);display:grid;place-items:center;font-weight:800;color:#160D00;font-size:1.75rem;letter-spacing:-.04em;box-shadow:0 8px 26px rgba(232,147,12,.35)}
+
 .hero-brand .hero-wordmark{font-size:clamp(2rem,5.4vw,3.4rem);font-weight:800;line-height:1;letter-spacing:-.035em;color:#fff;text-shadow:0 2px 18px rgba(0,0,0,.55)}
 .hero-brand .hero-wordmark span{color:var(--accent)}
 .hero-brand .hero-tagline{display:block;font-size:.8125rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#C9D2DF;margin-top:9px;text-shadow:0 1px 10px rgba(0,0,0,.6)}
@@ -88,7 +90,7 @@ grid-column:1 / -1;aspect-ratio:auto;min-height:300px}
 .service-card img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.2,.7,.2,1)}
 .service-card:hover img{transform:scale(1.04)}
 .service-card--s1 img{object-position:center 40%}
-.service-card--s2 img{object-position:center 60%}
+.service-card--s2 img{object-position:64% 34%;transform:scale(1.22)}
 .service-card--s3 img{object-position:center 45%}
 .service-card:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(7,12,20,0) 26%,rgba(7,12,20,.58) 60%,rgba(7,12,20,.96) 100%)}
 .service-body{position:relative;padding:30px;max-width:560px}
@@ -97,7 +99,10 @@ grid-column:1 / -1;aspect-ratio:auto;min-height:300px}
 .service-body p{color:#C9D2DF;font-size:var(--fs-small);max-width:42em}
 
 /* ---------- PROCESS : plain dark, no imagery ---------- */
-.process{background:#070C14}
+.process{position:relative;background:#070C14;overflow:hidden}
+.process::before{content:"";position:absolute;inset:0;background-image:url("./assets/CHEEK-PROC-CONSUMER.jpg");background-size:cover;background-position:center 38%;opacity:.16;z-index:0}
+.process::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,12,20,.55),rgba(7,12,20,.92));z-index:0}
+.process>.wrap{position:relative;z-index:1}
 .process .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
 .step{border:1px solid var(--border);border-radius:14px;padding:26px 24px;transition:border-color .25s,background .25s;min-width:0}
 .step:hover{border-color:rgba(232,147,12,.55);background:rgba(232,147,12,.05)}
@@ -145,10 +150,10 @@ footer .fnote{margin-top:12px;font-size:var(--fs-micro);letter-spacing:.02em;opa
   .hero{min-height:0;padding:0 0 48px;display:block;align-items:initial}
   .hero::before{display:none}
   .hero-bg{display:none}
-  .hero-banner{display:block;margin:0 0 26px;height:196px;border-radius:0;background-image:url("./assets/CHEEK-HERO-METER.jpg");background-size:cover;background-position:center 32%}
+  .hero-banner{display:block;margin:0 0 26px;height:196px;border-radius:0;background-image:url("./assets/CHEEK-HERO-METER.jpg");background-size:cover;background-position:100% 26%}
   .hero-copy{max-width:none}
   .hero-brand{gap:13px;margin-bottom:22px}
-  .hero-brand .hero-mark{width:50px;height:50px;border-radius:11px;font-size:1.35rem}
+  
   .hero-brand .hero-tagline{letter-spacing:.14em;font-size:.6875rem}
   .services-grid{grid-template-columns:1fr}
   .service-card{aspect-ratio:auto;min-height:340px}
@@ -157,9 +162,9 @@ footer .fnote{margin-top:12px;font-size:var(--fs-micro);letter-spacing:.02em;opa
 @media(max-width:640px){
   .wrap{padding:0 20px}
   .nav{height:60px;gap:10px}
-  .brand-name{font-size:1.0625rem}
+  .brand-name{font-size:1.3rem}
   .brand-sub{display:none}
-  .brand-mark{width:34px;height:34px}
+  
   /* compact call button: icon + word only, generous tap height */
   header .cta{padding:11px 14px;font-size:.8125rem;min-height:44px;border-radius:10px}
   header .cta .cta-num{display:none}
@@ -175,8 +180,8 @@ footer .fnote{margin-top:12px;font-size:var(--fs-micro);letter-spacing:.02em;opa
   footer .fnote{font-size:.8125rem}
 }
 @media(max-width:400px){
-  .brand-name{font-size:1rem}
-  .brand-mark{width:32px;height:32px}
+  .brand-name{font-size:1.2rem}
+  
   header .cta{padding:10px 12px;font-size:.78rem;gap:7px}
 }
 @media(max-width:340px){
@@ -189,7 +194,6 @@ footer .fnote{margin-top:12px;font-size:var(--fs-micro);letter-spacing:.02em;opa
 <header>
   <div class="wrap nav">
     <a class="brand" href="#top" aria-label="Cheek Electrical — home">
-      <span class="brand-mark" aria-hidden="true">CE</span>
       <span>
         <span class="brand-name">Cheek <span>Electrical</span></span>
         <span class="brand-sub">Shirley &amp; Solihull</span>
@@ -215,7 +219,6 @@ footer .fnote{margin-top:12px;font-size:var(--fs-micro);letter-spacing:.02em;opa
     <div class="wrap hero-inner">
       <div class="hero-copy">
         <div class="hero-brand">
-          <span class="hero-mark" aria-hidden="true">CE</span>
           <div>
             <div class="hero-wordmark">Cheek <span>Electrical</span></div>
             <span class="hero-tagline">Shirley &middot; Solihull &middot; West Midlands</span>
@@ -276,7 +279,8 @@ footer .fnote{margin-top:12px;font-size:var(--fs-micro);letter-spacing:.02em;opa
           </div>
         </article>
         <article class="service-card service-card--wide service-card--s3">
-          <div class="service-body">
+        <img src="./assets/CHEEK-SVC-FAULTS.jpg" alt="Electrician stripping and preparing conductors with a wire stripping tool at a recessed junction box" loading="lazy">
+        <div class="service-body">
             <span class="tag">Repairs &amp; fault finding</span>
             <h3>Tripping, dead sockets and lighting faults</h3>
             <p>Chasing down the actual cause instead of swapping parts — tripping breakers, dead circuits, faulty sockets, outdoor and shed power, extra lights and outdoor sockets fitted where you need them.</p>
