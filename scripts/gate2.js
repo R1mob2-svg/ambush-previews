@@ -191,7 +191,12 @@ function normProv(v) {
   check('favicon present', hasFavicon, hasFavicon ? 'yes' : 'none');
 
   // ---------- render matrix ----------
-  const browser = await chromium.launch();
+  const browser = await chromium.launch({
+    // NEO 2026-11-17: the hero composition check reads the hero PHOTO bitmap
+    // through a canvas. file:// pages taint the canvas unless local file access
+    // is granted. This only widens read access inside the throwaway gate browser.
+    args: ['--allow-file-access-from-files', '--disable-web-security'],
+  });
   const lumByVp = {};
   const heroShots = [];
   try {
@@ -237,7 +242,20 @@ function normProv(v) {
           heroBox: bg
             ? (() => {
                 const r = bg.getBoundingClientRect();
-                return { x: r.x, y: r.y, w: r.width, h: r.height };
+                const cs = getComputedStyle(bg);
+                return {
+                  x: r.x, y: r.y, w: r.width, h: r.height,
+                  // NEO 2026-11-17: composition must be judged on the PHOTO,
+                  // not on the photo plus the dark scrim layered over it.
+                  // The scrim alone manufactures a left-dark ramp on a totally
+                  // flat image, which is how a grey rectangle passed 'focal
+                  // weight'. We re-read the raw bitmap through a canvas at the
+                  // exact cover-geometry the browser applies. If we cannot read
+                  // the photo, the check fails closed.
+                  bgImage: cs.backgroundImage,
+                  bgSize: cs.backgroundSize,
+                  bgPos: cs.backgroundPosition,
+                };
               })()
             : null,
           h1Box: h1
@@ -308,26 +326,144 @@ function normProv(v) {
         }
         // luminance ramp measured on the widest desktop viewport only (stable)
         if (vp.width === 1440 && info.heroBox && !liveUrl) {
-          const shot = path.join(dir, '.gate2-hero.png');
           const clipH = Math.min(640, Math.max(320, info.heroBox.h));
+
+          // ---- NEO 2026-11-17 (founder Option A): measure the hero PHOTO.
+          // Sample the raw background-image bitmap through a canvas using the
+          // same background-size:cover + background-position mapping the browser
+          // uses, then evaluate composition on those pixels. Checking the
+          // rendered screenshot instead measured the scrim, not the photograph.
+          const photoCols = await p.evaluate(async (box) => {
+            const m = /url\(["']?(.*?)["']?\)/.exec(box.bgImage || '');
+            if (!m) return null;
+            const src = m[1];
+            const img = await new Promise((res) => {
+              const i = new Image();
+              i.onload = () => res(i);
+              i.onerror = () => res(null);
+              i.src = src;
+            });
+            if (!img || !img.naturalWidth) return null;
+
+            const W = box.w || 1;
+            const H = box.h || 1;
+            const iw = img.naturalWidth;
+            const ih = img.naturalHeight;
+            const cover = Math.max(W / iw, H / ih);
+            const dw = iw * cover;
+            const dh = ih * cover;
+            const pos = (box.bgPos || '50% 50%').split(/\s+/);
+            const pct = (tok, free, fallback) => {
+              if (!tok) return fallback;
+              if (tok === 'left' || tok === 'top') return 0;
+              if (tok === 'right' || tok === 'bottom') return free;
+              if (tok === 'center') return free / 2;
+              if (/%$/.test(tok)) return (free * parseFloat(tok)) / 100;
+              return fallback;
+            };
+            const ox = pct(pos[0], W - dw, (W - dw) / 2);
+            const oy = pct(pos[1], H - dh, (H - dh) / 2);
+
+            const c = document.createElement('canvas');
+            c.width = Math.round(W);
+            c.height = Math.round(H);
+            const ctx = c.getContext('2d', { willReadFrequently: true });
+            ctx.drawImage(img, ox, oy, dw, dh);
+            const data = ctx.getImageData(0, 0, c.width, c.height).data;
+
+            const sampleTop = 20;
+            const sampleH = Math.min(Math.round(H * 0.8), Math.max(1, c.height - sampleTop));
+            const stripMean = (frac, bandW) => {
+              const x0 = Math.round(W * frac);
+              const x1 = Math.min(x0 + bandW, c.width);
+              let t = 0, n = 0;
+              for (let y = sampleTop; y < sampleTop + sampleH; y++) {
+                for (let x = x0; x < x1; x++) {
+                  const i = (y * c.width + x) * 4;
+                  t += 0.2126 * data[i] + 0.7152 * data[i + 1] + 0.0722 * data[i + 2];
+                  n++;
+                }
+              }
+              return n ? t / n : null;
+            };
+            const colMean = (frac) => stripMean(frac, 160);
+            const L = colMean(0.62);
+            const M = colMean(0.75);
+            const R = colMean(0.87);
+            if (L === null || M === null || R === null) return null;
+
+            // Full-width luminance profile: the headline column band vs the
+            // brightest region anywhere in the hero photo. This is the honest
+            // test — a trade photo whose subject fills one side is a real
+            // composition; a flat wash has no bright region at all.
+            const bands = [];
+            for (let b = 0; b < 10; b++) {
+              const v = stripMean(b / 10, Math.round(W / 10));
+              if (v !== null) bands.push(v);
+            }
+            const peak = bands.length ? Math.max(...bands) : 0;
+            const floor = bands.length ? Math.min(...bands) : 0;
+            const textBand = L; // H1 sits in the left-of-centre band
+
+            return { L, M, R, peak, floor, textBand, natural: [iw, ih] };
+          }, info.heroBox);
+
+          if (!photoCols) {
+            check('[1440] hero has real focal weight (not flat)', false,
+              'could not read hero background image — failing closed');
+          } else {
+            const { L, M, R, peak, floor, textBand } = photoCols;
+            lumByVp[vp.name] = { L, M, R, peak, floor };
+
+            // Composition is judged on the raw hero PHOTO:
+            //
+            //   (1) SUBJECT CONTRAST — the photo has a real bright region and a
+            //       real dark region somewhere across its width. This is the
+            //       anti-flat test. A grey wash, a blank wall, or a uniform
+            //       texture fails here. Ratio is 1.35x against the luminance
+            //       floor from content, not against where the H1 happens to be.
+            //   (2) TEXT-SIDE DARKNESS — the band the H1 sits over must be
+            //       materially darker than the peak, guaranteeing the white
+            //       headline reads over the scrim rather than on top of the
+            //       brightest part of the image.
+            //
+            // Direction (left vs right weighting) is REPORTED, not failed. An
+            // honest interior pipework photo legitimately puts its subject on
+            // the left; punishing that was the original bug.
+            const subjectContrast = floor > 0 ? peak / floor : 0;
+            const textSideOk = peak > 0 ? peak / Math.max(1, textBand) >= 1.15 : false;
+            const direction =
+              R >= L * 1.15 ? 'right-weighted' : L >= R * 1.15 ? 'left-weighted' : 'balanced';
+            lumByVp[vp.name].composition = direction;
+
+            check('[1440] hero photo has real subject contrast (not flat)',
+              subjectContrast >= 1.35,
+              `peak/floor = ${subjectContrast.toFixed(2)} (need >=1.35), ` +
+              `direction = ${direction} — peak=${peak.toFixed(1)} floor=${floor.toFixed(1)} ` +
+              `L=${L.toFixed(1)} M=${M.toFixed(1)} R=${R.toFixed(1)}`);
+
+            check('[1440] hero text band is darker than the photo peak',
+              textSideOk,
+              `peak/H1-band = ${(peak / Math.max(1, textBand)).toFixed(2)} (need >=1.15) — ` +
+              `textBand=${textBand.toFixed(1)} peak=${peak.toFixed(1)}`);
+
+            // Direction is REPORTED ONLY. Left-weighted is a valid interior
+            // trade composition (pipework/floor-laying fills the left), so it
+            // must not fail. The two checks above carry the real assertions.
+            if (direction !== 'right-weighted') {
+              console.log(`INFO  [1440] hero direction: ${direction} ` +
+                `(peak=${peak.toFixed(1)}/floor=${floor.toFixed(1)}; ` +
+                `valid interior trade composition, not an assertion)`);
+            }
+          }
+
+          // keep the rendered hero shot for the H1 backdrop capture below
+          const shot = path.join(dir, '.gate2-hero.png');
           await p.screenshot({
             path: shot,
             clip: { x: Math.max(0, info.heroBox.x), y: Math.max(0, info.heroBox.y), width: vp.width, height: clipH },
           });
           heroShots.push(shot);
-          const col = (x) =>
-            parseFloat(
-              runConvert([shot, '-crop', `160x${Math.round(clipH * 0.8)}+${x}+20`, '+repage',
-                '-colorspace', 'gray', '-format', '%[fx:mean*255]', 'info:'], { encoding: 'utf8' })
-            );
-          const L = col(Math.round(vp.width * 0.62));
-          const M = col(Math.round(vp.width * 0.75));
-          const R = col(Math.round(vp.width * 0.87));
-          lumByVp[vp.name] = { L, M, R };
-          const rising = R > M && M > L;
-          const strong = R > L * 1.5;
-          check('[1440] hero luminance rises left->right', rising, `L=${L.toFixed(1)} M=${M.toFixed(1)} R=${R.toFixed(1)}`);
-          check('[1440] hero has real focal weight (not flat)', strong, `R/L = ${(R / L).toFixed(2)} (need >1.5)`);
         }
       }
 

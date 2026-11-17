@@ -6,10 +6,10 @@
     "hero.jpg": {
       "role": "hero",
       "dimensions": "1440x720",
-      "sha256": "f203273f235445eb53825c93f5b33cc713625894e4903386360a8d9bb3e907f4",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Shusha_heating_systems_operating_area_(boiler_room_58_slash_7)_07.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Heating systems operating area boiler room pipework and manifold controls."
+      "sha256": "4f0503cad4ac324548279058da187e3d4e7b7bbf210931c53f355d679b7e3af3",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Public_domain_image_-_underfloor_heating_installation.JPG",
+      "license": "CC0 / Public Domain",
+      "notes": "Underfloor heating pipe installation and structural floor loops, right weighted."
     },
     "service-1.jpg": {
       "role": "service-1",
