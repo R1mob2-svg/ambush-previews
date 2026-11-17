@@ -13,6 +13,7 @@
  *   node scripts/source-hero.js "boiler room pipework" [--n 8] [--min 1400]
  */
 const { execFileSync } = require('child_process');
+const { runConvert } = require('./imagick');
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
@@ -54,15 +55,24 @@ function download(url, dest) {
   });
 }
 
-/** Raw L/M/R of the photo itself, resized to a 1440-wide frame. */
+/**
+ * Raw L/M/R of the photo itself, resized to a 1440-wide frame.
+ *
+ * BUGFIX (NEO 2026-11-17): this used to sample columns at 62%/75%/87% of the
+ * width — i.e. only the right third. That never measured the actual
+ * left-to-right ramp the gate checks, so it reported flat/inverted for photos
+ * that were genuinely fine and found "0 candidates" for most modern trades.
+ * It now samples true thirds (0-33%, 33-67%, 67-100%) centre-cropped to the
+ * useful vertical band, which matches what vet-hero.js and gate2.js measure.
+ */
 function rawRamp(file) {
-  const col = (frac) =>
+  const third = (i) =>
     parseFloat(
-      execFileSync('convert',
-        [file, '-resize', '1440x', '-crop', `160x600+${Math.round(1440 * frac)}+80`, '+repage',
+      runConvert(
+        [file, '-resize', '1440x', '-gravity', 'center', '-crop', `480x800+${(i - 1) * 480}+0`, '+repage',
           '-colorspace', 'gray', '-format', '%[fx:mean*255]', 'info:'], { encoding: 'utf8' })
     );
-  return { L: col(0.62), M: col(0.75), R: col(0.87) };
+  return { L: third(0), M: third(1), R: third(2) };
 }
 
 (async () => {
@@ -103,8 +113,11 @@ function rawRamp(file) {
       const ratio = r.R / r.L;
       // Normal ramp, or reversed (light running right->left) — the latter is
       // recoverable by mirroring the plate, which NEO can do deterministically.
-      const ok = ratio > 1.5 && r.R > r.M && r.M > r.L;
-      const okRev = 1 / ratio > 1.5 && r.L > r.M && r.M > r.R;
+      // A photo only needs a strong directional ramp. The left-dark scrim adds
+      // contrast on top, so accepting slightly under 1.5 raw here is correct:
+      // the authoritative test is the composite in gate2.js, not this filter.
+      const ok = ratio > 1.25 && r.R > r.M && r.M > r.L;
+      const okRev = 1 / ratio > 1.25 && r.L > r.M && r.M > r.R;
       const tag = ok ? 'GOOD' : okRev ? 'MIRR' : '--  ';
       console.log(`${tag}  R/L=${ratio.toFixed(2)}  L=${r.L.toFixed(0)} M=${r.M.toFixed(0)} R=${r.R.toFixed(0)}  ${c.title.replace('File:', '')}`);
       if (ok) good.push({ ...c, file: dest, ramp: r, ratio, mirror: false });

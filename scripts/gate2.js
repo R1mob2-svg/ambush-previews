@@ -19,6 +19,7 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 const { execFileSync } = require('child_process');
+const { runConvert, assertImageTooling } = require('./imagick');
 
 const pageArg = process.argv[2] || 'index.html';
 const liveUrl = process.argv[3] && !process.argv[3].startsWith('--') ? process.argv[3] : null;
@@ -62,6 +63,14 @@ function normProv(v) {
 }
 
 (async () => {
+  // Fail loud, never quiet. If ImageMagick is unusable the hero checks would
+  // throw mid-run or (worse) be skipped, producing a false PASS. Refuse to run.
+  try {
+    assertImageTooling();
+  } catch (e) {
+    console.error('\nGATE ERROR: ' + e.message + '\n');
+    process.exit(2);
+  }
   const abs = path.resolve(pageArg);
   if (!fs.existsSync(abs)) {
     console.error('missing page: ' + abs);
@@ -253,7 +262,7 @@ function normProv(v) {
           let bgLum = null;
           if (bw > 10 && bh > 10) {
             bgLum = parseFloat(
-              execFileSync('convert', [shot, '-crop', `${bw}x${bh}+${bx}+${by}`, '+repage',
+              runConvert([shot, '-crop', `${bw}x${bh}+${bx}+${by}`, '+repage',
                 '-colorspace', 'gray', '-format', '%[fx:mean*255]', 'info:'], { encoding: 'utf8' })
             );
           }
@@ -278,7 +287,7 @@ function normProv(v) {
           heroShots.push(shot);
           const col = (x) =>
             parseFloat(
-              execFileSync('convert', [shot, '-crop', `160x${Math.round(clipH * 0.8)}+${x}+20`, '+repage',
+              runConvert([shot, '-crop', `160x${Math.round(clipH * 0.8)}+${x}+20`, '+repage',
                 '-colorspace', 'gray', '-format', '%[fx:mean*255]', 'info:'], { encoding: 'utf8' })
             );
           const L = col(Math.round(vp.width * 0.62));

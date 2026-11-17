@@ -16,17 +16,18 @@
  * Usage: node scripts/vet-hero.js <image> [<image> ...]
  */
 const { execFileSync } = require('child_process');
+const { runConvert, runIdentify } = require('./imagick');
 const fs = require('fs');
 const path = require('path');
 
 function num(expr, file) {
-  return parseFloat(execFileSync('convert', [file, '-format', expr, 'info:'], { encoding: 'utf8' }));
+  return parseFloat(runConvert([file, '-format', expr, 'info:'], { encoding: 'utf8' }));
 }
 
 function ramp(file) {
   const col = (frac) =>
     parseFloat(
-      execFileSync('convert',
+      runConvert(
         [file, '-resize', '1440x', '-crop', `160x600+${Math.round(1440 * frac)}+80`, '+repage',
           '-colorspace', 'gray', '-format', '%[fx:mean*255]', 'info:'], { encoding: 'utf8' })
     );
@@ -40,14 +41,14 @@ function ramp(file) {
  *   cheek 29.5 · assg 24.9 · hobbs 55.9 · heat-zone 44.2  -> threshold 18 is safe
  */
 function detail(file) {
-  return num('%[fx:standard_deviation*255]', (execFileSync('convert',
+  return num('%[fx:standard_deviation*255]', (runConvert(
     [file, '-resize', '1200x', '-colorspace', 'gray', file + '.d.png'], { encoding: 'utf8' }), file + '.d.png')) &&
     (() => { const v = num('%[fx:standard_deviation*255]', file + '.d.png'); fs.unlinkSync(file + '.d.png'); return v; })();
 }
 
 for (const file of process.argv.slice(2)) {
   if (!fs.existsSync(file)) { console.log(`MISSING ${file}`); continue; }
-  const dim = execFileSync('identify', ['-format', '%wx%h', file], { encoding: 'utf8' });
+  const dim = runIdentify(['-format', '%wx%h', file], { encoding: 'utf8' });
   const r = ramp(file);
   const lc = detail(file);
   const ratio = r.R / r.L;

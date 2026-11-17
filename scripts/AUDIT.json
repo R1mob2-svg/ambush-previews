@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T23:23:47.412Z",
+  "generated": "2026-11-17T09:52:36.045Z",
   "results": [
     {
       "slug": "a-r-gas-services-0025",
@@ -33,15 +33,10 @@
     },
     {
       "slug": "be-plastering-services",
-      "passed": false,
-      "checks": 50,
-      "failed": 4,
-      "failures": [
-        "asset-sources.json present — MISSING — cannot prove distinct origins",
-        "every declared image exists on disk — missing: uk-plastering-service-001.jpg, uk-plastering-service-002.jpg, uk-plastering-service-003.jpg, uk-plastering-hero-001.jpg, uk-plastering-coverage-001.jpg",
-        "[1440] hero luminance rises left->right — L=103.5 M=106.1 R=72.5",
-        "[1440] hero has real focal weight (not flat) — R/L = 0.70 (need >1.5)"
-      ],
+      "passed": true,
+      "checks": 55,
+      "failed": 0,
+      "failures": [],
       "error": null
     },
     {
