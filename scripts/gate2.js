@@ -207,8 +207,16 @@ function normProv(v) {
       await p.waitForTimeout(250);
 
       const info = await p.evaluate(() => {
-        const bg = document.querySelector('.hero-bg');
-        const wm = document.querySelector('.hero-wordmark');
+        // NEO 2026-11-17: version-aware hero selectors.
+        // Legacy V6 previews use .hero-bg / .hero-wordmark. The deterministic
+        // Golden Master (simplicity-golden-v1) uses .hero-section /
+        // .hero-company-title. Detect which template this page actually is and
+        // bind to the real nodes, instead of silently measuring nulls on the new
+        // template and rubber-stamping it as a pass.
+        const isGolden = !!document.querySelector('[data-template="simplicity-golden-v1"]')
+          || !!document.querySelector('.hero-section');
+        const bg = document.querySelector('.hero-section') || document.querySelector('.hero-bg');
+        const wm = document.querySelector('.hero-company-title') || document.querySelector('.hero-wordmark');
         const h1 = document.querySelector('h1');
         const nav = document.querySelector('.nav-links');
         const h1cs = h1 ? getComputedStyle(h1) : null;
@@ -218,6 +226,12 @@ function normProv(v) {
           h1Size: h1 ? parseFloat(h1cs.fontSize) : null,
           h1Color: h1cs ? h1cs.color : null,
           navDisplay: nav ? getComputedStyle(nav).display : null,
+          isGolden,
+          // Zero baked-in hero text: a text-free photo must not be flagged as
+          // carrying rasterised words. Fail closed if it is.
+          bakedTextFlag: bg
+            ? (bg.getAttribute('data-hero-baked-text') || bg.getAttribute('data-baked-text') || '')
+            : null,
           overflowX: document.documentElement.scrollWidth - document.documentElement.clientWidth,
           broken: [...document.images].filter((i) => !i.complete || i.naturalWidth === 0).length,
           heroBox: bg
@@ -236,6 +250,22 @@ function normProv(v) {
       });
 
       const isDesktop = vp.width >= 1024;
+
+      // NEO 2026-11-17: template-agnostic hero checks.
+      // 1) The hero element must actually exist for whichever template is served.
+      //    A missing node used to skip every downstream assertion and still yield
+      //    a PASS, which is the worst possible outcome for a gate.
+      check(`[${vp.name}] hero section present`, !!info.bgPos,
+        info.isGolden ? '.hero-section' : '.hero-bg');
+      // 2) Zero baked-in hero text.
+      check(`[${vp.name}] no baked-in hero text flag`, !info.bakedTextFlag,
+        info.bakedTextFlag || 'none');
+      // 3) Brand title must dominate the H1 by at least 20% on the Golden Master.
+      if (info.isGolden && info.wmSize && info.h1Size) {
+        const dominance = info.wmSize / info.h1Size;
+        check(`[${vp.name}] company title >=1.2x the H1`, dominance >= 1.2,
+          `${dominance.toFixed(2)}x`);
+      }
 
       if (isDesktop) {
         if (info.bgPos) {
