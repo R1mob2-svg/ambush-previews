@@ -1,0 +1,62 @@
+{
+  "slug": "skk-gas-and-heating-12131002",
+  "trade_key": "heating",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "9c0b2265c434778379a53b5a516ebd78456f327f7806c6942375411874aa3a6a",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AThermomat_TVK-130.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Thermomat TVK-130.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "e024052316ace07e8a0fc979a83a274cf931e47fb9c3916f8506474501738ae8",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AThermische_Stellantriebe%2C_Thermische_Antriebe%2C_Fussbodenheizung%2C_thermal_actuator%2C_actuateur_thermique.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Thermische Stellantriebe, Thermische Antriebe, Fussbodenheizung, thermal actuator, actuateur thermique.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "355468b0b35eb06c9caac7a6908c1dfa6ba913f55caceebbcf1c3bec18ef6cf2",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AThermomat_for_parquet.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Thermomat for parquet.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "ff9b46ead06b0f6b84997cbb7401eec39f0ce9c0d864fb062b3a078744645dc7",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AThermomat.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Thermomat.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "ca5fa35e0511b6a16d02cb4c5a4032efc6474a658daf963e9afe7e0d5ca581ec",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ATopn%C3%A9_f%C3%B3lie_HEATMAX_Carbon_Fabric.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Topné fólie HEATMAX Carbon Fabric.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "bf6a54ed6d14e7c139333c8ec8498228acc2e6eca26a27d24203f5da64e50243",
+      "source_url": "generated:monogram-sg-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=SG primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "bf6a54ed6d14e7c139333c8ec8498228acc2e6eca26a27d24203f5da64e50243",
+      "source_url": "generated:monogram-sg-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=SG primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "bf6a54ed6d14e7c139333c8ec8498228acc2e6eca26a27d24203f5da64e50243",
+      "source_url": "generated:monogram-sg-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=SG primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
