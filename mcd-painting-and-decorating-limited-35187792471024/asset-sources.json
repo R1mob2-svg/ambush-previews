@@ -1,0 +1,62 @@
+{
+  "slug": "mcd-painting-and-decorating-limited-35187792471024",
+  "trade_key": "painting",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "bd46823350bf53e68c80c94df10e2e3b40efec83ef3fc127be266ad13d16613c",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AA_pair_of_Purdy%27s_Project_365%284%29_Day_26_%286963807991%29.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:A pair of Purdy's Project 365(4) Day 26 (6963807991).jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "336d5becd20e344571292138e0dac374017b06ba78d29b7974948ab04955d67d",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AAndrian_Valeanu_2016-04-11_%28Unsplash%29.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Andrian Valeanu 2016-04-11 (Unsplash).jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "3f4cb3de94875abb77b3b52f67829ecb030985edf8e8f45f65d4ba39622a60a1",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AAquarellkasten_Pinsel.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Aquarellkasten Pinsel.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "6f67b7edef61aed88efc9c15ec5f5e0d79a590914e979d49fe85e789594e9d48",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AArt_Materials_8.JPG",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Art Materials 8.JPG"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "58d0eb1d8dab39f38a965d130cbda09e10667f674bd87e74363344e47c888adb",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AArt_supplies_clutter_%28Unsplash%29.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Art supplies clutter (Unsplash).jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "08712ba07617df637da3edc7ff7bed6554d787e4fcd16d4b453d7f562fb5a580",
+      "source_url": "generated:monogram-mp-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=MP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "08712ba07617df637da3edc7ff7bed6554d787e4fcd16d4b453d7f562fb5a580",
+      "source_url": "generated:monogram-mp-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=MP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "08712ba07617df637da3edc7ff7bed6554d787e4fcd16d4b453d7f562fb5a580",
+      "source_url": "generated:monogram-mp-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=MP primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
