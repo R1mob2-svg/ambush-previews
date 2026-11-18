@@ -1,0 +1,62 @@
+{
+  "slug": "ams-spray-painting-and-decorating-ltd-35187792471023",
+  "trade_key": "painting",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "9b6a99fae883773869fa44dc4912196f08e946108c6bbb969e752418aa16b6ae",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3A58206_Pincelier.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:58206 Pincelier.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "8aef324ae0440ca322cda38b333e157d2024cb3d75da6fe661b2aa6b4f585f34",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACity_of_London_Cemetery_white_heart_floral_tribute_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:City of London Cemetery white heart floral tribute 1.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "e78c23fdcb26cea31d5c2128acea465716b3d26ebcee7acb89792eb01e5f37ba",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AA_bright_red_paintbrush.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:A bright red paintbrush.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "6be9a162a47853e70fb1bcefba010d9e0c6bd1db674d908e475673154fe699da",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AA_hand_holds_a_cup_with_paintbrushes_as_a_child_focuses_on_creating_art_on_an_easel_nearby.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:A hand holds a cup with paintbrushes as a child focuses on creating art on an easel nearby.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "4ea415e2bba34324eccb8b116cb9383eb834acb16a7e973c24a1a4c6e04f896f",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AA_notebook_with_paint_brushes.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:A notebook with paint brushes.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "604a6287383f23591109bda8e7fb01c13b4f2338cb90939323a55ae98b5baf61",
+      "source_url": "generated:monogram-as-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AS primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "604a6287383f23591109bda8e7fb01c13b4f2338cb90939323a55ae98b5baf61",
+      "source_url": "generated:monogram-as-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AS primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "604a6287383f23591109bda8e7fb01c13b4f2338cb90939323a55ae98b5baf61",
+      "source_url": "generated:monogram-as-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AS primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
