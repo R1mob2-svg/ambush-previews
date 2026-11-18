@@ -14,7 +14,7 @@
  * Per lead:
  *   1. pick 5 unique verified ON-TRADE photos not already used by ANY prospect
  *   2. compile through templates/simplicity-design-fit-refresh.html
- *   3. gate2.js must exit 0 (76 checks)
+ *   3. gate2.js --registry must exit 0 (79 checks, incl. cross-prospect dedupe)
  *   4. registry.js must report REGISTRY CLEAN
  *   5. commit + push ambush-previews, then mark CRM BUILT_READY_FOR_REVIEW
  * Any lead that cannot get 5 usable photos => ASSET_SET_UNAVAILABLE, skip.
@@ -290,7 +290,11 @@ function setLeadStatus(lead, status, extra = {}) {
     }
     log(`COMPILED ${slug}: ${c.stdout.trim().split('\n').pop().slice(0, 150)}`);
 
-    const g = runSoft('node', ['scripts/gate2.js', path.join(slug, 'index.html')], { timeout: 300000 });
+    // Gate WITH the registry so cross-prospect dedupe (identical asset bytes /
+    // duplicate origin photos) is enforced here, not only by the pre-commit hook.
+    // Without --registry this is 76 checks and misses byte-level dupes, which made
+    // the builder loop forever on leads the hook correctly refuses to commit.
+    const g = runSoft('node', ['scripts/gate2.js', path.join(slug, 'index.html'), '--registry', 'scripts/global-registry.json'], { timeout: 300000 });
     const gateLines = (g.stdout || '').split('\n').filter((l) => l.trim().startsWith('GATE'));
     const last = gateLines[gateLines.length - 1] || 'GATE UNKNOWN';
     log(`GATE ${slug}: ${last.trim()}`);

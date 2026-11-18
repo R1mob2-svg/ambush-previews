@@ -1,0 +1,62 @@
+{
+  "slug": "alto-barren-plumbing-and-heating-limited-202611160018",
+  "trade_key": "plumbing",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "fad6a1a132e57c7d8b0b52163d7138986be6ab3e673c7fc771a6bc4d5c6eb03a",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3A2006-02-15_Piping.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:2006-02-15 Piping.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "5e27c96b8246e43bc451b84e2f0a85a63ec24487697bcdb73ac0cb3dadce39d2",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3A20251203_165923_project_byo_cbd.jpg",
+      "license": "CC BY 4.0",
+      "notes": "Commons: File:20251203 165923 project byo cbd.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "92c797c1c4bea351a2d8bbaf76d509b6234b17cdfe2df5dd1b94f2a6119b4d09",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3A247_Home_Rescue_back_of_sink_plumbing.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:247 Home Rescue back of sink plumbing.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "9dd8245a665868f64b410f1d5864f4eda1128624836fa64d9b8b2a6089c2f4a4",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3A247_Home_Rescue_plumbing.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:247 Home Rescue plumbing.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "0ec18a1e2745d3d7ae894fc4ec91d80469cd9f99b9c60566fc6aa73174efcc9c",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3A4._Urine_pipe_to_temporary_storge_tanker_%287092684527%29.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:4. Urine pipe to temporary storge tanker (7092684527).jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "092119a4958a766fd6a1d58c97feb7fe20483618232ff21b2f9e81afddb57491",
+      "source_url": "generated:monogram-ab-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AB primary=#0b1329 accent=#3b82f6"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "092119a4958a766fd6a1d58c97feb7fe20483618232ff21b2f9e81afddb57491",
+      "source_url": "generated:monogram-ab-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AB primary=#0b1329 accent=#3b82f6"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "092119a4958a766fd6a1d58c97feb7fe20483618232ff21b2f9e81afddb57491",
+      "source_url": "generated:monogram-ab-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AB primary=#0b1329 accent=#3b82f6"
+    }
+  }
+}

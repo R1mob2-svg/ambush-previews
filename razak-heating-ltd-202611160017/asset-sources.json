@@ -1,0 +1,62 @@
+{
+  "slug": "razak-heating-ltd-202611160017",
+  "trade_key": "heating",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "a6e92ddf12a69b227e88fa6ae71783a7824482676c8f3e758637d8fcf5ddcb83",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-Ebnit-underfloor_heating-system-03ASD.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Dornbirn-Ebnit-underfloor heating-system-03ASD.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "999b9902d4dc5e5d051e32b57119667e0f3b74d1c4f07849523b6a7a27be82a0",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-Ebnit-underfloor_heating-system-04ASD.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Dornbirn-Ebnit-underfloor heating-system-04ASD.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "2adaf737d96cc0f9ce301fea036bb605b2e334fb2cd3741119e74a4031857d3d",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-Ebnit-underfloor_heating-system-05ASD.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Dornbirn-Ebnit-underfloor heating-system-05ASD.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "1d72ba63a1d6f5d56a3e5dd58da6f31cb40b86215247d9ab70869a507c49d458",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-Ebnit-underfloor_heating-system-06ASD.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Dornbirn-Ebnit-underfloor heating-system-06ASD.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "acb68eaf254a2d37d9d44f5c1edcdb3c1472bbeaaf47d4c6aeba61a8158c552d",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-Ebnit-underfloor_heating-system-07ASD.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Dornbirn-Ebnit-underfloor heating-system-07ASD.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "e2331f59bf5225ab7183ea4f75bc21502f11e66ad2c15bf383c3c2e6e6f4e311",
+      "source_url": "generated:monogram-rh-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=RH primary=#0f172a accent=#ef4444"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "e2331f59bf5225ab7183ea4f75bc21502f11e66ad2c15bf383c3c2e6e6f4e311",
+      "source_url": "generated:monogram-rh-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=RH primary=#0f172a accent=#ef4444"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "e2331f59bf5225ab7183ea4f75bc21502f11e66ad2c15bf383c3c2e6e6f4e311",
+      "source_url": "generated:monogram-rh-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=RH primary=#0f172a accent=#ef4444"
+    }
+  }
+}
