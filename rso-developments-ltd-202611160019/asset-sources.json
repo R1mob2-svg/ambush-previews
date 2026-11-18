@@ -4,56 +4,56 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "bcbae14008014301905c5ffb2e782b81e238c73bf0340aaf9d31d217447e773f",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABatumi%2C_Lech_and_Maria_Kaczynski_St._Batumi_blv.%2C_Georgia_Bebop_Drone_2015-08-26T170223%2B0000_36F032.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Batumi, Lech and Maria Kaczynski St. Batumi blv., Georgia Bebop Drone 2015-08-26T170223+0000 36F032.jpg"
+      "sha256": "71a6b2b15d98a24bfdf54bf6f4764cbd90f12f5b57eb8dfc17b97181488e7c9e",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AAt_the_construction_site_in_the_rain.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:At the construction site in the rain.jpg"
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "0050fec025f0c7e0b7692890fee4682c65846937210934e3fffeafdeeb16f081",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABase_of_Steam_Powered_Crane%2C_Frankford_EL_Construction%2C_1913_%288110385546%29.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Commons: File:Base of Steam Powered Crane, Frankford EL Construction, 1913 (8110385546).jpg"
+      "sha256": "fb98266d74885abd6524772a722c050c00a95d3a4e3b0b007ac859f59af7fd08",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AAn_under-construction_Buddhist_temple_in_Cambodia.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:An under-construction Buddhist temple in Cambodia.jpg"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "3b82fddc1f013c6c6ce846377724fef4ab11fc2e76c7d0eba1f800b01bc4d02a",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABauruine_Hotel.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Bauruine Hotel.jpg"
+      "sha256": "bce3123d0833750ccd1c45b122141c3d733331f476b336f0bf8bb63685d49d2b",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AAnn_Arbor_Michigan_Skyline_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "notes": "Commons: File:Ann Arbor Michigan Skyline - panoramio.jpg"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "f1c0bfcde4a41bcbcddd8baf794d522b1f5c49b85d0ed5c6ea4a17b2919f06ea",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABirdoswald_2014_07.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Birdoswald 2014 07.jpg"
+      "sha256": "22b0c452e10439dba8361df4eb9de816a281deaac05b815358dc0fc0377bb2f8",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AAutomatedCraneControl.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:AutomatedCraneControl.jpg"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "ab3ac704667d9299195b6e90086cf4a97b9831d70bfe1f24edc69837c2e126d0",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABjoervika_new_munch_museum_IMG_2445.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Bjoervika new munch museum IMG 2445.jpg"
+      "sha256": "ea0ac494059f8ae6fd55fb2afd102c99f9e6f482d4ade9e394aacd07e3195b8c",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AAzersu_18_of_March.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Azersu 18 of March.jpg"
     },
     "favicon.png": {
       "role": "favicon",
-      "sha256": "dcec1008d70073ae44bf81eadbd6d5ded2c9804acea8cd1eef400d96a12ee851",
+      "sha256": "cfb88fd752be16297eae2dc58a3b36ab0941d80c50e2ac9d147c776109a645fb",
       "source_url": "generated:monogram-rd-favicon",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=RD primary=#1c1917 accent=#d97706"
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "dcec1008d70073ae44bf81eadbd6d5ded2c9804acea8cd1eef400d96a12ee851",
+      "sha256": "cfb88fd752be16297eae2dc58a3b36ab0941d80c50e2ac9d147c776109a645fb",
       "source_url": "generated:monogram-rd-header",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=RD primary=#1c1917 accent=#d97706"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "dcec1008d70073ae44bf81eadbd6d5ded2c9804acea8cd1eef400d96a12ee851",
+      "sha256": "cfb88fd752be16297eae2dc58a3b36ab0941d80c50e2ac9d147c776109a645fb",
       "source_url": "generated:monogram-rd-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=RD primary=#1c1917 accent=#d97706"
