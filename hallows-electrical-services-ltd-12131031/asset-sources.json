@@ -1,0 +1,62 @@
+{
+  "slug": "hallows-electrical-services-ltd-12131031",
+  "trade_key": "electrical",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "14e25f5ca99f681350d1f66272539677635d4dc3b9050236b39791917a3d3fbc",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectrician_Working.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:Electrician Working.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "fa8a2c8bf3b4ba4abb2143cde60ed013a6a2004615b62cb50b3d5d157316757a",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectrician%27s_Mate_3rd_Class_Eric_Anderson_rewiring_the_coils_of_a_motor.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Electrician's Mate 3rd Class Eric Anderson rewiring the coils of a motor.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "2cd0641222fb23b23af6565ed7fec73db98abc8b75cf6d5b0f3add70a6ea83e0",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectricians_-_Flickr_-_konstantin.tilberg.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:Electricians - Flickr - konstantin.tilberg.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "04f05f9b76487c0432627a6d818ffe968a38d6e5e3b56e78621f696ab1fa15cc",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectricians_at_site.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Electricians at site.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "ed0a0c0d0c5cd246623bbfc12fceed8bd2256b7ce870467e03ca278dc41bcbce",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectricians_at_work.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Electricians at work.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "ade5b4518638515d2b64ec7709c1032913ba493aa58ba27e45038fee5d95c482",
+      "source_url": "generated:monogram-he-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=HE primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "ade5b4518638515d2b64ec7709c1032913ba493aa58ba27e45038fee5d95c482",
+      "source_url": "generated:monogram-he-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=HE primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "ade5b4518638515d2b64ec7709c1032913ba493aa58ba27e45038fee5d95c482",
+      "source_url": "generated:monogram-he-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=HE primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
