@@ -1,0 +1,62 @@
+{
+  "slug": "roofing-walsall-12131025",
+  "trade_key": "roofing",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "e1ce400c28c00384c05f7a76d0b689d924dc6e204b6927809f37150014245613",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMWuerfelSept11-i29_31.JPG",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:MWuerfelSept11-i29 31.JPG"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "e3dedac657c46327480b8fc7ddd4e8d7df986eec4dbff35bc0e34b3d8bb83861",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ANeues_Rathaus%2C_Dresden_%2820%29.jpg",
+      "license": "CC BY 3.0",
+      "notes": "Commons: File:Neues Rathaus, Dresden (20).jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "bbd10db369135e2f9a8207019320fbcf7b59a00a44055bf76bd77dcb7c3fd74c",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ANew_roof_on_a_house.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:New roof on a house.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "165fcc7011bcbbbb90c747762d780960552930cb79ccb63755396cb483106387",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ANIST_0781_%286106433418%29.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:NIST 0781 (6106433418).jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "3a9bb5714622d8ef2012e4a08f49818009a1e2e65c5444c0700712c8c22cc45e",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AOurleuse-et-plieuse-parisienne-fermee.png",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Ourleuse-et-plieuse-parisienne-fermee.png"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "aac5ac3b79014f65d1bdf2f41660c0ebb4544bbb94c74c13c4bb9259537e513f",
+      "source_url": "generated:monogram-rw-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=RW primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "aac5ac3b79014f65d1bdf2f41660c0ebb4544bbb94c74c13c4bb9259537e513f",
+      "source_url": "generated:monogram-rw-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=RW primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "aac5ac3b79014f65d1bdf2f41660c0ebb4544bbb94c74c13c4bb9259537e513f",
+      "source_url": "generated:monogram-rw-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=RW primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
