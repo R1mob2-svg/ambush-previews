@@ -1,11 +1,7 @@
 {
-  "slug": "roc-heating-mechanical-services-0021",
-  "prospect_id": "WM-LTD-20261116-0021",
-  "business_name": "ROC HEATING & MECHANICAL SERVICES LIMITED",
-  "assets": {
-    "hero.jpg": "PENDING_AG",
-    "service-1.jpg": "PENDING_AG",
-    "service-2.jpg": "PENDING_AG",
+    "prospect_id": "WM-LTD-20261116-0021",
+    "roc-hero.jpg": "commons:Viessmann_Vertomat_Condensing_Boiler.JPG",
+    "roc-svc-1.jpg": "commons:Boiler_room_in_a_high_school.jpg",
+    "roc-svc-2.jpg": "commons:Condensing_boiler.JPG",
     "favicon.png": "generated:monogram"
-  }
 }

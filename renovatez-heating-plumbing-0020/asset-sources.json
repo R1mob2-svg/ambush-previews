@@ -1,11 +1,7 @@
 {
-  "slug": "renovatez-heating-plumbing-0020",
-  "prospect_id": "WM-LTD-20261116-0020",
-  "business_name": "RENOVATEZ HEATING & PLUMBING LTD",
-  "assets": {
-    "hero.jpg": "PENDING_AG",
-    "service-1.jpg": "PENDING_AG",
-    "service-2.jpg": "PENDING_AG",
+    "prospect_id": "WM-LTD-20261116-0020",
+    "rn-hero.jpg": "commons:District_heating_pipes_in_London.jpg",
+    "rn-svc-1.jpg": "commons:Hatchery_Plumbing_Maintenance_(50976243386).jpg",
+    "rn-svc-2.jpg": "commons:Various_plumbing_hoses,_mainly_for_bathroom_and_kitchen_installations,_in_German_hardware_store_2023.jpg",
     "favicon.png": "generated:monogram"
-  }
 }
