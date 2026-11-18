@@ -1,0 +1,62 @@
+{
+  "slug": "rm-frogley-fencing-and-landscaping-limited-35187792471036",
+  "trade_key": "landscaping",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "64b38f10e4e491d3c4e720c3eb8474fa19eab29c4142968dcc5dbc9d291d2a39",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ATainha_fac_psicologia_2.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Tainha fac psicologia 2.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "8f08f8a9c2c3c6d27478bcc3c0da10d0ab345160c0c38856703737420e015ed2",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ATainha_fac_psicologia_3.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Tainha fac psicologia 3.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "ab126a2fb50faa7d466c14527a779735073bd34890794b0ca25b58ce5e8e8415",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ATainha_fac_psicologia_4.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Tainha fac psicologia 4.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "e43eb6a326c62f06127d5ef82b9b01b791b8996d46cf164373193b7c7f510c80",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AThe_lighter_branches_of_agriculture_%28Page_47%29_BHL17628823.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:The lighter branches of agriculture (Page 47) BHL17628823.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "2185cc572efaf9f25219ade166cc0f840d367322aa7f819d20542718d7331a7b",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ATitel_der_Andeutungen_%C3%BCber_Landschaftsg%C3%A4rtnerei.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Titel der Andeutungen über Landschaftsgärtnerei.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "2b76ff02b71af79a6825a7971dbc50b22c843000f85a16a4bc10024fafaab5bf",
+      "source_url": "generated:monogram-rf-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=RF primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "2b76ff02b71af79a6825a7971dbc50b22c843000f85a16a4bc10024fafaab5bf",
+      "source_url": "generated:monogram-rf-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=RF primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "2b76ff02b71af79a6825a7971dbc50b22c843000f85a16a4bc10024fafaab5bf",
+      "source_url": "generated:monogram-rf-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=RF primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
