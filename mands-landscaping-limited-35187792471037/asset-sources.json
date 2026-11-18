@@ -1,0 +1,62 @@
+{
+  "slug": "mands-landscaping-limited-35187792471037",
+  "trade_key": "landscaping",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "44bdc726abaeaab11a65d3d5fbf11c9f135509c3f3fa78405e41330265d77f41",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AVacation_Marriot_Paris_6_2012-06-28.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Vacation Marriot Paris 6 2012-06-28.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "cd98496a9f1292e9c526ae03906e0ce22e7f875a3db849a9e1038acd0f27ce2e",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AVacation_Marriot_Paris_5_2012-07-01.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Vacation Marriot Paris 5 2012-07-01.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "53f7721ba73dc30140cc8469ed6e8e3c4d928922f12c1872807f8b8b0ed8fd28",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AVancouver_Island_Landscapers.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Vancouver Island Landscapers.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "2200c05f8801b3b9dd0b9d57ae584fd83f6c74054d68e038474bd99cf08394cb",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AYl%C3%A4maankarja_S%C3%A4ppi.JPG",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Ylämaankarja Säppi.JPG"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "8ce1e0a56783e0e1eb25deab084f4b45faca30e74129721ad097bcebdb28dec7",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AZonneborder_%28detail%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Zonneborder (detail).jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "54c09d5a52f87c12d0e711ac5d42c511f1d8f42ca7aa2928d4a2660a641a419e",
+      "source_url": "generated:monogram-ml-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=ML primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "54c09d5a52f87c12d0e711ac5d42c511f1d8f42ca7aa2928d4a2660a641a419e",
+      "source_url": "generated:monogram-ml-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=ML primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "54c09d5a52f87c12d0e711ac5d42c511f1d8f42ca7aa2928d4a2660a641a419e",
+      "source_url": "generated:monogram-ml-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=ML primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
