@@ -30,11 +30,18 @@ const path = require('path');
 const crypto = require('crypto');
 const { execFileSync } = require('child_process');
 
-const LOG = '/tmp/overnight-ambush-build.log';
-const HEARTBEAT = '/tmp/overnight-ambush-heartbeat.json';
-const STATE_PATH = '/tmp/overnight-ambush-state.json';
-const REPO = '/tmp/ambush-previews';
-const CRM = '/tmp/cloudmaker-prospect-crm';
+fs.mkdirSync(process.env.AMBUSH_RUN_DIR || '/home/node/.openclaw/workspace/factory/run', { recursive: true });
+
+// HARD RULE (founder order 2026-11-18): repos NEVER live in /tmp.
+// /tmp is wiped on container restart; it may hold disposable logs only.
+const FACTORY = process.env.AMBUSH_FACTORY_DIR || '/home/node/.openclaw/workspace/factory';
+const REPO = path.join(FACTORY, 'ambush-previews');
+const CRM = path.join(FACTORY, 'cloudmaker-prospect-crm');
+const RUN_DIR = path.join(FACTORY, 'run');  // persistent: logs + state
+
+const LOG = path.join(RUN_DIR, 'overnight-ambush-build.log');
+const HEARTBEAT = path.join(RUN_DIR, 'overnight-ambush-heartbeat.json');
+const STATE_PATH = path.join(RUN_DIR, 'overnight-ambush-state.json');
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -71,6 +78,41 @@ function runSoft(cmd, args, opts = {}) {
       stderr: (e.stderr || '').toString(),
     };
   }
+}
+
+// ---------- NO VERIFIED PUBLIC EMAIL = NO BUILD ----------
+// Founder rule 2026-11-18: a preview may not be compiled for a prospect that
+// has no real, publicly published, evidence-backed email address. We never
+// guess, permute or invent addresses (no info@/sales@ construction).
+const EMAIL_RE = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
+const PLACEHOLDER_EMAILS = new Set(['email@example.com', 'example@example.com', 'test@test.com', 'noemail@noemail.com']);
+
+const emailOf = (lead) => String(lead.public_email || lead.email || '').trim().toLowerCase();
+
+function emailEvidenceUrl(lead) {
+  return String(lead.email_evidence_url || '').trim();
+}
+
+// Fail-closed pre-build guard. Returns null when the lead may be built,
+// otherwise a { reason, detail } describing exactly why it is skipped.
+function preBuildGuard(lead) {
+  const status = leadStatus(lead);
+  if (status !== 'FRESH_QUALIFIED') {
+    return { reason: 'NOT_FRESH_QUALIFIED', detail: `status=${status}` };
+  }
+  const email = emailOf(lead);
+  if (!email) return { reason: 'NO_VERIFIED_EMAIL', detail: 'public_email empty' };
+  if (!EMAIL_RE.test(email)) return { reason: 'NO_VERIFIED_EMAIL', detail: `malformed: ${email}` };
+  if (PLACEHOLDER_EMAILS.has(email)) return { reason: 'NO_VERIFIED_EMAIL', detail: `placeholder: ${email}` };
+  const level = String(lead.email_verification_level || '').toUpperCase();
+  if (level.includes('NONE') || level.includes('GUESS') || level.includes('UNVERIFIED')) {
+    return { reason: 'NO_VERIFIED_EMAIL', detail: `email_verification_level=${level}` };
+  }
+  if (String(lead.email_deliverability_status || '').toUpperCase() !== 'MAILBOX_VERIFIED') {
+    return { reason: 'EMAIL_NOT_MX_VERIFIED', detail: `deliverability=${lead.email_deliverability_status || 'MISSING'}` };
+  }
+  if (!emailEvidenceUrl(lead)) return { reason: 'NO_EMAIL_EVIDENCE_URL', detail: 'email_evidence_url missing' };
+  return null;
 }
 
 // ---------- hard lock assertion ----------
@@ -253,6 +295,20 @@ function setLeadStatus(lead, status, extra = {}) {
 
     if (alreadyBuilt.has(slug)) { continue; }
 
+    // --- HARD GUARD: NO VERIFIED PUBLIC EMAIL = NO BUILD ---
+    // Runs before any photo allocation or HTML compilation. Zero wasted cycles.
+    const guard = preBuildGuard(lead);
+    if (guard) {
+      log(`SKIP_NO_VERIFIED_EMAIL ${slug} (${lead.business_name}) — ${guard.reason}: ${guard.detail}`);
+      state.skipped.push({ slug, trade: tradeKey, reason: guard.reason, detail: guard.detail, at: new Date().toISOString() });
+      if (guard.reason === 'NO_VERIFIED_EMAIL' || guard.reason === 'NO_EMAIL_EVIDENCE_URL') {
+        try { setLeadStatus(lead, 'PHONE_ONLY_NO_PUBLIC_EMAIL', { email_gate_at: new Date().toISOString() }); } catch (e) { /* non-fatal */ }
+      }
+      saveState();
+      heartbeat(state);
+      continue;
+    }
+
     // assemble 5 unique ON-TRADE photos
     const bucket = poolByTrade[tradeKey] || [];
     const take = bucket.splice(0, 5);
@@ -264,7 +320,7 @@ function setLeadStatus(lead, status, extra = {}) {
       continue;
     }
 
-    const specPath = `/tmp/spec-${slug}.json`;
+    const specPath = path.join(RUN_DIR, `spec-${slug}.json`);
     fs.writeFileSync(specPath, JSON.stringify({
       slug,
       business_name: lead.business_name,
@@ -346,7 +402,8 @@ function setLeadStatus(lead, status, extra = {}) {
     setLeadStatus(lead, 'BUILT_READY_FOR_REVIEW', {
       preview_path: `${slug}/index.html`,
       built_at: new Date().toISOString(),
-      build_gate: 'gate2.js 76/76 PASS',
+      build_gate: 'gate2.js PASS (with --registry)'
+      ,
       template_sha256: LOCKED_SHA,
     });
     const crmCommit = runSoft('git', ['-C', CRM, 'add', 'prospects/index.json']);
