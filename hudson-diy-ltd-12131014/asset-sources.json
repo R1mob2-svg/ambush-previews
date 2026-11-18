@@ -1,0 +1,62 @@
+{
+  "slug": "hudson-diy-ltd-12131014",
+  "trade_key": "joinery",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "ef719c2ffcfc2475d7141b6098b393066b5610c55d9044bf9d73de19f0a6434a",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Veilleuse_et_Lit_de_Repos%2C_G.36942_%281_of_2%29.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Meubles, Veilleuse et Lit de Repos, G.36942 (1 of 2).jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "02585115bb6269570c2173c0cac0aef019b395271c27876f1b20c43ddb26e83f",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Sopha%2C_Duchesse_%26c%2C_G.36941_%282_of_2%29.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Meubles, Sopha, Duchesse &c, G.36941 (2 of 2).jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "ee7602361dc4d700705ec07dc5b06661454c1d02121595c59fdaeebb0786f3ae",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Veilleuse_et_Lit_de_Repos%2C_G.36942_%282_of_2%29.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Meubles, Veilleuse et Lit de Repos, G.36942 (2 of 2).jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "8971bc8cc4e1eec39af6649a5dd5473f50317101563d0b5d2e6944150a0fb1f4",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Berline%2C_%C3%89l%C3%A9vation_Lat%C3%A9rale%2C_G.36959.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Voitures, Berline, Élévation Latérale, G.36959.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "6565992ed53754778f213b787993d2d4756dbc2d4dab7d1ccec273f88bebad8d",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Berline%2C_%C3%89l%C3%A9vations_par_devant_et_par_derri%C3%A8re%2C_G.36960.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Voitures, Berline, Élévations par devant et par derrière, G.36960.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "285de2f49b2feef09acd2ffd3c5155f8e718d86206eadd3022dd9a3363d88bd3",
+      "source_url": "generated:monogram-hd-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=HD primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "285de2f49b2feef09acd2ffd3c5155f8e718d86206eadd3022dd9a3363d88bd3",
+      "source_url": "generated:monogram-hd-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=HD primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "285de2f49b2feef09acd2ffd3c5155f8e718d86206eadd3022dd9a3363d88bd3",
+      "source_url": "generated:monogram-hd-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=HD primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "rj-carpenters-and-joiners-12131016",
+  "trade_key": "joinery",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "b29f9debaf09d44345c73b650181c911b58ff6e6de1c24f702d2fca5264920b9",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Diable%2C_G.36967.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Voitures, Diable, G.36967.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "a5d4096bc0aac5ee15b011e90a978f54b05520ef81f66d4ef1e39ea5209f8953",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Diligence_a_l%27Anglaise%2C_G.36963.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Voitures, Diligence a l'Anglaise, G.36963.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "4bfcd0d8a6d329342ad87c315b66c2dd8638573411d8cff6dd418c92839babe8",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_D%C3%A9sobligeante_%C3%A0_l%27Anglaise._G.36965.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Voitures, Désobligeante à l'Anglaise. G.36965.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "926a62d9c5b85c887065bd05ffeab0ad758d53cf1dcc15b5b659efdedaa515c4",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Grand_Cabriolet%2C_G.36969.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Voitures, Grand Cabriolet, G.36969.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "9036e8d661a8773fc585c5af660818493b1466fca85c7b91849b71e1a53e33e4",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Vis-%C3%A0-vis_demi_Anglais%2C_G.36964.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Voitures, Vis-à-vis demi Anglais, G.36964.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "63a5ad2f17f9c1548eec1184b3cbffe0d9bc4cd7147803f5ea314c3f847cded7",
+      "source_url": "generated:monogram-rc-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=RC primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "63a5ad2f17f9c1548eec1184b3cbffe0d9bc4cd7147803f5ea314c3f847cded7",
+      "source_url": "generated:monogram-rc-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=RC primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "63a5ad2f17f9c1548eec1184b3cbffe0d9bc4cd7147803f5ea314c3f847cded7",
+      "source_url": "generated:monogram-rc-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=RC primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

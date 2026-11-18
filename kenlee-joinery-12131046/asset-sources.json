@@ -1,0 +1,62 @@
+{
+  "slug": "kenlee-joinery-12131046",
+  "trade_key": "joinery",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "2a54b3f8d43a7105123b191d920df32a49bceaee171c9e94459b7481eb76cc4b",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3A1%D8%A7%D9%84%D9%86%D8%AC%D8%A7%D8%B1%D8%A9.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:1النجارة.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "a424c45569c7040a7932bb061b18a57b71170a5d57db4fb429da23fe48cf0d69",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3A750_Jahre_Uetersen_19.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:750 Jahre Uetersen 19.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "2b269351e2b1fb9d0eecf4efa58e313b5f18cb7c038c8949c54dfcdfdead5928",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AA_carpenter_creating_measurements.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:A carpenter creating measurements.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "36992de22b1cc45e9e1a29aca1b4d8c7bdf5862fa0473d75d60a566621cf15f4",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AA_carpenter_framing_with_Circular_saw_machine.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:A carpenter framing with Circular saw machine.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "11b3983423178342939d1da61b28e3202c7d28b15b4e4003c5080a6e440602a8",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AA_pile_of_processed_wooden_parts._Carpenter_in_the_background.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:A pile of processed wooden parts. Carpenter in the background.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "ed828468eb8d46242945a6947b238290ff567278759c5130b6ca4fe8de25a497",
+      "source_url": "generated:monogram-kj-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=KJ primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "ed828468eb8d46242945a6947b238290ff567278759c5130b6ca4fe8de25a497",
+      "source_url": "generated:monogram-kj-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=KJ primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "ed828468eb8d46242945a6947b238290ff567278759c5130b6ca4fe8de25a497",
+      "source_url": "generated:monogram-kj-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=KJ primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

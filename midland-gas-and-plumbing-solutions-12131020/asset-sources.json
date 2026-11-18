@@ -1,0 +1,62 @@
+{
+  "slug": "midland-gas-and-plumbing-solutions-12131020",
+  "trade_key": "plumbing",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "34d0fcc91a0b755421a00e335082eb96d9b69718207280ed4fb19103af55e08c",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACaj8073_fibreglass_afterwards.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Caj8073 fibreglass afterwards.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "7cbd13676788f585c44883be5ecfa0cdbe6eeeda1e9681a7b602d0bc91cf963e",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACaj8073_foamglass.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Caj8073 foamglass.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "cb5f7af4ffeefecaf339cd48fb1441677ce8d2d44d9a105a93c32941c56ef30b",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACaj8073_full_pic.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Caj8073 full pic.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "b31b9eff45889d1fc9dcdbf1534fba9d5bb83c61b9874644355f593c70cdf556",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACambrian_college_no_firestop_10.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Cambrian college no firestop 10.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "2f2e802931c305bc92e00c564c0b40b92e4236e1d15d782d3c5b73eb3415bc54",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACambrian_college_no_firestop_11.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Cambrian college no firestop 11.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "806417d11cbfda8dea17ffdc07b42aabfff3cb636031174b2d4ed5f41bdb44a9",
+      "source_url": "generated:monogram-mg-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=MG primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "806417d11cbfda8dea17ffdc07b42aabfff3cb636031174b2d4ed5f41bdb44a9",
+      "source_url": "generated:monogram-mg-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=MG primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "806417d11cbfda8dea17ffdc07b42aabfff3cb636031174b2d4ed5f41bdb44a9",
+      "source_url": "generated:monogram-mg-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=MG primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "matrix-i-d-c-joinery-12131050",
+  "trade_key": "joinery",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "4358306157e94a84db7260d4b269ac88776535f245ef44e110ae247656839e59",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKogi_the_carpenter.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Kogi the carpenter.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "a21f17b92f5fff627fec144f108236117d2ca9316f28ddebe766715731e3d472",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKeechuli.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Keechuli.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "cd3b2fc93a5057642dcb375d1f8d059876ec6392162106c7a18aa1688a0fc947",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKongo_Gumi_workers_in_early_20th_century.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Kongo Gumi workers in early 20th century.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "1e54f8d2838acd1df6e7d8ebac917628b367dc2ae0e715dba1d9d798aaac56eb",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKonstruado_de_lignaj_domoj_en_Irkutsk_002.jpg",
+      "license": "CC BY-SA 3.0 cz",
+      "notes": "Commons: File:Konstruado de lignaj domoj en Irkutsk 002.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "a5774143c9340ae9a338d8ca853c318c7ead1ddb390df75ae66edf4d4e7e4d40",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKTH_Industribrunnen_detalj_av_stenfot_06.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:KTH Industribrunnen detalj av stenfot 06.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "a4c2094fec02dcecdb072c09b555fbaae3f8e0badf728be38b2d24786187fed8",
+      "source_url": "generated:monogram-mi-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=MI primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "a4c2094fec02dcecdb072c09b555fbaae3f8e0badf728be38b2d24786187fed8",
+      "source_url": "generated:monogram-mi-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=MI primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "a4c2094fec02dcecdb072c09b555fbaae3f8e0badf728be38b2d24786187fed8",
+      "source_url": "generated:monogram-mi-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=MI primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

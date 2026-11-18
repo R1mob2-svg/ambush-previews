@@ -1,0 +1,62 @@
+{
+  "slug": "lizard-electrical-12131062",
+  "trade_key": "electrical",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "d2977e4232791cc7f6605920b131d5a191a760980c919f23afac4d957b064267",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectician_Working.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Electician Working.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "f511b2caa3ff0ab24e2f29090e4951aaf8962be5712aebbcc9037dfdeb49a46a",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectrical_Engineer.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Electrical Engineer.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "373c9e2bbec8805380637e05616f6a3ee8be3ff43d5fa121f6c83dc0f38d93d5",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectrical_OSHA_required_gear.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Electrical OSHA required gear.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "6cb94c807e807b0274ab70dc752226c88f5d1ca096421897a48f6d568ee7cfb5",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectrical_repairs_in_Port_Charlotte_after_Hurricane_Ian_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Electrical repairs in Port Charlotte after Hurricane Ian 1.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "bc345b9a5c1afea7d381a1c6c2d0c6fe008262e43ee6657b5e6694c9e150e0a9",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectrical_safety.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Electrical safety.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "eb2ca30b934c428ab64223d0484ac900cd426f51b60bed944b55f42b51471d85",
+      "source_url": "generated:monogram-le-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=LE primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "eb2ca30b934c428ab64223d0484ac900cd426f51b60bed944b55f42b51471d85",
+      "source_url": "generated:monogram-le-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=LE primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "eb2ca30b934c428ab64223d0484ac900cd426f51b60bed944b55f42b51471d85",
+      "source_url": "generated:monogram-le-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=LE primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

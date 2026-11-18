@@ -1,0 +1,62 @@
+{
+  "slug": "c-hayer-builder-ltd-12131036",
+  "trade_key": "building",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "35c833e9fcc312cf2861a7cd43ae669c4645c2cc5225a42482c31ec4e5add07d",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AConcrete_columns.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Concrete columns.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "401b1ea7f67181e2c459fe8ca7dc8caa5cddc54bfe466dd74c41e6c4b8d1e9cc",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACharacteristics_of_concrete.PNG",
+      "license": "Public domain",
+      "notes": "Commons: File:Characteristics of concrete.PNG"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "eaeff0dd52964f8f4429871002f6dede652b9c77e7b2c52a342e64ad4e4c332b",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACN_building.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:CN building.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "ba3d0017945564669f66fe50bfff123c1b177ed6153ea62560e57cd97c3925a6",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AAngeformtes-Fundament.jpg",
+      "license": "CC BY-SA 2.0",
+      "notes": "Commons: File:Angeformtes-Fundament.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "393e3de8252b57a1b684a229bd95da0730c7c9596d4abb84b97dc924e3ad5d57",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AConcrete_Formwork.JPG",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Concrete Formwork.JPG"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "e637b306908e9c76316f2ae4513aa97b835e45002586c553949d206df1ac9e5f",
+      "source_url": "generated:monogram-ch-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=CH primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "e637b306908e9c76316f2ae4513aa97b835e45002586c553949d206df1ac9e5f",
+      "source_url": "generated:monogram-ch-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=CH primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "e637b306908e9c76316f2ae4513aa97b835e45002586c553949d206df1ac9e5f",
+      "source_url": "generated:monogram-ch-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=CH primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "atlantic-joinery-services-ltd-12131015",
+  "trade_key": "joinery",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "dc4e9dedaa17c2f810d8efddf5e7400d0c828e054fa61d3eb7f063423f16de67",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Caleche._G.36966.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Voitures, Caleche. G.36966.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "fb4daf495674e904ed2a1db3002fd0b099a3b5b909637a0ff1392a91b0e87483",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Carosse_de_Jardin_%C3%A0_une_Place._G.36970.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Voitures, Carosse de Jardin à une Place. G.36970.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "2fbce5c2515c811fd8b8f07cddf91ebd8381ade075ff25032f6f3aa1bef55d38",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Chaise_de_Poste._G.36968.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Voitures, Chaise de Poste. G.36968.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "de69a41de48d25437ba8c142771600f1464ebba6d4b368d7d8044c550ea0c294",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Chaise_%C3%A0_Porteur%2C_G.36971.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Voitures, Chaise à Porteur, G.36971.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "7f88eaac544979058e53381e19eadeba3800305b30ca1aa76ea219a12327e642",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Coupes_Transversales_du_devant_et_du_derri%C3%A8re_de_la_Berline%2C_G.36961.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Voitures, Coupes Transversales du devant et du derrière de la Berline, G.36961.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "aafc2d917ac83db1f328a30949b2f039601589988a5ed3ec367d0362de1f6295",
+      "source_url": "generated:monogram-aj-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AJ primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "aafc2d917ac83db1f328a30949b2f039601589988a5ed3ec367d0362de1f6295",
+      "source_url": "generated:monogram-aj-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AJ primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "aafc2d917ac83db1f328a30949b2f039601589988a5ed3ec367d0362de1f6295",
+      "source_url": "generated:monogram-aj-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AJ primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

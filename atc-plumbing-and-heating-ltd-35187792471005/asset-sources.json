@@ -1,0 +1,62 @@
+{
+  "slug": "atc-plumbing-and-heating-ltd-35187792471005",
+  "trade_key": "heating",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "6a6a52a75a6074ea36e718caa4fe23f4224cef89985102d36aa3fa5fce34dc83",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AA_Hadid_Sazeh_Pishro_G4_Gas_Meter_Made_in_Iran.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:A Hadid Sazeh Pishro G4 Gas Meter Made in Iran.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "cf5d893db5b6d615fbfbf0675a342d8ced1d817ab02997e4d146335b1d8301ce",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3A20190918_192129_Gas_meter_in_Lodz%2C_Poland_2019.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:20190918 192129 Gas meter in Lodz, Poland 2019.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "25fc1bdc74bc26651aeca3300792963f2f587999a8bd32852281d47d8420b019",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3A2025-02-09_25_%26_27_Giorgi_Shatberashvili_2nd_Lane.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:2025-02-09 25 & 27 Giorgi Shatberashvili 2nd Lane.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "d3cb4701dc4360723b3c86f59f21cdd86796e457af66cfd114b9da808cbfdf73",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABarbados_%286821359633%29.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:Barbados (6821359633).jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "09d5ba0fce643312f659787d5158a326962ae4d7f8b0bb8cce69e4dbcc5d9968",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AB%C3%B3brka_skansen_-_liczniki_gazowe_rotorowe_2015.08.20_p.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Bóbrka skansen - liczniki gazowe rotorowe 2015.08.20 p.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "9a57bea94e0581034b3d4e9c558aaa35f8bff497c41007c3b63cbb8e4346efde",
+      "source_url": "generated:monogram-ap-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "9a57bea94e0581034b3d4e9c558aaa35f8bff497c41007c3b63cbb8e4346efde",
+      "source_url": "generated:monogram-ap-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "9a57bea94e0581034b3d4e9c558aaa35f8bff497c41007c3b63cbb8e4346efde",
+      "source_url": "generated:monogram-ap-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AP primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

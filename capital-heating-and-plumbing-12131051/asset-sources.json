@@ -1,0 +1,62 @@
+{
+  "slug": "capital-heating-and-plumbing-12131051",
+  "trade_key": "plumbing",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "5025df9e07df621d549d592db2499b39fc0794095963ddb50f2a739ca5c2c5b7",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACCTV_Inspection_of_Weeping_Tile_with_the_VIPER_Drain_Camera.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:CCTV Inspection of Weeping Tile with the VIPER Drain Camera.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "4d06090f35701b564859c456c7588a0cdc0d88ab80fabe65ebe39bead3551aa9",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACentral_heating_Straight_Braided_Filling_Loop_2021-06-28_20.45.50.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Central heating Straight Braided Filling Loop 2021-06-28 20.45.50.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "fcdbc41f2c29eafe01349b861f8c6802f0ff8dd2e0b786f74b67b601fa26d432",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACh%C3%A2teau_de_Breteuil._Chaise_perc%C3%A9e_du_19e_si%C3%A8cle.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Château de Breteuil. Chaise percée du 19e siècle.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "60d69d1f3432676f81417acd4007db07c22db0da72aff097f659a8631de77979",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AClose-up_of_brass_plumbing_valves_with_red_handles_in_a_home_installation.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:Close-up of brass plumbing valves with red handles in a home installation.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "9694341416e430b3e2314540d4ec96941bc0688897d970acf00f7bda5888cf03",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AClose-up_view_of_a_red_valve_on_a_metallic_pipe_system_with_a_pressure_gauge_in_an_industrial_setting.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:Close-up view of a red valve on a metallic pipe system with a pressure gauge in an industrial setting.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "b150f4f10e44c245e81869b74730808435f68cd2fa36ae1137eed83efd9ee948",
+      "source_url": "generated:monogram-ch-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=CH primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "b150f4f10e44c245e81869b74730808435f68cd2fa36ae1137eed83efd9ee948",
+      "source_url": "generated:monogram-ch-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=CH primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "b150f4f10e44c245e81869b74730808435f68cd2fa36ae1137eed83efd9ee948",
+      "source_url": "generated:monogram-ch-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=CH primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

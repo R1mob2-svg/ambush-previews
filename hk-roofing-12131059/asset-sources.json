@@ -1,0 +1,62 @@
+{
+  "slug": "hk-roofing-12131059",
+  "trade_key": "roofing",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "02fca99a602d9a20bca726d8051e7a7aba1c5bdd722cc00a5be0e81e07c41013",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AFEMA_-_44272_-_Tornado_recovery%2C_roof_repair%2C_in_Oklahoma.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:FEMA - 44272 - Tornado recovery, roof repair, in Oklahoma.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "fe8e2302376110a557a9c28e0d3960914ab6877405d7ae51aa18427cabade608",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AFEMA_-_17980_-_Photograph_by_Marvin_Nauman_taken_on_10-12-2005_in_Louisiana.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:FEMA - 17980 - Photograph by Marvin Nauman taken on 10-12-2005 in Louisiana.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "05463fa2b44ef6a2261f848d2150a90c6eea89ecad9103092af370f92101e92f",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AFEMA_-_23897_-_Photograph_by_Marvin_Nauman_taken_on_04-13-2006_in_Louisiana.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:FEMA - 23897 - Photograph by Marvin Nauman taken on 04-13-2006 in Louisiana.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "fce34bb8db61736e6a88e9a598ad838c0ae34ac34172c3b66fd9c7856673bea3",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AFEMA_-_25683_-_Photograph_by_Mark_Wolfe_taken_on_08-15-2006_in_Mississippi.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:FEMA - 25683 - Photograph by Mark Wolfe taken on 08-15-2006 in Mississippi.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "bf07ce7b50eabe3a0780640c52a33a712b0a61c75f184f4cf8c90cb3bc61643b",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AFEMA_-_44633_-_Roofer_working_on_a_home_in_Oklahoma.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:FEMA - 44633 - Roofer working on a home in Oklahoma.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "84b96f0e732bfb304c7798a189e124c1ab05c0a1f99443d766e719127e23f55e",
+      "source_url": "generated:monogram-hr-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=HR primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "84b96f0e732bfb304c7798a189e124c1ab05c0a1f99443d766e719127e23f55e",
+      "source_url": "generated:monogram-hr-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=HR primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "84b96f0e732bfb304c7798a189e124c1ab05c0a1f99443d766e719127e23f55e",
+      "source_url": "generated:monogram-hr-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=HR primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

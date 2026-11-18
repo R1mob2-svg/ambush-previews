@@ -1,0 +1,62 @@
+{
+  "slug": "astra-roofing-limited-12131026",
+  "trade_key": "roofing",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "f7bf8ac949e3abaceec00ac450af90d44a4121e644a9e77b966b711f5f457213",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACisailles-droite-et-gauche.png",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Cisailles-droite-et-gauche.png"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "fd66358eec315b82f9f2ab972d659bc1fbf3d699d2331ace9d61d230b62bf5cb",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACarpenter_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Carpenter 01.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "95b4cb3c7e9801c3051dcc29da681c6c98a30428ed1c1382e1923a01c9ecae8e",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AChaumi%C3%A8re_au_travail_sur_son_toit.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Chaumière au travail sur son toit.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "6b8dad671e59248eb5ab7d67d97bd58d1ee7f56f955f44e23938272d60a591a2",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACouverture_traditionnelle_chinoise_en_tuiles.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Couverture traditionnelle chinoise en tuiles.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "c01dab7818dbfe8f2ac2ea673e9baeeaaabb6cda306453704dc770921f2ab7be",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACouverture_traditionnelle_mexicaine_avec_feuilles_de_palmier.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Couverture traditionnelle mexicaine avec feuilles de palmier.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "b8d920b90cc267fa70ec347a91d50734546b34977c097cfc32776fcf66501ed7",
+      "source_url": "generated:monogram-ar-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AR primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "b8d920b90cc267fa70ec347a91d50734546b34977c097cfc32776fcf66501ed7",
+      "source_url": "generated:monogram-ar-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AR primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "b8d920b90cc267fa70ec347a91d50734546b34977c097cfc32776fcf66501ed7",
+      "source_url": "generated:monogram-ar-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AR primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "perton-plumbing-and-heating-12131055",
+  "trade_key": "plumbing",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "d66e4cfa87ec0add4ec886b8f218ecab1c90662198745ef30f83ad03ccd05f38",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACmp_test_8.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Cmp test 8.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "5a21f8665c7a7d2c2fe69bf2ccf21f287d1aff05ebb4d5d6a98c13568b01830d",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACmp_test_9.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Cmp test 9.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "19e53dd7c1ab9f34d03b5571638ba015d1f56491d456eb3301b3586da404695f",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AColumbia_Urban_Design_Studio_in_Dharavi_%283961071525%29.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:Columbia Urban Design Studio in Dharavi (3961071525).jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "262487288abc3c6331d9cc01b6dc252da337b798152717bc308753d372d972f5",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AColumbia_Urban_Design_Studio_in_Dharavi_%283961084329%29.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:Columbia Urban Design Studio in Dharavi (3961084329).jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "58ded3b7322a22bf6264d434ab082e56fd8dd995eb513e6a3a89efd7da2c2770",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AColumbia_Urban_Design_Studio_in_Dharavi_%283961090351%29.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:Columbia Urban Design Studio in Dharavi (3961090351).jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "4359739703bce565d6eb859536dff53fc5a7990f65ac5cd59b2b374ea73f851d",
+      "source_url": "generated:monogram-pp-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=PP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "4359739703bce565d6eb859536dff53fc5a7990f65ac5cd59b2b374ea73f851d",
+      "source_url": "generated:monogram-pp-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=PP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "4359739703bce565d6eb859536dff53fc5a7990f65ac5cd59b2b374ea73f851d",
+      "source_url": "generated:monogram-pp-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=PP primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

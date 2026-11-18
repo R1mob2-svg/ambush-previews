@@ -1,0 +1,62 @@
+{
+  "slug": "gd-wood-works-12131048",
+  "trade_key": "joinery",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "b75a10e5f188f8a3ee74efd6563d50a9c1d0a6cb1ba42e46854ac66f70ab6dbd",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADie_Gute_Form_2020.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Die Gute Form 2020.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "4a5573441e45f625aa03e28a4514b7f3905d4c9acd1552d1fc6e52628fca4ec7",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AChuruttuli.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Churuttuli.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "51416ad0085a13415871bd192553f39ebb477a750fe8eef764db3b914def3e49",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADonsa_Jozef_tesarski_majster.JPG",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Donsa Jozef tesarski majster.JPG"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "ef6287e12f20c678819cd9cbc433dfc87d1221d3ae819590265a2adad10090ea",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADoor_frame_making.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Door frame making.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "cef4c02cdafbc7b87d59c48a3a1208326ddc712de3f653fea632f21c739a6e41",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AEschelbronn_Schreiner_1882.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Eschelbronn Schreiner 1882.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "fbfd66c657b87facad785597182dcbb2d46ef6fe86fe67af050bf98164f1fb1f",
+      "source_url": "generated:monogram-gw-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=GW primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "fbfd66c657b87facad785597182dcbb2d46ef6fe86fe67af050bf98164f1fb1f",
+      "source_url": "generated:monogram-gw-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=GW primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "fbfd66c657b87facad785597182dcbb2d46ef6fe86fe67af050bf98164f1fb1f",
+      "source_url": "generated:monogram-gw-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=GW primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

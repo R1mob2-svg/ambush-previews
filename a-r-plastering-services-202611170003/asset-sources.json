@@ -1,0 +1,62 @@
+{
+  "slug": "a-r-plastering-services-202611170003",
+  "trade_key": "plastering",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "dccb319a9c13df927e7ef2abcc06d21ed1bec9b18033ee001e697741660512ff",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Man_van_wiens_gezicht_een_gipsmasker_is_gemaakt_houdt%2C_SFA022826047.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Man van wiens gezicht een gipsmasker is gemaakt houdt, SFA022826047.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "1e18b7f36d12f4336957a91c0d3b51c28e5283e165df4d06cce2a5c123a1c171",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Nadat_een_gipsen_mal_die_over_het_hoofd_van_een_man_was%2C_SFA022826046.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Nadat een gipsen mal die over het hoofd van een man was, SFA022826046.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "534dedacd8036804f740db1cb30a202056712c3e6ebf409bf4c9e75c9f01e750",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Net_aangebracht_vloeibaar_gips_over_het_gezicht_van_een%2C_SFA022826044.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Net aangebracht vloeibaar gips over het gezicht van een, SFA022826044.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "dcb34b2351013eb9c50a404a400b4e7096827e3ab1cb32c4405f1e62f1f9e19a",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Vloeibaar_gips_wordt_over_het_gezicht_van_een_man_die_op%2C_SFA022826043.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Vloeibaar gips wordt over het gezicht van een man die op, SFA022826043.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "1f12c5738adb978f5e736f73b61c6a7a3369997c33f7ec0080909a10d9a83deb",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AFilmacteurregisseur_Gene_Wilder_in_Amsterdam%2C_Bestanddeelnr_929-6073.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Filmacteurregisseur Gene Wilder in Amsterdam, Bestanddeelnr 929-6073.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "41159630a57a5cd4d9811af7ad64bfe825c38e7b2be772f5a318746391fbe8bc",
+      "source_url": "generated:monogram-ar-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AR primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "41159630a57a5cd4d9811af7ad64bfe825c38e7b2be772f5a318746391fbe8bc",
+      "source_url": "generated:monogram-ar-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AR primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "41159630a57a5cd4d9811af7ad64bfe825c38e7b2be772f5a318746391fbe8bc",
+      "source_url": "generated:monogram-ar-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AR primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

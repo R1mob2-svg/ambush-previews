@@ -1,0 +1,62 @@
+{
+  "slug": "a-b-plastering-and-rendering-12131009",
+  "trade_key": "plastering",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "e6e9bc192a423585fa23faeb39f1fcc76905dcf5d3f3835cbbfaccbf3f9f66cf",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AFirst_aid_for_a_heel_abrasion.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:First aid for a heel abrasion.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "518c83aafbf5c14403c0a35db2d23b47b516228c516cb7315dbd2d78cf860f2a",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AJan_Parti%C5%A1.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Jan Partiš.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "3077ee21a462c9f6de2baf649758bf4207e424737c0291c1b88f294c2b3b2943",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AJohn_Cranch_-_Plasterer_-_Google_Art_Project.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:John Cranch - Plasterer - Google Art Project.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "3a3b7f8741dfd18641e4e88d234fc447e72acc6e81b5c74e9d762e52562e9f4d",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMetal_spatula%2C_London%2C_England%2C_1801-1900_Wellcome_L0057582.jpg",
+      "license": "CC BY 4.0",
+      "notes": "Commons: File:Metal spatula, London, England, 1801-1900 Wellcome L0057582.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "1660e4b03458e4cb6e80e821be13fe141bad798a194f33b2abcbca69373f8e88",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMilwaukee_August_2024_121_%28Orlandini_Studios%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Milwaukee August 2024 121 (Orlandini Studios).jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "8e9ab7d60f7752834ee881ee9e073433a9b4bc0d5df4f79f3663c1dcbbcc4524",
+      "source_url": "generated:monogram-ab-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AB primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "8e9ab7d60f7752834ee881ee9e073433a9b4bc0d5df4f79f3663c1dcbbcc4524",
+      "source_url": "generated:monogram-ab-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AB primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "8e9ab7d60f7752834ee881ee9e073433a9b4bc0d5df4f79f3663c1dcbbcc4524",
+      "source_url": "generated:monogram-ab-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AB primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

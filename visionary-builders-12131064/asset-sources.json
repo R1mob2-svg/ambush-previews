@@ -1,0 +1,62 @@
+{
+  "slug": "visionary-builders-12131064",
+  "trade_key": "building",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "399e6bf8467a28f8d676bff95e0aa2f0cc672b9eeb07af49e53beb664229b692",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AConstruction_of_a_new_office-building_near_Beatrixkwartier_in_The_Hague_city%3B_high_resolution_image_by_FotoDutch%2C_June_2013.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Construction of a new office-building near Beatrixkwartier in The Hague city; high resolution image by FotoDutch, June 2013.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "1b51a5889ce5e25084df0a1485e43a457328a8bc5b8c25b2c88bbb2ccef204e9",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AConstruction_pipes_1.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Construction pipes 1.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "e1c601abf612b9388c9d973f7560cf0c9ce0175e5d6a09812a806fd12969d66b",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AConstruction_pipes_2.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Construction pipes 2.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "3d8ef25564c321815a97ed815a80e539881675d4bedcff5c2ce70d8367a42543",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AConstruction_University_City_Philadelphia.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Construction University City Philadelphia.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "3ce801bb193da1178eca38e734c97024106fe600c3351cae17abdb3ebd73207f",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACoping_building.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Coping building.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "a0ca98af79a53032a8fa4ee2f1523e746efd4a2ab8875a2005d5c9e6fca99011",
+      "source_url": "generated:monogram-vb-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=VB primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "a0ca98af79a53032a8fa4ee2f1523e746efd4a2ab8875a2005d5c9e6fca99011",
+      "source_url": "generated:monogram-vb-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=VB primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "a0ca98af79a53032a8fa4ee2f1523e746efd4a2ab8875a2005d5c9e6fca99011",
+      "source_url": "generated:monogram-vb-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=VB primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "pavel-rubes-joinery-and-carpentery-12131013",
+  "trade_key": "joinery",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "7982afef1491260b2c5dbcb10fa670b30c07b305b2842b93dd50c751293a79f3",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Sieges%2C_G.36934_%281_of_2%29.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Meubles, Sieges, G.36934 (1 of 2).jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "bb0a72c7a29bc3e1ab441902dcf9b06e5902eef908f52d293bf86a26b8b0f437",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Sieges%2C_G.36934_%282_of_2%29.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Meubles, Sieges, G.36934 (2 of 2).jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "51b2bb6d957ac8a896769bda8381084be83b873c835e9d9b21d978a11e77004b",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Si%C3%A8ges_et_developpemens%2C_G.36936_%281_of_2%29.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Meubles, Sièges et developpemens, G.36936 (1 of 2).jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "cc8a703bc208df67c8682aadf62a893079f01202b954f0fe38a3a7c0165e053b",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Si%C3%A8ges_et_developpemens%2C_G.36936_%282_of_2%29.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Meubles, Sièges et developpemens, G.36936 (2 of 2).jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "07fd46c2e5872307633af3d45b92d9f4434fdbd6e61a0eec57ad489e46c05cfd",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Sopha%2C_Duchesse_%26c%2C_G.36941_%281_of_2%29.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Meubles, Sopha, Duchesse &c, G.36941 (1 of 2).jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "a0d383169be8ba31c4fa483d2293e3f6a08d66677b06a7b41e4a556464ee2120",
+      "source_url": "generated:monogram-pr-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=PR primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "a0d383169be8ba31c4fa483d2293e3f6a08d66677b06a7b41e4a556464ee2120",
+      "source_url": "generated:monogram-pr-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=PR primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "a0d383169be8ba31c4fa483d2293e3f6a08d66677b06a7b41e4a556464ee2120",
+      "source_url": "generated:monogram-pr-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=PR primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "acb-electrics-ltd-12131060",
+  "trade_key": "electrical",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "507d0522f715225d2ce022c5af2d187a6631b08aabee31139caf31d28c09a73b",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectricians_inspecting_panels_for_separate_house_meters_on_multifamily_in_NJ.JPG",
+      "license": "CC0",
+      "notes": "Commons: File:Electricians inspecting panels for separate house meters on multifamily in NJ.JPG"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "7a8fb8400ee41798d8c94aaef52af88e285ab9a86a727d1ea95c72abec416e9a",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectricians_installing_separate_panels_for_meters_on_multifamily_house_in_NJ.JPG",
+      "license": "CC0",
+      "notes": "Commons: File:Electricians installing separate panels for meters on multifamily house in NJ.JPG"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "de10acadab8c19fa12198ee6909724473b81f59be01aa07b3b3e5c78393e0c7d",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectricians_working.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Electricians working.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "3fa0f6ea6284ab4ac2e5daed9a3bfbc593e9cb19b9985ac9d67ef1f09be43467",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AELECTRICIDAD_PRACTICA.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:ELECTRICIDAD PRACTICA.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "1748832bf28f1fba8ef9131dc91469a7e8429e1a40f5113f0ffa7e8c5bba1bcd",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectricien.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Electricien.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "035f89f6d23efbf3ce533c2558958612fdb6d29b5293af930085cdd9b1ee16c9",
+      "source_url": "generated:monogram-ae-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AE primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "035f89f6d23efbf3ce533c2558958612fdb6d29b5293af930085cdd9b1ee16c9",
+      "source_url": "generated:monogram-ae-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AE primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "035f89f6d23efbf3ce533c2558958612fdb6d29b5293af930085cdd9b1ee16c9",
+      "source_url": "generated:monogram-ae-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AE primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

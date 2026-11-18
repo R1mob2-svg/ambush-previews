@@ -1,0 +1,62 @@
+{
+  "slug": "complete-plastering-services-12131040",
+  "trade_key": "plastering",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "5b6b42458774cd42462862a86b0fccc8b6d64615e6d4fe55c2f836d46abce1b7",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ATrainee_Plasterers_at_Work%28GN11043%29.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Trainee Plasterers at Work(GN11043).jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "e1918223ef0668cf5600b33c1837c53d9a9d1fbe5bc6c8ed5443aa23af1cfe65",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AWorker_at_Dhaka_14.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Worker at Dhaka 14.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "b9f604610a2c3af520682ef54b49982e5f0df2fd9ed7a2be71e39ef51729d0c0",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3A%D0%A0%D0%B5%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F_%D0%BC%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%B8%D0%BF%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%2C_24.10.2025_%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0_04.jpg",
+      "license": "CC BY 4.0",
+      "notes": "Commons: File:Реконструкция московского ипподрома, 24.10.2025 отделка 04.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "11fa44d976d2b8deca52003062d6413b82839bcf732b96bdfc015384654d0697",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3A%D0%A0%D0%B5%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F_%D0%BC%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%B8%D0%BF%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%2C_24.10.2025_%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0_05.jpg",
+      "license": "CC BY 4.0",
+      "notes": "Commons: File:Реконструкция московского ипподрома, 24.10.2025 отделка 05.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "a0ce63f5441f4483d6bf591cc92fdea4cb33f8dc4452130e32d62cdda0151d53",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3A066Aa._Sortavala._Soviet_Cosmonauts_Street%2C_18.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:066Aa. Sortavala. Soviet Cosmonauts Street, 18.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "5e095558466107bb27b7f1b809eaa6505454b7ccc34bed6e8fc19cfc4c5586ba",
+      "source_url": "generated:monogram-cp-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=CP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "5e095558466107bb27b7f1b809eaa6505454b7ccc34bed6e8fc19cfc4c5586ba",
+      "source_url": "generated:monogram-cp-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=CP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "5e095558466107bb27b7f1b809eaa6505454b7ccc34bed6e8fc19cfc4c5586ba",
+      "source_url": "generated:monogram-cp-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=CP primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

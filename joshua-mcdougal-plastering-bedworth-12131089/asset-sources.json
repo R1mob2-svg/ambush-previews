@@ -1,0 +1,62 @@
+{
+  "slug": "joshua-mcdougal-plastering-bedworth-12131089",
+  "trade_key": "plastering",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "10877bed36f194be8f802117d580c4c771c9e7573fd57311fcf78a28d6526a77",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AHuchu-cho%2CMiki%2CHyogo_%E5%85%B5%E5%BA%AB%E7%9C%8C%E4%B8%89%E6%9C%A8%E5%B8%82%E5%BA%9C%E4%B8%AD%E7%94%BA_DSCF8270.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Huchu-cho,Miki,Hyogo 兵庫県三木市府中町 DSCF8270.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "bde5e6e731e10498e106eced1381afe4d7d3433c154eaf56d2f9d14aa03cbf89",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AJo%C3%A3o_da_Silva_%281880-1960%29_Arlete_Leite_Pinto_IMG_8365.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:João da Silva (1880-1960) Arlete Leite Pinto IMG 8365.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "84f24a9da0c77e8c72da4dfbfa4b07a4be901fb09c3db724c0f32b7a96645a60",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AJo%C3%A3o_da_Silva_%281880-1960%29_Nina_Sergnieeva_IMG_8276.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:João da Silva (1880-1960) Nina Sergnieeva IMG 8276.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "c8687000371b436012cedae8eee717aa989dfffc9bb93efcf62e0fd4a6c218bd",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AJo%C3%A3o_da_Silva_%281880-1960%29_Ponte_Marechal_Carmona_1952_IMG_6964_verso_reverso.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:João da Silva (1880-1960) Ponte Marechal Carmona 1952 IMG 6964 verso reverso.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "a065fb351fd4db7ffda6f9faf2ea06b7028ce65179066e3d90b9488d61719e12",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AJo%C3%A3o_da_Silva_%281880-1960%29%2C_1933._Gatos_aperta_livros.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:João da Silva (1880-1960), 1933. Gatos aperta livros.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "ddc3e62b13ef256b51848e0f4810a96a67eedeb10ecdadfc33b64da2ae2935f2",
+      "source_url": "generated:monogram-jm-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=JM primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "ddc3e62b13ef256b51848e0f4810a96a67eedeb10ecdadfc33b64da2ae2935f2",
+      "source_url": "generated:monogram-jm-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=JM primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "ddc3e62b13ef256b51848e0f4810a96a67eedeb10ecdadfc33b64da2ae2935f2",
+      "source_url": "generated:monogram-jm-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=JM primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

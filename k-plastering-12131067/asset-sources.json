@@ -1,0 +1,62 @@
+{
+  "slug": "k-plastering-12131067",
+  "trade_key": "plastering",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "a03b512ce7ed89d8bacd49596856d29cab3a2b6c0c852b398839feb1e861069d",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACambrian_college_fireproofing_delamination_2.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Cambrian college fireproofing delamination 2.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "3f1a4f354fed60d49f1fd13f75d40ef738b4df50165abf50549a0a892ebd4cde",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACambrian_college_fireproofing_delamination_3.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Cambrian college fireproofing delamination 3.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "7185f37461807efbbfe34eb778d6b78224f37c64a3e9bd716e281393e7803923",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACambrian_college_fireproofing_delamination_4.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Cambrian college fireproofing delamination 4.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "2ad0422668a1db020c2bb4e7bbcf6e160616c0135e7e6f352984d6c9fc22f84e",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACambrian_college_fireproofing_delamination_5.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Cambrian college fireproofing delamination 5.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "a5bdb188cc0fd13936cc8cd1eb5d22b81ba89dc81e5c4a667df2e0f887c9688c",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACambrian_college_fireproofing_delamination_6.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Cambrian college fireproofing delamination 6.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "a05e2df50c65cca4f822451024ec307639f23f00ba918aec57190da7407513f5",
+      "source_url": "generated:monogram-kp-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=KP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "a05e2df50c65cca4f822451024ec307639f23f00ba918aec57190da7407513f5",
+      "source_url": "generated:monogram-kp-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=KP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "a05e2df50c65cca4f822451024ec307639f23f00ba918aec57190da7407513f5",
+      "source_url": "generated:monogram-kp-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=KP primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

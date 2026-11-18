@@ -1,0 +1,62 @@
+{
+  "slug": "bdc-roofing-supplies-12131027",
+  "trade_key": "roofing",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "f7e31f78ca84487d98a781784b78a4001ac2a1de4e7e3c52d798e2cda94ffd79",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADach_Reparatur_Mai2009.JPG",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Dach Reparatur Mai2009.JPG"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "adf9cc02523cef48b301cf5398fa7d5040cc15f0d8b20217e275749085d9d3fd",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACouvreurs_de_Brompton_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Couvreurs de Brompton - panoramio.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "3acedf74480813af0fe6e826503c8d319c475c45f0f3461e3da2fc2739447141",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACrochet-rouennais.png",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Crochet-rouennais.png"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "cfcadb0962ba1ddc881ac3c979eb1de59a3aadcade12310a6591a8dd08d9fd24",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADachdecken_GO-2.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Dachdecken GO-2.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "8ee2b63f4793a4ac1ce62ada04acdd792f509af52ca02f22cd4812e5f895098b",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADachdecker_%28Kiel_41.397%29.jpg",
+      "license": "CC BY-SA 3.0 de",
+      "notes": "Commons: File:Dachdecker (Kiel 41.397).jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "258c4a37538c84a3b70b061e46a69b80df51ffe1b3b8425e639c80ae4c7ea54e",
+      "source_url": "generated:monogram-br-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=BR primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "258c4a37538c84a3b70b061e46a69b80df51ffe1b3b8425e639c80ae4c7ea54e",
+      "source_url": "generated:monogram-br-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=BR primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "258c4a37538c84a3b70b061e46a69b80df51ffe1b3b8425e639c80ae4c7ea54e",
+      "source_url": "generated:monogram-br-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=BR primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

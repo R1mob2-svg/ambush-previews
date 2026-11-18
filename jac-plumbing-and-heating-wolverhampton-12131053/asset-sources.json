@@ -1,0 +1,62 @@
+{
+  "slug": "jac-plumbing-and-heating-wolverhampton-12131053",
+  "trade_key": "plumbing",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "79d7dc7747f301687600414557e436c8b1d74a6febfa62ba168950429e2ab022",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACmp_test_14.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Cmp test 14.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "0ad709a816722a8b6de9e29bb38b750fd5fb72f73da02cbf0261605971e9d0a9",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACmp_test_15.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Cmp test 15.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "e862818d78cdad4c0749b951c5b1cff6027bd82e557cc2985d5de17139b93b22",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACmp_test_16.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Cmp test 16.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "af1e89e76d38d48f5217d7f84b2e62018093039be58c0159f0a73ffe2570be50",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACmp_test_17.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Cmp test 17.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "1274bf117d7a5e0674f03037ed1cbbbe4f74b048c52126e19fbebe47d9734231",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACmp_test_2.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Cmp test 2.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "96dbdd56a86e5e0bcf88d87306b5bb69ddacf1b0b9244adb87bc34ab510fef47",
+      "source_url": "generated:monogram-jp-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=JP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "96dbdd56a86e5e0bcf88d87306b5bb69ddacf1b0b9244adb87bc34ab510fef47",
+      "source_url": "generated:monogram-jp-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=JP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "96dbdd56a86e5e0bcf88d87306b5bb69ddacf1b0b9244adb87bc34ab510fef47",
+      "source_url": "generated:monogram-jp-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=JP primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

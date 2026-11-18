@@ -1,0 +1,62 @@
+{
+  "slug": "a-snows-roofing-services-12131057",
+  "trade_key": "roofing",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "cca0717cd19cd28fa28efb9c168d28284cc5a8d282880a2295c1e56e6dfbb7f2",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADachdecker_Stefan_Heyer.jpg",
+      "license": "CC BY 4.0",
+      "notes": "Commons: File:Dachdecker Stefan Heyer.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "dcf7293512f5a5cecf0e91d6867cd3480d49ffd364964116699a0a6e62dc6354",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADachdecker_35.JPG",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Dachdecker 35.JPG"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "835b2d04c1362fdf7e58979841eb1b75eefeb8b3f1f9da92318755b2eaf3062b",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADachdecker_39.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Dachdecker 39.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "f18cc915a3d2b80a619ac1b3f660311e1ba075c566a67b960797eebdcba6c824",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADachdeckerarbeiten.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Dachdeckerarbeiten.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "97251321dc0d3dc64b106082ccdc29cebee8eee41cbfb01f3c8ee0aefaf98c1e",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADachisolierung_Steinwolle_01.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Dachisolierung Steinwolle 01.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "c696112fd2ac6ddec62b507831e27be40242ab74142236a49668d44884ea1085",
+      "source_url": "generated:monogram-as-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AS primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "c696112fd2ac6ddec62b507831e27be40242ab74142236a49668d44884ea1085",
+      "source_url": "generated:monogram-as-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AS primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "c696112fd2ac6ddec62b507831e27be40242ab74142236a49668d44884ea1085",
+      "source_url": "generated:monogram-as-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AS primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

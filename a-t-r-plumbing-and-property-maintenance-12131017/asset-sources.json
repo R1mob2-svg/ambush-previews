@@ -1,0 +1,62 @@
+{
+  "slug": "a-t-r-plumbing-and-property-maintenance-12131017",
+  "trade_key": "plumbing",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "082270c346853fa4ee34d81538e07f8850f3d3751bae32216b276770a5e27ef9",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABiofuel_testing_setup.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Biofuel testing setup.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "c2537b45331ada0f6b84824fb11d6311cce2a9736155961e206907fbbbb2ab89",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABoiler_Scale.JPG",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Boiler Scale.JPG"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "8903498757542b0b82224cf6e7f2a012f8a9eef69f8a9566720423aba23a92e6",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABor-be%27er.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Bor-be'er.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "2d0c5c0adbc7aca217e1238951d15eac78ee475a705aab09bc9c48cb49f0d6fb",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABrass_NPT_threaded_Pipe_Plug_in_a_Caliper.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Brass NPT threaded Pipe Plug in a Caliper.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "bd84262eebe9447e6fd649db626026989ef5a24620d38f7b6c0341a2fe77e948",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABregenz-sanitary_roof_ventilation_%28pressure_equalization%29-flat_roof-01ASD.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Bregenz-sanitary roof ventilation (pressure equalization)-flat roof-01ASD.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "15bb31ccfdd328b1453c88ebeac32f57143acbd210b614d119598a3b0d5cf2c2",
+      "source_url": "generated:monogram-at-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AT primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "15bb31ccfdd328b1453c88ebeac32f57143acbd210b614d119598a3b0d5cf2c2",
+      "source_url": "generated:monogram-at-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AT primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "15bb31ccfdd328b1453c88ebeac32f57143acbd210b614d119598a3b0d5cf2c2",
+      "source_url": "generated:monogram-at-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AT primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "chivers-plumbing-and-heating-limited-35187792471006",
+  "trade_key": "heating",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "c104d1466cf74f99680fa15c5253a8a14d588a0f146cd655564fec3491e2f2c9",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACreos%2C_Elster_BK-4G_AT-102.jpg",
+      "license": "CC BY-SA 3.0 lu",
+      "notes": "Commons: File:Creos, Elster BK-4G AT-102.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "9347ed0029e2e4f05d6e45fe1e7f9cc7c709a0abd18e3db7d9bf99a0be79faf4",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADried_flowers_on_a_gas_meter.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Dried flowers on a gas meter.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "a4281bf229094b49d650298a756ec6d668c27f205ad90a294f3c6fe0ba01c513",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AErdgas_MK_V280.JPG",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Erdgas MK V280.JPG"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "9fb1cf905d2d90d24a9bc1fa7c7e1f4c9df328c02641fbc3dd3df40d916ed8bb",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AGarriga_comptador_gas_FedericoCiervo_2610.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Garriga comptador gas FedericoCiervo 2610.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "df5779537acea448d6b8b34b5e6ecd8b40d65e6af0e072153e958d63ce768842",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AGas_Meter_%288845661187%29.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:Gas Meter (8845661187).jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "26c0ea1dda80a5a06636db520fd6e1887bd3e71f655b039801a577004930c212",
+      "source_url": "generated:monogram-cp-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=CP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "26c0ea1dda80a5a06636db520fd6e1887bd3e71f655b039801a577004930c212",
+      "source_url": "generated:monogram-cp-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=CP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "26c0ea1dda80a5a06636db520fd6e1887bd3e71f655b039801a577004930c212",
+      "source_url": "generated:monogram-cp-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=CP primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

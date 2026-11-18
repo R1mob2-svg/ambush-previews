@@ -1,0 +1,62 @@
+{
+  "slug": "birmingham-plastering-services-12131010",
+  "trade_key": "plastering",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "d18a12bf5b9f14e14d49e037f945fda836c4242ec42e6e27127efaed9090e417",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AModernes_Sgraffito_als_Hausschild.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Modernes Sgraffito als Hausschild.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "bc5841aff8328969b8e9009e3a9efb6c08546c36ecace0459aad160ef25a8374",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AOne_man_is_mixing_plaster_on_a_board_on_the_floor_and_anothe_Wellcome_V0039549.jpg",
+      "license": "CC BY 4.0",
+      "notes": "Commons: File:One man is mixing plaster on a board on the floor and anothe Wellcome V0039549.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "4d143c605c8f05619e459da6b14219b12f138150ca93e2144e5d789649d5e3eb",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3APlasterer_at_work_on_a_wall_arp.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Plasterer at work on a wall arp.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "0d1c254e66e38813510e694c9cfa4bf04f997e3323145a10981e9e3ea3f428cb",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3APlasterer%27s_Mark_%2817078468392%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "notes": "Commons: File:Plasterer's Mark (17078468392).jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "dcb795edb9a60d4756152ef4827c358860f9a8399cfb8385e8bd8ed854ff8184",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3APlasterwork_-_Howrah_2012-07-15_01483.jpg",
+      "license": "CC BY 3.0",
+      "notes": "Commons: File:Plasterwork - Howrah 2012-07-15 01483.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "9db64b50296bdc780ed6f862c80947a373bbf1682699704d7edeffafd838559f",
+      "source_url": "generated:monogram-bp-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=BP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "9db64b50296bdc780ed6f862c80947a373bbf1682699704d7edeffafd838559f",
+      "source_url": "generated:monogram-bp-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=BP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "9db64b50296bdc780ed6f862c80947a373bbf1682699704d7edeffafd838559f",
+      "source_url": "generated:monogram-bp-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=BP primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

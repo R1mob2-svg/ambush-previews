@@ -1,0 +1,62 @@
+{
+  "slug": "uk-calligraphy-and-painting-art-academy-35187792471025",
+  "trade_key": "painting",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "ec671b758b7f8d8c3dc99162c447c7f4b7ef32458d0c0b4660c0c49ae3c22e66",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3APlasterwork%2C_White_walls%2C_Rostov-on-Don%2C_Russia.jpg",
+      "license": "CC BY 4.0",
+      "notes": "Commons: File:Plasterwork, White walls, Rostov-on-Don, Russia.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "b301180febf9d1dc8077cc6b25c69d0037fc1c500369d2719a196f47f958ee44",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AOtto_Richter%2C_Bau-_und_Zimmer-Decorations-Malerei%2C_Firmenschreiberei%2C_Leipzig%2C_Rechnung_vom_31._Dezember_1902.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Otto Richter, Bau- und Zimmer-Decorations-Malerei, Firmenschreiberei, Leipzig, Rechnung vom 31. Dezember 1902.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "cb8ace245160196134164596845c256d3ba0e46afaa006ad638ba3f28f31cdcc",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ASoniat_Street%2C_Uptown_New_Orleans_22_April_2026_-_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Soniat Street, Uptown New Orleans 22 April 2026 - 1.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "439b2975e0a78be74c6cec3183a1ea828f146377a928b07320dae9538b919005",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ASouthafrican_painter.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Southafrican painter.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "23f80ddaa8b1c7639386e8ae1a07d76b4504fce18826a38782c482e1206b6d00",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AS%C3%A9curit%C3%A9_au_travail_-_travail_%C3%A9quilibriste.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Sécurité au travail - travail équilibriste.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "39d2fe87781aad6689a375af139949b0d4527dcdde806aec095ee94f63fc00da",
+      "source_url": "generated:monogram-cp-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=CP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "39d2fe87781aad6689a375af139949b0d4527dcdde806aec095ee94f63fc00da",
+      "source_url": "generated:monogram-cp-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=CP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "39d2fe87781aad6689a375af139949b0d4527dcdde806aec095ee94f63fc00da",
+      "source_url": "generated:monogram-cp-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=CP primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

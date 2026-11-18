@@ -1,0 +1,62 @@
+{
+  "slug": "dark-knight-plumbing-12131018",
+  "trade_key": "plumbing",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "48553f455b94e9cf08ee9f9e83656253cc56cbedc1579525d703392f25770db5",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACp25_grand_coulee_dam2.jpg",
+      "license": "CC BY 3.0",
+      "notes": "Commons: File:Cp25 grand coulee dam2.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "39794c60779d16025cdcc9b29ef726c257ded44f59a4b17a69fae69cee3de533",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACp25_grand_coulee_dam3.jpg",
+      "license": "CC BY 3.0",
+      "notes": "Commons: File:Cp25 grand coulee dam3.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "32417b8686c36065827876da41ea233b51960e80365a376a56ec55eaf509a012",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACreativ_plumbing_-_drain_maze.png",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Creativ plumbing - drain maze.png"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "bf87f18164164296ba71220e024ec7ab3914f2b0b3fa35d304417cadea86fc11",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACroquis_d%27une_tuyauterie_en_terre_cuite_%C3%A0_Et%C3%A9rie_en_Gr%C3%A8ce.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Croquis d'une tuyauterie en terre cuite à Etérie en Grèce.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "fd1e014454a0cbeb44d76e0541258b2a9dc391fd4b32aacd70ae35350dfa22dd",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADetailed_view_of_plumbing_connections_inside_a_maintenance_access_point_in_a_residential_setting.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:Detailed view of plumbing connections inside a maintenance access point in a residential setting.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "134599d6dc66312ccda29aacd90eb38b4f60d54a510503747907422983751b65",
+      "source_url": "generated:monogram-dk-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=DK primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "134599d6dc66312ccda29aacd90eb38b4f60d54a510503747907422983751b65",
+      "source_url": "generated:monogram-dk-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=DK primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "134599d6dc66312ccda29aacd90eb38b4f60d54a510503747907422983751b65",
+      "source_url": "generated:monogram-dk-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=DK primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

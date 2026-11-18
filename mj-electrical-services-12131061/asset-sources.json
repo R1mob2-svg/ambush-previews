@@ -1,0 +1,62 @@
+{
+  "slug": "mj-electrical-services-12131061",
+  "trade_key": "electrical",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "008050c2bff68b378d7e61685e7a758a7c1fc05a61efd5d549834901a869e454",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACamas_Quarters_2_electrical_refit_%28Recovery_Act%29.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:Camas Quarters 2 electrical refit (Recovery Act).jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "ce351e0bf0126695cdfb68d6ff58759c876261d31a03dbe42af4a559b21288ef",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACarties_Professional_Electrician_.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Carties Professional Electrician .jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "13c37a8635c8c0ff6b6e9670ae6e778777812ded5645b9c5eea00cb2a05954fa",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AConduit_installation_for_the_communication_system_of_a_power_sub-station_located_in_Queens._%28CS179%2C_02-19-2019%29_%2846262523155%29.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:Conduit installation for the communication system of a power sub-station located in Queens. (CS179, 02-19-2019) (46262523155).jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "05fd730a606ce7ddeaa8cc913dc69edecdaf5ff3b1f466c8ded95e25f3a6bc80",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADefense.gov_photo_essay_080826-F-0000V-001.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Defense.gov photo essay 080826-F-0000V-001.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "1cd9afbfbba17338b75e7c2d5319ecd3633898d487b295b3086bdf7b0a940f16",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADomaine_%C3%A9lectro-m%C3%A9canique_illustr%C3%A9_lors_d%27une_foire_exposition.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Domaine électro-mécanique illustré lors d'une foire exposition.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "6607ebaf7393a28d73d1df7dd2ce3e97181d7836d731fad3c628be10c74a0fee",
+      "source_url": "generated:monogram-me-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=ME primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "6607ebaf7393a28d73d1df7dd2ce3e97181d7836d731fad3c628be10c74a0fee",
+      "source_url": "generated:monogram-me-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=ME primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "6607ebaf7393a28d73d1df7dd2ce3e97181d7836d731fad3c628be10c74a0fee",
+      "source_url": "generated:monogram-me-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=ME primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

@@ -1,0 +1,1412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gd wood works — Joinery &amp; Carpentry Services | Walsall &amp; West Midlands</title>
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="shortcut icon" href="/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/favicon.png">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #070f1e;
+      --bg-header: #050b17;
+      --bg-surface: #0d1a2d;
+      --accent-primary: #38bdf8;
+      --accent-hover: #0ea5e9;
+      --accent-warm: #d5a266;
+      --accent-border: rgba(56, 189, 248, 0.35);
+      --accent-glow: rgba(56, 189, 248, 0.15);
+      --text-white: #ffffff;
+      --text-slate: #cbd5e1;
+      --text-muted: #94a3b8;
+      --border-subtle: rgba(255, 255, 255, 0.08);
+      --font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-display: 'Space Grotesk', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-white);
+      font-family: var(--font-main);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+      width: 100%;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* TOP DISCLOSURE BANNER */
+    .preview-disclosure-bar {
+      background: #0b1526;
+      border-bottom: 1px solid rgba(56, 189, 248, 0.25);
+      color: #94a3b8;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 7px 16px;
+      text-align: center;
+      font-weight: 600;
+    }
+    .preview-disclosure-bar span {
+      color: var(--accent-primary);
+    }
+
+    /* 1. HEADER */
+    header {
+      background: var(--bg-header);
+      border-bottom: 1px solid var(--border-subtle);
+      width: 100%;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(12px);
+    }
+
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px;
+    }
+
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    .brand-mark {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      background: #0d1a2d;
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      padding: 4px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .brand-mark img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+
+    .brand-name {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: #ffffff;
+    }
+
+    .brand-tag {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      display: block;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+    }
+
+    nav.nav-links {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    nav.nav-links a {
+      color: var(--text-slate);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+
+    nav.nav-links a:hover {
+      color: var(--accent-primary);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .btn-header-phone {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
+      color: #040d1a !important;
+      font-weight: 700;
+      font-size: 0.84rem;
+      padding: 8px 14px;
+      border-radius: 6px;
+      white-space: nowrap !important;
+      word-break: keep-all !important;
+      flex-shrink: 0;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 14px rgba(56, 189, 248, 0.2);
+    }
+
+    .btn-header-phone:hover {
+      background: linear-gradient(135deg, #7dd3fc 0%, #38bdf8 100%);
+      transform: translateY(-1px);
+    }
+
+    /* 2. HERO SECTION: DUAL SCRIM WITH TEXT DIRECTLY OVER PHOTOGRAPHY ACROSS ALL SCREEN SIZES */
+    .hero-section {
+      position: relative;
+      background-color: var(--bg-dark);
+      background-image:
+        linear-gradient(90deg, rgba(7, 15, 30, 0.80) 0%, rgba(7, 15, 30, 0.55) 45%, rgba(7, 15, 30, 0.15) 75%, transparent 100%),
+        url('./assets/hero.jpg');
+      background-size: cover;
+      background-position: 100% 30%;
+      background-repeat: no-repeat;
+      padding: 92px 0 100px 0;
+      border-bottom: 1px solid var(--border-subtle);
+      overflow: hidden;
+    }
+
+    .hero-content {
+      max-width: 720px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-eyebrow-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      color: var(--accent-primary);
+      padding: 7px 16px;
+      border-radius: 20px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 22px;
+    }
+
+    .hero-title {
+  font-size: clamp(1.5rem, 3.2vw, 2.5rem) !important;
+  line-height: 1.15 !important;
+  max-width: 720px;
+}
+
+    .hero-title span {
+      color: var(--accent-primary);
+    }
+
+    .hero-description {
+      font-size: 1.15rem;
+      line-height: 1.65;
+      color: var(--text-slate);
+      margin-bottom: 30px;
+      max-width: 620px;
+    }
+
+    .br-mobile {
+      display: none;
+    }
+
+    .hero-cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+      margin-bottom: 34px;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
+      color: #040d1a !important;
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 14px 26px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      box-shadow: 0 6px 20px rgba(56, 189, 248, 0.3);
+    }
+
+    .btn-primary:hover {
+      background: linear-gradient(135deg, #7dd3fc 0%, #38bdf8 100%);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-subtle);
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 14px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .hero-meta-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .hero-meta-item {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .hero-meta-item svg {
+      width: 17px;
+      height: 17px;
+      color: var(--accent-primary);
+      flex-shrink: 0;
+    }
+
+    /* 3. TRUST & LOCAL COVERAGE BAR */
+    .coverage-bar {
+      background: var(--bg-surface);
+      border-bottom: 1px solid var(--border-subtle);
+      padding: 24px 0;
+      width: 100%;
+    }
+
+    .coverage-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .coverage-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.88rem;
+      color: var(--text-slate);
+      font-weight: 500;
+    }
+
+    .coverage-pill strong {
+      color: #ffffff;
+      font-weight: 700;
+    }
+
+    /* 4. 3 COMPACT SERVICE CARDS WITH DISTINCT PHOTOGRAPHY */
+    .services-section {
+      padding: 92px 0;
+      background-color: var(--bg-dark);
+      width: 100%;
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 680px;
+      margin: 0 auto 56px auto;
+    }
+
+    .section-eyebrow {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--accent-primary);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(1.8rem, 3.2vw, 2.5rem);
+      line-height: 1.22;
+      font-weight: 700;
+      letter-spacing: -0.015em;
+      margin-bottom: 14px;
+      color: #ffffff;
+    }
+
+    .section-subtitle {
+      font-size: 0.98rem;
+      color: var(--text-slate);
+      line-height: 1.6;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .service-card {
+      position: relative;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 16px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      min-height: 290px;
+      transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent-border);
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
+    }
+
+    .service-img-wrapper {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #091322;
+      z-index: 0;
+    }
+
+    .service-img-wrapper::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        90deg,
+        rgba(5, 11, 23, 0.94) 0%,
+        rgba(5, 11, 23, 0.86) 44%,
+        rgba(5, 11, 23, 0.50) 76%,
+        rgba(5, 11, 23, 0.24) 100%
+      );
+      z-index: 1;
+    }
+
+    .service-img-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      transition: transform 0.45s ease;
+      display: block;
+    }
+
+    .service-card:hover .service-img-wrapper img {
+      transform: scale(1.04);
+    }
+
+    .service-badge {
+      position: absolute;
+      top: 20px;
+      right: 22px;
+      z-index: 2;
+      background: rgba(7, 15, 30, 0.88);
+      border: 1px solid var(--accent-border);
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--accent-primary);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      backdrop-filter: blur(8px);
+    }
+
+    .service-body {
+      position: relative;
+      z-index: 2;
+      padding: 34px 38px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 680px;
+      width: 100%;
+    }
+
+    .service-body h3 {
+      font-family: var(--font-display);
+      font-size: 1.55rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #ffffff;
+      line-height: 1.25;
+      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.55);
+    }
+
+    .service-body p {
+      font-size: 0.94rem;
+      color: #e2e8f0;
+      line-height: 1.62;
+      margin-bottom: 18px;
+      text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .service-bullets {
+      list-style: none;
+      padding: 14px 0 0 0;
+      margin: 0 0 20px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.14);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 8px 18px;
+    }
+
+    .service-bullets li {
+      font-size: 0.84rem;
+      color: #cbd5e1;
+      margin-bottom: 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .service-bullets li::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--accent-primary);
+      flex-shrink: 0;
+      box-shadow: 0 0 8px rgba(56, 189, 248, 0.6);
+    }
+
+    .service-link {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--accent-primary);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: gap 0.2s ease, color 0.2s ease;
+      align-self: flex-start;
+    }
+
+    .service-link:hover {
+      gap: 10px;
+      color: #7dd3fc;
+    }
+
+    /* 5. 4-STEP BUILD PROCESS WITH SLIGHT 20% FADED BLUEPRINT BACKGROUND */
+    .process-section {
+      position: relative;
+      padding: 96px 0;
+      background-color: #07111e;
+      background-image:
+        linear-gradient(180deg, rgba(6, 14, 28, 0.76) 0%, rgba(6, 14, 28, 0.68) 50%, rgba(6, 14, 28, 0.80) 100%),
+        url('./assets/process-bg.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-top: 1px solid var(--border-subtle);
+      border-bottom: 1px solid var(--border-subtle);
+      width: 100%;
+    }
+
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      margin-top: 48px;
+    }
+
+    .process-card {
+      background: rgba(13, 26, 45, 0.88);
+      border: 1px solid rgba(56, 189, 248, 0.2);
+      border-radius: 12px;
+      padding: 28px 22px;
+      backdrop-filter: blur(10px);
+      transition: transform 0.2s ease;
+    }
+
+    .process-card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(56, 189, 248, 0.4);
+    }
+
+    .process-num {
+      font-family: var(--font-display);
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: #38bdf8;
+      opacity: 0.9;
+      line-height: 1;
+      margin-bottom: 14px;
+      letter-spacing: -0.02em;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    }
+
+    .process-card h4 {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 10px;
+      line-height: 1.3;
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .process-card p {
+      font-size: 0.88rem;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+
+    /* 6. QUIET FAQ SECTION (IMAGE-FREE) */
+    .faq-section {
+      padding: 92px 0;
+      background-color: var(--bg-dark);
+      width: 100%;
+    }
+
+    .faq-list {
+      max-width: 760px;
+      margin: 40px auto 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .faq-list details {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 18px 22px;
+      transition: border-color 0.2s ease;
+    }
+
+    .faq-list details:hover {
+      border-color: var(--accent-border);
+    }
+
+    .faq-list summary {
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 1rem;
+      color: #ffffff;
+      outline: none;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .faq-list summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .faq-list summary::after {
+      content: "+";
+      font-size: 1.3rem;
+      color: var(--accent-primary);
+      font-weight: 700;
+    }
+
+    .faq-list details[open] summary::after {
+      content: "−";
+    }
+
+    .faq-list p {
+      margin-top: 14px;
+      font-size: 0.9rem;
+      color: var(--text-slate);
+      line-height: 1.6;
+      border-top: 1px solid var(--border-subtle);
+      padding-top: 12px;
+    }
+
+    /* 7. CONSULTATION CONTACT SECTION */
+    .contact-section {
+      padding: 92px 0;
+      background: #050b17;
+      border-top: 1px solid var(--border-subtle);
+      width: 100%;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: start;
+    }
+
+    .contact-info h3 {
+      font-family: var(--font-display);
+      font-size: 2.1rem;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: #ffffff;
+      line-height: 1.2;
+    }
+
+    .contact-info p {
+      font-size: 0.98rem;
+      color: var(--text-slate);
+      line-height: 1.65;
+      margin-bottom: 28px;
+    }
+
+    .contact-direct-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+
+    .contact-direct-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .contact-direct-row:last-child {
+      margin-bottom: 0;
+    }
+
+    .contact-icon-box {
+      width: 42px;
+      height: 42px;
+      border-radius: 8px;
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--accent-primary);
+      flex-shrink: 0;
+    }
+
+    .contact-detail-text span {
+      display: block;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+    }
+
+    .contact-detail-text a, .contact-detail-text strong {
+      color: #ffffff;
+      font-size: 1.05rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .contact-form-box {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 34px;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .form-group {
+      margin-bottom: 18px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-slate);
+      margin-bottom: 6px;
+    }
+
+    .form-ctrl {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 6px;
+      padding: 12px 14px;
+      color: #ffffff;
+      font-family: var(--font-main);
+      font-size: 0.92rem;
+      transition: border-color 0.2s ease;
+    }
+
+    .form-ctrl:focus {
+      outline: none;
+      border-color: var(--accent-primary);
+    }
+
+    .btn-submit {
+      width: 100%;
+      background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
+      color: #040d1a;
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 14px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    .btn-submit:hover {
+      background: linear-gradient(135deg, #7dd3fc 0%, #38bdf8 100%);
+    }
+
+    /* 8. FOOTER */
+    footer {
+      background: #03070f;
+      padding: 36px 0;
+      font-size: 0.84rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    /* RESPONSIVE MEDIA QUERIES */
+    @media (max-width: 1024px) {
+      nav.nav-links,
+      header .nav-links {
+        display: none !important;
+      }
+      .hero-content {
+        max-width: 600px;
+      }
+      .hero-title {
+        font-size: clamp(2.85rem, 5.5vw, 3.5rem);
+        line-height: 1.12;
+      }
+      .hero-description {
+        font-size: 1.08rem;
+        line-height: 1.6;
+        max-width: 540px;
+      }
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+      .process-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .header-inner {
+        height: 60px;
+      }
+      .brand-mark {
+        width: 38px;
+        height: 38px;
+        padding: 4px;
+      }
+      .brand-name {
+        font-size: 1.05rem;
+      }
+      .brand-tag {
+        font-size: 0.68rem;
+      }
+      .btn-header-phone {
+        padding: 6px 10px !important;
+        font-size: 0.78rem !important;
+        white-space: nowrap !important;
+      }
+      .hero-section {
+        background-position: 100% 30%;
+        padding: 70px 0 80px 0;
+      }
+      .hero-content {
+        max-width: 100%;
+      }
+      .hero-title {
+        font-size: 2.1rem !important;
+        line-height: 1.15 !important;
+      }
+      .br-mobile {
+        display: inline !important;
+      }
+      .coverage-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .services-grid, .process-grid {
+        grid-template-columns: 1fr;
+      }
+      .service-card {
+        min-height: 320px;
+      }
+      .service-img-wrapper::after {
+        background: linear-gradient(
+          180deg,
+          rgba(5, 11, 23, 0.72) 0%,
+          rgba(5, 11, 23, 0.90) 45%,
+          rgba(5, 11, 23, 0.96) 100%
+        );
+      }
+      .service-badge {
+        top: 16px;
+        left: 20px;
+        right: auto;
+      }
+      .service-body {
+        padding: 54px 20px 26px 20px;
+      }
+      .service-body h3 {
+        font-size: 1.3rem;
+      }
+      .service-bullets {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Founder review clone: simple header / hero wordmark / 2+1 Bento */
+    html { scroll-behavior: smooth; scroll-padding-top: 116px; }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    .hero-company-title {
+  font-family: var(--font-display);
+  font-size: clamp(3.6rem, 6.4vw, 5.6rem) !important;
+  font-weight: 950 !important;
+  line-height: 1.0 !important;
+  letter-spacing: -.045em;
+  color: #ffffff !important;
+  max-width: 940px;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+  margin-bottom: 28px !important;
+  text-shadow: 0 5px 28px rgba(0,0,0,.95), 0 1px 4px #050b17;
+}
+    header .nav-links {
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      gap: clamp(16px,2.2vw,30px);
+    }
+    header .nav-links a { font-weight: 750; white-space: nowrap; }
+    @media (max-width: 900px) { header .nav-links { display: none !important; } }
+    .services-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; }
+    .services-grid > .service-card {
+      min-height: 0;
+      min-width: 0;
+      aspect-ratio: 1 / 1;
+      align-items: stretch;
+      display: flex;
+      flex-direction: column;
+    }
+    .services-grid > .service-card:nth-child(3) {
+      grid-column: 1 / -1;
+      aspect-ratio: auto;
+      min-height: 340px;
+    }
+    .services-grid > .service-card .service-body {
+      max-width: 100%;
+      padding: clamp(20px,3vw,35px);
+      justify-content: flex-end;
+      margin-top: auto;
+    }
+    .services-grid > .service-card .service-img-wrapper::after {
+      background: linear-gradient(180deg, rgba(5,11,23,.05) 0%, rgba(5,11,23,.58) 32%, rgba(5,11,23,.94) 72%, rgba(5,11,23,.97) 100%);
+    }
+    .services-grid > .service-card:nth-child(3) .service-img-wrapper::after {
+      background: linear-gradient(90deg, rgba(5,11,23,.96) 0%, rgba(5,11,23,.88) 45%, rgba(5,11,23,.20) 100%);
+    }
+    .services-grid > .service-card:nth-child(3) .service-body { max-width: 65%; }
+    @media (min-width: 769px) and (max-width: 1100px) {
+      .services-grid > .service-card .service-body { padding: 45px 17px 14px; }
+      .services-grid > .service-card .service-body h3 { font-size: 1.2rem; margin-bottom: 5px; }
+      .services-grid > .service-card .service-body p { font-size: .78rem; line-height: 1.38; margin-bottom: 7px; }
+      .services-grid > .service-card .service-bullets { font-size: .72rem; line-height: 1.25; margin-bottom: 8px; padding-top: 8px; }
+      .services-grid > .service-card .service-link { font-size: .72rem; }
+      .services-grid > .service-card:nth-child(3) .service-body { max-width: 70%; }
+    }
+    @media (max-width: 768px) {
+      header .header-inner { height: auto; min-height: 62px; padding: 10px 0; flex-wrap: wrap; gap: 8px 12px; }
+      header .header-actions { margin-left: auto; }
+      header .nav-links { order: 3; width: 100%; flex-basis: 100%; gap: clamp(22px,7vw,42px); justify-content: center; padding: 7px 0 1px; }
+      header .nav-links a { font-size: .83rem; }
+      .hero-company-title { font-size: clamp(2rem, 8vw, 3.4rem); margin-bottom: 18px; }
+      .services-grid { grid-template-columns: minmax(0,1fr); gap: 18px; }
+      .services-grid > .service-card,
+      .services-grid > .service-card:nth-child(3) { grid-column: auto; aspect-ratio: auto; min-height: 360px; }
+      .services-grid > .service-card:nth-child(3) .service-body { max-width: 100%; }
+      .services-grid > .service-card .service-body { padding: 58px 24px 24px; }
+      .services-grid > .service-card:nth-child(3) .service-img-wrapper::after {
+        background: linear-gradient(180deg, rgba(5,11,23,.2) 0%, rgba(5,11,23,.72) 45%, rgba(5,11,23,.97) 100%);
+      }
+    }
+  
+/* FOUNDER GOLDEN MASTER V1 — tightened hero vertical rhythm: 44px less dead space above brand */
+.hero-section { padding-top: 48px !important; }
+@media (max-width: 768px) { .hero-section { padding-top: 32px !important; } }
+
+/* Founder visual polish v2: COMPANY NAME IS THE PRIMARY HERO LOCKUP */
+.hero-content {max-width: 940px}
+.hero-company-title {
+  font-family: var(--font-display);
+  font-size: clamp(3.6rem, 7.8vw, 7.1rem) !important;
+  font-weight: 950 !important;
+  line-height: .99 !important;
+  letter-spacing: -.052em;
+  color: #ffffff !important;
+  max-width: 940px;
+  margin-bottom: 28px !important;
+  text-shadow: 0 5px 28px rgba(0,0,0,.95), 0 1px 4px #050b17;
+}
+.hero-title {font-size: clamp(2rem, 4.0vw, 3.4rem) !important; line-height: 1.1 !important; max-width: 690px}
+.hero-section {
+  background-position: 100% 30% !important;
+}
+@media(max-width: 1024px) {
+  .hero-company-title { font-size: clamp(3.1rem, 7.6vw, 5.7rem) !important; }
+}
+@media(max-width: 768px) {
+  .hero-content { max-width: 100%; }
+  .hero-company-title { font-size: clamp(2.9rem, 9.8vw, 4.2rem) !important; line-height: 1.02 !important; margin-bottom: 20px !important; }
+  .hero-title {font-size: clamp(1.85rem, 5.5vw, 2.3rem) !important;}
+}
+@media(max-width: 375px) {
+  .hero-company-title { font-size: 2.7rem !important; }
+  .hero-title { font-size: 1.85rem !important; }
+}
+
+
+/* GOLDEN_MASTER_V1_ULTRAWIDE_CONSTRAINTS
+   1920-3440px: keep photographic subject at natural hero height,
+   leave safe dark space beyond it, constrain copy and service-card dimensions. */
+@media (min-width: 1680px) {
+  .hero-section {
+    background-color: #07121f;
+    background-size: cover, auto 100% !important;
+    background-position: center center, right 30% !important;
+    background-repeat: no-repeat, no-repeat;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    padding-block: 44px 62px !important;
+  }
+  .hero-section > .container {
+    max-width: 1540px;
+    width: 100%;
+    padding-inline: clamp(32px, 3vw, 64px);
+  }
+  .hero-content { max-width: 790px; }
+  .hero-company-title {
+    font-size: clamp(4.6rem, 4.2vw, 6.2rem) !important;
+    max-width: 790px;
+  }
+  .hero-title { font-size: clamp(2.45rem, 2.25vw, 3.35rem) !important; }
+  .services-section > .container { max-width: 1380px; }
+  .services-grid { gap: 28px; }
+}
+@media (min-width: 2400px) {
+  .hero-section { min-height: 740px; }
+}
+
+</style>
+</head>
+<body id="top">
+
+  <!-- TOP DISCLOSURE BANNER -->
+  <div class="preview-disclosure-bar">
+    ENTREPRENUITY DESIGN PREVIEW &bull; PROPOSED CONCEPT FOR <span>GD WOOD WORKS</span>
+  </div>
+
+  <!-- 1. HEADER -->
+  <header>
+    <div class="container">
+      <div class="header-inner">
+        <a href="#top" class="brand-logo" aria-label="Back to homepage top">
+          <div class="brand-mark">
+            <img src="./assets/brand-mark.png" alt="Gd wood works logo" />
+          </div>
+
+        </a>
+
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#top">Home</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <a href="tel:07388343885" class="btn-header-phone">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.21 2.2z"/>
+            </svg>
+            0121&nbsp;556&nbsp;7820
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 2. HERO SECTION -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-content">
+        <p class="hero-company-title">Gd wood works</p>
+        <div class="hero-eyebrow-badge">
+          LOCAL DESIGN, BUILDING &amp; FIT OUT SPECIALISTS
+        </div>
+        <h1 class="hero-title">
+          Bespoke<br class="br-mobile">
+          Design,<br>
+          <span>Building &amp;</span><br class="br-mobile">
+          Fit Out in<br>
+          Walsall.
+        </h1>
+        <p class="hero-description">
+          Covering Walsall and the wider West Midlands with doors, staircases, fitted furniture and carpentry, carried out by a domestic specialist.</p>
+        <div class="hero-cta-group">
+          <a href="tel:07388343885" class="btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.21 2.2z"/>
+            </svg>
+            Call 07388 343885
+          </a>
+          <a href="#services" class="btn-secondary">Explore Services &darr;</a>
+        </div>
+        <div class="hero-meta-strip">
+          <div class="hero-meta-item">
+            <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            Full 3D Architectural Planning
+          </div>
+          <div class="hero-meta-item">
+            <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            Building Regs &amp; Certified Steel
+          </div>
+          <div class="hero-meta-item">
+            <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+            Walsall &amp; WS10 Coverage
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. TRUST & LOCAL COVERAGE BAR -->
+  <section class="coverage-bar">
+    <div class="container">
+      <div class="coverage-inner">
+        <div class="coverage-pill">
+          <span>📍</span> Location: <strong>Walsall, West Midlands (WS10)</strong>
+        </div>
+        <div class="coverage-pill">
+          <span>📐</span> Design: <strong>Full 3D Scope &amp; Architectural Planning</strong>
+        </div>
+        <div class="coverage-pill">
+          <span>🏛️</span> Compliance: <strong>Building Regs Part A Certified</strong>
+        </div>
+        <div class="coverage-pill">
+          <span>📑</span> Guarantee: <strong>Fixed-Price Contracts &amp; Written Quotes</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. SERVICES SECTION (3 COMPACT CARDS WITH REAL PHOTOGRAPHY) -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Our Core Specialisms</span>
+        <h2 class="section-title">Bespoke Residential Building &amp; Fit Out</h2>
+        <p class="section-subtitle">
+          Every project is managed end-to-end under one roof, providing a seamless turnkey experience from initial architectural concepts to flawless completion.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service Card 1 -->
+        <article class="service-card">
+          <div class="service-img-wrapper">
+            <img src="./assets/service-1.jpg" alt="Luxury Bespoke Kitchens Walsall" />
+            <span class="service-badge">Doors</span>
+          </div>
+          <div class="service-body">
+            <h3>Doors &amp; Staircases</h3>
+            <p>
+              Hanging internal and external doors, fitting staircases and spindles, and bespoke door frames.
+            </p>
+            <ul class="service-bullets">
+              <li>Internal &amp; external doors</li>
+              <li>Staircase installation</li>
+              <li>Skirting &amp; architrave</li>
+            </ul>
+            <a href="#contact" class="service-link">Discuss Joinery &rarr;</a>
+          </div>
+        </article>
+
+        <!-- Service Card 2 -->
+        <article class="service-card">
+          <div class="service-img-wrapper">
+            <img src="./assets/service-2.jpg" alt="Exterior view of a completed British residential house extension, representing architectural home extension services" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+            <span class="service-badge">Fitted</span>
+          </div>
+          <div class="service-body">
+            <h3>Fitted Furniture</h3>
+            <p>
+              Bespoke wardrobes, alcove shelving, window seats and under-stair storage built to the space.
+            </p>
+            <ul class="service-bullets">
+              <li>Fitted wardrobes</li>
+              <li>Alcove shelving</li>
+              <li>Under-stair storage</li>
+            </ul>
+            <a href="#contact" class="service-link">Plan Fitted Storage &rarr;</a>
+          </div>
+        </article>
+
+        <!-- Service Card 3 -->
+        <article class="service-card">
+          <div class="service-img-wrapper">
+            <img src="./assets/service-3.jpg" alt="Room undergoing active home renovation work, with ladder and building tools, representing turnkey renovation services" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+            <span class="service-badge">Framing</span>
+          </div>
+          <div class="service-body">
+            <h3>First &amp; Second Fix Carpentry</h3>
+            <p>
+              Roof timbers, studwork, decking and general carpentry during renovation or extension.
+            </p>
+            <ul class="service-bullets">
+              <li>Roof timbers &amp; studwork</li>
+              <li>Decking &amp; fencing</li>
+              <li>General carpentry</li>
+            </ul>
+            <a href="#contact" class="service-link">Book Carpentry &rarr;</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. 4-STEP BUILD PROCESS WITH BLUEPRINT WORKBENCH BACKGROUND -->
+  <section class="process-section" id="process">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">How We Work</span>
+        <h2 class="section-title">The Four-Step Turnkey Process</h2>
+        <p class="section-subtitle">
+          From first survey to final building control sign-off, every stage of your project is communicated clearly and built with pride.
+        </p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-card">
+          <div class="process-num">01</div>
+          <h4>Initial Survey &amp; Consultation</h4>
+          <p>
+            We visit your Walsall property to review requirements, measure spaces, and provide transparent advice on feasibility.
+          </p>
+        </div>
+
+        <div class="process-card">
+          <div class="process-num">02</div>
+          <h4>3D Design &amp; Fixed Scope</h4>
+          <p>
+            Full 3D visualization, detailed architectural drawings, and an itemised fixed-price contract with zero hidden costs.
+          </p>
+        </div>
+
+        <div class="process-card">
+          <div class="process-num">03</div>
+          <h4>Master Trades On-Site</h4>
+          <p>
+            Dedicated team of time-served bricklayers, joiners, and electricians working cleanly from 8:00 AM daily.
+          </p>
+        </div>
+
+        <div class="process-card">
+          <div class="process-num">04</div>
+          <h4>Building Regs Handover</h4>
+          <p>
+            Complete building control compliance certificate, structural guarantees, and turnkey handover of your new space.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. QUIET FAQ SECTION -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Frequently Asked Questions</span>
+        <h2 class="section-title">Clear Answers Before We Start</h2>
+        <p class="section-subtitle">
+          Everything you need to know about working with Gd wood works.
+        </p>
+      </div>
+
+      <div class="faq-list">
+        <details>
+          <summary>Do you handle planning permission and building regulations?</summary>
+          <p>
+            Yes. We handle all architectural plans, structural calculations, and building control applications through to full sign-off.
+          </p>
+        </details>
+
+        <details>
+          <summary>Are your quotes fixed in price before work begins?</summary>
+          <p>
+            Yes. Every quotation is fully itemised with a fixed-price schedule of works. You know exactly what is included from day one.
+          </p>
+        </details>
+
+        <details>
+          <summary>What areas across the West Midlands do you cover?</summary>
+          <p>
+            We are based on Mounts Road in Walsall (WS10) and manage projects across Walsall, Walsall, Cannock, and the wider West Midlands.
+          </p>
+        </details>
+
+        <details>
+          <summary>Can we live in our home during the main works for a joinery &amp; carpentry services project?</summary>
+          <p>
+            In most cases, yes. We erect temporary dust seals, maintain temporary cooking facilities where possible, and clean the site thoroughly at the end of each working day.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. CONSULTATION CONTACT SECTION -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <span class="section-eyebrow">Start Your Project</span>
+          <h3>Let's Build Something Exceptional Together</h3>
+          <p>
+            Contact our Walsall team today to arrange a visit and discuss doors, staircases, fitted furniture and carpentry.</p>
+
+          <div class="contact-direct-card">
+            <div class="contact-direct-row">
+              <div class="contact-icon-box">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.21 2.2z"/>
+                </svg>
+              </div>
+              <div class="contact-detail-text">
+                <span>Telephone Consultation</span>
+                <a href="tel:07388343885">07388 343885</a>
+              </div>
+            </div>
+
+            <div class="contact-direct-row">
+              <div class="contact-icon-box">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                </svg>
+              </div>
+              <div class="contact-detail-text">
+                <span>Trading Address</span>
+                <strong>1 Mounts Road, Walsall, West Midlands, WS10 0BZ</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-box">
+          <form onsubmit="event.preventDefault(); alert('Thank you. A member of the Gd wood works team will contact you shortly.');">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" class="form-ctrl" placeholder="e.g. David Smith" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" class="form-ctrl" placeholder="e.g. 07123 456789" required />
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service Required</label>
+              <select id="service" class="form-ctrl">
+                <option value="core">Doors &amp; Staircases</option>
+                <option value="second">Fitted Furniture</option>
+                <option value="third">First &amp; Second Fix Carpentry</option>
+                <option value="other">Other Bespoke Building Work</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="notes">Project Details</label>
+              <textarea id="notes" class="form-ctrl" rows="3" placeholder="Tell us about your project..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Request Free Consultation &rarr;</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div style="display: flex; align-items: center; gap: 14px;">
+          <div class="brand-mark" style="width: 40px; height: 40px; padding: 4px; flex-shrink: 0;">
+            <img src="./assets/brand-mark-footer.png" alt="Gd wood works logo" />
+          </div>
+          <div>
+            <strong>Gd wood works</strong> &bull; Joinery &amp; Carpentry Services
+            <div style="font-size: 0.78rem; margin-top: 4px;">Registered Office: 1 Mounts Road, Walsall, West Midlands, WS10 0BZ</div>
+          </div>
+        </div>
+        <div>
+          Direct Enquiries: <a href="tel:07388343885" style="color: var(--accent-primary); text-decoration: none; font-weight: 700;">07388 343885</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+<div class="photo-credits" style="max-width:1200px;margin:0 auto;padding:12px 24px 30px;color:#9fb0c3;font-size:11px;line-height:1.5;text-align:center">Service images are illustrative, not claimed customer projects. Photography: <a style="color:#d2e6ff" href="https://commons.wikimedia.org/wiki/File:House_extension_-_geograph.org.uk_-_6486884.jpg" target="_blank" rel="noopener">Bob Harvey / Geograph</a> (<a style="color:#d2e6ff" href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0</a>); <a style="color:#d2e6ff" href="https://commons.wikimedia.org/wiki/File:Ladder_stands_against_wall_in_room_during_home_renovation_work.jpg" target="_blank" rel="noopener">Shixart1985</a> (<a style="color:#d2e6ff" href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener">CC BY 2.0</a>). Display cropped to card format.</div>
+</body>
+</html>

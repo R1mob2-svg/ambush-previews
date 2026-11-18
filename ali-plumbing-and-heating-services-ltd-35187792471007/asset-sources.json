@@ -1,0 +1,62 @@
+{
+  "slug": "ali-plumbing-and-heating-services-ltd-35187792471007",
+  "trade_key": "heating",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "1388acccf3844aad435547731bb6908de45421b4438a432b2aa32a4d99eb4d2b",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AGas_meter_-_25_November_2025.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Gas meter - 25 November 2025.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "c0b035781980f296c81d7238409ae712e9e2193805be74855275ca1d58f7edde",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AGas_meter_indicator.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Gas meter indicator.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "bfc6f9317fc182850e5014481786bd5233a7e746865fb6ae02576b3e1dba06ce",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AGas_meter_on_lawn.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Gas meter on lawn.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "3a994922d63f5f191ffea9e4fc8460299974343417c8a324ca5b07cf6892335f",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AGas_meter_with_solid_state_pulser_for_remote_reading.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Gas meter with solid state pulser for remote reading.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "7598bcc446e97a8011e7221046ee0654645f75ec3ae9b397d4d51866fc79f7e6",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AGas_meter.JPG",
+      "license": "Public domain",
+      "notes": "Commons: File:Gas meter.JPG"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "05b55b58a9a1026ebee015cce9ebfead4957d11de7b70599ccb645a87feb1579",
+      "source_url": "generated:monogram-ap-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "05b55b58a9a1026ebee015cce9ebfead4957d11de7b70599ccb645a87feb1579",
+      "source_url": "generated:monogram-ap-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "05b55b58a9a1026ebee015cce9ebfead4957d11de7b70599ccb645a87feb1579",
+      "source_url": "generated:monogram-ap-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AP primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

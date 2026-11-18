@@ -1,0 +1,62 @@
+{
+  "slug": "mim-carpenter-12131012",
+  "trade_key": "joinery",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "b33ddbc4bf2955e59630efe8bc0614f8a3c550754d77153ecd03a85b154a5c6b",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Sieges_et_Banquettes%2C_G.36935_%281_of_2%29.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Meubles, Sieges et Banquettes, G.36935 (1 of 2).jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "10d946869517f212a56c1a20bf1b30b3699ac10bec4402c069940816af19f740",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Lit_%C3%A0_l%27italienne_et_details%2C_G.36944_%282_of_2%29.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Meubles, Lit à l'italienne et details, G.36944 (2 of 2).jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "e8290c7d9263b2b58dfe4e2c3945098aea9a8fb1974f91321f1dbb4d2d131a05",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Lit_%C3%A0_la_Fran%C3%A7oise_et_%C3%A0_la_Polonoise%2C_G.36943_%281_of_2%29.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Meubles, Lit à la Françoise et à la Polonoise, G.36943 (1 of 2).jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "148fefe9c068379f254b168ff87c1993642a767392a504010c4cfcd78e9074da",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Lit_%C3%A0_la_Fran%C3%A7oise_et_%C3%A0_la_Polonoise%2C_G.36943_%282_of_2%29.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Meubles, Lit à la Françoise et à la Polonoise, G.36943 (2 of 2).jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "6db7efa03dc02a6629da6d4b97128ae9403190569cba0c4c73d45032e6b7ffe0",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Sieges_et_Banquettes%2C_G.36935_%282_of_2%29.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Menuisier en Meubles, Sieges et Banquettes, G.36935 (2 of 2).jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "b98842d05ac29b3f146656fff8f024dd80062a829a8f9cfe57e45994efe532e8",
+      "source_url": "generated:monogram-mc-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=MC primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "b98842d05ac29b3f146656fff8f024dd80062a829a8f9cfe57e45994efe532e8",
+      "source_url": "generated:monogram-mc-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=MC primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "b98842d05ac29b3f146656fff8f024dd80062a829a8f9cfe57e45994efe532e8",
+      "source_url": "generated:monogram-mc-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=MC primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

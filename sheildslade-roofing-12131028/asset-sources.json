@@ -1,0 +1,62 @@
+{
+  "slug": "sheildslade-roofing-12131028",
+  "trade_key": "roofing",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "6a2df8e3c09ac6d61c6d73a111a56b6044e832cdb14daa2de4269ea442669f81",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKaluga%2C_roof_repair_workers_%2836841040083%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "notes": "Commons: File:Kaluga, roof repair workers (36841040083).jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "d862bd5a4deeab88717f288ed893d28feb1d9359d407cef861ab032c77bd70ae",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AH%C3%BCckeswagen_-_An_der_Schlo%C3%9Ffabrik_18_ies.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Hückeswagen - An der Schloßfabrik 18 ies.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "702d3c8696bfb0c65708c19744419bcacb31510e4396f0d7bf67c64239b2957a",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AIf_I_were_a_carpenter.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:If I were a carpenter.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "aa180e0f9f8fe6e4107fc43e315a0041e97582b5e3eb664b4c3bb96395b7f4bd",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKenya_Tak_22_BG.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Kenya Tak 22 BG.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "40a5317f047571c5d1c7bdfa401340eded35f70169fd83fe7c22b7a78019a8fb",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKenya_Tak_23_BG.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Kenya Tak 23 BG.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "d27505d1cf0446e68ccd6b10751e63831d1092ccb9d4b68b7f6ba5a2cfd3ca8b",
+      "source_url": "generated:monogram-sr-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=SR primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "d27505d1cf0446e68ccd6b10751e63831d1092ccb9d4b68b7f6ba5a2cfd3ca8b",
+      "source_url": "generated:monogram-sr-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=SR primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "d27505d1cf0446e68ccd6b10751e63831d1092ccb9d4b68b7f6ba5a2cfd3ca8b",
+      "source_url": "generated:monogram-sr-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=SR primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "hlc-builders-12131007",
+  "trade_key": "building",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "b21b321f0a108905dfd0116ae46ce71c51e7493c34fc7109e5d37e6275fd2812",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABuilding_construction_in_Minsk%2C_2012.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Building construction in Minsk, 2012.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "d302394adcb2261f9badea49ba5d95c8167cd11defa2a13a9f5e862dc531fa33",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABuilding_construction_in_Shashemene.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Building construction in Shashemene.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "b00eb6b33d227b35817b700098ba37d8d1b5b79d79842b8519f4b79b687813b7",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABuilding_GHG_Emissions-Pie.png",
+      "license": "Public domain",
+      "notes": "Commons: File:Building GHG Emissions-Pie.png"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "c19723b0b41afcd4bcf5775081b16bc9c1250a86b203724a76f2d7b12a0d11ff",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABuilding_in_construction_001.jpg",
+      "license": "CC BY-SA 2.5",
+      "notes": "Commons: File:Building in construction 001.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "f47f1cbf5f4373d2ef0296f8b5df4541969b9adfc25bff35eff290522cc098de",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABuildings_under_construction_in_Ilorin.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Buildings under construction in Ilorin.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "0ac8dd5a6dc3c7b7fdcb47f3bb50da80b89290729d6a97e131d290d79ec5e83d",
+      "source_url": "generated:monogram-hb-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=HB primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "0ac8dd5a6dc3c7b7fdcb47f3bb50da80b89290729d6a97e131d290d79ec5e83d",
+      "source_url": "generated:monogram-hb-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=HB primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "0ac8dd5a6dc3c7b7fdcb47f3bb50da80b89290729d6a97e131d290d79ec5e83d",
+      "source_url": "generated:monogram-hb-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=HB primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
