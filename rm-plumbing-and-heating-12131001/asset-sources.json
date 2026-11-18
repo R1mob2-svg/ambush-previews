@@ -1,0 +1,62 @@
+{
+  "slug": "rm-plumbing-and-heating-12131001",
+  "trade_key": "plumbing",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "f3fef8f507b0e9d3b53aa67b4aa9ebdf0aa238021754e61537efb22a58ed1935",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AComplicatedPipes.jpg",
+      "license": "CC BY 3.0",
+      "notes": "Commons: File:ComplicatedPipes.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "6f022b984911c03945463514c782ab76650bf7eeec6df4ee82bc088317a0c4e9",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACombo_penetration.jpg",
+      "license": "CC BY 3.0",
+      "notes": "Commons: File:Combo penetration.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "e35f09942c40f49ba6b514606b7aab645930e7fd8b93e51f639d9b798d50cd62",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AConstrucci%C3%B3_canonada.JPG",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Construcció canonada.JPG"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "e0d0c065c149e0e791a1d1bc5c39166b8d941d520c724c86376ab72405ad8869",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACopper_threaded_adapters.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:Copper threaded adapters.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "b133eacb227f34910fb1017bbe559d859f08ea35e3d795d7b245e37deb01cd25",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACp25_grand_coulee_dam.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Cp25 grand coulee dam.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "7a0b818b6d1f55a64586fa4100c515a25b1fcf71d66f9d6ae796bbbcdfe86531",
+      "source_url": "generated:monogram-rp-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=RP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "7a0b818b6d1f55a64586fa4100c515a25b1fcf71d66f9d6ae796bbbcdfe86531",
+      "source_url": "generated:monogram-rp-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=RP primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "7a0b818b6d1f55a64586fa4100c515a25b1fcf71d66f9d6ae796bbbcdfe86531",
+      "source_url": "generated:monogram-rp-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=RP primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
