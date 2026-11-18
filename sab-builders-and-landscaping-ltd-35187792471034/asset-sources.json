@@ -1,0 +1,62 @@
+{
+  "slug": "sab-builders-and-landscaping-ltd-35187792471034",
+  "trade_key": "landscaping",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "e368347ba509cbeab7966c1904aaedeb707376e01c5d5b81d79c4a0d8cd3966c",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADistances_to_Civilization.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Distances to Civilization.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "6c6183e0e75a5d92c2d02fa187bc1e60d11dd3269550f6eedde0ecc88de6f2fa",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADecorative_area_in_Mushrif_Park.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Decorative area in Mushrif Park.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "b009f5d96b66d98b830e7377a44adf1edb6f1d2fc413147b5c758f6f2bc316d9",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectric_cables_over_bare_soil_-_geograph.org.uk_-_6654987.jpg",
+      "license": "CC BY-SA 2.0",
+      "notes": "Commons: File:Electric cables over bare soil - geograph.org.uk - 6654987.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "b7dfa1d765377bba2d17f5b38ab0e96d58f9c298dcf92620fbaca52a06d242ec",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AFreiraumRosenheimTulln1.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:FreiraumRosenheimTulln1.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "a9d546f027d505b992682c30372a072670c9a4c4ae2dc72e57d38bb5910d1f8d",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AFreiraumRosenheimTulln2.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:FreiraumRosenheimTulln2.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "a35459bd47c778d7e66797aadd82fb369ef009ec15b075ea9ff8bf2a82a11ee0",
+      "source_url": "generated:monogram-sb-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=SB primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "a35459bd47c778d7e66797aadd82fb369ef009ec15b075ea9ff8bf2a82a11ee0",
+      "source_url": "generated:monogram-sb-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=SB primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "a35459bd47c778d7e66797aadd82fb369ef009ec15b075ea9ff8bf2a82a11ee0",
+      "source_url": "generated:monogram-sb-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=SB primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
