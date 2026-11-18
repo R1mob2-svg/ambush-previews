@@ -4,56 +4,56 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "fad6a1a132e57c7d8b0b52163d7138986be6ab3e673c7fc771a6bc4d5c6eb03a",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3A2006-02-15_Piping.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:2006-02-15 Piping.jpg"
+      "sha256": "4f3dac4b61e67e4abb2e9bbe41b249d4c3387a65774a6d48d7b5ed42b38de4dd",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AA_hidden_face.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:A hidden face.jpg"
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "5e27c96b8246e43bc451b84e2f0a85a63ec24487697bcdb73ac0cb3dadce39d2",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3A20251203_165923_project_byo_cbd.jpg",
-      "license": "CC BY 4.0",
-      "notes": "Commons: File:20251203 165923 project byo cbd.jpg"
+      "sha256": "ce09982536966157a2c4b498c67d56b62cda033b50c281ea1453fde2c3e72bb9",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AA_Bird%27s_Eye_View_%28with_a_Raised_Eye_Brow%29_%289596831103%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "notes": "Commons: File:A Bird's Eye View (with a Raised Eye Brow) (9596831103).jpg"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "92c797c1c4bea351a2d8bbaf76d509b6234b17cdfe2df5dd1b94f2a6119b4d09",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3A247_Home_Rescue_back_of_sink_plumbing.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:247 Home Rescue back of sink plumbing.jpg"
+      "sha256": "43f97475fdcb248587a38aaaa747a5af0d944825b9bbeb906a88bde46a7ba3be",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AAbdeckungen_P1550397.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Abdeckungen P1550397.jpg"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "9dd8245a665868f64b410f1d5864f4eda1128624836fa64d9b8b2a6089c2f4a4",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3A247_Home_Rescue_plumbing.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:247 Home Rescue plumbing.jpg"
+      "sha256": "af5024aaeef3a074afbc2232fe9b8ff19a9df046987b6cd4de70249f2a6220fa",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AAbdeckungen_P1550400.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Abdeckungen P1550400.jpg"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "0ec18a1e2745d3d7ae894fc4ec91d80469cd9f99b9c60566fc6aa73174efcc9c",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3A4._Urine_pipe_to_temporary_storge_tanker_%287092684527%29.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Commons: File:4. Urine pipe to temporary storge tanker (7092684527).jpg"
+      "sha256": "d95712d41d0a0929ce0536710434eb4e542fcaf359b0e90bcfb3a3206dc754c2",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AAdvertisement_stickers_of_Plumbing_service_at_Beitun%2C_Taichung_2018-10-20.jpg",
+      "license": "CC BY-SA 2.0",
+      "notes": "Commons: File:Advertisement stickers of Plumbing service at Beitun, Taichung 2018-10-20.jpg"
     },
     "favicon.png": {
       "role": "favicon",
-      "sha256": "092119a4958a766fd6a1d58c97feb7fe20483618232ff21b2f9e81afddb57491",
+      "sha256": "df56038ed72c95cecce9d58c9baa2441e733d222a518eeb0c634ace0930f15aa",
       "source_url": "generated:monogram-ab-favicon",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AB primary=#0b1329 accent=#3b82f6"
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "092119a4958a766fd6a1d58c97feb7fe20483618232ff21b2f9e81afddb57491",
+      "sha256": "df56038ed72c95cecce9d58c9baa2441e733d222a518eeb0c634ace0930f15aa",
       "source_url": "generated:monogram-ab-header",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AB primary=#0b1329 accent=#3b82f6"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "092119a4958a766fd6a1d58c97feb7fe20483618232ff21b2f9e81afddb57491",
+      "sha256": "df56038ed72c95cecce9d58c9baa2441e733d222a518eeb0c634ace0930f15aa",
       "source_url": "generated:monogram-ab-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AB primary=#0b1329 accent=#3b82f6"
