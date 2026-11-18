@@ -1,0 +1,62 @@
+{
+  "slug": "mike-cotton-gas-and-heating-12131024",
+  "trade_key": "heating",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "83c3d6003b10d2210a92739e20e18215492b943537e706c9c5b8d7a2a46fe239",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AE%C3%B6tv%C3%B6s_Promenade_4-6%2C_unterirdischer_Tank_und_Rohre%2C_2022_Dobog%C3%B3k%C5%91.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Eötvös Promenade 4-6, unterirdischer Tank und Rohre, 2022 Dobogókő.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "61105cd17a7d004be38cf2be9cf92e6b363067790fb8b598d4a4a3bbe9acc4b9",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AErdgas-VerdichterStation_Blankenloch.jpg",
+      "license": "CC BY 4.0",
+      "notes": "Commons: File:Erdgas-VerdichterStation Blankenloch.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "4db89ed3f420c80747e51ecdb8cf3762137c3c68ed0a99b484c0c1955ebe3134",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AGas_installation_in_Sibulak%C3%BCla.JPG",
+      "license": "Public domain",
+      "notes": "Commons: File:Gas installation in Sibulaküla.JPG"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "6392b0de26ac9760e95288b3b865ad16d77135cf8421c66ac162ef42d2659a02",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AGas_station_in_georgia.jpg",
+      "license": "CC BY-SA 2.0",
+      "notes": "Commons: File:Gas station in georgia.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "2bb23fcedb94eae9ddc59f5a43d175edecec58d6a3a390a8679f5dea703e8dda",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AGLCC_service_valve_cover.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:GLCC service valve cover.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "b5cc25d8b5e15adaa490355b346b1f4a30217e88aa36d41afa9598e7f6e32cb2",
+      "source_url": "generated:monogram-mc-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=MC primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "b5cc25d8b5e15adaa490355b346b1f4a30217e88aa36d41afa9598e7f6e32cb2",
+      "source_url": "generated:monogram-mc-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=MC primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "b5cc25d8b5e15adaa490355b346b1f4a30217e88aa36d41afa9598e7f6e32cb2",
+      "source_url": "generated:monogram-mc-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=MC primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
