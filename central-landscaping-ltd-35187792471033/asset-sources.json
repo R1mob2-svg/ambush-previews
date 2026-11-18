@@ -1,0 +1,62 @@
+{
+  "slug": "central-landscaping-ltd-35187792471033",
+  "trade_key": "landscaping",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "fb5fe14745a8001360dc80290e0aa31265237b7c5e447a33cf8a51d5a27131d0",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AAvsluttende_bufferkant_p%C3%A5_plen_f%C3%B8r_skr%C3%A5ning.JPG",
+      "license": "CC0",
+      "notes": "Commons: File:Avsluttende bufferkant på plen før skråning.JPG"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "5c813f6e91eb44b243f6299c570c67d6a5918934c9c0e412e5d991afd3e26976",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AAmbulance_readyfor_emargency_response_22.png",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Ambulance readyfor emargency response 22.png"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "d01de4b536f70eb3cc03fab355f217e2f270907f34af81453896f117590414d0",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABlatchford_Central_Park.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Blatchford Central Park.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "e2b53eeb995eebfb25ba68a65d39a83a2d9ceafaadaa15a778eaf741f7fa9eb4",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABoulder_among_shrubs.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Boulder among shrubs.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "fb9a901bf2731f3d45896fde2fc16430fd4ac8675356fc6171093b9d2115c609",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACascading_Mums_on_Wall.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Cascading Mums on Wall.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "e52716e63bc47d4c93a1663818f4acbdecf09edd805b401911affb6f7bbfdbdc",
+      "source_url": "generated:monogram-cl-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=CL primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "e52716e63bc47d4c93a1663818f4acbdecf09edd805b401911affb6f7bbfdbdc",
+      "source_url": "generated:monogram-cl-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=CL primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "e52716e63bc47d4c93a1663818f4acbdecf09edd805b401911affb6f7bbfdbdc",
+      "source_url": "generated:monogram-cl-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=CL primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
