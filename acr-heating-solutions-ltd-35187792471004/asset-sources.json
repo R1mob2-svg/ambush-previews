@@ -1,0 +1,62 @@
+{
+  "slug": "acr-heating-solutions-ltd-35187792471004",
+  "trade_key": "heating",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "3395ca259da38dbcea186c27b7f3dd0a3e408c7011d0d791f44cc2a2d8f2493f",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACover_~25a06ueb.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Cover ~25a06ueb.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "b38ac59cd197809fcd2d25db3f14765504f9508898dabfd7cbaef49e88a36652",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACommon_gas_meter_in_Stalin-era_apartment_building.JPG",
+      "license": "Public domain",
+      "notes": "Commons: File:Common gas meter in Stalin-era apartment building.JPG"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "f6a5f8b52d5e9ef9f3188d0bfb25a142c91d5efdca3850e44103e4b6b64c843e",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACompteur_Gaz_Fun_Bissardon_Caluire.JPG",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Compteur Gaz Fun Bissardon Caluire.JPG"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "25fe055c046f61422baa60211bb75385397ffdab77c80f0531d07d2a783f2dcd",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACounting_the_amount_of_gas_%2848506345531%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "notes": "Commons: File:Counting the amount of gas (48506345531).jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "d2751d8e37c0b5a0efbad831d47d581227acd89b5c3bc3f7fb190ea5075ec300",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACreos%2C_Elster_BK-4G_AT-101.jpg",
+      "license": "CC BY-SA 3.0 lu",
+      "notes": "Commons: File:Creos, Elster BK-4G AT-101.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "8cf9339ac5668fbf22d6c9e323741dc7bfaad49300f66c8898f314bfecec0458",
+      "source_url": "generated:monogram-ah-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AH primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "8cf9339ac5668fbf22d6c9e323741dc7bfaad49300f66c8898f314bfecec0458",
+      "source_url": "generated:monogram-ah-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AH primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "8cf9339ac5668fbf22d6c9e323741dc7bfaad49300f66c8898f314bfecec0458",
+      "source_url": "generated:monogram-ah-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=AH primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
