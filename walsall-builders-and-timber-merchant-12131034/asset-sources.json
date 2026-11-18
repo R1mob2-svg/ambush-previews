@@ -1,0 +1,62 @@
+{
+  "slug": "walsall-builders-and-timber-merchant-12131034",
+  "trade_key": "building",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "d8e763d4032d659426b2f5bbd8a6dfc90d87aef6c3998e4594116b8cd7ca9051",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AEdisonh%C3%B6fe_Berlin.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Edisonhöfe Berlin.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "76ffd9621ec32a82a9d6013defdc1a5d11018f00f872fd2d3a0867bab28df6d8",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AEinziehen_einer_Sauberkeitsschicht_DSCF8120.jpg",
+      "license": "GFDL 1.2",
+      "notes": "Commons: File:Einziehen einer Sauberkeitsschicht DSCF8120.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "2483bba98931499cb919ce95eec86ee8dfb0b6f04b45d6595c2899ef3fec3eaf",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AEisenflechter_DSCF.jpg",
+      "license": "GFDL 1.2",
+      "notes": "Commons: File:Eisenflechter DSCF.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "0484b3d51bf09ac1d9971916c53975de44c7aa753799c047fab5a486da64aa8b",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AEisenflechter_DSCF8135.jpg",
+      "license": "GFDL 1.2",
+      "notes": "Commons: File:Eisenflechter DSCF8135.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "72ca298d6e3f95606a3ed3707a074e2642a112ae3cc61011011be3ade2e9a5d6",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AEisenflechter2.jpg",
+      "license": "GFDL 1.2",
+      "notes": "Commons: File:Eisenflechter2.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "822f2d326540b181c9ff9eb41c0532ff05e46bdfe2fd873efabf7dd7eb2d2eba",
+      "source_url": "generated:monogram-wb-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=WB primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "822f2d326540b181c9ff9eb41c0532ff05e46bdfe2fd873efabf7dd7eb2d2eba",
+      "source_url": "generated:monogram-wb-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=WB primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "822f2d326540b181c9ff9eb41c0532ff05e46bdfe2fd873efabf7dd7eb2d2eba",
+      "source_url": "generated:monogram-wb-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=WB primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
