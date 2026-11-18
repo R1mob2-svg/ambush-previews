@@ -1,0 +1,62 @@
+{
+  "slug": "west-top-builders-ltd-12131008",
+  "trade_key": "building",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "3853d56a60bb9d6e88bab413d65f4d66feb99fe826302bdd37333db04d790472",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AEberhard_Bosslet_Installation_Stallung_Bregenz_2004.jpg",
+      "license": "GFDL",
+      "notes": "Commons: File:Eberhard Bosslet Installation Stallung Bregenz 2004.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "ac7fd12c09cf148f24f4984eb38cb4a3afe5c111011a408e955f8e5694266d1b",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AEberhard_Bosslet_Installation_Unterst%C3%BCtzende_Massnahmen_Supporting_Measures_Mercer_Union_Toronto_1988.jpg",
+      "license": "GFDL",
+      "notes": "Commons: File:Eberhard Bosslet Installation Unterstützende Massnahmen Supporting Measures Mercer Union Toronto 1988.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "f9137026f6c4e52652f0b8ae924554c4520655580c9b182ed22e15b738bfdc2c",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AEberhard_Bosslet_Skulptur_Modulare_Struktur_Flach_Prato_1988.jpg",
+      "license": "GFDL",
+      "notes": "Commons: File:Eberhard Bosslet Skulptur Modulare Struktur Flach Prato 1988.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "2fb2ebec3e94166eafc09075a66103f43af14c2cd18f74e996c460216493912c",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AEberhard_Bosslet_Skulptur_Modulare_Struktur_Hochkant_9009_KV-IN-PERI_Ingolstadt_2009.jpg",
+      "license": "GFDL",
+      "notes": "Commons: File:Eberhard Bosslet Skulptur Modulare Struktur Hochkant 9009 KV-IN-PERI Ingolstadt 2009.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "b2d8336581366c4dbd31dd084f6d8b523b6804d4fd9bc2f66cff0ffc542ec3f7",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AEberhard_Bosslet_Skulptur_Modulare_Struktur_Raster_B_389_I_Berlin_1989.jpg",
+      "license": "GFDL",
+      "notes": "Commons: File:Eberhard Bosslet Skulptur Modulare Struktur Raster B 389 I Berlin 1989.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "947b59927426c4efa3ecea1e480757e9e512fcf1cbccbbc8a3ad832d7dd1f0bf",
+      "source_url": "generated:monogram-wt-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=WT primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "947b59927426c4efa3ecea1e480757e9e512fcf1cbccbbc8a3ad832d7dd1f0bf",
+      "source_url": "generated:monogram-wt-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=WT primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "947b59927426c4efa3ecea1e480757e9e512fcf1cbccbbc8a3ad832d7dd1f0bf",
+      "source_url": "generated:monogram-wt-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=WT primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
