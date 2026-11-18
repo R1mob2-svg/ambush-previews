@@ -1,0 +1,62 @@
+{
+  "slug": "plumbing-heating-solutions-midlands-ltd-12131003",
+  "trade_key": "heating",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "eddd21509373d90d1b7d24d0c7aaae6daaeeeec33dd029e41afca10715857a38",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AInstalacja_do_separacji_gaz%C3%B3w_metod%C4%85_adsorpcji_zmiennoci%C5%9Bnieniowej_%28PSA%29.JPG",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Instalacja do separacji gazów metodą adsorpcji zmiennociśnieniowej (PSA).JPG"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "c18e5a1ea6cedefe0b122630516d5a543be7ef6308599bfd052873af103b1b4d",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AIvy_and_gas_%2850854463492%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "notes": "Commons: File:Ivy and gas (50854463492).jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "aedc83b7fb513e4e050f932132d43cc693368a5d1db6dad2d5a36c8431c380e6",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMukran_Port_Nordstream_2_Roehrenlager.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Mukran Port Nordstream 2 Roehrenlager.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "a3ea1b9673ebbc60295f0faef76bc2acc17ff855d627e6577b704d5dced33a89",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMukran_Port_Nordstream2_Roehren_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Mukran Port Nordstream2 Roehren 01.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "0774a179b1ce4f476b3989485ba9a965c2fd1fc44b7169c6fc9b40083f9801af",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ANAIT_pipe_trades_%288075874710%29.jpg",
+      "license": "CC BY 2.0",
+      "notes": "Commons: File:NAIT pipe trades (8075874710).jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "c46eb7f5befbf1e60623c848fed5a3e079f40ae6986c9101ceb4b28533f8c6d1",
+      "source_url": "generated:monogram-ph-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=PH primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "c46eb7f5befbf1e60623c848fed5a3e079f40ae6986c9101ceb4b28533f8c6d1",
+      "source_url": "generated:monogram-ph-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=PH primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "c46eb7f5befbf1e60623c848fed5a3e079f40ae6986c9101ceb4b28533f8c6d1",
+      "source_url": "generated:monogram-ph-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=PH primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
