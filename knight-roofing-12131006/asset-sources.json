@@ -1,0 +1,62 @@
+{
+  "slug": "knight-roofing-12131006",
+  "trade_key": "roofing",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "95cf4eca7f9e8864d82c47694a9889bf074ca70addddbe7d77ab931eab556903",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMaison_toulousaine%2C_53_rue_Raspail_%28Toulouse%29.jpg",
+      "license": "CC0",
+      "notes": "Commons: File:Maison toulousaine, 53 rue Raspail (Toulouse).jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "a237a064aa79f82ab44d3763553f41e8f7af1187ce70affd554fafbc0fa0e81d",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKyrillDamagedRoof_3410a.jpg",
+      "license": "CC BY-SA 3.0 de",
+      "notes": "Commons: File:KyrillDamagedRoof 3410a.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "a839958d8b49bde29946b7fc4f3ec17ca4486f5513ff9aaa60cf22b9a1a9c0f8",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ALogan_Roofing%2C_Ivan%2C_Florida.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Logan Roofing, Ivan, Florida.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "9e139d4e03285cbbee38c2c706f1f17151b5a5fc33c05f39404f754de6252f5e",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ALowerline_Roofers.JPG",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Lowerline Roofers.JPG"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "af7ff3a48f5a1e9f0b6252ea5ff2e139a5024b4dddd33747e733e5b9120008c0",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AMammoth_Cave_Hotel_Gutter_Installation_%283f4c0bed-0193-4b64-b815-1227e9f6ace9%29.JPG",
+      "license": "Public domain",
+      "notes": "Commons: File:Mammoth Cave Hotel Gutter Installation (3f4c0bed-0193-4b64-b815-1227e9f6ace9).JPG"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "7c7648d387287b78318460fa173ef9d56d8d60a4ecc41f58bb2333d556c1422d",
+      "source_url": "generated:monogram-kr-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=KR primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "7c7648d387287b78318460fa173ef9d56d8d60a4ecc41f58bb2333d556c1422d",
+      "source_url": "generated:monogram-kr-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=KR primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "7c7648d387287b78318460fa173ef9d56d8d60a4ecc41f58bb2333d556c1422d",
+      "source_url": "generated:monogram-kr-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=KR primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
