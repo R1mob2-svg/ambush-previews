@@ -1,0 +1,62 @@
+{
+  "slug": "mark-the-roof-in-kings-heath-birmingham-uk-12131005",
+  "trade_key": "roofing",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "5313b064db85e908d99ba7ab5ac443ce19666c9ed3842d97dd86bfe66a9e6b6f",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKrovca_pokrivata_Martinkovo_lupo%2C_Lu%C4%8Darjev_Kal_1950_%282%29.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Krovca pokrivata Martinkovo lupo, Lučarjev Kal 1950 (2).jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "7ad57e34fe9c35849c523a6f22358aa75f579150ae9081313866f262b44d098b",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKrovca_pokrivata_Martinkovo_lupo%2C_Lu%C4%8Darjev_Kal_1950.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Krovca pokrivata Martinkovo lupo, Lučarjev Kal 1950.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "918b955fdd81166e7762280d4eb9871979d93e82fbee0759e55b5d538b4c147f",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKrovec_iz_Sti%C4%8Dne_pokriva_hi%C5%A1o_v_Velikih_%C4%8Ce%C5%A1njicah%2C_pri_Kosorepcu_1950.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Krovec iz Stične pokriva hišo v Velikih Češnjicah, pri Kosorepcu 1950.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "e6afd0fc33e991b9302db9c0212c2fac522c5f51da2ed9ad621b7c6ad72bb013",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKrovec_pri_delu%2C_Velike_%C4%8Ce%C5%A1njice_1950_%282%29.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Krovec pri delu, Velike Češnjice 1950 (2).jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "87550bb16a0788f58369c06abc3503b82c7aded2ea4cc85633fc68a6a046eb20",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKrovec_pri_delu%2C_Velike_%C4%8Ce%C5%A1njice_1950.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Krovec pri delu, Velike Češnjice 1950.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "85239caa89ea4e0bdaa8c6e4bce1a015b54da89b897599275869ab02d473adb3",
+      "source_url": "generated:monogram-mr-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=MR primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "85239caa89ea4e0bdaa8c6e4bce1a015b54da89b897599275869ab02d473adb3",
+      "source_url": "generated:monogram-mr-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=MR primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "85239caa89ea4e0bdaa8c6e4bce1a015b54da89b897599275869ab02d473adb3",
+      "source_url": "generated:monogram-mr-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=MR primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
