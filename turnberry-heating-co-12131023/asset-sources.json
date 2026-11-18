@@ -1,0 +1,62 @@
+{
+  "slug": "turnberry-heating-co-12131023",
+  "trade_key": "heating",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "7116cb197124ee25ad4b8373f8c7c2ebd54f32bd092e9bc3aa2f1e0ce1d3ef09",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ASkl%C3%A1rna_Nena%C4%8Dovice%2C_05.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Sklárna Nenačovice, 05.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "22af18c4f06f0a6a6e525427cc877cab2b6ce2c36808f4fa4e6d2dd719c4ebde",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ASkl%C3%A1rna_Nena%C4%8Dovice%2C_07.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Sklárna Nenačovice, 07.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "1573e0def0f1485c9dac4ba86b5afb49f980ce1229bc559a8fc3bbf7312c2be6",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AAnswer_to_Wtshymanski_about_main_circuit_breaker.JPG",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Answer to Wtshymanski about main circuit breaker.JPG"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "cf628e5e7277d4218ee6de680bef54922691341d78b9fb786b38b1117ec8e8b5",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABiogasverket_skelleftea.jpg",
+      "license": "CC BY 3.0",
+      "notes": "Commons: File:Biogasverket skelleftea.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "29f1cc0ad6a156db11e369cb517e84c06dde4e99cedf9eaeb5d46755e76e6b49",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AD%C3%B3zsa_Gy%C3%B6rgy_Stra%C3%9Fe%2C_TIG%C3%81Z_Gasinstallation%2C_2024_Kis%C3%BAjsz%C3%A1ll%C3%A1s.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Dózsa György Straße, TIGÁZ Gasinstallation, 2024 Kisújszállás.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "a4c0e14e2c2128e6fbfcb635e6cba9bb7eeba91a26c42ae3d87edbcc469f82fe",
+      "source_url": "generated:monogram-th-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=TH primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "a4c0e14e2c2128e6fbfcb635e6cba9bb7eeba91a26c42ae3d87edbcc469f82fe",
+      "source_url": "generated:monogram-th-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=TH primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "a4c0e14e2c2128e6fbfcb635e6cba9bb7eeba91a26c42ae3d87edbcc469f82fe",
+      "source_url": "generated:monogram-th-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=TH primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
