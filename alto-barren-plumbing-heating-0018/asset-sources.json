@@ -1,11 +1,7 @@
 {
-  "slug": "alto-barren-plumbing-heating-0018",
-  "prospect_id": "WM-LTD-20261116-0018",
-  "business_name": "ALTO BARREN PLUMBING & HEATING LIMITED",
-  "assets": {
-    "hero.jpg": "PENDING_AG",
-    "service-1.jpg": "PENDING_AG",
-    "service-2.jpg": "PENDING_AG",
+    "prospect_id": "WM-LTD-20261116-0018",
+    "ab-hero.jpg": "commons:Equipment_installation_involving_plumbing_and_cooling_units_in_outdoor_setting_during_daytime.jpg",
+    "ab-svc-1.jpg": "commons:Plumbing_Installation_(8909644).jpg",
+    "ab-svc-2.jpg": "commons:Replacement_of_a_central_heating_radiator,_Hillegersberg,_Rotterdam_(2022)_03.jpg",
     "favicon.png": "generated:monogram"
-  }
 }

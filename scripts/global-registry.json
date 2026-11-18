@@ -255,7 +255,11 @@
   },
   "hashes": {
     "a-r-gas-services-0025": [],
-    "alto-barren-plumbing-heating-0018": [],
+    "alto-barren-plumbing-heating-0018": [
+      "db49c60b91fad3c5e271ae9b6036798ab41c3e42a3020e82780f133b43e5cbf4",
+      "4a229c5ad2847e6a7190e33928e3c43c7d7e9b3a0ef771965bf349deceab30a7",
+      "f2274d69d7b2e32cdafb8d8854850262d84d3e05c84a92a330d59152597880f1"
+    ],
     "assg-plumbing-and-heating-services-0013": [
       "d77b6793aeab12f35f86d07767f659b9354bb8a817c495420c940948ef6bdc59",
       "4bb5cf69ebf1145082ecd8f9180266a78c6fbedaff9a985f5a5d8e890018d67d",
@@ -297,10 +301,18 @@
     "innovate-electrical-services-0026": [],
     "instyle-installations-0024": [],
     "pb-smart-solutions-0023": [],
-    "razak-heating-0017": [],
+    "razak-heating-0017": [
+      "f65d24f8c611766ade7977920357b5d196b0e6902b2838a80fdb37b93f104f00",
+      "5f8d32d4452e12272703753e80fb3d0a39ac28a7abc8b980478bb60c13e3d5d3",
+      "add69a417fc12d7fa804f582ad7ba87ee03cf77fb4db0659049ce7867481834f"
+    ],
     "renovatez-heating-plumbing-0020": [],
     "roc-heating-mechanical-services-0021": [],
-    "rso-developments-0019": [],
+    "rso-developments-0019": [
+      "b870860cab31335aee77e5a3761005bb84fa4dfe4342e0a712153bf3b2c1d65b",
+      "ef05bc492c673561c144490ecc2112d163312006a68e9b79408874c5ef7cfae1",
+      "be1f0a614d71be338c9f9550a7e3b9249c8b236383f52ea49243d4a8ebe8dcc5"
+    ],
     "stm-plumbing-heating-uk-0012": [
       "6dbdedff2e3b0b513370c7c088e79c52c28972057980a7a6365291d82692a991",
       "87e2347c22f4278b2ce73c6229b2e2f0d42c27e4494a21aeef1215ece88621b2",
