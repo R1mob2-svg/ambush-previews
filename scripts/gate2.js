@@ -192,10 +192,26 @@ function normProv(v) {
 
   // ---------- render matrix ----------
   const browser = await chromium.launch({
-    // NEO 2026-11-17: the hero composition check reads the hero PHOTO bitmap
+    // NEO 2026-11-18: the hero composition check reads the hero PHOTO bitmap
     // through a canvas. file:// pages taint the canvas unless local file access
-    // is granted. This only widens read access inside the throwaway gate browser.
-    args: ['--allow-file-access-from-files', '--disable-web-security'],
+    // is granted. These flags only widen read access inside the throwaway gate
+    // browser.
+    //
+    // Railway/container hardening (SIGTERM + OOM root cause):
+    //   --no-sandbox / --disable-setuid-sandbox  containers have no usable SUID sandbox
+    //   --disable-dev-shm-usage                  /dev/shm is tiny in containers; without
+    //                                            this Chromium exhausts shared memory and the
+    //                                            render is killed (SIGTERM/SIGBUS)
+    //   --disable-gpu                            no GPU in the container; skipping it avoids
+    //                                            a costly, failing GPU process spawn
+    args: [
+      '--allow-file-access-from-files',
+      '--disable-web-security',
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-gpu',
+    ],
   });
   const lumByVp = {};
   const heroShots = [];
@@ -479,7 +495,15 @@ function normProv(v) {
       await p.close();
     }
   } finally {
-    await browser.close();
+    // NEO 2026-11-18: close the browser, then reap any Chromium that outlived it.
+    // A straggler from one page would otherwise hold shared memory and take down
+    // the next render with OOM/SIGTERM — the failure that killed the earlier run.
+    try { await browser.close(); } catch { /* already gone */ }
+    try {
+      require('child_process').execFileSync('pkill', ['-f', 'chrome|chromium'], {
+        stdio: 'ignore', timeout: 15000,
+      });
+    } catch { /* nothing to kill, which is the normal case */ }
     for (const s of heroShots) {
       try { fs.unlinkSync(s); } catch {}
     }
@@ -488,6 +512,12 @@ function normProv(v) {
   console.log('\n' + (failed ? `GATE FAILED (${failed} of ${results.length})` : `GATE PASSED (${results.length} checks)`));
   process.exit(failed ? 1 : 0);
 })().catch((e) => {
+  // NEO 2026-11-18: never leave a crashed render holding memory for the next run.
+  try {
+    require('child_process').execFileSync('pkill', ['-f', 'chrome|chromium'], {
+      stdio: 'ignore', timeout: 15000,
+    });
+  } catch { /* nothing to kill */ }
   console.error('GATE ERROR: ' + e.message);
   process.exit(2);
 });

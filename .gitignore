@@ -5,3 +5,4 @@ test_assets/
 scripts/__pycache__/
 *.d.png
 .gate2-*.png
+scripts/photo-cache/
