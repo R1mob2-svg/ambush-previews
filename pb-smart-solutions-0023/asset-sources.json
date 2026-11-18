@@ -1,11 +1,7 @@
 {
-  "slug": "pb-smart-solutions-0023",
-  "prospect_id": "WM-LTD-20261116-0023",
-  "business_name": "PB SMART SOLUTIONS LTD",
-  "assets": {
-    "hero.jpg": "PENDING_AG",
-    "service-1.jpg": "PENDING_AG",
-    "service-2.jpg": "PENDING_AG",
+    "prospect_id": "WM-LTD-20261116-0023",
+    "pb-hero.jpg": "commons:Heilbronn_-_Böckingen_-_Kreuzgrund_-_Familienzentrum_-_Details_-_Thermostatventil_in_Aussparung_(1).jpg",
+    "pb-svc-1.jpg": "commons:Einrohrheizung.JPG",
+    "pb-svc-2.jpg": "commons:Bregenz-indoor_swimming_pool_(in_construction)-Installation-05ASD.jpg",
     "favicon.png": "generated:monogram"
-  }
 }

@@ -254,7 +254,11 @@
     ]
   },
   "hashes": {
-    "a-r-gas-services-0025": [],
+    "a-r-gas-services-0025": [
+      "3d9546823904781acad2018c95cd6d5db77150725e992ee7ba266f5328729db8",
+      "8b148847b973136fcfc462b1b734131702b83f66875e89cd0214186dfb045580",
+      "2d8835300a2d48eab3733d6599a272d3bd4f4ac5c18d1e36ac5deaa059b56e44"
+    ],
     "alto-barren-plumbing-heating-0018": [
       "db49c60b91fad3c5e271ae9b6036798ab41c3e42a3020e82780f133b43e5cbf4",
       "4a229c5ad2847e6a7190e33928e3c43c7d7e9b3a0ef771965bf349deceab30a7",
@@ -302,9 +306,21 @@
       "01abd120cab4482afca9a20dce4b1e9e3d53b41a6ac00425cac47f8dfe093ab0",
       "4d538b812755540e857e3c537d570593f48d58a5da0e285e358b5574a67c223b"
     ],
-    "innovate-electrical-services-0026": [],
-    "instyle-installations-0024": [],
-    "pb-smart-solutions-0023": [],
+    "innovate-electrical-services-0026": [
+      "bd63c38438be8e34fa41b5e627ce4d119597666440b0513c35873ad98c98f3ec",
+      "0469a61fd45fa401d0cc5851fff81593685454f91f8f7eef77dd290506169d63",
+      "4023a08a8a0a35c350fa9fe961d69c76273bf65bc4c5de913eaf6dfa4947354e"
+    ],
+    "instyle-installations-0024": [
+      "8b46a7e698ecd8eb2c1c3a023deef7496734cca7db242bcbaa0c5deeede3a146",
+      "e8efa9569e28afa3568643c9bd5bfd72eac481f8933eaddd0ba7ad52c0daf88c",
+      "67d7bf0836c2edb7b36a42c7d156556892fe44ed564f6a11842b50ea7faff04f"
+    ],
+    "pb-smart-solutions-0023": [
+      "3b75fc3a3427c8a45b76fe707962224a969fdc1561f06bff0b6b9e1464374878",
+      "2e5be296d12b5f63a781ce302ad1769f401baee2371ce2c137cb4999f3faf81e",
+      "8d9bf6d7db90d2ca292ef5c442cbe774facdc0a05afcbcac91d4a2399523a509"
+    ],
     "razak-heating-0017": [
       "f65d24f8c611766ade7977920357b5d196b0e6902b2838a80fdb37b93f104f00",
       "5f8d32d4452e12272703753e80fb3d0a39ac28a7abc8b980478bb60c13e3d5d3",

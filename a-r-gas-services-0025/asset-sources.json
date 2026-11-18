@@ -1,11 +1,7 @@
 {
-  "slug": "a-r-gas-services-0025",
-  "prospect_id": "WM-LTD-20261116-0025",
-  "business_name": "A R GAS SERVICES LIMITED",
-  "assets": {
-    "hero.jpg": "PENDING_AG",
-    "service-1.jpg": "PENDING_AG",
-    "service-2.jpg": "PENDING_AG",
+    "prospect_id": "WM-LTD-20261116-0025",
+    "ar-hero.jpg": "commons:Water_heater_bathroom.JPG",
+    "ar-svc-1.jpg": "commons:Gas_boiler_at_school._Buryatia,_Russia.jpg",
+    "ar-svc-2.jpg": "commons:Gasgeiser_van_het_merk_Eclipse_-_INDUS_V13173.jpg",
     "favicon.png": "generated:monogram"
-  }
 }

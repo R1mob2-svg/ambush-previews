@@ -1,11 +1,7 @@
 {
-  "slug": "innovate-electrical-services-0026",
-  "prospect_id": "WM-LTD-20261116-0026",
-  "business_name": "INNOVATE ELECTRICAL SERVICES LIMITED",
-  "assets": {
-    "hero.jpg": "PENDING_AG",
-    "service-1.jpg": "PENDING_AG",
-    "service-2.jpg": "PENDING_AG",
+    "prospect_id": "WM-LTD-20261116-0026",
+    "in-hero.jpg": "commons:Electrician_Working.jpg",
+    "in-svc-1.jpg": "commons:Consumer_unit,_public_bar,_Railway_Inn,_Spofforth,_North_Yorkshire_(4th_May_2019)_001.jpg",
+    "in-svc-2.jpg": "commons:Small_house_distribution_panel_1.jpg",
     "favicon.png": "generated:monogram"
-  }
 }

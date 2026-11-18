@@ -1,11 +1,7 @@
 {
-  "slug": "instyle-installations-0024",
-  "prospect_id": "WM-LTD-20261116-0024",
-  "business_name": "INSTYLE INSTALLATIONS LTD",
-  "assets": {
-    "hero.jpg": "PENDING_AG",
-    "service-1.jpg": "PENDING_AG",
-    "service-2.jpg": "PENDING_AG",
+    "prospect_id": "WM-LTD-20261116-0024",
+    "is-hero.jpg": "commons:Kitchen_Fitting_(6).JPG",
+    "is-svc-1.jpg": "commons:Skilled_Carpenter_Working_on_Wood_in_a_Workshop.jpg",
+    "is-svc-2.jpg": "commons:Wood_workshop_(48000955763).jpg",
     "favicon.png": "generated:monogram"
-  }
 }
