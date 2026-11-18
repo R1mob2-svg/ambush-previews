@@ -1,0 +1,62 @@
+{
+  "slug": "kane-heating-and-plumbing-limited-35187792471003",
+  "trade_key": "heating",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "07df92338044655a17e4df03a70ddd8d078b9857d9d0779d3a2acdebb5c77dc6",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ATIG%C3%81Z_station%2C_2019_Etyek.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:TIGÁZ station, 2019 Etyek.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "76027eed73747d82ff215eb1082b8bc2b690d47898771d5bbde9e047f33b43cd",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ATIG%C3%81Z_telep%2C_2019_Asz%C3%B3d.jpg",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:TIGÁZ telep, 2019 Aszód.jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "f82cdfd23aee86cd21ea655b0d7ee534bf465c01813c2a4435a0aeb7865a8adc",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AVerdichterStation_Blankenloch_Rohrabschl%C3%BCsse.jpg",
+      "license": "CC BY 4.0",
+      "notes": "Commons: File:VerdichterStation Blankenloch Rohrabschlüsse.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "50fac2004ce0ac76a977cb3f1ee04bfb19fda5d42b171bd365e169da79621846",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AVerdichterStation_Blankenloch_Rohrverbindungen.jpg",
+      "license": "CC BY 4.0",
+      "notes": "Commons: File:VerdichterStation Blankenloch Rohrverbindungen.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "3b53291d5105312305d1e6aa66d7e809cd3cc020fa69403653838165c4614d00",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AImage_taken_from_page_1044_of_%27Old_and_New_London%2C_etc%27_%2811189992216%29.jpg",
+      "license": "Public domain",
+      "notes": "Commons: File:Image taken from page 1044 of 'Old and New London, etc' (11189992216).jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "bc20f1cd163cb22f2e5710e1604df8bacaec73145f46d667c4578496f3301c10",
+      "source_url": "generated:monogram-kh-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=KH primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "bc20f1cd163cb22f2e5710e1604df8bacaec73145f46d667c4578496f3301c10",
+      "source_url": "generated:monogram-kh-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=KH primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "bc20f1cd163cb22f2e5710e1604df8bacaec73145f46d667c4578496f3301c10",
+      "source_url": "generated:monogram-kh-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=KH primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
