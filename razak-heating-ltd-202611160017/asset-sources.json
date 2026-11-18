@@ -4,56 +4,56 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "a6e92ddf12a69b227e88fa6ae71783a7824482676c8f3e758637d8fcf5ddcb83",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-Ebnit-underfloor_heating-system-03ASD.jpg",
+      "sha256": "23f28164b1b1bbd8c59bffe3606c99bce0d5ad23c64ae8601adf620d8c9acfe1",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-Ebnit-underfloor_heating-system-08ASD.jpg",
       "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Dornbirn-Ebnit-underfloor heating-system-03ASD.jpg"
+      "notes": "Commons: File:Dornbirn-Ebnit-underfloor heating-system-08ASD.jpg"
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "999b9902d4dc5e5d051e32b57119667e0f3b74d1c4f07849523b6a7a27be82a0",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-Ebnit-underfloor_heating-system-04ASD.jpg",
+      "sha256": "5ad7e274b810d9b2948f07ac395f37f7ded2ad4efc3db1b71c36e7d5a3c81197",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-liquid_screed-01ASD.jpg",
       "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Dornbirn-Ebnit-underfloor heating-system-04ASD.jpg"
+      "notes": "Commons: File:Dornbirn-liquid screed-01ASD.jpg"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "2adaf737d96cc0f9ce301fea036bb605b2e334fb2cd3741119e74a4031857d3d",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-Ebnit-underfloor_heating-system-05ASD.jpg",
+      "sha256": "7606bada0850e3d0414d1add7027122a7c5e2c52e88fd9c5108cdbf7111a6ba4",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-liquid_screed-02ASD.jpg",
       "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Dornbirn-Ebnit-underfloor heating-system-05ASD.jpg"
+      "notes": "Commons: File:Dornbirn-liquid screed-02ASD.jpg"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "1d72ba63a1d6f5d56a3e5dd58da6f31cb40b86215247d9ab70869a507c49d458",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-Ebnit-underfloor_heating-system-06ASD.jpg",
+      "sha256": "8e4bb18d57fb6addd4210685632a5160ad0946bea42c15ba3987245d8ab6f63f",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-liquid_screed-03ASD.jpg",
       "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Dornbirn-Ebnit-underfloor heating-system-06ASD.jpg"
+      "notes": "Commons: File:Dornbirn-liquid screed-03ASD.jpg"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "acb68eaf254a2d37d9d44f5c1edcdb3c1472bbeaaf47d4c6aeba61a8158c552d",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-Ebnit-underfloor_heating-system-07ASD.jpg",
+      "sha256": "976c4a254cd4482ad98e535d422c41fdf4dd697ebbbdb98c10362610eab5fc9d",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AEinbau_Anhydritestrich.jpg",
       "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Dornbirn-Ebnit-underfloor heating-system-07ASD.jpg"
+      "notes": "Commons: File:Einbau Anhydritestrich.jpg"
     },
     "favicon.png": {
       "role": "favicon",
-      "sha256": "e2331f59bf5225ab7183ea4f75bc21502f11e66ad2c15bf383c3c2e6e6f4e311",
+      "sha256": "b086873ab1d35d61a5cc4d99850adb08f7121f3d5a3a66ee1c7262c811aeae35",
       "source_url": "generated:monogram-rh-favicon",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=RH primary=#0f172a accent=#ef4444"
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "e2331f59bf5225ab7183ea4f75bc21502f11e66ad2c15bf383c3c2e6e6f4e311",
+      "sha256": "b086873ab1d35d61a5cc4d99850adb08f7121f3d5a3a66ee1c7262c811aeae35",
       "source_url": "generated:monogram-rh-header",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=RH primary=#0f172a accent=#ef4444"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "e2331f59bf5225ab7183ea4f75bc21502f11e66ad2c15bf383c3c2e6e6f4e311",
+      "sha256": "b086873ab1d35d61a5cc4d99850adb08f7121f3d5a3a66ee1c7262c811aeae35",
       "source_url": "generated:monogram-rh-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=RH primary=#0f172a accent=#ef4444"
