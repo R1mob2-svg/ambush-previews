@@ -1,0 +1,62 @@
+{
+  "slug": "innovate-electrical-services-limited-202611160026",
+  "trade_key": "electrical",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "8bae2820b12dcd4fc72afa1d5628be4792e282397f7ffe50a34bcfa258c12f4a",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ABuilding_with_a_pink_neon_sign_in_Nablus_%28DSC03938%29.jpg",
+      "license": "CC BY 4.0",
+      "notes": "Commons: File:Building with a pink neon sign in Nablus (DSC03938).jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "16d29d3f03f829ead5dd6db143342c453048167a31873d8c6c699f0af01fcd99",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACableing_and_old_insulation_%286129748177%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "notes": "Commons: File:Cableing and old insulation (6129748177).jpg"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "3ee060abdc0e2883e833cdc435613d090fd4cd94d513c720a5f47707889c5360",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACables_llum_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Cables llum 1.jpg"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "cb9582d8f9f3a8857e28163a70c640ce68e694fbd702304e648d22ffa07f49cc",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACables_llum_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Cables llum 2.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "baa78bf3b56caf667808ec600f061895686dd3f9e326edc208c9bc7538fda60e",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3ACables_llum_3.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Cables llum 3.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "c0392e3df28acd87f41cab7ad3bdc417e5e80dffb4e5df86b44cb90ce7ddff7e",
+      "source_url": "generated:monogram-ie-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=IE primary=#022c22 accent=#10b981"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "c0392e3df28acd87f41cab7ad3bdc417e5e80dffb4e5df86b44cb90ce7ddff7e",
+      "source_url": "generated:monogram-ie-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=IE primary=#022c22 accent=#10b981"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "c0392e3df28acd87f41cab7ad3bdc417e5e80dffb4e5df86b44cb90ce7ddff7e",
+      "source_url": "generated:monogram-ie-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=IE primary=#022c22 accent=#10b981"
+    }
+  }
+}
