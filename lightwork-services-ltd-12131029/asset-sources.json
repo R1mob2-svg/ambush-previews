@@ -1,0 +1,62 @@
+{
+  "slug": "lightwork-services-ltd-12131029",
+  "trade_key": "electrical",
+  "assets": {
+    "hero.jpg": {
+      "role": "hero",
+      "sha256": "94396b76d7c4c0ff8d6aa4c0f1acd02874b1b6283b2f44f6f4e3f6d2cb979408",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AGare_des_Glaciers_04.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Gare des Glaciers 04.jpg"
+    },
+    "process-bg.jpg": {
+      "role": "process-bg",
+      "sha256": "a208eeca7af8d405c78c0655e22f4d8e9b4d9245fdbe1cba0c24e226deb7a814",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AExample_of_installation.JPG",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Example of installation.JPG"
+    },
+    "service-1.jpg": {
+      "role": "service-1",
+      "sha256": "de8b1c7ab7d7bbd1b46af14ee5288361382c135e8ded512eed201e0426d3b8ff",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AExamples_of_improper_wiring.JPG",
+      "license": "CC BY-SA 3.0",
+      "notes": "Commons: File:Examples of improper wiring.JPG"
+    },
+    "service-2.jpg": {
+      "role": "service-2",
+      "sha256": "df0d6915a02a9751288ca49b1473fa80c72510b79656fb52ba2bf907f81dcfbf",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AJ%C3%A1nsk%C3%A9_Koupele%2C_vila_R%C5%AF%C5%BEena_04.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Jánské Koupele, vila Růžena 04.jpg"
+    },
+    "service-3.jpg": {
+      "role": "service-3",
+      "sha256": "2551ff980b8dba85eab724f9cf7a0cccdd3c577b3726a0d21dca06bcc433c90b",
+      "source_url": "https://commons.wikimedia.org/wiki/File%3AKabelschacht_in_Bau%2C_Kanaldeckel_offen.jpg",
+      "license": "CC BY-SA 4.0",
+      "notes": "Commons: File:Kabelschacht in Bau, Kanaldeckel offen.jpg"
+    },
+    "favicon.png": {
+      "role": "favicon",
+      "sha256": "969630ca5de696b5ab4bf127ff53f839552a30141e4c3b2b53472eedcf6c0fb6",
+      "source_url": "generated:monogram-ls-favicon",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=LS primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark.png": {
+      "role": "header",
+      "sha256": "969630ca5de696b5ab4bf127ff53f839552a30141e4c3b2b53472eedcf6c0fb6",
+      "source_url": "generated:monogram-ls-header",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=LS primary=#0b1329 accent=#f59e0b"
+    },
+    "brand-mark-footer.png": {
+      "role": "footer",
+      "sha256": "969630ca5de696b5ab4bf127ff53f839552a30141e4c3b2b53472eedcf6c0fb6",
+      "source_url": "generated:monogram-ls-footer",
+      "license": "GENERATED",
+      "notes": "deterministic monogram initials=LS primary=#0b1329 accent=#f59e0b"
+    }
+  }
+}
