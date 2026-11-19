@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Apply preview-only, provenance-tracked visual improvements. Never sends outreach."""
-import hashlib, io, json, os, pathlib, urllib.request
+import hashlib, io, json, os, pathlib, re, urllib.request
 from PIL import Image, ImageOps
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 plan = json.loads((ROOT / "image-review/asset-plan.json").read_text())
 for item in plan["assets"]:
     slug, filename = item["slug"], item["filename"]
-    if not slug.replace("-", "").replace("_", "").isalnum() or filename not in {"hero.jpg", "process-bg.jpg", "service-1.jpg", "service-2.jpg", "service-3.jpg"}:
+    if not slug.replace("-", "").replace("_", "").isalnum() or not re.fullmatch(r"[A-Za-z0-9_-]+\\.(?:jpg|jpeg)", filename):
         raise ValueError("Unsafe asset path")
     url = item["download_url"]
     if not url.startswith("https://dnznrvs05pmza.cloudfront.net/"):
@@ -26,7 +26,7 @@ for item in plan["assets"]:
     digest = hashlib.sha256(imgbytes).hexdigest()
     provenance_path = ROOT / slug / "asset-sources.json"
     provenance = json.loads(provenance_path.read_text())
-    entry = {"role": "hero" if filename == "hero.jpg" else "supporting",
+    entry = {"role": "hero" if "hero" in filename.lower() else "supporting",
              "sha256": digest,
              "source_url": "generated:runway:" + item["task_id"],
              "license": "AI_GENERATED_COMMERCIAL_USE",
