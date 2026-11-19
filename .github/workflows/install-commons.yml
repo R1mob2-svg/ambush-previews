@@ -1,0 +1,27 @@
+name: Install accepted Commons supporting photos
+on:
+  push:
+    branches: [review/visual-asset-remediation-20261119]
+    paths: [image-review/commons-acceptance.json]
+permissions: {contents: write}
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python image-review/install_commons.py
+      - name: Recheck website assets after imagery installation
+        run: python image-review/check_asset_integrity.py
+      - name: Commit accepted photo replacements and attribution pages only
+        run: |
+          git config user.name "Digital Ambush photo QA"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -u
+          git add "*/image-credits.html"
+          if ! git diff --cached --quiet; then
+            git commit -m "assets(review): replace 12 verified off-topic support photos with licensed trade photography"
+            git push origin HEAD:review/visual-asset-remediation-20261119
+          fi
