@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "e6e9bc192a423585fa23faeb39f1fcc76905dcf5d3f3835cbbfaccbf3f9f66cf",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AFirst_aid_for_a_heel_abrasion.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:First aid for a heel abrasion.jpg"
+      "sha256": "1202ef985c74ac1126736f9c28627d346b6eadbf5dc16f2989d4939ffd1307bc",
+      "source_url": "generated:runway:ec245dbd-883d-4b0b-b8be-411dc51b8854",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",
