@@ -4,10 +4,12 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "a27c4fecbafebd57c5f20c5cebd7cec48a0e3c52c0821f9551bf1d3c91e6ec15",
+      "sha256": "bbe60988d43bd2ac9409ef09de82fe8fc0f92ed3173c360224ea2d3745f7af39",
       "source_url": "generated:runway:d54dd1e1-60d3-4a6f-8a1f-4cb2bf10f220",
       "license": "AI_GENERATED_COMMERCIAL_USE",
-      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work",
+      "contrast_review_adjusted": true,
+      "contrast_review_note": "NEWTON: measured hero contrast correction after 1440px Gate2 failure; non-generative edit."
     },
     "process-bg.jpg": {
       "role": "process-bg",
