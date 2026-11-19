@@ -71,18 +71,22 @@ for item in plan:
 # Commercial photo replacements have an independent visual acceptance and attribution gate.
 licensed_installs=0
 credited_sites=set()
-for suffix in ["", "-2"]:
-    decision_path=ROOT/"image-review"/f"commons-acceptance{suffix}.json"
-    staging_path=ROOT/"image-review"/f"commons-staged{suffix}"/"staging-manifest.json"
+for decision_rel,staging_rel in [
+    ("commons-acceptance.json","commons-staged/staging-manifest.json"),
+    ("commons-acceptance-2.json","commons-staged-2/staging-manifest.json"),
+    ("unsplash-acceptance.json","unsplash-staged/staging-manifest.json"),
+]:
+    decision_path=ROOT/"image-review"/decision_rel
+    staging_path=ROOT/"image-review"/staging_rel
     if not decision_path.exists(): continue
     if not staging_path.exists():
-        issues.append("Accepted Commons plan has no staged metadata: "+suffix)
+        issues.append("Accepted photo plan has no staged metadata: "+decision_rel)
         continue
     approved=json.loads(decision_path.read_text()).get("approved",[])
     staged=json.loads(staging_path.read_text()).get("items",[])
     for idx in approved:
         if idx<0 or idx>=len(staged):
-            issues.append(f"Invalid Commons photo acceptance index: {suffix}/{idx}")
+            issues.append(f"Invalid photo acceptance index: {decision_rel}/{idx}")
             continue
         item=staged[idx]
         site=ROOT/item["slug"]
