@@ -1,0 +1,16 @@
+{
+  "slug": "jac-plumbing-and-heating-wolverhampton-12131053",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "08f835e40d30726b6fb8065446ab446424e855bfc100f8314c6d1bea7e0e56bd",
+  "asset_manifest_sha256": "0f1711a7fabc021302b34c8dcecbd4c26792a2b24c76ea61a2fd1295023974e9",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

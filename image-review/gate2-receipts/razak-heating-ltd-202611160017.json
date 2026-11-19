@@ -1,0 +1,16 @@
+{
+  "slug": "razak-heating-ltd-202611160017",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "997a0f7e1c63857d8df611b03b01e2a26d6cd00e679d3b57277da875ec7d29b7",
+  "asset_manifest_sha256": "56b40fca624d7aca8aecef7cd77369553aa528d1531aaf3e2710920dbadf91d1",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

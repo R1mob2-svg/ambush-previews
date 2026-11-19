@@ -1,0 +1,16 @@
+{
+  "slug": "a-b-plastering-and-rendering-12131009",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "8cea14bcd5b1ca978194637c6b809106a340a41f9743672af820919843f1367c",
+  "asset_manifest_sha256": "bdfd243ecffa59c49f74facc111b5040bcf5aca66a74bf582a575b90b13f0d38",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

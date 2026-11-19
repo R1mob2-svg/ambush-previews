@@ -1,0 +1,16 @@
+{
+  "slug": "a-r-gas-services-0025",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "4a0a82a7fcca1a6a0e41515593fb4043fbad5ad5f04779586532f58b814eec12",
+  "asset_manifest_sha256": "f59bd145343153dc59937830ede5df6b3e4be2d2e83039250f611375fb592028",
+  "gate2_status": "PASS",
+  "gate2_checks": 68,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "a-j-cane-painting-and-decorating-specialists-limited-35187792471026",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "77e6abb42602e517ea545611712607075304dae87d428928f9cd8dea1873dec5",
+  "asset_manifest_sha256": "163bc3bd4e2d3826f996f211f49ad2742c7b974b9620ee71f230f2af2271be2c",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

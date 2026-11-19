@@ -1,0 +1,16 @@
+{
+  "slug": "hk-roofing-12131059",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "79f7a2fa204c54bf754968af66c2506be4b7a07c4f804b8effdb3e7a6580a324",
+  "asset_manifest_sha256": "aa2aba6cac65c6db6cd64771f09f48825dd3ba00b7bfeb9ae9c50df57020ee5f",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

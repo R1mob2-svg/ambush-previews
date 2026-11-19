@@ -1,0 +1,16 @@
+{
+  "slug": "plumbing-heating-solutions-midlands-ltd-12131003",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "adc91e43e73a8d3f0c6ed15f9636d1b9063c46552318c849289c81b885575f27",
+  "asset_manifest_sha256": "117b573067d4d6a7fd51d13f0b9871ea2a2f4e6f88191d43958433b7941f9795",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

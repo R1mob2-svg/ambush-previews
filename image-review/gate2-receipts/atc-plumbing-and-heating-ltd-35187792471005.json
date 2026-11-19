@@ -1,0 +1,16 @@
+{
+  "slug": "atc-plumbing-and-heating-ltd-35187792471005",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "7f232a3ec6aa07e21fbfd4acf4c6d8eecd28713e6ad6ae941568c8cd1a7cf3e3",
+  "asset_manifest_sha256": "d8894edb8333448a8b20708ec8701d5871b21c23f71038dd39de1da134afca7d",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

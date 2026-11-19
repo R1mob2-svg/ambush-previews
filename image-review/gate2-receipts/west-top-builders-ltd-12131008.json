@@ -1,0 +1,16 @@
+{
+  "slug": "west-top-builders-ltd-12131008",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "2aed053e5353e4a0eeef42756058c1a67360ab3df1463cfeb68fa8406cc98b70",
+  "asset_manifest_sha256": "866caa8624fdfe8045c1c45a27974d4de56415d4d25630dd1a8dd77ddc2e36bc",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

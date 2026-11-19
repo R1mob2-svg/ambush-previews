@@ -1,0 +1,16 @@
+{
+  "slug": "renovatez-heating-plumbing-0020",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "bf88188de6404924ff08632fa1363a7e6202645b310243e88712987512863a2d",
+  "asset_manifest_sha256": "b85b08c9df0787b54ede5f847b73100d40cb91ab7eefe1a2fbca8bd02cfb85e4",
+  "gate2_status": "PASS",
+  "gate2_checks": 68,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

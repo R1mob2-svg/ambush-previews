@@ -1,0 +1,16 @@
+{
+  "slug": "a-t-r-plumbing-and-property-maintenance-12131017",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "b162de312d4fe8f9065d09d96782023e5799aa1097a684db856249eea3dd516f",
+  "asset_manifest_sha256": "8ecb411998c7878b9b3c40fe516968f336b142e833261a4d96f550e90b23672c",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

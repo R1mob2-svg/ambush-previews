@@ -1,0 +1,16 @@
+{
+  "slug": "ali-plumbing-and-heating-services-ltd-35187792471007",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "0f9a87be4faaa11f3dc03fab42ab11d7ba34f1aada481b59c99831a7f28c36f3",
+  "asset_manifest_sha256": "b92fa36f84cc360c0ef50598a8104904108cdfdd1e2f3c78ee38bb73e1722382",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

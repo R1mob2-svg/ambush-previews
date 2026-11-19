@@ -1,0 +1,16 @@
+{
+  "slug": "dbritain-home-improvements-20261116",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "d928835fa42b3be8af47eae4d1ae7bdba4a97a050fd2511fa6500b9298fbae28",
+  "asset_manifest_sha256": "d324a06f3d2255238f7e69fc85bccea6a0caa2de7aa89027af3cef480efdeb53",
+  "gate2_status": "PASS",
+  "gate2_checks": 68,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}
