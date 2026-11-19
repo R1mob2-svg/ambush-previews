@@ -5,6 +5,7 @@ on:
       - review/visual-asset-remediation-20261119
     paths:
       - .github/workflows/commons-install-4.yml
+      - image-review/install_commons_4.py
 permissions:
   contents: write
 jobs:
