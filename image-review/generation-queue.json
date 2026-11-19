@@ -148,7 +148,8 @@
       "slug": "bk-gas-and-plumbing-0014",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "6abd2a3d-c8f4-4cb3-b7c2-056565cb9f7b"
     },
     {
       "slug": "bl-holliday-roofing-20261116",
@@ -168,19 +169,22 @@
       "slug": "cannock-mechanical-solutions-0016",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "f54c94bf-9e55-47cd-ba24-0a2fa8601a8b"
     },
     {
       "slug": "capital-heating-and-plumbing-12131051",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "220eddac-0698-4a9f-abc5-f6c8dedfe6bb"
     },
     {
       "slug": "central-landscaping-ltd-35187792471033",
       "trade": "landscaping",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "23bbdd41-b76b-45f0-8d01-e110aa5d0026"
     },
     {
       "slug": "cheek-electrical-20261116",
@@ -193,7 +197,8 @@
       "slug": "chivers-plumbing-and-heating-limited-35187792471006",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "86b97824-62b3-4e8c-8816-7ecc3e528943"
     },
     {
       "slug": "complete-plastering-services-12131040",
@@ -286,7 +291,8 @@
       "slug": "hudson-diy-ltd-12131014",
       "trade": "building-renovation",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "ced4b6b3-d038-4d26-97ec-9437cebb3a2f"
     },
     {
       "slug": "innovate-electrical-services-0026",
@@ -306,7 +312,8 @@
       "slug": "instyle-installations-0024",
       "trade": "building-renovation",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "2565bfbe-2768-42ae-91bc-1e1f29119a0e"
     },
     {
       "slug": "jac-plumbing-and-heating-wolverhampton-12131053",
@@ -366,7 +373,8 @@
       "slug": "mands-landscaping-limited-35187792471037",
       "trade": "landscaping",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "5e9f1c56-ed7d-4edd-8815-15d2c4d562de"
     },
     {
       "slug": "mark-the-roof-in-kings-heath-birmingham-uk-12131005",
@@ -405,13 +413,15 @@
       "slug": "mim-carpenter-12131012",
       "trade": "joinery",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "b8da1aa3-7e65-448f-85fe-804d60d11e55"
     },
     {
       "slug": "mj-electrical-services-12131061",
       "trade": "electrical",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "3757c67f-c458-41ce-931f-2394a97731c5"
     },
     {
       "slug": "painting-classic-cars-limited-35187792471021",
@@ -423,13 +433,15 @@
       "slug": "pavel-rubes-joinery-and-carpentery-12131013",
       "trade": "joinery",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "0e233608-fc82-4249-9413-1198749e0e19"
     },
     {
       "slug": "pb-smart-solutions-0023",
       "trade": "building-renovation",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "d8776e7c-21cc-431e-a64f-5a49dbcbb678"
     },
     {
       "slug": "perton-plumbing-and-heating-12131055",
@@ -465,13 +477,15 @@
       "slug": "rj-carpenters-and-joiners-12131016",
       "trade": "joinery",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "22c3feaf-b380-48b3-a17c-307ab8335223"
     },
     {
       "slug": "rm-frogley-fencing-and-landscaping-limited-35187792471036",
       "trade": "landscaping",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "d54dd1e1-60d3-4a6f-8a1f-4cb2bf10f220"
     },
     {
       "slug": "rm-plumbing-and-heating-12131001",
@@ -489,13 +503,15 @@
       "slug": "roofing-walsall-12131025",
       "trade": "roofing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "eff91a6f-e3a4-49dd-a152-ec69b8e8a57e"
     },
     {
       "slug": "rso-developments-0019",
       "trade": "building-renovation",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "3740b2bd-acaa-45b8-8002-d97c9a636aa7"
     },
     {
       "slug": "rso-developments-ltd-202611160019",
@@ -507,13 +523,15 @@
       "slug": "sab-builders-and-landscaping-ltd-35187792471034",
       "trade": "landscaping",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "96d1c21b-0d51-415b-9c2e-6059f6270971"
     },
     {
       "slug": "sheildslade-roofing-12131028",
       "trade": "roofing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "7715e1d6-5d1b-4c41-8810-ebbea382ace0"
     },
     {
       "slug": "skk-gas-and-heating-12131002",
@@ -525,7 +543,8 @@
       "slug": "sparkes-electrical-solutions-ltd-202611170004",
       "trade": "electrical",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "6fcfb390-f051-4d5a-ab75-4bd785a14730"
     },
     {
       "slug": "stm-plumbing-heating-uk-0012",
@@ -555,7 +574,8 @@
       "slug": "walsall-builders-and-timber-merchant-12131034",
       "trade": "joinery",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "b2b7acf9-4a42-4049-9a6d-c30f5188e4da"
     },
     {
       "slug": "walsall-plumbing-and-gas-20261116",
