@@ -42,6 +42,22 @@
       "source_url": "https://unsplash.com/photos/a-living-room-with-green-walls-and-a-white-radiator-3CGmQJW3_w0",
       "photographer": "Lisa Anna",
       "service": "Central heating systems"
+    },
+    {
+      "slug": "gds-plastering-limited-202611170002",
+      "filename": "service-1.jpg",
+      "photo_url": "https://images.pexels.com/photos/5691594/pexels-photo-5691594.jpeg?auto=compress&dpr=1&w=1600",
+      "source_url": "https://www.pexels.com/photo/crop-man-with-trowels-and-spackle-5691594/",
+      "photographer": "Ksenia Chernaya",
+      "service": "Skimming and plasterboarding"
+    },
+    {
+      "slug": "atc-plumbing-and-heating-ltd-35187792471005",
+      "filename": "service-2.jpg",
+      "photo_url": "https://images.unsplash.com/photo-1772066043908-0033fd15ecc4?auto=format&fit=crop&w=1600&q=84",
+      "source_url": "https://unsplash.com/photos/white-radiator-against-a-pale-green-wall-with-shadows-tamZSNzJJYM",
+      "photographer": "Andrew Bright",
+      "service": "Central heating systems"
     }
   ]
 }
