@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Read-only source/image quality audit that writes reports and review contact sheets."""
+"""Read-only source/image quality audit that writes reports and review contact sheets.
+
+Refresh report after 88 distinct hero and 26 supporting replacement assets.
+"""
 from collections import Counter, defaultdict
 from pathlib import Path
 import hashlib, json, math, re
