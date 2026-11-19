@@ -111,99 +111,113 @@
       "slug": "assg-plumbing-and-heating-services-0013",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "6e4ff6eb-7d03-4478-8c01-a32053739620"
+      "status": "READY",
+      "task_id": "6e4ff6eb-7d03-4478-8c01-a32053739620",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/6e4ff6eb-7d03-4478-8c01-a32053739620/db543d5d-ae00-4e47-8b4b-8c71ee4a5e43/Wide_premium_photorealistic_hero_photograph_for_a_UK_plumbin.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZjRiZmRlMzRjMDBlOTA0OSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI3NDE2NH0.B14IZeXdvH-aOu0KC2xzZQug-yUMhxz9b5uKG0C6AzM"
     },
     {
       "slug": "astra-roofing-limited-12131026",
       "trade": "roofing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "a9729fc7-2744-4c01-b2d5-3f10e06b09af"
+      "status": "READY",
+      "task_id": "a9729fc7-2744-4c01-b2d5-3f10e06b09af",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/a9729fc7-2744-4c01-b2d5-3f10e06b09af/a8e7ce03-a21a-4b45-b793-78c66d2ded63/Premium_photorealistic_commercial_website_hero_photograph_fo.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYjY5OGExZWYxMjM2NDIxZCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MDYzOX0.YDQWKtFP-gUPgvjmxqIud8-pItPlh1TXHhkhfmlHP7E"
     },
     {
       "slug": "atc-plumbing-and-heating-ltd-35187792471005",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "6f0d9f6b-dc0b-4e0f-acec-b21291c15690"
+      "status": "READY",
+      "task_id": "6f0d9f6b-dc0b-4e0f-acec-b21291c15690",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/6f0d9f6b-dc0b-4e0f-acec-b21291c15690/93f2197f-d734-4796-84c3-b1d82f7e55d5/Wide_premium_photorealistic_hero_photograph_for_a_UK_plumbin.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzQwMGJiMDg4MDAwNzM1ZCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIxNTExMn0.ZYvAo0liFzd2JQDqJGnxez-nm3QQTwE9bTAU-EBVBfA"
     },
     {
       "slug": "atlantic-joinery-services-ltd-12131015",
       "trade": "joinery",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "cd6abfd8-4514-4bd8-92a2-70f4c47e7e86"
+      "status": "READY",
+      "task_id": "cd6abfd8-4514-4bd8-92a2-70f4c47e7e86",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/cd6abfd8-4514-4bd8-92a2-70f4c47e7e86/8928ffda-1cda-42cc-952b-5c01ddffd7d6/Wide_premium_photorealistic_advertising_hero_for_a_UK_bespok.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMWY3MzQ1M2FmNzM1ZWQyZiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIyMjQ1OH0.fLdUPymhf48t6nrD3FiH5w9lSvjSC43liyo3LwpTY3c"
     },
     {
       "slug": "bdc-roofing-supplies-12131027",
       "trade": "roofing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "f75924ed-5e29-4868-a295-27924428c935"
+      "status": "READY",
+      "task_id": "f75924ed-5e29-4868-a295-27924428c935",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/f75924ed-5e29-4868-a295-27924428c935/6775ee8a-5f40-4d95-9981-aa28e6d63a8a/Premium_photorealistic_commercial_website_hero_photograph_fo.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZTgwYWQ3ZDdkNzBhMzA0NCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIzMjcyN30.bBBIuAMRwHGTdqvE5E7ZebUFCbn8imLLiC9MIY8Qe6A"
     },
     {
       "slug": "be-plastering-services",
       "trade": "plastering",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "178c4ae3-2b5a-4d15-a4e3-7cad99c28e38"
+      "status": "READY",
+      "task_id": "178c4ae3-2b5a-4d15-a4e3-7cad99c28e38",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/178c4ae3-2b5a-4d15-a4e3-7cad99c28e38/7d9ae609-71b0-4104-a0e6-aff30dc30a68/Premium_photorealistic_commercial_website_hero_photograph_fo.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYjNiZmEyYmFjNmZkZWJkNyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5NDI5OH0.KzILynuel94cmAidUZxUIIec04CHdsW8GBras8INSi0"
     },
     {
       "slug": "birmingham-plastering-services-12131010",
       "trade": "plastering",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "adca0fe9-5d28-4295-baaa-14ffd1606e4e"
+      "status": "READY",
+      "task_id": "adca0fe9-5d28-4295-baaa-14ffd1606e4e",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/adca0fe9-5d28-4295-baaa-14ffd1606e4e/9dd4775d-ac5f-47a3-835d-aecd6c601d1c/Premium_photorealistic_commercial_website_hero_photograph_fo.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNTk1OTI1NTAwY2QwM2VlZSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzY4MH0.k9DYnGRnT0kHepUHCBtZJQsyPpowABrbo-o55s2NmKg"
     },
     {
       "slug": "bk-gas-and-plumbing-0014",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "6abd2a3d-c8f4-4cb3-b7c2-056565cb9f7b"
+      "status": "READY",
+      "task_id": "6abd2a3d-c8f4-4cb3-b7c2-056565cb9f7b",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/6abd2a3d-c8f4-4cb3-b7c2-056565cb9f7b/9d10dbcc-9b4e-49c5-bdad-03b92b73fbe1/Single_exceptional_photorealistic_wide_16_9_commercial_websi.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNjRhOTI3YzRiZWM1ZjkzOCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI1MjE2NH0.6JQc2aZD7hn-RFxVhwB7yyJL0fh0NiwP8ExG2G4GzMI"
     },
     {
       "slug": "bl-holliday-roofing-20261116",
       "trade": "roofing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "5d77e6b9-de99-4394-a0e4-2875ad6d34c7"
+      "status": "READY",
+      "task_id": "5d77e6b9-de99-4394-a0e4-2875ad6d34c7",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/5d77e6b9-de99-4394-a0e4-2875ad6d34c7/5e5e9a35-467c-4887-ae08-19a5ac131655/Premium_photorealistic_commercial_website_hero_photograph_fo.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMDJmNzgxZWU1MjViZTNhMiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIyNzg4Nn0.KQiJpeX3uy4aH0A9PvI-tzvFZl_5yyPG1AcDZQL48dg"
     },
     {
       "slug": "c-hayer-builder-ltd-12131036",
       "trade": "building-renovation",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "474b272f-d59d-4a80-9a4b-160e8e71c01b"
+      "status": "READY",
+      "task_id": "474b272f-d59d-4a80-9a4b-160e8e71c01b",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/474b272f-d59d-4a80-9a4b-160e8e71c01b/feb04400-42ae-4573-b96a-1390b5b38a06/Wide_premium_photorealistic_advertising_hero_for_a_trusted_B.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzczZDY4ZTY1NTViNmVkMCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI2NDIzMH0.QCpzMAHq2XGHFps9EY3nzZZlvqL87eCxDOzlQ9lCr0Y"
     },
     {
       "slug": "cannock-mechanical-solutions-0016",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "f54c94bf-9e55-47cd-ba24-0a2fa8601a8b"
+      "status": "READY",
+      "task_id": "f54c94bf-9e55-47cd-ba24-0a2fa8601a8b",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/f54c94bf-9e55-47cd-ba24-0a2fa8601a8b/b51473d3-e622-4581-82ca-5b5a5bda09b5/Single_exceptional_photorealistic_wide_16_9_commercial_websi.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMTBlMmZiYzFiYWY4YjJkYiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIyNDY0MX0.n1GlmmDKph5cI4dG7FEqxZADF6Z-jsXC842_Bbvokj0"
     },
     {
       "slug": "capital-heating-and-plumbing-12131051",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "220eddac-0698-4a9f-abc5-f6c8dedfe6bb"
+      "status": "READY",
+      "task_id": "220eddac-0698-4a9f-abc5-f6c8dedfe6bb",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/220eddac-0698-4a9f-abc5-f6c8dedfe6bb/1d7ac0a7-45cf-45ad-b9f1-2be1c1895a05/Single_exceptional_photorealistic_wide_16_9_commercial_websi.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiOWJkZmZkYTRlNWEzODdiMiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIxMTk0MH0.NYj28hjJ6x1Spb7CmnfNHZZC2MakXZqYdlczxoaSERg"
     },
     {
       "slug": "central-landscaping-ltd-35187792471033",
       "trade": "landscaping",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "23bbdd41-b76b-45f0-8d01-e110aa5d0026"
+      "status": "READY",
+      "task_id": "23bbdd41-b76b-45f0-8d01-e110aa5d0026",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/23bbdd41-b76b-45f0-8d01-e110aa5d0026/3b864848-0126-4d80-a57d-db2800581fe8/Single_photorealistic_premium_widescreen_website_hero_photog.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZDM4NmMzYzZhMzA3MzNhZSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI1MDExOH0.mcd9BoPHMElPqrhcaH9-DL2SsJfypIbLGGlT7Dwvn4M"
     },
     {
       "slug": "cheek-electrical-20261116",
       "trade": "electrical",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "f3f44e31-1079-4dd1-ad9f-31f8804245ab"
+      "status": "READY",
+      "task_id": "f3f44e31-1079-4dd1-ad9f-31f8804245ab",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/f3f44e31-1079-4dd1-ad9f-31f8804245ab/df4b3d6f-89bf-49f7-b200-931b181b36b0/Premium_photorealistic_wide_commercial_website_hero_photogra.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNjYzODRmNDk1MmIxMDY1NyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIzMTk0NX0.8fgwNa9doVOZS3jkRSsKUUuqudw9ENiuZOfMCrXrwGQ"
     },
     {
       "slug": "chivers-plumbing-and-heating-limited-35187792471006",
