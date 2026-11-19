@@ -78,13 +78,15 @@
       "slug": "alto-barren-plumbing-and-heating-limited-202611160018",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "fa4ddaec-dc91-4144-a71b-be9bf23c3d40"
     },
     {
       "slug": "alto-barren-plumbing-heating-0018",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "d0e57f7c-996e-4014-8690-ff7a53b1dcb7"
     },
     {
       "slug": "ams-spray-painting-and-decorating-ltd-35187792471023",
@@ -97,7 +99,8 @@
       "slug": "assg-plumbing-and-heating-services-0013",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "6e4ff6eb-7d03-4478-8c01-a32053739620"
     },
     {
       "slug": "astra-roofing-limited-12131026",
@@ -110,13 +113,15 @@
       "slug": "atc-plumbing-and-heating-ltd-35187792471005",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "6f0d9f6b-dc0b-4e0f-acec-b21291c15690"
     },
     {
       "slug": "atlantic-joinery-services-ltd-12131015",
       "trade": "joinery",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "cd6abfd8-4514-4bd8-92a2-70f4c47e7e86"
     },
     {
       "slug": "bdc-roofing-supplies-12131027",
@@ -156,7 +161,8 @@
       "slug": "c-hayer-builder-ltd-12131036",
       "trade": "building-renovation",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "474b272f-d59d-4a80-9a4b-160e8e71c01b"
     },
     {
       "slug": "cannock-mechanical-solutions-0016",
@@ -206,7 +212,8 @@
       "slug": "dbritain-home-improvements-20261116",
       "trade": "building-renovation",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "f7be104e-c304-46bb-86aa-fb6d8ea0df0c"
     },
     {
       "slug": "domestic-gas-heating-12131056",
@@ -224,19 +231,22 @@
       "slug": "gd-wood-works-12131048",
       "trade": "joinery",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "72949ac2-80bf-48c6-b512-fb693ebb883b"
     },
     {
       "slug": "gds-plastering-limited-202611170002",
       "trade": "plastering",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "a92d5d27-12a9-4586-bb83-e9b59ff714f4"
     },
     {
       "slug": "great-roofing-and-building-12131004",
       "trade": "roofing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "b18b8f14-7aac-47ac-ba76-c859881d70c9"
     },
     {
       "slug": "hallows-electrical-services-ltd-12131031",
@@ -255,19 +265,22 @@
       "slug": "hk-roofing-12131059",
       "trade": "roofing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "93ef297c-c769-4d34-8ca6-2d29d065cc5e"
     },
     {
       "slug": "hlc-builders-12131007",
       "trade": "building-renovation",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "3c083049-c1fd-4efd-ba3c-b3d4d9c0f970"
     },
     {
       "slug": "hobbs-hodgetts-0015",
       "trade": "building-renovation",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "a03921fb-47a4-4ae3-bc52-ddf52bf85535"
     },
     {
       "slug": "hudson-diy-ltd-12131014",
@@ -279,13 +292,15 @@
       "slug": "innovate-electrical-services-0026",
       "trade": "electrical",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "d6dc03d4-2344-49bb-8955-bfbc708de377"
     },
     {
       "slug": "innovate-electrical-services-limited-202611160026",
       "trade": "electrical",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "db5c5bba-4af8-4cd0-b74b-a588576dec01"
     },
     {
       "slug": "instyle-installations-0024",
@@ -303,13 +318,15 @@
       "slug": "joshua-mcdougal-plastering-bedworth-12131089",
       "trade": "plastering",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "bf972fb5-3f83-438a-a4c4-aaa7e9f7e651"
     },
     {
       "slug": "k-plastering-12131067",
       "trade": "plastering",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "045f9d28-fd74-4831-84c5-10eef9788d5f"
     },
     {
       "slug": "kane-heating-and-plumbing-limited-35187792471003",
@@ -321,25 +338,29 @@
       "slug": "kenlee-joinery-12131046",
       "trade": "joinery",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "1a87890a-d8ce-4daa-8856-17b5ca5f3124"
     },
     {
       "slug": "knight-roofing-12131006",
       "trade": "roofing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "ffb8ab8f-4eec-4f57-90ff-f39b809c34cd"
     },
     {
       "slug": "lightwork-services-ltd-12131029",
       "trade": "electrical",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "064511f2-571f-475b-a8ac-8d7cf07db186"
     },
     {
       "slug": "lizard-electrical-12131062",
       "trade": "electrical",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "9639ed6d-314d-412b-9c3f-e429337ff51a"
     },
     {
       "slug": "mands-landscaping-limited-35187792471037",
@@ -351,13 +372,15 @@
       "slug": "mark-the-roof-in-kings-heath-birmingham-uk-12131005",
       "trade": "roofing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "d1ce3b38-f9c2-4bc6-a031-738c637b992d"
     },
     {
       "slug": "matrix-i-d-c-joinery-12131050",
       "trade": "joinery",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "5f5a8ab8-4fda-4e99-a298-975e82c67eed"
     },
     {
       "slug": "mcd-painting-and-decorating-limited-35187792471024",
