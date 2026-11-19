@@ -6,7 +6,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 plan = json.loads((ROOT / "image-review/asset-plan.json").read_text())
 for item in plan["assets"]:
     slug, filename = item["slug"], item["filename"]
-    if not slug.replace("-", "").replace("_", "").isalnum() or not re.fullmatch(r"[A-Za-z0-9_-]+\\.(?:jpg|jpeg)", filename):
+    if not slug.replace("-", "").replace("_", "").isalnum() or not re.fullmatch(r"[A-Za-z0-9_-]+\.(?:jpg|jpeg)", filename):
         raise ValueError("Unsafe asset path")
     url = item["download_url"]
     if not url.startswith("https://dnznrvs05pmza.cloudfront.net/"):
