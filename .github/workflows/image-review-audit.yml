@@ -5,6 +5,7 @@ on:
       - review/visual-asset-remediation-20261119
     paths:
       - image-review/audit_images.py
+      - image-review/unsplash-acceptance.json
       - .github/workflows/image-review-audit.yml
 permissions:
   contents: write
