@@ -1,0 +1,49 @@
+name: Newton 88-site desktop and mobile screenshot verification
+on:
+  push:
+    branches:
+      - review/newton-88-visual-screens-20261119
+    paths:
+      - .github/workflows/newton-visual-all.yml
+permissions:
+  contents: write
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 28
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+          python -m pip install Pillow==11.1.0
+      - name: Render 88 websites at desktop and mobile sizes
+        run: node scripts/newton_capture_review.js
+      - name: Generate visual contact sheets
+        if: always()
+        run: |
+          if [ -f image-review/newton-visual-capture/geometry.json ]; then
+            python scripts/newton_visual_sheets.py
+          fi
+      - name: Commit only review sheets and JSON geometry, not large individual screenshots
+        if: always()
+        run: |
+          git config user.name "Digital Ambush Newton QA"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add image-review/newton-visual-capture/geometry.json image-review/newton-visual-capture/*-sheet-*.jpg
+          if ! git diff --cached --quiet; then
+            git commit -m "qa(review): all 88 desktop/mobile visual comparison sheets"
+            git push origin HEAD:review/newton-88-visual-screens-20261119
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: newton-all-88-desktop-mobile-screenshots
+          path: image-review/newton-visual-capture/
+          retention-days: 14
