@@ -1,0 +1,26 @@
+{
+  "status": "VISUALLY_ACCEPTED_FOR_REVIEW_BRANCH_ONLY",
+  "external_sends": "HOLD",
+  "approved": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    9
+  ],
+  "rejected": [
+    {
+      "id": 5,
+      "reason": "Old degraded roof not a strong professional process photo"
+    },
+    {
+      "id": 8,
+      "reason": "Distant street scene, roofing work not prominent"
+    }
+  ],
+  "visual_evidence": "image-review/commons-staged-3/review-sheet.jpg",
+  "publisher_approval": false
+}
