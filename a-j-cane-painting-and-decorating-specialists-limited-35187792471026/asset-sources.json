@@ -29,10 +29,14 @@
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "89507574419cb26e265f0f46fa9e04abde49b889f89d6f076ad2203e7dbfe89a",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AUn_tram_a_grimagliera%5E_-_panoramio.jpg",
-      "license": "CC BY 3.0",
-      "notes": "Commons: File:Un tram a grimagliera^ - panoramio.jpg"
+      "sha256": "706e514c330dd95f49d694eb16a061afcf52f2c1ee70bb2d9e062d3f401dd5d2",
+      "source_url": "https://unsplash.com/photos/a-painter-is-working-on-a-buildings-exterior-h3FRYkgqJSg",
+      "source_title": "Exterior painting",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "author": "Savannah du Toit",
+      "credit": "",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-3.jpg": {
       "role": "service-3",

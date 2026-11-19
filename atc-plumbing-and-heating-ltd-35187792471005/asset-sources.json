@@ -25,10 +25,14 @@
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "d3cb4701dc4360723b3c86f59f21cdd86796e457af66cfd114b9da808cbfdf73",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABarbados_%286821359633%29.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Commons: File:Barbados (6821359633).jpg"
+      "sha256": "00a3ea94525647a87678ca35365e9adaff536430e9d2f12d60e25f84a39106ce",
+      "source_url": "https://unsplash.com/photos/white-radiator-against-a-pale-green-wall-with-shadows-tamZSNzJJYM",
+      "source_title": "Central heating systems",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "author": "Andrew Bright",
+      "credit": "",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-3.jpg": {
       "role": "service-3",

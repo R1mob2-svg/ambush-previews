@@ -18,10 +18,14 @@
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "3077ee21a462c9f6de2baf649758bf4207e424737c0291c1b88f294c2b3b2943",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AJohn_Cranch_-_Plasterer_-_Google_Art_Project.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:John Cranch - Plasterer - Google Art Project.jpg"
+      "sha256": "5f6e7a5d900776a3612c3714b868428b42be809b3632addd8dabe3d8197a8bb1",
+      "source_url": "https://unsplash.com/photos/hands-applying-plaster-to-a-wall-with-trowels-Re1O5byZ8bY",
+      "source_title": "Skimming and plasterboarding",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "author": "Sasun Bughdaryan",
+      "credit": "",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-2.jpg": {
       "role": "service-2",
