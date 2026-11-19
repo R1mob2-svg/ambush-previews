@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "status": "PREVIEW_REVIEW_ONLY",
+  "external_sends": "HOLD",
+  "assets": [
+    {
+      "slug": "a-b-plastering-and-rendering-12131009",
+      "filename": "hero.jpg",
+      "task_id": "ec245dbd-883d-4b0b-b8be-411dc51b8854",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/ec245dbd-883d-4b0b-b8be-411dc51b8854/db91379f-d499-4fc7-88d5-01e31138b1d0/Single_standalone_photorealistic_premium_commercial_website_.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZDFiOWZmZTQ1MWMwZGQ2NiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIwNzAxMn0.2pWA2RKNwJoRjvPjMuK9PhpNW5BfVXyYJX0c0SmP3vo"
+    }
+  ]
+}
