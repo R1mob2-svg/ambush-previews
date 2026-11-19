@@ -94,6 +94,44 @@
         760
       ],
       "review_status": "PENDING_VISUAL_APPROVAL"
+    },
+    {
+      "slug": "gds-plastering-limited-202611170002",
+      "filename": "service-1.jpg",
+      "photo_url": "https://images.pexels.com/photos/5691594/pexels-photo-5691594.jpeg?auto=compress&dpr=1&w=1600",
+      "source_url": "https://www.pexels.com/photo/crop-man-with-trowels-and-spackle-5691594/",
+      "photographer": "Ksenia Chernaya",
+      "service": "Skimming and plasterboarding",
+      "staged_filename": "unsplash-05.jpg",
+      "source_title": "Skimming and plasterboarding",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "artist": "Ksenia Chernaya",
+      "sha256": "a163abeb634b8656f13676fb8a6715ad4e3e2fa27aaa7287c724794d62699d8c",
+      "size": [
+        1200,
+        760
+      ],
+      "review_status": "PENDING_VISUAL_APPROVAL"
+    },
+    {
+      "slug": "atc-plumbing-and-heating-ltd-35187792471005",
+      "filename": "service-2.jpg",
+      "photo_url": "https://images.unsplash.com/photo-1772066043908-0033fd15ecc4?auto=format&fit=crop&w=1600&q=84",
+      "source_url": "https://unsplash.com/photos/white-radiator-against-a-pale-green-wall-with-shadows-tamZSNzJJYM",
+      "photographer": "Andrew Bright",
+      "service": "Central heating systems",
+      "staged_filename": "unsplash-06.jpg",
+      "source_title": "Central heating systems",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "artist": "Andrew Bright",
+      "sha256": "00a3ea94525647a87678ca35365e9adaff536430e9d2f12d60e25f84a39106ce",
+      "size": [
+        1200,
+        760
+      ],
+      "review_status": "PENDING_VISUAL_APPROVAL"
     }
   ],
   "errors": []
