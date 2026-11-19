@@ -3,44 +3,10 @@
   "total_assets": 402,
   "heroes": 88,
   "supporting": 314,
-  "source_risk_count": 20,
+  "source_risk_count": 17,
   "sha_mismatch_count": 0,
-  "cross_site_duplicate_byte_hashes": {
-    "d862bd5a4deeab88717f288ed893d28feb1d9359d407cef861ab032c77bd70ae": [
-      "great-roofing-and-building-12131004/process-bg.jpg",
-      "sheildslade-roofing-12131028/process-bg.jpg"
-    ],
-    "702d3c8696bfb0c65708c19744419bcacb31510e4396f0d7bf67c64239b2957a": [
-      "great-roofing-and-building-12131004/service-1.jpg",
-      "sheildslade-roofing-12131028/service-1.jpg"
-    ],
-    "aa180e0f9f8fe6e4107fc43e315a0041e97582b5e3eb664b4c3bb96395b7f4bd": [
-      "great-roofing-and-building-12131004/service-2.jpg",
-      "sheildslade-roofing-12131028/service-2.jpg"
-    ],
-    "40a5317f047571c5d1c7bdfa401340eded35f70169fd83fe7c22b7a78019a8fb": [
-      "great-roofing-and-building-12131004/service-3.jpg",
-      "sheildslade-roofing-12131028/service-3.jpg"
-    ]
-  },
-  "cross_site_duplicate_source_origins": {
-    "https://commons.wikimedia.org/wiki/File%3AH%C3%BCckeswagen_-_An_der_Schlo%C3%9Ffabrik_18_ies.jpg": [
-      "great-roofing-and-building-12131004/process-bg.jpg",
-      "sheildslade-roofing-12131028/process-bg.jpg"
-    ],
-    "https://commons.wikimedia.org/wiki/File%3AIf_I_were_a_carpenter.jpg": [
-      "great-roofing-and-building-12131004/service-1.jpg",
-      "sheildslade-roofing-12131028/service-1.jpg"
-    ],
-    "https://commons.wikimedia.org/wiki/File%3AKenya_Tak_22_BG.jpg": [
-      "great-roofing-and-building-12131004/service-2.jpg",
-      "sheildslade-roofing-12131028/service-2.jpg"
-    ],
-    "https://commons.wikimedia.org/wiki/File%3AKenya_Tak_23_BG.jpg": [
-      "great-roofing-and-building-12131004/service-3.jpg",
-      "sheildslade-roofing-12131028/service-3.jpg"
-    ]
-  },
+  "cross_site_duplicate_byte_hashes": {},
+  "cross_site_duplicate_source_origins": {},
   "hero_contact_sheets": [
     "image-review/contact-sheets/hero-01.jpg",
     "image-review/contact-sheets/hero-02.jpg",
@@ -579,54 +545,54 @@
         {
           "filename": "process-bg.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ACommon_gas_meter_in_Stalin-era_apartment_building.JPG",
-          "sha_expected": "b38ac59cd197809fcd2d25db3f14765504f9508898dabfd7cbaef49e88a36652",
-          "sha256": "b38ac59cd197809fcd2d25db3f14765504f9508898dabfd7cbaef49e88a36652",
-          "bytes": 673462,
+          "source": "generated:runway:9ab188c4-f8ee-4e6e-a8d9-fd7e05a40adb",
+          "sha_expected": "825fc776fd5cd81b80e147fc1205672dd2589cf980737c8d75a401a0ab40f75b",
+          "sha256": "825fc776fd5cd81b80e147fc1205672dd2589cf980737c8d75a401a0ab40f75b",
+          "bytes": 138933,
           "dimensions": [
-            1920,
-            2560
+            1200,
+            896
           ],
-          "dhash": "7f7f7b7d3cbcfef0"
+          "dhash": "3e36363636343931"
         },
         {
           "filename": "service-1.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ACompteur_Gaz_Fun_Bissardon_Caluire.JPG",
-          "sha_expected": "f6a5f8b52d5e9ef9f3188d0bfb25a142c91d5efdca3850e44103e4b6b64c843e",
-          "sha256": "f6a5f8b52d5e9ef9f3188d0bfb25a142c91d5efdca3850e44103e4b6b64c843e",
-          "bytes": 1102660,
+          "source": "generated:runway:a46603dd-bd85-4d0d-a2d7-5e7f63da8c63",
+          "sha_expected": "15546027da9e12ce892e76b4216c56926f2590a296c96a9e882581ae1a324292",
+          "sha256": "15546027da9e12ce892e76b4216c56926f2590a296c96a9e882581ae1a324292",
+          "bytes": 148468,
           "dimensions": [
-            1920,
-            2560
+            1200,
+            896
           ],
-          "dhash": "e5c589696161e1cc"
+          "dhash": "87c38783869637b3"
         },
         {
           "filename": "service-2.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ACounting_the_amount_of_gas_%2848506345531%29.jpg",
-          "sha_expected": "25fe055c046f61422baa60211bb75385397ffdab77c80f0531d07d2a783f2dcd",
-          "sha256": "25fe055c046f61422baa60211bb75385397ffdab77c80f0531d07d2a783f2dcd",
-          "bytes": 506571,
+          "source": "generated:runway:f86a6cdd-7794-40b9-868e-c668308561b0",
+          "sha_expected": "0525dbd3602f094bf749aa31514227cb53aab3c14036437b0da9fd16bc884597",
+          "sha256": "0525dbd3602f094bf749aa31514227cb53aab3c14036437b0da9fd16bc884597",
+          "bytes": 148981,
           "dimensions": [
-            1920,
-            1282
+            1200,
+            896
           ],
-          "dhash": "9cf0e8e8e0e8f0f8"
+          "dhash": "2a6b3f6727364c18"
         },
         {
           "filename": "service-3.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ACreos%2C_Elster_BK-4G_AT-101.jpg",
-          "sha_expected": "d2751d8e37c0b5a0efbad831d47d581227acd89b5c3bc3f7fb190ea5075ec300",
-          "sha256": "d2751d8e37c0b5a0efbad831d47d581227acd89b5c3bc3f7fb190ea5075ec300",
-          "bytes": 500785,
+          "source": "generated:runway:f35a3a53-0900-4bd8-ac9a-89ca6527e570",
+          "sha_expected": "3de17bcb2c9091be6abf741ac608a390727508c97baf4222ab092d25990a7b6c",
+          "sha256": "3de17bcb2c9091be6abf741ac608a390727508c97baf4222ab092d25990a7b6c",
+          "bytes": 158828,
           "dimensions": [
-            1920,
-            1281
+            1200,
+            896
           ],
-          "dhash": "1c04564656566262"
+          "dhash": "0f2e373232a6a626"
         }
       ],
       "flags": []
@@ -639,14 +605,14 @@
           "filename": "hero.jpg",
           "kind": "hero",
           "source": "generated:runway:a007e450-26a0-4ca1-b2de-0f40463fc3e4",
-          "sha_expected": "4c55f3bfe265fb93797be1f1d580d3cf16aba643cc1813acd90c5f64fac68666",
-          "sha256": "4c55f3bfe265fb93797be1f1d580d3cf16aba643cc1813acd90c5f64fac68666",
-          "bytes": 133609,
+          "sha_expected": "43f54932d0eab109ff681d8b56a7d4223b3f01fecc2daa25aee3062aec6ea5ba",
+          "sha256": "43f54932d0eab109ff681d8b56a7d4223b3f01fecc2daa25aee3062aec6ea5ba",
+          "bytes": 95015,
           "dimensions": [
             1376,
             768
           ],
-          "dhash": "68b0605656329090"
+          "dhash": "64a4404040008080"
         },
         {
           "filename": "process-bg.jpg",
@@ -711,14 +677,14 @@
           "filename": "hero.jpg",
           "kind": "hero",
           "source": "generated:runway:30589655-6d0d-41a2-8594-5623404e8a95",
-          "sha_expected": "7ec1283ff83c39e3d53afcf8975971cedf445c5145895a2ed554653fe13963a8",
-          "sha256": "7ec1283ff83c39e3d53afcf8975971cedf445c5145895a2ed554653fe13963a8",
-          "bytes": 139849,
+          "sha_expected": "0957fef675f5f054bedb34e0a49bda44a099f2161f1e66a61b923782fa32cf44",
+          "sha256": "0957fef675f5f054bedb34e0a49bda44a099f2161f1e66a61b923782fa32cf44",
+          "bytes": 88947,
           "dimensions": [
             1376,
             768
           ],
-          "dhash": "909096d2125290d0"
+          "dhash": "909090d01040c0c0"
         },
         {
           "filename": "process-bg.jpg",
@@ -916,60 +882,57 @@
         {
           "filename": "process-bg.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ACity_of_London_Cemetery_white_heart_floral_tribute_1.jpg",
-          "sha_expected": "8aef324ae0440ca322cda38b333e157d2024cb3d75da6fe661b2aa6b4f585f34",
-          "sha256": "8aef324ae0440ca322cda38b333e157d2024cb3d75da6fe661b2aa6b4f585f34",
-          "bytes": 1677599,
+          "source": "generated:runway:765cf2ff-2a50-4f88-b2b2-adffbfbe807e",
+          "sha_expected": "b419e84307b77d6d5aca45c5d00341be43a902614b60beaee41f8a4e5f733f9a",
+          "sha256": "b419e84307b77d6d5aca45c5d00341be43a902614b60beaee41f8a4e5f733f9a",
+          "bytes": 117933,
           "dimensions": [
-            1920,
-            1920
+            1200,
+            896
           ],
-          "dhash": "9c3268ccc6e6e418",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "cac8898c8c9cbcec"
         },
         {
           "filename": "service-1.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AA_bright_red_paintbrush.jpg",
-          "sha_expected": "e78c23fdcb26cea31d5c2128acea465716b3d26ebcee7acb89792eb01e5f37ba",
-          "sha256": "e78c23fdcb26cea31d5c2128acea465716b3d26ebcee7acb89792eb01e5f37ba",
-          "bytes": 240554,
+          "source": "generated:runway:c712dfc0-933b-4e82-a767-870d31a72151",
+          "sha_expected": "f1eb7db762b73df16a0dae9400cf0e3aec4910cc91edfce7e4f76e3b7a5c83e2",
+          "sha256": "f1eb7db762b73df16a0dae9400cf0e3aec4910cc91edfce7e4f76e3b7a5c83e2",
+          "bytes": 116182,
           "dimensions": [
-            1920,
-            1282
+            1200,
+            896
           ],
-          "dhash": "f0bc98f8f0f0e0e0"
+          "dhash": "61ce4e4e8e9ecef6"
         },
         {
           "filename": "service-2.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AA_hand_holds_a_cup_with_paintbrushes_as_a_child_focuses_on_creating_art_on_an_easel_nearby.jpg",
-          "sha_expected": "6be9a162a47853e70fb1bcefba010d9e0c6bd1db674d908e475673154fe699da",
-          "sha256": "6be9a162a47853e70fb1bcefba010d9e0c6bd1db674d908e475673154fe699da",
-          "bytes": 335353,
+          "source": "generated:runway:55a3d295-51a7-4c7c-95f9-d19449dfb97a",
+          "sha_expected": "755dc975c2d8451ce9d178ccacc8034d90004fc3cb558c9f2cbe9f8c68b296b2",
+          "sha256": "755dc975c2d8451ce9d178ccacc8034d90004fc3cb558c9f2cbe9f8c68b296b2",
+          "bytes": 109988,
           "dimensions": [
-            1920,
-            1282
+            1200,
+            896
           ],
-          "dhash": "d392b6120c0c1e7a"
+          "dhash": "2c0c0a4c6c2c6c30"
         },
         {
           "filename": "service-3.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AA_notebook_with_paint_brushes.jpg",
-          "sha_expected": "4ea415e2bba34324eccb8b116cb9383eb834acb16a7e973c24a1a4c6e04f896f",
-          "sha256": "4ea415e2bba34324eccb8b116cb9383eb834acb16a7e973c24a1a4c6e04f896f",
-          "bytes": 623915,
+          "source": "generated:runway:cb767c3c-697a-4ae0-8d4c-d0837236c47f",
+          "sha_expected": "eb4fa32004d5dd0a198ecb591c8276a09f99b2dd73ec4f980aa31648af75863b",
+          "sha256": "eb4fa32004d5dd0a198ecb591c8276a09f99b2dd73ec4f980aa31648af75863b",
+          "bytes": 126487,
           "dimensions": [
-            1920,
-            1146
+            1200,
+            896
           ],
-          "dhash": "ebc7c7c1c1c7c4f4"
+          "dhash": "40d2d211131b12f0"
         }
       ],
-      "flags": [
-        "SOURCE_RISK process-bg.jpg"
-      ]
+      "flags": []
     },
     {
       "slug": "assg-plumbing-and-heating-services-0013",
@@ -1824,14 +1787,14 @@
           "filename": "CHEEK-HERO-METER.jpg",
           "kind": "hero",
           "source": "generated:runway:f3f44e31-1079-4dd1-ad9f-31f8804245ab",
-          "sha_expected": "532bbe1927998652aefc20da487ce9aa17ada74ea48cdb3f71964cdf3fe76496",
-          "sha256": "532bbe1927998652aefc20da487ce9aa17ada74ea48cdb3f71964cdf3fe76496",
-          "bytes": 118600,
+          "sha_expected": "f58873f5a93b33db9db1ae7a2eb150b45359c61f63d90af331b8fab1a2ee887f",
+          "sha256": "f58873f5a93b33db9db1ae7a2eb150b45359c61f63d90af331b8fab1a2ee887f",
+          "bytes": 88530,
           "dimensions": [
             1376,
             768
           ],
-          "dhash": "1018181c18188090"
+          "dhash": "1000100000008480"
         },
         {
           "filename": "CHEEK-SVC-CONSUMER.jpg",
@@ -1849,15 +1812,15 @@
         {
           "filename": "CHEEK-SVC-WIRING.jpg",
           "kind": "support",
-          "source": "commons:Electrician_installing_socket_20160817.jpg",
-          "sha_expected": null,
-          "sha256": "ebd5a6ebdefd3902eb76e183e7e233beccf4d2f78288839b95bb7a17bb66532d",
-          "bytes": 146963,
+          "source": "generated:runway:13631969-fae9-4e2b-a347-cfd89fe7133f",
+          "sha_expected": "386639fb2f8b60146fd94cf03b7facf66466296e4c0467fb8c6fdf946e1d74ee",
+          "sha256": "386639fb2f8b60146fd94cf03b7facf66466296e4c0467fb8c6fdf946e1d74ee",
+          "bytes": 126797,
           "dimensions": [
             1200,
-            1200
+            896
           ],
-          "dhash": "e4eddc5a8f8797b5"
+          "dhash": "5e3c3f6b3b3b3a3b"
         },
         {
           "filename": "CHEEK-SVC-FAULTS.jpg",
@@ -2170,54 +2133,54 @@
         {
           "filename": "process-bg.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ALyon_7e_-_Ancienne_prise_Gaz_Lyon_%28mars_2019%29.jpg",
-          "sha_expected": "6cf0b3c6d9b9cd888793ff7254dedb05b43a58c07aea1aa4a5878b571eb7c798",
-          "sha256": "6cf0b3c6d9b9cd888793ff7254dedb05b43a58c07aea1aa4a5878b571eb7c798",
-          "bytes": 633132,
+          "source": "generated:runway:961eadfb-642c-4b53-b3ab-73a8dc238fc5",
+          "sha_expected": "080515bbe1771fb63e0e7d7cd02be767568b0e3596de27a722bc14f16ac6b22d",
+          "sha256": "080515bbe1771fb63e0e7d7cd02be767568b0e3596de27a722bc14f16ac6b22d",
+          "bytes": 133063,
           "dimensions": [
-            1920,
-            1440
+            1200,
+            896
           ],
-          "dhash": "399d9dada9f1f3e1"
+          "dhash": "be7616373634ddcd"
         },
         {
           "filename": "service-1.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ANatural_Gas_Vent_%287238234930%29.jpg",
-          "sha_expected": "5aa630379c1239da2b064a0b1b31e749606d15646c6785dec88df1a4a5240864",
-          "sha256": "5aa630379c1239da2b064a0b1b31e749606d15646c6785dec88df1a4a5240864",
-          "bytes": 814523,
+          "source": "generated:runway:2b8253c1-1604-4d9d-971d-c28b63eef721",
+          "sha_expected": "8d36babfcee77757f45e17475c493ab6d2b0cf380cc5bcb9646d8cf86a2146ee",
+          "sha256": "8d36babfcee77757f45e17475c493ab6d2b0cf380cc5bcb9646d8cf86a2146ee",
+          "bytes": 136612,
           "dimensions": [
-            1920,
-            1278
+            1200,
+            896
           ],
-          "dhash": "c3f4c8c8f4c29e78"
+          "dhash": "2777363636b63f3b"
         },
         {
           "filename": "service-2.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ANeuhaus_%28Oste%29_2008_Biogasanlage_04_by-RaBoe.jpg",
-          "sha_expected": "becfe3262bcfc08bec1652e96626e9dac0fed2e680745db3e943c6eb73687278",
-          "sha256": "becfe3262bcfc08bec1652e96626e9dac0fed2e680745db3e943c6eb73687278",
-          "bytes": 455856,
+          "source": "generated:runway:2ad1f959-b793-446c-aaf0-5f404cc7cde0",
+          "sha_expected": "8e5b03ed80504b71a8ff90dff19209db26335e92a29493d158aeab9d3d8f50eb",
+          "sha256": "8e5b03ed80504b71a8ff90dff19209db26335e92a29493d158aeab9d3d8f50eb",
+          "bytes": 166572,
           "dimensions": [
-            1000,
-            603
+            1200,
+            896
           ],
-          "dhash": "d4f46095c58000c0"
+          "dhash": "1b1f3f373f37a5a5"
         },
         {
           "filename": "service-3.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ANeuhaus_%28Oste%29_2008_Biogasanlage_06_by-RaBoe.jpg",
-          "sha_expected": "77f7445e7b61df73c83c27e430953ac40d2cf360237778cf2cf9ec3752f67305",
-          "sha256": "77f7445e7b61df73c83c27e430953ac40d2cf360237778cf2cf9ec3752f67305",
-          "bytes": 488842,
+          "source": "generated:runway:b99f3e36-b23a-42d4-b8ef-65202f16eca5",
+          "sha_expected": "017f94d71319a75848b99620050c1e43b3976124f4ca6532af1f4e7825af6256",
+          "sha256": "017f94d71319a75848b99620050c1e43b3976124f4ca6532af1f4e7825af6256",
+          "bytes": 136426,
           "dimensions": [
-            1000,
-            604
+            1200,
+            896
           ],
-          "dhash": "b8a4d26125c0c080"
+          "dhash": "013373732325ad89"
         }
       ],
       "flags": []
@@ -2501,14 +2464,14 @@
           "filename": "hero.jpg",
           "kind": "hero",
           "source": "generated:runway:c158dc90-0f34-47a4-8192-25360f3d0913",
-          "sha_expected": "138abfae58d297a484400de9a2910a92edccdfe2be52ea846c423b8035c623c5",
-          "sha256": "138abfae58d297a484400de9a2910a92edccdfe2be52ea846c423b8035c623c5",
-          "bytes": 108165,
+          "sha_expected": "e3ab34724be77f4e6b5639051e3539b4aae252606ff379105cbf34788718803f",
+          "sha256": "e3ab34724be77f4e6b5639051e3539b4aae252606ff379105cbf34788718803f",
+          "bytes": 83327,
           "dimensions": [
             1376,
             768
           ],
-          "dhash": "b0b0303212101030"
+          "dhash": "b090202400400024"
         },
         {
           "filename": "process-bg.jpg",
@@ -2573,14 +2536,14 @@
           "filename": "hero.jpg",
           "kind": "hero",
           "source": "generated:runway:332fe64d-2dd7-4ea4-98da-595e3cb42df8",
-          "sha_expected": "c14da1a0c5f97b0fae0e2c144eb35ffe835b8c8c03169e95cc0132f81b0538a6",
-          "sha256": "c14da1a0c5f97b0fae0e2c144eb35ffe835b8c8c03169e95cc0132f81b0538a6",
-          "bytes": 130699,
+          "sha_expected": "92ec0e32bb9bfa53d2f4625ca9164b3dd2f31e2c7176d8ba74bcfda9ede412f0",
+          "sha256": "92ec0e32bb9bfa53d2f4625ca9164b3dd2f31e2c7176d8ba74bcfda9ede412f0",
+          "bytes": 91772,
           "dimensions": [
             1376,
             768
           ],
-          "dhash": "e06060f6c2c04447"
+          "dhash": "c44440c0c0c04040"
         },
         {
           "filename": "service-1.jpg",
@@ -2763,14 +2726,14 @@
           "filename": "hero.jpg",
           "kind": "hero",
           "source": "generated:runway:a03921fb-47a4-4ae3-bc52-ddf52bf85535",
-          "sha_expected": "5782479d2905300ae17026a1cb6d49468860a78d521f4b4434f96bedb1430775",
-          "sha256": "5782479d2905300ae17026a1cb6d49468860a78d521f4b4434f96bedb1430775",
-          "bytes": 221108,
+          "sha_expected": "dba57425e32ec25cefd7643f23b42b3f3bf5cd9b76d36dab6046ff28997f14e5",
+          "sha256": "dba57425e32ec25cefd7643f23b42b3f3bf5cd9b76d36dab6046ff28997f14e5",
+          "bytes": 133152,
           "dimensions": [
             1376,
             768
           ],
-          "dhash": "802124642424a4a0"
+          "dhash": "8404246424248484"
         },
         {
           "filename": "service-1.jpg",
@@ -3117,14 +3080,14 @@
           "filename": "hero.jpg",
           "kind": "hero",
           "source": "generated:runway:bf972fb5-3f83-438a-a4c4-aaa7e9f7e651",
-          "sha_expected": "403be93314be65af4fb966df76ed4b4d903e06da8f80ed17825322d4966d19b0",
-          "sha256": "403be93314be65af4fb966df76ed4b4d903e06da8f80ed17825322d4966d19b0",
-          "bytes": 201661,
+          "sha_expected": "e7d2c78c601720851238ef3b7bb61db9baf76927f2d8b4dcb15a67c87e9ad152",
+          "sha256": "e7d2c78c601720851238ef3b7bb61db9baf76927f2d8b4dcb15a67c87e9ad152",
+          "bytes": 142202,
           "dimensions": [
             1376,
             768
           ],
-          "dhash": "d0d0b0f230303030"
+          "dhash": "c0c080d020000020"
         },
         {
           "filename": "process-bg.jpg",
@@ -3837,14 +3800,14 @@
           "filename": "hero.jpg",
           "kind": "hero",
           "source": "generated:runway:2c8cce79-dd04-4eed-8a46-47c7d0c9da0a",
-          "sha_expected": "130af7ec918a9b1f167377db4d9a61736e41487bea2a399ae5db6dd1277eb8bb",
-          "sha256": "130af7ec918a9b1f167377db4d9a61736e41487bea2a399ae5db6dd1277eb8bb",
-          "bytes": 101858,
+          "sha_expected": "58416ba81caa5cef5292fd8f9194b6942f20638066aaf1e4c7725e02949c8524",
+          "sha256": "58416ba81caa5cef5292fd8f9194b6942f20638066aaf1e4c7725e02949c8524",
+          "bytes": 85786,
           "dimensions": [
             1376,
             768
           ],
-          "dhash": "64e4a7a6a6a6a4a4"
+          "dhash": "44c4a4a484a48484"
         },
         {
           "filename": "process-bg.jpg",
@@ -4125,14 +4088,14 @@
           "filename": "hero.jpg",
           "kind": "hero",
           "source": "generated:runway:3757c67f-c458-41ce-931f-2394a97731c5",
-          "sha_expected": "d176b6f5ff707a0b6073dcbe74c6924711fd86bfbfdb914422355b1a8831756f",
-          "sha256": "d176b6f5ff707a0b6073dcbe74c6924711fd86bfbfdb914422355b1a8831756f",
-          "bytes": 106180,
+          "sha_expected": "d731329c6c0af78b5a4ed7844cb7522d32aa337553ba14769a9330dc7b3fb64b",
+          "sha256": "d731329c6c0af78b5a4ed7844cb7522d32aa337553ba14769a9330dc7b3fb64b",
+          "bytes": 88924,
           "dimensions": [
             1376,
             768
           ],
-          "dhash": "e0f0d8da50d8d070"
+          "dhash": "e4c0c0c040c0c040"
         },
         {
           "filename": "process-bg.jpg",
@@ -4209,60 +4172,57 @@
         {
           "filename": "process-bg.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AUS_Navy_061211-N-1328C-022_Cryptologic_Technician_Collection_3rd_Class_Megan_Morgan%2C_from_Gainesville%2C_Ga.%2C_and_other_service_members_Combined_Joint_Task_Force-Horn_of_Africa_%28CJTF-HOA%29_and_Camp_Lemonnier_volunteered_to_help_cle.jpg",
-          "sha_expected": "9e849d154b83b3108178eac61757b0b11bcdb09617e6e8e442be2935767185a7",
-          "sha256": "9e849d154b83b3108178eac61757b0b11bcdb09617e6e8e442be2935767185a7",
-          "bytes": 486011,
+          "source": "generated:runway:9de2603e-70b1-45d4-af56-e0c55e1eed0e",
+          "sha_expected": "6fda25c420ba6a7f15b0cd8445844ca3e7ae3727e707726e42f67651b2246806",
+          "sha256": "6fda25c420ba6a7f15b0cd8445844ca3e7ae3727e707726e42f67651b2246806",
+          "bytes": 144370,
           "dimensions": [
-            1920,
-            1371
+            1200,
+            896
           ],
-          "dhash": "525767d5cf6d7b47"
+          "dhash": "0b262a3233329276"
         },
         {
           "filename": "service-1.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AUS_Navy_070823-N-9195K-025_Aerographer%27s_Mate_1st_Class_William_Palmer_uses_a_roller_to_add_a_second_coat_of_paint_to_a_wall_during_a_community_relations_project_at_Voza_Medical_Clinic_in_support_of_Pacific_Partnership.jpg",
-          "sha_expected": "34ed1eb064bc052c1df3db1f606e5d1d0fb3cf2313ef41f2b253b1283fc09898",
-          "sha256": "34ed1eb064bc052c1df3db1f606e5d1d0fb3cf2313ef41f2b253b1283fc09898",
-          "bytes": 511318,
+          "source": "generated:runway:d49c7883-6fd2-4bb1-8a31-55f2f2d80d7d",
+          "sha_expected": "0e76a5a62228ef938ff552f1c0c752b5775bc543c8e31c6bd8508cbfda27139d",
+          "sha256": "0e76a5a62228ef938ff552f1c0c752b5775bc543c8e31c6bd8508cbfda27139d",
+          "bytes": 134711,
           "dimensions": [
-            1920,
-            1371
+            1200,
+            896
           ],
-          "dhash": "5d5bb3b1f1f17171",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "f3fb9b1363a36773"
         },
         {
           "filename": "service-2.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AUS_Navy_080614-N-6410J-037_Steelworker_Constructionman_Richard_Bartman%2C_assigned_to_Construction_Battalion_Maintenance_Unit_%28CBMU%29_303_embarked_aboard_the_amphibious_assault_ship_USS_Boxer_%28LHD_4%29%2C_paints_a_building.jpg",
-          "sha_expected": "aacbb35f1b24a9cc6df38d2d7fb0674f34a8e23ca1a11d0d6dd75b174c9b7408",
-          "sha256": "aacbb35f1b24a9cc6df38d2d7fb0674f34a8e23ca1a11d0d6dd75b174c9b7408",
-          "bytes": 858456,
+          "source": "generated:runway:fc1c368a-9c98-45c1-bf84-d0bfb7c32afb",
+          "sha_expected": "9650ffaaef4a6adc7e62e2a9303a086c8663fa0b4b40fdc8972466ae1c2bfbc8",
+          "sha256": "9650ffaaef4a6adc7e62e2a9303a086c8663fa0b4b40fdc8972466ae1c2bfbc8",
+          "bytes": 159502,
           "dimensions": [
             1200,
-            1800
+            896
           ],
-          "dhash": "020282e2e62f7e76"
+          "dhash": "21222c3378713327"
         },
         {
           "filename": "service-3.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AUS_Navy_081102-N-8982C-001_Engineering_Aide_1st_Class_Craig_Miller_uses_a_roller_to_paint_a_sidewalk.jpg",
-          "sha_expected": "d2dbeb0ecae93176f99a3bbd701775e3c4890deb028272653bb97d5a2307adb2",
-          "sha256": "d2dbeb0ecae93176f99a3bbd701775e3c4890deb028272653bb97d5a2307adb2",
-          "bytes": 1478923,
+          "source": "generated:runway:d01d23e0-e539-4532-af4b-67d1261e646b",
+          "sha_expected": "0c97ac69e48e2b4b729862e1f962ec5d36abfe41b7c5d768fbab4e96566c9a63",
+          "sha256": "0c97ac69e48e2b4b729862e1f962ec5d36abfe41b7c5d768fbab4e96566c9a63",
+          "bytes": 158019,
           "dimensions": [
-            1500,
-            2100
+            1200,
+            896
           ],
-          "dhash": "818dd9db9383d341"
+          "dhash": "ba5a7afcf4b6b3cf"
         }
       ],
-      "flags": [
-        "SOURCE_RISK service-1.jpg"
-      ]
+      "flags": []
     },
     {
       "slug": "pavel-rubes-joinery-and-carpentery-12131013",
@@ -4390,14 +4350,14 @@
           "filename": "hero.jpg",
           "kind": "hero",
           "source": "generated:runway:0301e1ca-b6ae-4f09-832f-f3cc102f28e8",
-          "sha_expected": "b1cbca015fbd7b2cdcc342420160e78e5a31b84f15a7ce74d4413d774898ceb9",
-          "sha256": "b1cbca015fbd7b2cdcc342420160e78e5a31b84f15a7ce74d4413d774898ceb9",
-          "bytes": 136964,
+          "sha_expected": "c997bf5d91204851cd2d5708edcd170c18f7bd8e26f58a697ce476e77f695ad6",
+          "sha256": "c997bf5d91204851cd2d5708edcd170c18f7bd8e26f58a697ce476e77f695ad6",
+          "bytes": 89784,
           "dimensions": [
             1376,
             768
           ],
-          "dhash": "706032664c444040"
+          "dhash": "6060244040444444"
         },
         {
           "filename": "process-bg.jpg",
@@ -4462,14 +4422,14 @@
           "filename": "hero.jpg",
           "kind": "hero",
           "source": "generated:runway:50832ae2-9c82-4bc7-8b91-f563ce1355ae",
-          "sha_expected": "989cb54782aea7e04f5e3e9b69ffd3c7d418aca737dc10a08641ba90896de876",
-          "sha256": "989cb54782aea7e04f5e3e9b69ffd3c7d418aca737dc10a08641ba90896de876",
-          "bytes": 127704,
+          "sha_expected": "0ea82c824aab08d8945fa7b6b3d07f73474455434840e2491d4879cae48a4185",
+          "sha256": "0ea82c824aab08d8945fa7b6b3d07f73474455434840e2491d4879cae48a4185",
+          "bytes": 92740,
           "dimensions": [
             1376,
             768
           ],
-          "dhash": "1010945414102020"
+          "dhash": "0004945414040404"
         },
         {
           "filename": "process-bg.jpg",
@@ -5032,14 +4992,14 @@
           "filename": "rso-hero.jpg",
           "kind": "hero",
           "source": "generated:runway:3740b2bd-acaa-45b8-8002-d97c9a636aa7",
-          "sha_expected": "545ed47c9a63f443fa749922115a92f1516a7002e738829f7942068d9f187a53",
-          "sha256": "545ed47c9a63f443fa749922115a92f1516a7002e738829f7942068d9f187a53",
-          "bytes": 187243,
+          "sha_expected": "06b3b0c3f88fd77bae162d16982daefc925318404140538d0195ac4a117da739",
+          "sha256": "06b3b0c3f88fd77bae162d16982daefc925318404140538d0195ac4a117da739",
+          "bytes": 141942,
           "dimensions": [
             1376,
             768
           ],
-          "dhash": "e2a26246466060e0"
+          "dhash": "e4844440444444c4"
         },
         {
           "filename": "rso-svc-1.jpg",
@@ -5234,54 +5194,54 @@
         {
           "filename": "process-bg.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AH%C3%BCckeswagen_-_An_der_Schlo%C3%9Ffabrik_18_ies.jpg",
-          "sha_expected": "d862bd5a4deeab88717f288ed893d28feb1d9359d407cef861ab032c77bd70ae",
-          "sha256": "d862bd5a4deeab88717f288ed893d28feb1d9359d407cef861ab032c77bd70ae",
-          "bytes": 452803,
+          "source": "generated:runway:ba778b0e-39f9-4fce-9f6c-5767312e92ca",
+          "sha_expected": "d40906b21461a24ac41aebee6fb1d83b7010b1ab3280718a4497c707a203b7a8",
+          "sha256": "d40906b21461a24ac41aebee6fb1d83b7010b1ab3280718a4497c707a203b7a8",
+          "bytes": 252040,
           "dimensions": [
-            1920,
-            1280
+            1200,
+            896
           ],
-          "dhash": "b48e0e9ed98bc7c9"
+          "dhash": "e4c8e697b688480e"
         },
         {
           "filename": "service-1.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AIf_I_were_a_carpenter.jpg",
-          "sha_expected": "702d3c8696bfb0c65708c19744419bcacb31510e4396f0d7bf67c64239b2957a",
-          "sha256": "702d3c8696bfb0c65708c19744419bcacb31510e4396f0d7bf67c64239b2957a",
-          "bytes": 904679,
+          "source": "generated:runway:64e37ce6-35b2-484a-86ee-bcf4f44133c3",
+          "sha_expected": "12979bd6af923da19af45031bb9a49325c5eab5af8b172aa441afc0fd444c5d8",
+          "sha256": "12979bd6af923da19af45031bb9a49325c5eab5af8b172aa441afc0fd444c5d8",
+          "bytes": 242713,
           "dimensions": [
-            1728,
-            1296
+            1200,
+            896
           ],
-          "dhash": "809263636766636a"
+          "dhash": "8db3939b996b62d4"
         },
         {
           "filename": "service-2.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AKenya_Tak_22_BG.jpg",
-          "sha_expected": "aa180e0f9f8fe6e4107fc43e315a0041e97582b5e3eb664b4c3bb96395b7f4bd",
-          "sha256": "aa180e0f9f8fe6e4107fc43e315a0041e97582b5e3eb664b4c3bb96395b7f4bd",
-          "bytes": 1345931,
+          "source": "generated:runway:cc5f9828-27d6-43f5-8e0b-dcfe1a2b3fea",
+          "sha_expected": "b64ff843108de6406b23584c584518fef789e09bb633f6eff177cffaae270747",
+          "sha256": "b64ff843108de6406b23584c584518fef789e09bb633f6eff177cffaae270747",
+          "bytes": 255405,
           "dimensions": [
-            1920,
-            1429
+            1200,
+            896
           ],
-          "dhash": "6a0bd951181c1464"
+          "dhash": "c6d8c8dc3e1b9262"
         },
         {
           "filename": "service-3.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AKenya_Tak_23_BG.jpg",
-          "sha_expected": "40a5317f047571c5d1c7bdfa401340eded35f70169fd83fe7c22b7a78019a8fb",
-          "sha256": "40a5317f047571c5d1c7bdfa401340eded35f70169fd83fe7c22b7a78019a8fb",
-          "bytes": 879367,
+          "source": "generated:runway:f883cb33-18c2-4e28-8460-6e1e6294b37e",
+          "sha_expected": "5d421154d7770a02858794be11a42f1d8ecf16e184e70409d62a89f6e973fe33",
+          "sha256": "5d421154d7770a02858794be11a42f1d8ecf16e184e70409d62a89f6e973fe33",
+          "bytes": 347828,
           "dimensions": [
-            1920,
-            1434
+            1200,
+            896
           ],
-          "dhash": "24dc882830b2e67c"
+          "dhash": "c5c7c14e6edd3231"
         }
       ],
       "flags": []
@@ -5366,14 +5326,14 @@
           "filename": "hero.jpg",
           "kind": "hero",
           "source": "generated:runway:6fcfb390-f051-4d5a-ab75-4bd785a14730",
-          "sha_expected": "ba516429514de0f95ee5921d9e98b1c29a3b57504f43aeead989a4a518d92395",
-          "sha256": "ba516429514de0f95ee5921d9e98b1c29a3b57504f43aeead989a4a518d92395",
-          "bytes": 127605,
+          "sha_expected": "f479766bf98999acf2aac7b7342dc3b84454f8807ae31525a55d223f39c1300a",
+          "sha256": "f479766bf98999acf2aac7b7342dc3b84454f8807ae31525a55d223f39c1300a",
+          "bytes": 90412,
           "dimensions": [
             1376,
             768
           ],
-          "dhash": "88185a4a48485040"
+          "dhash": "8000404040404444"
         },
         {
           "filename": "process-bg.jpg",
@@ -5509,41 +5469,41 @@
         {
           "filename": "service-1.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AAnswer_to_Wtshymanski_about_main_circuit_breaker.JPG",
-          "sha_expected": "1573e0def0f1485c9dac4ba86b5afb49f980ce1229bc559a8fc3bbf7312c2be6",
-          "sha256": "1573e0def0f1485c9dac4ba86b5afb49f980ce1229bc559a8fc3bbf7312c2be6",
-          "bytes": 1073099,
+          "source": "generated:runway:d167eb03-d1d5-4849-8426-a634d7584d27",
+          "sha_expected": "71a71bef9d467969c5a34aa3643839522cede24be5020e1ac749384913922fbe",
+          "sha256": "71a71bef9d467969c5a34aa3643839522cede24be5020e1ac749384913922fbe",
+          "bytes": 118593,
           "dimensions": [
-            1920,
-            1440
+            1200,
+            896
           ],
-          "dhash": "c1860c0d4f77d357"
+          "dhash": "534723a727276773"
         },
         {
           "filename": "service-2.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ABiogasverket_skelleftea.jpg",
-          "sha_expected": "cf628e5e7277d4218ee6de680bef54922691341d78b9fb786b38b1117ec8e8b5",
-          "sha256": "cf628e5e7277d4218ee6de680bef54922691341d78b9fb786b38b1117ec8e8b5",
-          "bytes": 503599,
+          "source": "generated:runway:7322c85a-052c-40bc-88f8-ef4c146f6657",
+          "sha_expected": "1359dc7955d3ce6ffd16e41be7abd97d20ab4ff66cc017425742170b79cd4f21",
+          "sha256": "1359dc7955d3ce6ffd16e41be7abd97d20ab4ff66cc017425742170b79cd4f21",
+          "bytes": 122803,
           "dimensions": [
-            1920,
-            960
+            1200,
+            896
           ],
-          "dhash": "06f6b07ec721ffff"
+          "dhash": "1e1c1d1d13131bb3"
         },
         {
           "filename": "service-3.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AD%C3%B3zsa_Gy%C3%B6rgy_Stra%C3%9Fe%2C_TIG%C3%81Z_Gasinstallation%2C_2024_Kis%C3%BAjsz%C3%A1ll%C3%A1s.jpg",
-          "sha_expected": "29f1cc0ad6a156db11e369cb517e84c06dde4e99cedf9eaeb5d46755e76e6b49",
-          "sha256": "29f1cc0ad6a156db11e369cb517e84c06dde4e99cedf9eaeb5d46755e76e6b49",
-          "bytes": 721495,
+          "source": "generated:runway:48e53299-5d33-43fb-aa1b-6aa062ccfbfa",
+          "sha_expected": "b6e13dc5174a641d20f1413b704198d4db9df327c027eef2a2b26d8c53ff5b4d",
+          "sha256": "b6e13dc5174a641d20f1413b704198d4db9df327c027eef2a2b26d8c53ff5b4d",
+          "bytes": 151118,
           "dimensions": [
-            1920,
-            1440
+            1200,
+            896
           ],
-          "dhash": "f8f3f033b4ecee32"
+          "dhash": "8606860626272f33"
         }
       ],
       "flags": []
@@ -5556,14 +5516,14 @@
           "filename": "hero.jpg",
           "kind": "hero",
           "source": "generated:runway:6c156e01-6fad-4a31-9441-f6a1e9aa1b8d",
-          "sha_expected": "460c7a4b8126bcf1920e929039ca61fd5f3efd6af58482b4628210338bc2ba28",
-          "sha256": "460c7a4b8126bcf1920e929039ca61fd5f3efd6af58482b4628210338bc2ba28",
-          "bytes": 116794,
+          "sha_expected": "b569c00ccff2da935650648b0c7be438ad3d6105c9fa124b67e722094faf5ffb",
+          "sha256": "b569c00ccff2da935650648b0c7be438ad3d6105c9fa124b67e722094faf5ffb",
+          "bytes": 80948,
           "dimensions": [
             1376,
             768
           ],
-          "dhash": "80a0e0a2d0989919"
+          "dhash": "8080c4a4c0808000"
         },
         {
           "filename": "process-bg.jpg",
@@ -5772,14 +5732,14 @@
           "filename": "hero.jpg",
           "kind": "hero",
           "source": "generated:runway:d55d5c7c-5357-46d8-bf7f-fbcc20c2dd29",
-          "sha_expected": "c60969ea34b086f59df72086b67e8515cdac165290ba3e91f6a21c19d521a3cb",
-          "sha256": "c60969ea34b086f59df72086b67e8515cdac165290ba3e91f6a21c19d521a3cb",
-          "bytes": 155219,
+          "sha_expected": "59b246a713ed57bc1b4231c585d1c64723768fd42b095cf8a54223758313c00a",
+          "sha256": "59b246a713ed57bc1b4231c585d1c64723768fd42b095cf8a54223758313c00a",
+          "bytes": 108689,
           "dimensions": [
             1376,
             768
           ],
-          "dhash": "1010111418006061"
+          "dhash": "1014040414044444"
         },
         {
           "filename": "service-1.jpg",
@@ -5902,29 +5862,28 @@
         {
           "filename": "process-bg.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AUS_Navy_090416-F-7522G-006_Aerographer%27s_Mate_Gina_Hegg%2C_embarked_aboard_the_Military_Sealift_Command_hospital_ship_USNS_Comfort_%28T-AH_20%29_paints_the_wall_of_a_pediatric_medical_facility_at_Emmanuel_Christian_School.jpg",
-          "sha_expected": "428bd79bde36bb70f5daa83f86131553198179caae8e007411461db3a778cb21",
-          "sha256": "428bd79bde36bb70f5daa83f86131553198179caae8e007411461db3a778cb21",
-          "bytes": 312036,
+          "source": "generated:runway:70838e3e-2ef8-48de-b75e-f5c07d890e33",
+          "sha_expected": "5a93bcf9eef5afbbbffa401353213cdd4235881b87f765b09371e88a418cac0e",
+          "sha256": "5a93bcf9eef5afbbbffa401353213cdd4235881b87f765b09371e88a418cac0e",
+          "bytes": 97966,
           "dimensions": [
-            1920,
-            2472
+            1200,
+            896
           ],
-          "dhash": "616446122461e166",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "acacaeababefefff"
         },
         {
           "filename": "service-1.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AUS_Navy_100722-N-9643W-702_Lt._j.g._Joan_Mulligan%2C_embarked_aboard_High_Speed_Vessel_Swift_%28HSV_2%29%2C_takes_a_paint_tray_and_roller_from_a_child.jpg",
-          "sha_expected": "b3490212c63f4ee9668135eebb343d9c0966cf6e26bb869b9675c18900f5325f",
-          "sha256": "b3490212c63f4ee9668135eebb343d9c0966cf6e26bb869b9675c18900f5325f",
-          "bytes": 466330,
+          "source": "generated:runway:f46e9ba0-34eb-44ce-bcd7-da1eec2194da",
+          "sha_expected": "b642d9cfefacb2fad0a83513686921f332083be8c88855d79c51926039752db1",
+          "sha256": "b642d9cfefacb2fad0a83513686921f332083be8c88855d79c51926039752db1",
+          "bytes": 116895,
           "dimensions": [
-            1495,
-            2100
+            1200,
+            896
           ],
-          "dhash": "717160705a5385c3"
+          "dhash": "eedc9cbc989cdece"
         },
         {
           "filename": "service-2.jpg",
@@ -5953,9 +5912,7 @@
           "dhash": "3b1767c767668707"
         }
       ],
-      "flags": [
-        "SOURCE_RISK process-bg.jpg"
-      ]
+      "flags": []
     }
   ],
   "certification": "SOURCE_AND_PIXEL_INVENTORY_ONLY_NOT_A_HUMAN_VISUAL_QA_PASS"

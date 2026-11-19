@@ -2,8 +2,8 @@
 
 Review branch only, no outbound sends.
 Sites: 88 | Hero images: 88 | Supporting images: 314
-Suspicious source titles: 20 | SHA mismatches: 0
-Cross-company same-binary groups: 4 | Same-origin groups: 4
+Suspicious source titles: 17 | SHA mismatches: 0
+Cross-company same-binary groups: 0 | Same-origin groups: 0
 
 ## Source-risk cases
 ### a-b-plastering-and-rendering-12131009
@@ -18,8 +18,6 @@ Cross-company same-binary groups: 4 | Same-origin groups: 4
 - service-3.jpg <- https://commons.wikimedia.org/wiki/File%3AFilmacteurregisseur_Gene_Wilder_in_Amsterdam%2C_Bestanddeelnr_929-6073.jpg
 ### alto-barren-plumbing-and-heating-limited-202611160018
 - service-3.jpg <- https://commons.wikimedia.org/wiki/File%3AAdvertisement_stickers_of_Plumbing_service_at_Beitun%2C_Taichung_2018-10-20.jpg
-### ams-spray-painting-and-decorating-ltd-35187792471023
-- process-bg.jpg <- https://commons.wikimedia.org/wiki/File%3ACity_of_London_Cemetery_white_heart_floral_tribute_1.jpg
 ### astra-roofing-limited-12131026
 - service-2.jpg <- https://commons.wikimedia.org/wiki/File%3ACouverture_traditionnelle_chinoise_en_tuiles.jpg
 - service-3.jpg <- https://commons.wikimedia.org/wiki/File%3ACouverture_traditionnelle_mexicaine_avec_feuilles_de_palmier.jpg
@@ -33,10 +31,6 @@ Cross-company same-binary groups: 4 | Same-origin groups: 4
 - service-1.jpg <- https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Gestold_gips_dat_in_vloeibare_vorm_over_het_gezicht_van%2C_SFA022826045.jpg
 - service-2.jpg <- https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Gipsen_vrouwenbeeld%2C_waarvan_het_gezicht_door_middel_van%2C_SFA022826052.jpg
 - service-3.jpg <- https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Het_gezicht_van_een_man_die_op_een_kussen_op_een_bed_ligt%2C_SFA022826042.jpg
-### painting-classic-cars-limited-35187792471021
-- service-1.jpg <- https://commons.wikimedia.org/wiki/File%3AUS_Navy_070823-N-9195K-025_Aerographer%27s_Mate_1st_Class_William_Palmer_uses_a_roller_to_add_a_second_coat_of_paint_to_a_wall_during_a_community_relations_project_at_Voza_Medical_Clinic_in_support_of_Pacific_Partnership.jpg
-### wilson-s-painting-and-decorating-limited-35187792471022
-- process-bg.jpg <- https://commons.wikimedia.org/wiki/File%3AUS_Navy_090416-F-7522G-006_Aerographer%27s_Mate_Gina_Hegg%2C_embarked_aboard_the_Military_Sealift_Command_hospital_ship_USNS_Comfort_%28T-AH_20%29_paints_the_wall_of_a_pediatric_medical_facility_at_Emmanuel_Christian_School.jpg
 
 ## Contact sheets
 
