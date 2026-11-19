@@ -5,10 +5,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "c60969ea34b086f59df72086b67e8515cdac165290ba3e91f6a21c19d521a3cb",
+      "sha256": "59b246a713ed57bc1b4231c585d1c64723768fd42b095cf8a54223758313c00a",
       "source_url": "generated:runway:d55d5c7c-5357-46d8-bf7f-fbcc20c2dd29",
       "license": "AI_GENERATED_COMMERCIAL_USE",
-      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
+      "notes": "Illustrative AI-generated trade image; not the customer's actual work. Accidental lettering concealed within the dark left hero title zone."
     },
     "service-1.jpg": {
       "role": "service-1",

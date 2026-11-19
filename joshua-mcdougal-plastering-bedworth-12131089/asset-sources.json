@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "403be93314be65af4fb966df76ed4b4d903e06da8f80ed17825322d4966d19b0",
+      "sha256": "e7d2c78c601720851238ef3b7bb61db9baf76927f2d8b4dcb15a67c87e9ad152",
       "source_url": "generated:runway:bf972fb5-3f83-438a-a4c4-aaa7e9f7e651",
       "license": "AI_GENERATED_COMMERCIAL_USE",
-      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
+      "notes": "Illustrative AI-generated trade image; not the customer's actual work. Accidental lettering concealed within the dark left hero title zone."
     },
     "process-bg.jpg": {
       "role": "process-bg",
