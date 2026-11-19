@@ -23,6 +23,9 @@ for folder in sites:
     for name,value in entries.items():
         if not re.search(r"\.(?:jpe?g|png|webp)$",name,re.I): continue
         path=folder/"assets"/name
+        # Legacy favicons and brand marks are often in the site root rather than /assets.
+        if not path.is_file() and re.search("favicon|brand-mark",name,re.I):
+            path=folder/name
         if not path.is_file():
             issues.append(f"{folder.name}: missing declared asset {name}")
             continue
