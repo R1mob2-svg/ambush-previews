@@ -11,31 +11,47 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "1e18b7f36d12f4336957a91c0d3b51c28e5283e165df4d06cce2a5c123a1c171",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Nadat_een_gipsen_mal_die_over_het_hoofd_van_een_man_was%2C_SFA022826046.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Nadat een gipsen mal die over het hoofd van een man was, SFA022826046.jpg"
+      "sha256": "c8c7ad9ad8a539f2666bc88882c3bbb0824203827a9272350a1e9326342108db",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wall_plastering.jpg",
+      "source_title": "File:Wall plastering.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Clariter1990",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "534dedacd8036804f740db1cb30a202056712c3e6ebf409bf4c9e75c9f01e750",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Net_aangebracht_vloeibaar_gips_over_het_gezicht_van_een%2C_SFA022826044.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Net aangebracht vloeibaar gips over het gezicht van een, SFA022826044.jpg"
+      "sha256": "efd87239e2abcfa3821501fc1b9eccc0a6c31ee4989c84be88cb453c4814cc90",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dunpleister_spuiten.jpg",
+      "source_title": "File:Dunpleister spuiten.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Afbouwslegers",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "dcb34b2351013eb9c50a404a400b4e7096827e3ab1cb32c4405f1e62f1f9e19a",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Vloeibaar_gips_wordt_over_het_gezicht_van_een_man_die_op%2C_SFA022826043.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Vloeibaar gips wordt over het gezicht van een man die op, SFA022826043.jpg"
+      "sha256": "24415742180e453df5ecff39dffaedac465614c015e97e9b7ce83a283d8dc8f8",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Plasterers_working_on_a_building.jpg",
+      "source_title": "File:Plasterers working on a building.jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Sam Wilson",
+      "credit": "https://www.flickr.com/photos/freosam/46945955465/",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "1f12c5738adb978f5e736f73b61c6a7a3369997c33f7ec0080909a10d9a83deb",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AFilmacteurregisseur_Gene_Wilder_in_Amsterdam%2C_Bestanddeelnr_929-6073.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Filmacteurregisseur Gene Wilder in Amsterdam, Bestanddeelnr 929-6073.jpg"
+      "sha256": "e54fa361d641318781eca6b950f43e456cf9c321d98a6310095680f3f918f343",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lathe_and_plaster_2.jpg",
+      "source_title": "File:Lathe and plaster 2.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "BrittaniaJones",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "favicon.png": {
       "role": "favicon",

@@ -18,10 +18,14 @@
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "e8d6a623c0b48ca95e0883ca6154037f695e718e467adc8a659722039b6710ad",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AThe_typography_of_advertisements_that_pay_-_how_to_choose_and_combine_type_faces%2C_engravings_and_all_the_other_mechanical_elements_of_modern_advertisement_construction_%28IA_typographyofadve00farr%29_%28page_264_crop%29.jpg",
+      "sha256": "137b1d9cb8374ec0b4e8b8095f1b9401882882f91287da99643851da87038eea",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Painter_paints_a_room_arp.jpg",
+      "source_title": "File:Painter paints a room arp.jpg",
       "license": "Public domain",
-      "notes": "Commons: File:The typography of advertisements that pay - how to choose and combine type faces, engravings and all the other mechanical elements of modern advertisement construction (IA typographyofadve00farr) (page 264 crop).jpg"
+      "license_url": "",
+      "author": "Adrian Pingstone (Arpingstone)",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-2.jpg": {
       "role": "service-2",

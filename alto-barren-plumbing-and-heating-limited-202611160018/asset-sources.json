@@ -32,10 +32,14 @@
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "d95712d41d0a0929ce0536710434eb4e542fcaf359b0e90bcfb3a3206dc754c2",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AAdvertisement_stickers_of_Plumbing_service_at_Beitun%2C_Taichung_2018-10-20.jpg",
-      "license": "CC BY-SA 2.0",
-      "notes": "Commons: File:Advertisement stickers of Plumbing service at Beitun, Taichung 2018-10-20.jpg"
+      "sha256": "83cc70632cb09bb372b564e85ef32c725745517064769955feefb6b9a95b40ee",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sewer_repair.jpg",
+      "source_title": "File:Sewer repair.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "AgapePlumbingService",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "favicon.png": {
       "role": "favicon",

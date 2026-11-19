@@ -11,17 +11,25 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "fb4daf495674e904ed2a1db3002fd0b099a3b5b909637a0ff1392a91b0e87483",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Carosse_de_Jardin_%C3%A0_une_Place._G.36970.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Menuisier en Voitures, Carosse de Jardin à une Place. G.36970.jpg"
+      "sha256": "cd5ab8924391d32a87b7cd3663d399543723e6ae9dcc714bddab837d983acfe9",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Carpentry_in_Action.jpg",
+      "source_title": "File:Carpentry in Action.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Deinsam",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "2fbce5c2515c811fd8b8f07cddf91ebd8381ade075ff25032f6f3aa1bef55d38",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Chaise_de_Poste._G.36968.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Menuisier en Voitures, Chaise de Poste. G.36968.jpg"
+      "sha256": "d63b94c956c39fbc85ea82307dea404ddd22fafd9f9132017bce4d4325083c7e",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Carpenters_repair_a_door_arp.jpg",
+      "source_title": "File:Carpenters repair a door arp.jpg",
+      "license": "Public domain",
+      "license_url": "",
+      "author": "Adrian Pingstone (Arpingstone)",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-2.jpg": {
       "role": "service-2",

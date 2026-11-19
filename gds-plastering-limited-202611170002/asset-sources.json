@@ -11,10 +11,14 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "2cd7792f4b944e09041b391c5f03c315d9cc07524f6515c8957fd68eac7c3ceb",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Een_beeldhouwer%2C_kunstenaar_verwijdert_een_gipsen_masker%2C_SFA022826051.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Een beeldhouwer, kunstenaar verwijdert een gipsen masker, SFA022826051.jpg"
+      "sha256": "4c73d66bc885070ace5bb370b11d7312c712226cd3a779f79a9efb7e75de7c0d",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Plastering_by_maison.jpg",
+      "source_title": "File:Plastering by maison.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Hasslaebetch",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-1.jpg": {
       "role": "service-1",
@@ -32,10 +36,14 @@
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "5e6341deafb91e057695628e29a4b44625e773f954204a66ff55f96c1814cd92",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Het_gezicht_van_een_man_die_op_een_kussen_op_een_bed_ligt%2C_SFA022826042.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Het gezicht van een man die op een kussen op een bed ligt, SFA022826042.jpg"
+      "sha256": "eaa4cb82eef1a2d5e146cfb0f303e7b97624b5c4f666a45f1d2d6b9d845bcffa",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wall_finishes_of_plastering.jpg",
+      "source_title": "File:Wall finishes of plastering.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Clariter1990",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "favicon.png": {
       "role": "favicon",
