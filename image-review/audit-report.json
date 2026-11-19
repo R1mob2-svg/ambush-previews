@@ -3,7 +3,7 @@
   "total_assets": 402,
   "heroes": 88,
   "supporting": 314,
-  "source_risk_count": 17,
+  "source_risk_count": 0,
   "sha_mismatch_count": 0,
   "cross_site_duplicate_byte_hashes": {},
   "cross_site_duplicate_source_origins": {},
@@ -63,16 +63,15 @@
         {
           "filename": "service-1.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AJohn_Cranch_-_Plasterer_-_Google_Art_Project.jpg",
-          "sha_expected": "3077ee21a462c9f6de2baf649758bf4207e424737c0291c1b88f294c2b3b2943",
-          "sha256": "3077ee21a462c9f6de2baf649758bf4207e424737c0291c1b88f294c2b3b2943",
-          "bytes": 934942,
+          "source": "https://unsplash.com/photos/hands-applying-plaster-to-a-wall-with-trowels-Re1O5byZ8bY",
+          "sha_expected": "5f6e7a5d900776a3612c3714b868428b42be809b3632addd8dabe3d8197a8bb1",
+          "sha256": "5f6e7a5d900776a3612c3714b868428b42be809b3632addd8dabe3d8197a8bb1",
+          "bytes": 75491,
           "dimensions": [
-            1920,
-            1743
+            1200,
+            760
           ],
-          "dhash": "fe7b6fedede5e3d1",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "bcfce4e4e0f3f0fc"
         },
         {
           "filename": "service-2.jpg",
@@ -101,9 +100,7 @@
           "dhash": "fbf878703c086961"
         }
       ],
-      "flags": [
-        "SOURCE_RISK service-1.jpg"
-      ]
+      "flags": []
     },
     {
       "slug": "a-j-cane-painting-and-decorating-specialists-limited-35187792471026",
@@ -138,30 +135,28 @@
         {
           "filename": "service-1.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AThe_typography_of_advertisements_that_pay_-_how_to_choose_and_combine_type_faces%2C_engravings_and_all_the_other_mechanical_elements_of_modern_advertisement_construction_%28IA_typographyofadve00farr%29_%28page_264_crop%29.jpg",
-          "sha_expected": "e8d6a623c0b48ca95e0883ca6154037f695e718e467adc8a659722039b6710ad",
-          "sha256": "e8d6a623c0b48ca95e0883ca6154037f695e718e467adc8a659722039b6710ad",
-          "bytes": 303849,
+          "source": "https://commons.wikimedia.org/wiki/File:Painter_paints_a_room_arp.jpg",
+          "sha_expected": "137b1d9cb8374ec0b4e8b8095f1b9401882882f91287da99643851da87038eea",
+          "sha256": "137b1d9cb8374ec0b4e8b8095f1b9401882882f91287da99643851da87038eea",
+          "bytes": 207284,
           "dimensions": [
-            1038,
-            1340
+            1200,
+            760
           ],
-          "dhash": "4d0d17397b6f3f1b",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "cd0d9d8d4d4dcbeb"
         },
         {
           "filename": "service-2.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AUn_tram_a_grimagliera%5E_-_panoramio.jpg",
-          "sha_expected": "89507574419cb26e265f0f46fa9e04abde49b889f89d6f076ad2203e7dbfe89a",
-          "sha256": "89507574419cb26e265f0f46fa9e04abde49b889f89d6f076ad2203e7dbfe89a",
-          "bytes": 668858,
+          "source": "https://unsplash.com/photos/a-painter-is-working-on-a-buildings-exterior-h3FRYkgqJSg",
+          "sha_expected": "706e514c330dd95f49d694eb16a061afcf52f2c1ee70bb2d9e062d3f401dd5d2",
+          "sha256": "706e514c330dd95f49d694eb16a061afcf52f2c1ee70bb2d9e062d3f401dd5d2",
+          "bytes": 137083,
           "dimensions": [
-            1920,
-            1440
+            1200,
+            760
           ],
-          "dhash": "9d9989997bdbd5dd",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "090d0d0503030101"
         },
         {
           "filename": "service-3.jpg",
@@ -177,10 +172,7 @@
           "dhash": "d892f6eccce4d1d9"
         }
       ],
-      "flags": [
-        "SOURCE_RISK service-1.jpg",
-        "SOURCE_RISK service-2.jpg"
-      ]
+      "flags": []
     },
     {
       "slug": "a-r-gas-services-0025",
@@ -248,66 +240,57 @@
         {
           "filename": "process-bg.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Nadat_een_gipsen_mal_die_over_het_hoofd_van_een_man_was%2C_SFA022826046.jpg",
-          "sha_expected": "1e18b7f36d12f4336957a91c0d3b51c28e5283e165df4d06cce2a5c123a1c171",
-          "sha256": "1e18b7f36d12f4336957a91c0d3b51c28e5283e165df4d06cce2a5c123a1c171",
-          "bytes": 611636,
+          "source": "https://commons.wikimedia.org/wiki/File:Wall_plastering.jpg",
+          "sha_expected": "c8c7ad9ad8a539f2666bc88882c3bbb0824203827a9272350a1e9326342108db",
+          "sha256": "c8c7ad9ad8a539f2666bc88882c3bbb0824203827a9272350a1e9326342108db",
+          "bytes": 279528,
           "dimensions": [
-            1920,
-            1702
+            1200,
+            760
           ],
-          "dhash": "c9c16365e573696c",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "8286848786e66021"
         },
         {
           "filename": "service-1.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Net_aangebracht_vloeibaar_gips_over_het_gezicht_van_een%2C_SFA022826044.jpg",
-          "sha_expected": "534dedacd8036804f740db1cb30a202056712c3e6ebf409bf4c9e75c9f01e750",
-          "sha256": "534dedacd8036804f740db1cb30a202056712c3e6ebf409bf4c9e75c9f01e750",
-          "bytes": 693469,
+          "source": "https://commons.wikimedia.org/wiki/File:Dunpleister_spuiten.jpg",
+          "sha_expected": "efd87239e2abcfa3821501fc1b9eccc0a6c31ee4989c84be88cb453c4814cc90",
+          "sha256": "efd87239e2abcfa3821501fc1b9eccc0a6c31ee4989c84be88cb453c4814cc90",
+          "bytes": 120352,
           "dimensions": [
-            1920,
-            1702
+            1200,
+            760
           ],
-          "dhash": "c1c8c4c6e6f4b113",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "b3f3f3a3caceeaf0"
         },
         {
           "filename": "service-2.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Vloeibaar_gips_wordt_over_het_gezicht_van_een_man_die_op%2C_SFA022826043.jpg",
-          "sha_expected": "dcb34b2351013eb9c50a404a400b4e7096827e3ab1cb32c4405f1e62f1f9e19a",
-          "sha256": "dcb34b2351013eb9c50a404a400b4e7096827e3ab1cb32c4405f1e62f1f9e19a",
-          "bytes": 700441,
+          "source": "https://commons.wikimedia.org/wiki/File:Plasterers_working_on_a_building.jpg",
+          "sha_expected": "24415742180e453df5ecff39dffaedac465614c015e97e9b7ce83a283d8dc8f8",
+          "sha256": "24415742180e453df5ecff39dffaedac465614c015e97e9b7ce83a283d8dc8f8",
+          "bytes": 342096,
           "dimensions": [
-            1920,
-            1702
+            1200,
+            760
           ],
-          "dhash": "e86d66667630d7f1",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "d2e3e3e3e3e3e363"
         },
         {
           "filename": "service-3.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AFilmacteurregisseur_Gene_Wilder_in_Amsterdam%2C_Bestanddeelnr_929-6073.jpg",
-          "sha_expected": "1f12c5738adb978f5e736f73b61c6a7a3369997c33f7ec0080909a10d9a83deb",
-          "sha256": "1f12c5738adb978f5e736f73b61c6a7a3369997c33f7ec0080909a10d9a83deb",
-          "bytes": 636119,
+          "source": "https://commons.wikimedia.org/wiki/File:Lathe_and_plaster_2.jpg",
+          "sha_expected": "e54fa361d641318781eca6b950f43e456cf9c321d98a6310095680f3f918f343",
+          "sha256": "e54fa361d641318781eca6b950f43e456cf9c321d98a6310095680f3f918f343",
+          "bytes": 189250,
           "dimensions": [
-            1920,
-            1272
+            1200,
+            760
           ],
-          "dhash": "9e9e8ecedadedad8",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "9c8cdcdc5c9c1e3e"
         }
       ],
-      "flags": [
-        "SOURCE_RISK process-bg.jpg",
-        "SOURCE_RISK service-1.jpg",
-        "SOURCE_RISK service-2.jpg",
-        "SOURCE_RISK service-3.jpg"
-      ]
+      "flags": []
     },
     {
       "slug": "a-snows-roofing-services-12131057",
@@ -800,21 +783,18 @@
         {
           "filename": "service-3.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AAdvertisement_stickers_of_Plumbing_service_at_Beitun%2C_Taichung_2018-10-20.jpg",
-          "sha_expected": "d95712d41d0a0929ce0536710434eb4e542fcaf359b0e90bcfb3a3206dc754c2",
-          "sha256": "d95712d41d0a0929ce0536710434eb4e542fcaf359b0e90bcfb3a3206dc754c2",
-          "bytes": 581854,
+          "source": "https://commons.wikimedia.org/wiki/File:Sewer_repair.jpg",
+          "sha_expected": "83cc70632cb09bb372b564e85ef32c725745517064769955feefb6b9a95b40ee",
+          "sha256": "83cc70632cb09bb372b564e85ef32c725745517064769955feefb6b9a95b40ee",
+          "bytes": 284869,
           "dimensions": [
-            1920,
-            1424
+            1200,
+            760
           ],
-          "dhash": "3dfde9ddddf3fbf9",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "cc9e1b1f171f8f47"
         }
       ],
-      "flags": [
-        "SOURCE_RISK service-3.jpg"
-      ]
+      "flags": []
     },
     {
       "slug": "alto-barren-plumbing-heating-0018",
@@ -1026,36 +1006,31 @@
         {
           "filename": "service-2.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ACouverture_traditionnelle_chinoise_en_tuiles.jpg",
-          "sha_expected": "6b8dad671e59248eb5ab7d67d97bd58d1ee7f56f955f44e23938272d60a591a2",
-          "sha256": "6b8dad671e59248eb5ab7d67d97bd58d1ee7f56f955f44e23938272d60a591a2",
-          "bytes": 871782,
+          "source": "https://commons.wikimedia.org/wiki/File:Flat_roof_roofing.JPG",
+          "sha_expected": "2724d5e72dd713490ed29fa449643654cddb1e5b41b3176fe69e8022eae8de6b",
+          "sha256": "2724d5e72dd713490ed29fa449643654cddb1e5b41b3176fe69e8022eae8de6b",
+          "bytes": 252536,
           "dimensions": [
-            1920,
-            1269
+            1200,
+            760
           ],
-          "dhash": "9858f3e7f7eeecf8",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "cedee5c8c2d09399"
         },
         {
           "filename": "service-3.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ACouverture_traditionnelle_mexicaine_avec_feuilles_de_palmier.jpg",
-          "sha_expected": "c01dab7818dbfe8f2ac2ea673e9baeeaaabb6cda306453704dc770921f2ab7be",
-          "sha256": "c01dab7818dbfe8f2ac2ea673e9baeeaaabb6cda306453704dc770921f2ab7be",
-          "bytes": 937720,
+          "source": "https://commons.wikimedia.org/wiki/File:Roofing_003.jpg",
+          "sha_expected": "f7c2deac250576afa803202da05702f838bd3165f4d9d2308676bd0c0544b2c5",
+          "sha256": "f7c2deac250576afa803202da05702f838bd3165f4d9d2308676bd0c0544b2c5",
+          "bytes": 193260,
           "dimensions": [
-            1440,
-            2160
+            1200,
+            760
           ],
-          "dhash": "cbda5250123062e0",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "d230b4ca0a0e0c1c"
         }
       ],
-      "flags": [
-        "SOURCE_RISK service-2.jpg",
-        "SOURCE_RISK service-3.jpg"
-      ]
+      "flags": []
     },
     {
       "slug": "atc-plumbing-and-heating-ltd-35187792471005",
@@ -1103,16 +1078,15 @@
         {
           "filename": "service-2.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ABarbados_%286821359633%29.jpg",
-          "sha_expected": "d3cb4701dc4360723b3c86f59f21cdd86796e457af66cfd114b9da808cbfdf73",
-          "sha256": "d3cb4701dc4360723b3c86f59f21cdd86796e457af66cfd114b9da808cbfdf73",
-          "bytes": 752892,
+          "source": "https://unsplash.com/photos/white-radiator-against-a-pale-green-wall-with-shadows-tamZSNzJJYM",
+          "sha_expected": "00a3ea94525647a87678ca35365e9adaff536430e9d2f12d60e25f84a39106ce",
+          "sha256": "00a3ea94525647a87678ca35365e9adaff536430e9d2f12d60e25f84a39106ce",
+          "bytes": 130105,
           "dimensions": [
-            1920,
-            1330
+            1200,
+            760
           ],
-          "dhash": "0c2063c5c1913e3c",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "cecececececcf8e0"
         },
         {
           "filename": "service-3.jpg",
@@ -1128,9 +1102,7 @@
           "dhash": "c28656f292cece5e"
         }
       ],
-      "flags": [
-        "SOURCE_RISK service-2.jpg"
-      ]
+      "flags": []
     },
     {
       "slug": "atlantic-joinery-services-ltd-12131015",
@@ -1152,30 +1124,28 @@
         {
           "filename": "process-bg.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Carosse_de_Jardin_%C3%A0_une_Place._G.36970.jpg",
-          "sha_expected": "fb4daf495674e904ed2a1db3002fd0b099a3b5b909637a0ff1392a91b0e87483",
-          "sha256": "fb4daf495674e904ed2a1db3002fd0b099a3b5b909637a0ff1392a91b0e87483",
-          "bytes": 1091298,
+          "source": "https://commons.wikimedia.org/wiki/File:Carpentry_in_Action.jpg",
+          "sha_expected": "cd5ab8924391d32a87b7cd3663d399543723e6ae9dcc714bddab837d983acfe9",
+          "sha256": "cd5ab8924391d32a87b7cd3663d399543723e6ae9dcc714bddab837d983acfe9",
+          "bytes": 210131,
           "dimensions": [
-            1920,
-            2620
+            1200,
+            760
           ],
-          "dhash": "9c9393ad8b8badb0",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "47ca9b34312d0d4d"
         },
         {
           "filename": "service-1.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Chaise_de_Poste._G.36968.jpg",
-          "sha_expected": "2fbce5c2515c811fd8b8f07cddf91ebd8381ade075ff25032f6f3aa1bef55d38",
-          "sha256": "2fbce5c2515c811fd8b8f07cddf91ebd8381ade075ff25032f6f3aa1bef55d38",
-          "bytes": 1177839,
+          "source": "https://commons.wikimedia.org/wiki/File:Carpenters_repair_a_door_arp.jpg",
+          "sha_expected": "d63b94c956c39fbc85ea82307dea404ddd22fafd9f9132017bce4d4325083c7e",
+          "sha256": "d63b94c956c39fbc85ea82307dea404ddd22fafd9f9132017bce4d4325083c7e",
+          "bytes": 364239,
           "dimensions": [
-            1920,
-            2627
+            1200,
+            760
           ],
-          "dhash": "cc83939993919190",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "80c50149ebeb0b19"
         },
         {
           "filename": "service-2.jpg",
@@ -1204,10 +1174,7 @@
           "dhash": "e2cab63737431733"
         }
       ],
-      "flags": [
-        "SOURCE_RISK process-bg.jpg",
-        "SOURCE_RISK service-1.jpg"
-      ]
+      "flags": []
     },
     {
       "slug": "bdc-roofing-supplies-12131027",
@@ -2323,66 +2290,57 @@
         {
           "filename": "process-bg.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Een_beeldhouwer%2C_kunstenaar_verwijdert_een_gipsen_masker%2C_SFA022826051.jpg",
-          "sha_expected": "2cd7792f4b944e09041b391c5f03c315d9cc07524f6515c8957fd68eac7c3ceb",
-          "sha256": "2cd7792f4b944e09041b391c5f03c315d9cc07524f6515c8957fd68eac7c3ceb",
-          "bytes": 537531,
+          "source": "https://commons.wikimedia.org/wiki/File:Plastering_by_maison.jpg",
+          "sha_expected": "4c73d66bc885070ace5bb370b11d7312c712226cd3a779f79a9efb7e75de7c0d",
+          "sha256": "4c73d66bc885070ace5bb370b11d7312c712226cd3a779f79a9efb7e75de7c0d",
+          "bytes": 204125,
           "dimensions": [
-            1920,
-            1372
+            1200,
+            760
           ],
-          "dhash": "c4b0343030313121",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "b2c2d29288505444"
         },
         {
           "filename": "service-1.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Gestold_gips_dat_in_vloeibare_vorm_over_het_gezicht_van%2C_SFA022826045.jpg",
-          "sha_expected": "fdc5a67685ba2f7103ead9c4cfd5b145de5cd200b9c0736b6f00645fd9e0cea8",
-          "sha256": "fdc5a67685ba2f7103ead9c4cfd5b145de5cd200b9c0736b6f00645fd9e0cea8",
-          "bytes": 581739,
+          "source": "https://www.pexels.com/photo/crop-man-with-trowels-and-spackle-5691594/",
+          "sha_expected": "a163abeb634b8656f13676fb8a6715ad4e3e2fa27aaa7287c724794d62699d8c",
+          "sha256": "a163abeb634b8656f13676fb8a6715ad4e3e2fa27aaa7287c724794d62699d8c",
+          "bytes": 116113,
           "dimensions": [
-            1920,
-            1702
+            1200,
+            760
           ],
-          "dhash": "48c4e66353623219",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "26757333393ebb99"
         },
         {
           "filename": "service-2.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Gipsen_vrouwenbeeld%2C_waarvan_het_gezicht_door_middel_van%2C_SFA022826052.jpg",
-          "sha_expected": "03c344790a661c1ddd0330a3fd2a91f22ce17a03af7a8c84cb4d88544dd9d91f",
-          "sha256": "03c344790a661c1ddd0330a3fd2a91f22ce17a03af7a8c84cb4d88544dd9d91f",
-          "bytes": 1281979,
+          "source": "https://unsplash.com/photos/a-textured-beige-wall-surface-iutexZMtf1I",
+          "sha_expected": "ba57a2eec5aaaea938af521549cba4b20c0b32782ecfbaf1da7363828bf53b3e",
+          "sha256": "ba57a2eec5aaaea938af521549cba4b20c0b32782ecfbaf1da7363828bf53b3e",
+          "bytes": 363617,
           "dimensions": [
-            1920,
-            2639
+            1200,
+            760
           ],
-          "dhash": "c8b1b1ea9692d2f0",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "c0c2c4c6c2c4e1e9"
         },
         {
           "filename": "service-3.jpg",
           "kind": "support",
-          "source": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Het_gezicht_van_een_man_die_op_een_kussen_op_een_bed_ligt%2C_SFA022826042.jpg",
-          "sha_expected": "5e6341deafb91e057695628e29a4b44625e773f954204a66ff55f96c1814cd92",
-          "sha256": "5e6341deafb91e057695628e29a4b44625e773f954204a66ff55f96c1814cd92",
-          "bytes": 733452,
+          "source": "https://commons.wikimedia.org/wiki/File:Wall_finishes_of_plastering.jpg",
+          "sha_expected": "eaa4cb82eef1a2d5e146cfb0f303e7b97624b5c4f666a45f1d2d6b9d845bcffa",
+          "sha256": "eaa4cb82eef1a2d5e146cfb0f303e7b97624b5c4f666a45f1d2d6b9d845bcffa",
+          "bytes": 269759,
           "dimensions": [
-            1920,
-            1682
+            1200,
+            760
           ],
-          "dhash": "d9ccc4c66472393a",
-          "risk": "OBVIOUSLY_IRRELEVANT_SOURCE"
+          "dhash": "e2e2e2e26c4494c4"
         }
       ],
-      "flags": [
-        "SOURCE_RISK process-bg.jpg",
-        "SOURCE_RISK service-1.jpg",
-        "SOURCE_RISK service-2.jpg",
-        "SOURCE_RISK service-3.jpg"
-      ]
+      "flags": []
     },
     {
       "slug": "great-roofing-and-building-12131004",
