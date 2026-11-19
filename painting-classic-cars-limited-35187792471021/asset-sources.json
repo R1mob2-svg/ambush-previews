@@ -10,32 +10,32 @@
       "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
-      "role": "process-bg",
-      "sha256": "9e849d154b83b3108178eac61757b0b11bcdb09617e6e8e442be2935767185a7",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AUS_Navy_061211-N-1328C-022_Cryptologic_Technician_Collection_3rd_Class_Megan_Morgan%2C_from_Gainesville%2C_Ga.%2C_and_other_service_members_Combined_Joint_Task_Force-Horn_of_Africa_%28CJTF-HOA%29_and_Camp_Lemonnier_volunteered_to_help_cle.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:US Navy 061211-N-1328C-022 Cryptologic Technician Collection 3rd Class Megan Morgan, from Gainesville, Ga., and other service members Combined Joint Task Force-Horn of Africa (CJTF-HOA) and Camp Lemonnier volunteered to help cle.jpg"
+      "role": "supporting",
+      "sha256": "6fda25c420ba6a7f15b0cd8445844ca3e7ae3727e707726e42f67651b2246806",
+      "source_url": "generated:runway:9de2603e-70b1-45d4-af56-e0c55e1eed0e",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-1.jpg": {
-      "role": "service-1",
-      "sha256": "34ed1eb064bc052c1df3db1f606e5d1d0fb3cf2313ef41f2b253b1283fc09898",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AUS_Navy_070823-N-9195K-025_Aerographer%27s_Mate_1st_Class_William_Palmer_uses_a_roller_to_add_a_second_coat_of_paint_to_a_wall_during_a_community_relations_project_at_Voza_Medical_Clinic_in_support_of_Pacific_Partnership.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:US Navy 070823-N-9195K-025 Aerographer's Mate 1st Class William Palmer uses a roller to add a second coat of paint to a wall during a community relations project at Voza Medical Clinic in support of Pacific Partnership.jpg"
+      "role": "supporting",
+      "sha256": "0e76a5a62228ef938ff552f1c0c752b5775bc543c8e31c6bd8508cbfda27139d",
+      "source_url": "generated:runway:d49c7883-6fd2-4bb1-8a31-55f2f2d80d7d",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-2.jpg": {
-      "role": "service-2",
-      "sha256": "aacbb35f1b24a9cc6df38d2d7fb0674f34a8e23ca1a11d0d6dd75b174c9b7408",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AUS_Navy_080614-N-6410J-037_Steelworker_Constructionman_Richard_Bartman%2C_assigned_to_Construction_Battalion_Maintenance_Unit_%28CBMU%29_303_embarked_aboard_the_amphibious_assault_ship_USS_Boxer_%28LHD_4%29%2C_paints_a_building.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:US Navy 080614-N-6410J-037 Steelworker Constructionman Richard Bartman, assigned to Construction Battalion Maintenance Unit (CBMU) 303 embarked aboard the amphibious assault ship USS Boxer (LHD 4), paints a building.jpg"
+      "role": "supporting",
+      "sha256": "9650ffaaef4a6adc7e62e2a9303a086c8663fa0b4b40fdc8972466ae1c2bfbc8",
+      "source_url": "generated:runway:fc1c368a-9c98-45c1-bf84-d0bfb7c32afb",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-3.jpg": {
-      "role": "service-3",
-      "sha256": "d2dbeb0ecae93176f99a3bbd701775e3c4890deb028272653bb97d5a2307adb2",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AUS_Navy_081102-N-8982C-001_Engineering_Aide_1st_Class_Craig_Miller_uses_a_roller_to_paint_a_sidewalk.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:US Navy 081102-N-8982C-001 Engineering Aide 1st Class Craig Miller uses a roller to paint a sidewalk.jpg"
+      "role": "supporting",
+      "sha256": "0c97ac69e48e2b4b729862e1f962ec5d36abfe41b7c5d768fbab4e96566c9a63",
+      "source_url": "generated:runway:d01d23e0-e539-4532-af4b-67d1261e646b",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "favicon.png": {
       "role": "favicon",

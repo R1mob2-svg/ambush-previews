@@ -8,7 +8,13 @@
     "notes": "Illustrative AI-generated trade image; not the customer's actual work. Accidental lettering concealed within the dark left hero title zone."
   },
   "CHEEK-SVC-CONSUMER.jpg": "commons:Electrician_installing_socket.jpg",
-  "CHEEK-SVC-WIRING.jpg": "commons:Electrician_installing_socket_20160817.jpg",
+  "CHEEK-SVC-WIRING.jpg": {
+    "role": "supporting",
+    "sha256": "386639fb2f8b60146fd94cf03b7facf66466296e4c0467fb8c6fdf946e1d74ee",
+    "source_url": "generated:runway:13631969-fae9-4e2b-a347-cfd89fe7133f",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
+  },
   "favicon.png": "generated:monogram",
   "CHEEK-SVC-FAULTS.jpg": "commons:Switches_for_lights.jpg",
   "CHEEK-PROC-CONSUMER.jpg": "commons:Linnamae_37_-_fuse_box_is_wired.JPG"
