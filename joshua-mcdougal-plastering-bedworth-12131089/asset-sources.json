@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "10877bed36f194be8f802117d580c4c771c9e7573fd57311fcf78a28d6526a77",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AHuchu-cho%2CMiki%2CHyogo_%E5%85%B5%E5%BA%AB%E7%9C%8C%E4%B8%89%E6%9C%A8%E5%B8%82%E5%BA%9C%E4%B8%AD%E7%94%BA_DSCF8270.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Huchu-cho,Miki,Hyogo 兵庫県三木市府中町 DSCF8270.jpg"
+      "sha256": "e7d2c78c601720851238ef3b7bb61db9baf76927f2d8b4dcb15a67c87e9ad152",
+      "source_url": "generated:runway:bf972fb5-3f83-438a-a4c4-aaa7e9f7e651",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade image; not the customer's actual work. Accidental lettering concealed within the dark left hero title zone."
     },
     "process-bg.jpg": {
       "role": "process-bg",

@@ -1,0 +1,16 @@
+{
+  "slug": "be-plastering-services",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "ce8cd8c045ac4c57ddd548ddfdc68efe5ad2b4c611735816941dd36200d28f05",
+  "asset_manifest_sha256": "f5b6c99eae556f394cf60847240620f8a216a21bcb53917a99562f4afd6cb98f",
+  "gate2_status": "PASS",
+  "gate2_checks": 68,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

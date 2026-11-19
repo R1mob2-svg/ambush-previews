@@ -1,0 +1,16 @@
+{
+  "slug": "cannock-mechanical-solutions-0016",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "b776872f883dbccd7a8a84a575f41e67eaadbad09cb983b4de9bd3e7ad53e489",
+  "asset_manifest_sha256": "cdcadce60bfce1e2104e8bfce0fdfad5306b366f14e7d2cce79c30a88a5cec5e",
+  "gate2_status": "PASS",
+  "gate2_checks": 68,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

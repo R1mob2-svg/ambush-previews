@@ -1,0 +1,16 @@
+{
+  "slug": "painting-classic-cars-limited-35187792471021",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "1dcca77c2c29ba6290079ec4430511f7be6b029e53cd81af1af23509abb687f6",
+  "asset_manifest_sha256": "7d59f3f6a8fd620e42cb36d1a262570611f55e2779d8a54e07186fdff50b160b",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

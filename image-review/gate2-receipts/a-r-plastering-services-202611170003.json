@@ -1,0 +1,16 @@
+{
+  "slug": "a-r-plastering-services-202611170003",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "8085fc4f95286c28b37da6df792b0e03c313c8648bf6c68c797789290c596295",
+  "asset_manifest_sha256": "e5e55fc3c0e094fd5c1134c8ac4b3ca91e444b1e9a478446cd867fd08a3b083e",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

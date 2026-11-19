@@ -1,0 +1,16 @@
+{
+  "slug": "acb-electrics-ltd-12131060",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "722ef8a40180895d1cc94e19b597f659e2d2e9db11da255d809c1ff773a56fa1",
+  "asset_manifest_sha256": "2049fad2cd905d0dcb49fdc757f4f0eebd90b14d01accbfd000a56c7a78434e9",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

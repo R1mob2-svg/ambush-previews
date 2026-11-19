@@ -4,17 +4,21 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "35c833e9fcc312cf2861a7cd43ae669c4645c2cc5225a42482c31ec4e5add07d",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AConcrete_columns.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Concrete columns.jpg"
+      "sha256": "d0a02d94f6c5aec3ef87c6b06913f343f104c926cb1ad1c84ed90d9bfc8e36df",
+      "source_url": "generated:runway:474b272f-d59d-4a80-9a4b-160e8e71c01b",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "401b1ea7f67181e2c459fe8ca7dc8caa5cddc54bfe466dd74c41e6c4b8d1e9cc",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACharacteristics_of_concrete.PNG",
+      "sha256": "b4dfa963120b9528364f66f647bd7a6974934890a20e5e8083a420bdd1c9b272",
+      "source_url": "https://commons.wikimedia.org/wiki/File:KM23-_Chuuk_High_School_Renovation_Project_(7928724).jpg",
+      "source_title": "File:KM23- Chuuk High School Renovation Project (7928724).jpg",
       "license": "Public domain",
-      "notes": "Commons: File:Characteristics of concrete.PNG"
+      "license_url": "",
+      "author": "U.S. Marine Corps photo by Lance Cpl. Trent A. Henry",
+      "credit": "This image was released by the United States Marine Corps with the ID 230719-M-FP389-1285 (next). This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing. العربية ∙ বাংলা ∙ Bahasa Indonesia ∙ Bahaso Jambi ∙ Deutsch ∙ Deuts",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-1.jpg": {
       "role": "service-1",

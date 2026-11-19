@@ -1,0 +1,16 @@
+{
+  "slug": "walsall-builders-and-timber-merchant-12131034",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "166d7037e0806382a462bd40fc09386c7e375a70e1961d1821c85750e017e764",
+  "asset_manifest_sha256": "72720fed077222c1cb070b59aec264a6f180c0d16100c5c2e2d19ca65c80154e",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "5b6b42458774cd42462862a86b0fccc8b6d64615e6d4fe55c2f836d46abce1b7",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ATrainee_Plasterers_at_Work%28GN11043%29.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Trainee Plasterers at Work(GN11043).jpg"
+      "sha256": "8d0ec63184cd8df7d7be0af7dd43237902c794260c5b2a84ba3612ebdae6015d",
+      "source_url": "generated:runway:f98fdbcd-ddac-467b-89d1-307362c43649",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

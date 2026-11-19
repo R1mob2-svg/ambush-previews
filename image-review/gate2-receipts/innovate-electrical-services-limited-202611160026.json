@@ -1,0 +1,16 @@
+{
+  "slug": "innovate-electrical-services-limited-202611160026",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "5e62e01b9f22c4666b90c64113f3b409fe7dc1b4799e4e7de5176c5b3fac326e",
+  "asset_manifest_sha256": "6eadf8108d27610cd0b4be063fa9d6fe78938489c7107fcd1687915fa7be65b9",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

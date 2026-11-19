@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "94396b76d7c4c0ff8d6aa4c0f1acd02874b1b6283b2f44f6f4e3f6d2cb979408",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AGare_des_Glaciers_04.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Gare des Glaciers 04.jpg"
+      "sha256": "bb605263022bb0758dda346cdc6120adc8b020d4db39e835d78bdf6e38fbb084",
+      "source_url": "generated:runway:064511f2-571f-475b-a8ac-8d7cf07db186",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

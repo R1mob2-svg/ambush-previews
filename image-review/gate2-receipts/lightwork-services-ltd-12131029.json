@@ -1,0 +1,16 @@
+{
+  "slug": "lightwork-services-ltd-12131029",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "5dd18bca65e42c728228876dbb14bd8f57df24e01df60ade989e1cd8b95ddf56",
+  "asset_manifest_sha256": "f1692b13b26c8486b2d4e3e4ad2571e0021505645c656b1f26fdaa4527a78d44",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

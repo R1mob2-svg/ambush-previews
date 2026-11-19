@@ -4,38 +4,38 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "6a2df8e3c09ac6d61c6d73a111a56b6044e832cdb14daa2de4269ea442669f81",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AKaluga%2C_roof_repair_workers_%2836841040083%29.jpg",
-      "license": "CC BY-SA 2.0",
-      "notes": "Commons: File:Kaluga, roof repair workers (36841040083).jpg"
+      "sha256": "90eafadcacdf9894f3360e7b6966e6ed166ab7c8c5a5e281aa29b79f261a8762",
+      "source_url": "generated:runway:7715e1d6-5d1b-4c41-8810-ebbea382ace0",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
-      "role": "process-bg",
-      "sha256": "d862bd5a4deeab88717f288ed893d28feb1d9359d407cef861ab032c77bd70ae",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AH%C3%BCckeswagen_-_An_der_Schlo%C3%9Ffabrik_18_ies.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Hückeswagen - An der Schloßfabrik 18 ies.jpg"
+      "role": "supporting",
+      "sha256": "d40906b21461a24ac41aebee6fb1d83b7010b1ab3280718a4497c707a203b7a8",
+      "source_url": "generated:runway:ba778b0e-39f9-4fce-9f6c-5767312e92ca",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-1.jpg": {
-      "role": "service-1",
-      "sha256": "702d3c8696bfb0c65708c19744419bcacb31510e4396f0d7bf67c64239b2957a",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AIf_I_were_a_carpenter.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Commons: File:If I were a carpenter.jpg"
+      "role": "supporting",
+      "sha256": "12979bd6af923da19af45031bb9a49325c5eab5af8b172aa441afc0fd444c5d8",
+      "source_url": "generated:runway:64e37ce6-35b2-484a-86ee-bcf4f44133c3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-2.jpg": {
-      "role": "service-2",
-      "sha256": "aa180e0f9f8fe6e4107fc43e315a0041e97582b5e3eb664b4c3bb96395b7f4bd",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AKenya_Tak_22_BG.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Kenya Tak 22 BG.jpg"
+      "role": "supporting",
+      "sha256": "b64ff843108de6406b23584c584518fef789e09bb633f6eff177cffaae270747",
+      "source_url": "generated:runway:cc5f9828-27d6-43f5-8e0b-dcfe1a2b3fea",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-3.jpg": {
-      "role": "service-3",
-      "sha256": "40a5317f047571c5d1c7bdfa401340eded35f70169fd83fe7c22b7a78019a8fb",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AKenya_Tak_23_BG.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Kenya Tak 23 BG.jpg"
+      "role": "supporting",
+      "sha256": "5d421154d7770a02858794be11a42f1d8ecf16e184e70409d62a89f6e973fe33",
+      "source_url": "generated:runway:f883cb33-18c2-4e28-8460-6e1e6294b37e",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "favicon.png": {
       "role": "favicon",

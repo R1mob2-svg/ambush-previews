@@ -1,0 +1,15 @@
+{
+  "sites": 88,
+  "planned_installs": 141,
+  "licensed_support_installs": 27,
+  "credited_sites": 13,
+  "hero_origin_count": 88,
+  "manifest_images": 624,
+  "html_local_asset_references": 536,
+  "broken_or_invalid": [],
+  "shared_photo_origins": {},
+  "static_asset_integrity_pass": true,
+  "visual_approval": "NOT_PERFORMED",
+  "public_publish": "NOT_PERFORMED",
+  "prospect_outreach": "HOLD"
+}

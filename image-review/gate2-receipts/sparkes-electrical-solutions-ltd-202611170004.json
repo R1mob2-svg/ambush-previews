@@ -1,0 +1,16 @@
+{
+  "slug": "sparkes-electrical-solutions-ltd-202611170004",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "e556c232eeab6ce860788e86345e9271bb6eccca8ce944dda5b382f67e3b27b4",
+  "asset_manifest_sha256": "a8ee8990239220aa013005934bd71ae6941c41b69b834576907f11d01009f32d",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

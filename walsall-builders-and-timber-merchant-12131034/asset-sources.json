@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "d8e763d4032d659426b2f5bbd8a6dfc90d87aef6c3998e4594116b8cd7ca9051",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AEdisonh%C3%B6fe_Berlin.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Edisonhöfe Berlin.jpg"
+      "sha256": "4e6d9b0c521602a8111577b9ae34876b15e9132aa2f9cb9fc31f69892df6e7f8",
+      "source_url": "generated:runway:b2b7acf9-4a42-4049-9a6d-c30f5188e4da",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

@@ -1,7 +1,13 @@
 {
-    "prospect_id": "WM-LTD-20261116-0018",
-    "ab-hero.jpg": "commons:Equipment_installation_involving_plumbing_and_cooling_units_in_outdoor_setting_during_daytime.jpg",
-    "ab-svc-1.jpg": "commons:Plumbing_Installation_(8909644).jpg",
-    "ab-svc-2.jpg": "commons:Replacement_of_a_central_heating_radiator,_Hillegersberg,_Rotterdam_(2022)_03.jpg",
-    "favicon.png": "generated:monogram"
+  "prospect_id": "WM-LTD-20261116-0018",
+  "ab-hero.jpg": {
+    "role": "hero",
+    "sha256": "3a59c65da45fbee321af43053c724bc33d65ad87845fe2b2445c1223727abdd0",
+    "source_url": "generated:runway:d0e57f7c-996e-4014-8690-ff7a53b1dcb7",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
+  },
+  "ab-svc-1.jpg": "commons:Plumbing_Installation_(8909644).jpg",
+  "ab-svc-2.jpg": "commons:Replacement_of_a_central_heating_radiator,_Hillegersberg,_Rotterdam_(2022)_03.jpg",
+  "favicon.png": "generated:monogram"
 }

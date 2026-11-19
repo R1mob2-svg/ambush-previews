@@ -1,0 +1,16 @@
+{
+  "slug": "sab-builders-and-landscaping-ltd-35187792471034",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "dea92f7f2400c42de383371428dcc5a6c0472cdeaa5f72e2eb8edfca4b99e5e4",
+  "asset_manifest_sha256": "9427cffc20ea138f5734eafb0d2e8927f9438af01c304b980d728c70badff9a4",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

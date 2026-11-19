@@ -1,0 +1,16 @@
+{
+  "slug": "turnberry-heating-co-12131023",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "c5ae3edba8fc964727e22ff7ccc3176a5a4babc0447baf64c91be95046b5b332",
+  "asset_manifest_sha256": "1b5f2f7bbce40afdab2d29556a17ce21fe84d2b9ac47212184251c536ef5210d",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

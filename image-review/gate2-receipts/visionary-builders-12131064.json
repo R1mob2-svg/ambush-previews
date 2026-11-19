@@ -1,0 +1,16 @@
+{
+  "slug": "visionary-builders-12131064",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "5a696e4026b2390c19924f378c1382fa3b4cb9de532f98d2aa7461b69146795c",
+  "asset_manifest_sha256": "188c4a6fb66fd256d465fa418e473d05d96714a23fe22d9e621d9e1965e48e82",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

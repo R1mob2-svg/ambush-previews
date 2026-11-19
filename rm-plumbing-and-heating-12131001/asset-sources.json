@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "f3fef8f507b0e9d3b53aa67b4aa9ebdf0aa238021754e61537efb22a58ed1935",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AComplicatedPipes.jpg",
-      "license": "CC BY 3.0",
-      "notes": "Commons: File:ComplicatedPipes.jpg"
+      "sha256": "529b8082ddbfaa201080db8f808492f2e62a71939d5afbc63e14a5c5f04a7880",
+      "source_url": "generated:runway:6dd1ae15-9c65-423a-8c1e-ccb51d3abd01",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

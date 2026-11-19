@@ -4,38 +4,38 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "3395ca259da38dbcea186c27b7f3dd0a3e408c7011d0d791f44cc2a2d8f2493f",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACover_~25a06ueb.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Cover ~25a06ueb.jpg"
+      "sha256": "75e7b43bdb19b7466345b048adc7918a73335b75d6aa3f2a0f2948107e8ccf93",
+      "source_url": "generated:runway:f9092176-ffc7-4e1f-920b-93925fb9f266",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
-      "role": "process-bg",
-      "sha256": "b38ac59cd197809fcd2d25db3f14765504f9508898dabfd7cbaef49e88a36652",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACommon_gas_meter_in_Stalin-era_apartment_building.JPG",
-      "license": "Public domain",
-      "notes": "Commons: File:Common gas meter in Stalin-era apartment building.JPG"
+      "role": "supporting",
+      "sha256": "825fc776fd5cd81b80e147fc1205672dd2589cf980737c8d75a401a0ab40f75b",
+      "source_url": "generated:runway:9ab188c4-f8ee-4e6e-a8d9-fd7e05a40adb",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-1.jpg": {
-      "role": "service-1",
-      "sha256": "f6a5f8b52d5e9ef9f3188d0bfb25a142c91d5efdca3850e44103e4b6b64c843e",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACompteur_Gaz_Fun_Bissardon_Caluire.JPG",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Compteur Gaz Fun Bissardon Caluire.JPG"
+      "role": "supporting",
+      "sha256": "15546027da9e12ce892e76b4216c56926f2590a296c96a9e882581ae1a324292",
+      "source_url": "generated:runway:a46603dd-bd85-4d0d-a2d7-5e7f63da8c63",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-2.jpg": {
-      "role": "service-2",
-      "sha256": "25fe055c046f61422baa60211bb75385397ffdab77c80f0531d07d2a783f2dcd",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACounting_the_amount_of_gas_%2848506345531%29.jpg",
-      "license": "CC BY-SA 2.0",
-      "notes": "Commons: File:Counting the amount of gas (48506345531).jpg"
+      "role": "supporting",
+      "sha256": "0525dbd3602f094bf749aa31514227cb53aab3c14036437b0da9fd16bc884597",
+      "source_url": "generated:runway:f86a6cdd-7794-40b9-868e-c668308561b0",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-3.jpg": {
-      "role": "service-3",
-      "sha256": "d2751d8e37c0b5a0efbad831d47d581227acd89b5c3bc3f7fb190ea5075ec300",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACreos%2C_Elster_BK-4G_AT-101.jpg",
-      "license": "CC BY-SA 3.0 lu",
-      "notes": "Commons: File:Creos, Elster BK-4G AT-101.jpg"
+      "role": "supporting",
+      "sha256": "3de17bcb2c9091be6abf741ac608a390727508c97baf4222ab092d25990a7b6c",
+      "source_url": "generated:runway:f35a3a53-0900-4bd8-ac9a-89ca6527e570",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "favicon.png": {
       "role": "favicon",

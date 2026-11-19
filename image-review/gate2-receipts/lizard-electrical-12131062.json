@@ -1,0 +1,16 @@
+{
+  "slug": "lizard-electrical-12131062",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "bcecd9f1fb9b9b8f89d632483c0f3a864839bb3e591adc2e6e57d700b214bd7f",
+  "asset_manifest_sha256": "6f382c19aa31db345c15e7a91c76d7c94105ea48c84f085cad138bf1f0bef6da",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

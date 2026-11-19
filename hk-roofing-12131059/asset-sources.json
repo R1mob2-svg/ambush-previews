@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "02fca99a602d9a20bca726d8051e7a7aba1c5bdd722cc00a5be0e81e07c41013",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AFEMA_-_44272_-_Tornado_recovery%2C_roof_repair%2C_in_Oklahoma.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:FEMA - 44272 - Tornado recovery, roof repair, in Oklahoma.jpg"
+      "sha256": "d05f7c8fdc438bb28ee48af17fb234565169d86d2128523ab4a8ed9b9c7614b1",
+      "source_url": "generated:runway:93ef297c-c769-4d34-8ca6-2d29d065cc5e",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

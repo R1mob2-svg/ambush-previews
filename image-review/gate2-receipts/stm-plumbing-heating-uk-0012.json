@@ -1,0 +1,16 @@
+{
+  "slug": "stm-plumbing-heating-uk-0012",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "4a43d5075ffeeb350b43efde89f37f9d3dc57d7d9036ec3e7bf014ff523c759a",
+  "asset_manifest_sha256": "fee9c5a8b1e3a5ef6cc02518265fb62cdb52d21c9363afa86ac9fa6c7b511c55",
+  "gate2_status": "PASS",
+  "gate2_checks": 68,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

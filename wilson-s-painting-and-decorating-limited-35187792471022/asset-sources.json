@@ -4,24 +4,24 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "0efc9c3f968cef5812e5839aed9bc123ca1b0df00cc08acfd56f76ed52e8a9dc",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AUS_Navy_100607-N-6410J-246_Engineering_Aide_Seaman_Christopher_Kelly%2C_from_Schertz%2C_Md.%2C_paints_a_water_well_at_a_Pacific_Partnership_2010_engineering_civic_action_project_site_in_Quy_Nhon%2C_Vietnam.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:US Navy 100607-N-6410J-246 Engineering Aide Seaman Christopher Kelly, from Schertz, Md., paints a water well at a Pacific Partnership 2010 engineering civic action project site in Quy Nhon, Vietnam.jpg"
+      "sha256": "27e0368d4b3db5186f6faadae86f41353698d9b741b28722b97b4793b5298538",
+      "source_url": "generated:runway:950f2115-ddff-4d14-be99-e793917432ef",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
-      "role": "process-bg",
-      "sha256": "428bd79bde36bb70f5daa83f86131553198179caae8e007411461db3a778cb21",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AUS_Navy_090416-F-7522G-006_Aerographer%27s_Mate_Gina_Hegg%2C_embarked_aboard_the_Military_Sealift_Command_hospital_ship_USNS_Comfort_%28T-AH_20%29_paints_the_wall_of_a_pediatric_medical_facility_at_Emmanuel_Christian_School.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:US Navy 090416-F-7522G-006 Aerographer's Mate Gina Hegg, embarked aboard the Military Sealift Command hospital ship USNS Comfort (T-AH 20) paints the wall of a pediatric medical facility at Emmanuel Christian School.jpg"
+      "role": "supporting",
+      "sha256": "5a93bcf9eef5afbbbffa401353213cdd4235881b87f765b09371e88a418cac0e",
+      "source_url": "generated:runway:70838e3e-2ef8-48de-b75e-f5c07d890e33",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-1.jpg": {
-      "role": "service-1",
-      "sha256": "b3490212c63f4ee9668135eebb343d9c0966cf6e26bb869b9675c18900f5325f",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AUS_Navy_100722-N-9643W-702_Lt._j.g._Joan_Mulligan%2C_embarked_aboard_High_Speed_Vessel_Swift_%28HSV_2%29%2C_takes_a_paint_tray_and_roller_from_a_child.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:US Navy 100722-N-9643W-702 Lt. j.g. Joan Mulligan, embarked aboard High Speed Vessel Swift (HSV 2), takes a paint tray and roller from a child.jpg"
+      "role": "supporting",
+      "sha256": "b642d9cfefacb2fad0a83513686921f332083be8c88855d79c51926039752db1",
+      "source_url": "generated:runway:f46e9ba0-34eb-44ce-bcd7-da1eec2194da",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-2.jpg": {
       "role": "service-2",

@@ -1,0 +1,16 @@
+{
+  "slug": "kane-heating-and-plumbing-limited-35187792471003",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "473d537fce0b23f207726e6f847019bed92ab0238b39b6dfa203b006b5d1f592",
+  "asset_manifest_sha256": "018b7aa0ebf2e7240acc1f490671339c553f9c2358251802b4ff00c63016302d",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

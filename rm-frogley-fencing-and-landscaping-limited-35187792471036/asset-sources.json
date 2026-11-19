@@ -4,38 +4,56 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "64b38f10e4e491d3c4e720c3eb8474fa19eab29c4142968dcc5dbc9d291d2a39",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ATainha_fac_psicologia_2.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Tainha fac psicologia 2.jpg"
+      "sha256": "bbe60988d43bd2ac9409ef09de82fe8fc0f92ed3173c360224ea2d3745f7af39",
+      "source_url": "generated:runway:d54dd1e1-60d3-4a6f-8a1f-4cb2bf10f220",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work",
+      "contrast_review_adjusted": true,
+      "contrast_review_note": "NEWTON: measured hero contrast correction after 1440px Gate2 failure; non-generative edit."
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "8f08f8a9c2c3c6d27478bcc3c0da10d0ab345160c0c38856703737420e015ed2",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ATainha_fac_psicologia_3.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Tainha fac psicologia 3.jpg"
+      "sha256": "7fabd686b4f77af6e2df9537778931bf86d1a44dc535d727e07fc2004eaf2900",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Blake_Hall_Essex_listed_barn_patio_02.jpg",
+      "source_title": "File:Blake Hall Essex listed barn patio 02.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Acabashi",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "ab126a2fb50faa7d466c14527a779735073bd34890794b0ca25b58ce5e8e8415",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ATainha_fac_psicologia_4.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Tainha fac psicologia 4.jpg"
+      "sha256": "b34f36ad54980909641d9afedd7811b420d99cc3cffdc292b4770f0ab5f1f3e8",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Blake_Hall_Essex_south-east_face_patio_01.jpg",
+      "source_title": "File:Blake Hall Essex south-east face patio 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Acabashi",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "e43eb6a326c62f06127d5ef82b9b01b791b8996d46cf164373193b7c7f510c80",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AThe_lighter_branches_of_agriculture_%28Page_47%29_BHL17628823.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:The lighter branches of agriculture (Page 47) BHL17628823.jpg"
+      "sha256": "a74702b860ab3adf50a626caa5fcebda0e94b98c2ffe4fccb711daf009430e0c",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Garnon_Bushes_pub_patio_trellis,_Coopersale,_Epping,_Essex,_England.jpg",
+      "source_title": "File:Garnon Bushes pub patio trellis, Coopersale, Epping, Essex, England.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Acabashi",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "2185cc572efaf9f25219ade166cc0f840d367322aa7f819d20542718d7331a7b",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ATitel_der_Andeutungen_%C3%BCber_Landschaftsg%C3%A4rtnerei.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Titel der Andeutungen über Landschaftsgärtnerei.jpg"
+      "sha256": "67a1680bab59a730a22675bb6711f882dca48c8b19370b466c3080df260a86d8",
+      "source_url": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Wildpark_--_2015_--_8894-8.jpg",
+      "source_title": "File:Dülmen, Wildpark -- 2015 -- 8894-8.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Dietmar Rabich",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "favicon.png": {
       "role": "favicon",

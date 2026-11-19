@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "48553f455b94e9cf08ee9f9e83656253cc56cbedc1579525d703392f25770db5",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACp25_grand_coulee_dam2.jpg",
-      "license": "CC BY 3.0",
-      "notes": "Commons: File:Cp25 grand coulee dam2.jpg"
+      "sha256": "36d0cad28c74910f572e8cf86e754c11f2a2aac4f92a7edabfb505d49ae7810e",
+      "source_url": "generated:runway:df896606-ca5e-425d-bdb2-b81ad22ed427",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

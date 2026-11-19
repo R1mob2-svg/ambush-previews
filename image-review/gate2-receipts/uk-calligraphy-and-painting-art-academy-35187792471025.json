@@ -1,0 +1,16 @@
+{
+  "slug": "uk-calligraphy-and-painting-art-academy-35187792471025",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "49fd23e17e1ef6ead1328dee52d6658eb9496abae20a9bf5e35d15bad892ca15",
+  "asset_manifest_sha256": "0f4a4226989eccf279a9de1e54040574ef3b8b7c9749c130bd5dc8cda9ed0428",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

@@ -1,7 +1,13 @@
 {
-    "prospect_id": "WM-LTD-20261116-0020",
-    "rn-hero.jpg": "commons:District_heating_pipes_in_London.jpg",
-    "rn-svc-1.jpg": "commons:Hatchery_Plumbing_Maintenance_(50976243386).jpg",
-    "rn-svc-2.jpg": "commons:Various_plumbing_hoses,_mainly_for_bathroom_and_kitchen_installations,_in_German_hardware_store_2023.jpg",
-    "favicon.png": "generated:monogram"
+  "prospect_id": "WM-LTD-20261116-0020",
+  "rn-hero.jpg": {
+    "role": "hero",
+    "sha256": "002d9fd2f98e14e2aa15b2d936b418bf1d24a0c0fc36b07adfd0296541ef8033",
+    "source_url": "generated:runway:c0fa093c-3a4b-4d35-8a78-60ad551ca497",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
+  },
+  "rn-svc-1.jpg": "commons:Hatchery_Plumbing_Maintenance_(50976243386).jpg",
+  "rn-svc-2.jpg": "commons:Various_plumbing_hoses,_mainly_for_bathroom_and_kitchen_installations,_in_German_hardware_store_2023.jpg",
+  "favicon.png": "generated:monogram"
 }

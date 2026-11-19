@@ -4,38 +4,38 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "25f59a0f4e660d815ee71e721e343e17571b2739b934eccd8b4e0dcb4dc97e4d",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AIndustry_Torrance.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Commons: File:Industry Torrance.jpg"
+      "sha256": "e514a39510874f4c0028f1ba5552783d12863535ffb2be5ebacd5737d4f1051e",
+      "source_url": "generated:runway:e688df3c-9909-45d7-b493-305d4b30db2d",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
-      "role": "process-bg",
-      "sha256": "6cf0b3c6d9b9cd888793ff7254dedb05b43a58c07aea1aa4a5878b571eb7c798",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ALyon_7e_-_Ancienne_prise_Gaz_Lyon_%28mars_2019%29.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Lyon 7e - Ancienne prise Gaz Lyon (mars 2019).jpg"
+      "role": "supporting",
+      "sha256": "080515bbe1771fb63e0e7d7cd02be767568b0e3596de27a722bc14f16ac6b22d",
+      "source_url": "generated:runway:961eadfb-642c-4b53-b3ab-73a8dc238fc5",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-1.jpg": {
-      "role": "service-1",
-      "sha256": "5aa630379c1239da2b064a0b1b31e749606d15646c6785dec88df1a4a5240864",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ANatural_Gas_Vent_%287238234930%29.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Commons: File:Natural Gas Vent (7238234930).jpg"
+      "role": "supporting",
+      "sha256": "8d36babfcee77757f45e17475c493ab6d2b0cf380cc5bcb9646d8cf86a2146ee",
+      "source_url": "generated:runway:2b8253c1-1604-4d9d-971d-c28b63eef721",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-2.jpg": {
-      "role": "service-2",
-      "sha256": "becfe3262bcfc08bec1652e96626e9dac0fed2e680745db3e943c6eb73687278",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ANeuhaus_%28Oste%29_2008_Biogasanlage_04_by-RaBoe.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Neuhaus (Oste) 2008 Biogasanlage 04 by-RaBoe.jpg"
+      "role": "supporting",
+      "sha256": "8e5b03ed80504b71a8ff90dff19209db26335e92a29493d158aeab9d3d8f50eb",
+      "source_url": "generated:runway:2ad1f959-b793-446c-aaf0-5f404cc7cde0",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-3.jpg": {
-      "role": "service-3",
-      "sha256": "77f7445e7b61df73c83c27e430953ac40d2cf360237778cf2cf9ec3752f67305",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ANeuhaus_%28Oste%29_2008_Biogasanlage_06_by-RaBoe.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Neuhaus (Oste) 2008 Biogasanlage 06 by-RaBoe.jpg"
+      "role": "supporting",
+      "sha256": "017f94d71319a75848b99620050c1e43b3976124f4ca6532af1f4e7825af6256",
+      "source_url": "generated:runway:b99f3e36-b23a-42d4-b8ef-65202f16eca5",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "favicon.png": {
       "role": "favicon",

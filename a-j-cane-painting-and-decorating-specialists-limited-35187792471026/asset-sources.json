@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "72028fa97eaf3afd3f76fb4e00c3f1273269e70337a1bf15b8ca488e325c36d4",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AThe_painter_and_his_dog%2C_Aberaeron_-_geograph.org.uk_-_2296377.jpg",
-      "license": "CC BY-SA 2.0",
-      "notes": "Commons: File:The painter and his dog, Aberaeron - geograph.org.uk - 2296377.jpg"
+      "sha256": "543087f548f8b73179829cc13506268bb31a35523179867af7618539f23a6c82",
+      "source_url": "generated:runway:3415748f-3c85-41ae-93c5-f251410eeeae",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",
@@ -18,17 +18,25 @@
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "e8d6a623c0b48ca95e0883ca6154037f695e718e467adc8a659722039b6710ad",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AThe_typography_of_advertisements_that_pay_-_how_to_choose_and_combine_type_faces%2C_engravings_and_all_the_other_mechanical_elements_of_modern_advertisement_construction_%28IA_typographyofadve00farr%29_%28page_264_crop%29.jpg",
+      "sha256": "137b1d9cb8374ec0b4e8b8095f1b9401882882f91287da99643851da87038eea",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Painter_paints_a_room_arp.jpg",
+      "source_title": "File:Painter paints a room arp.jpg",
       "license": "Public domain",
-      "notes": "Commons: File:The typography of advertisements that pay - how to choose and combine type faces, engravings and all the other mechanical elements of modern advertisement construction (IA typographyofadve00farr) (page 264 crop).jpg"
+      "license_url": "",
+      "author": "Adrian Pingstone (Arpingstone)",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "89507574419cb26e265f0f46fa9e04abde49b889f89d6f076ad2203e7dbfe89a",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AUn_tram_a_grimagliera%5E_-_panoramio.jpg",
-      "license": "CC BY 3.0",
-      "notes": "Commons: File:Un tram a grimagliera^ - panoramio.jpg"
+      "sha256": "706e514c330dd95f49d694eb16a061afcf52f2c1ee70bb2d9e062d3f401dd5d2",
+      "source_url": "https://unsplash.com/photos/a-painter-is-working-on-a-buildings-exterior-h3FRYkgqJSg",
+      "source_title": "Exterior painting",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "author": "Savannah du Toit",
+      "credit": "",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-3.jpg": {
       "role": "service-3",

@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "23f28164b1b1bbd8c59bffe3606c99bce0d5ad23c64ae8601adf620d8c9acfe1",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-Ebnit-underfloor_heating-system-08ASD.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Dornbirn-Ebnit-underfloor heating-system-08ASD.jpg"
+      "sha256": "06444f6fe4b3afbca3cd7625e452f7502c307ef884bc579e45fb5eb474fcf526",
+      "source_url": "generated:runway:d75786b8-a594-487d-a7e9-878063a2f509",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

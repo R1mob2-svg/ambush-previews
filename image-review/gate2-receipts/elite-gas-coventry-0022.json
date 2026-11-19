@@ -1,0 +1,16 @@
+{
+  "slug": "elite-gas-coventry-0022",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "788f4dab52a9d1a1e3df6ea8b4f0dab396d37f9566e9dca00fe349133279ff7d",
+  "asset_manifest_sha256": "a410ffdb09d75ca92034f4dc3aa6e211a3f458f59ad0ab1622439cd0362c9a9f",
+  "gate2_status": "PASS",
+  "gate2_checks": 68,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

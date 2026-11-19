@@ -1,0 +1,16 @@
+{
+  "slug": "rm-plumbing-and-heating-12131001",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "e70577a7d0f1bf55d204dee6b41e5b03b9110069ade89eff2d74ef7887215df3",
+  "asset_manifest_sha256": "546ed47ccb65a504969e13e8a38f309e4db05baa58359545caefdd62c3acaa32",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}
