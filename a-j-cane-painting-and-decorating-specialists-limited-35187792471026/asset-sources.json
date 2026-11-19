@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "72028fa97eaf3afd3f76fb4e00c3f1273269e70337a1bf15b8ca488e325c36d4",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AThe_painter_and_his_dog%2C_Aberaeron_-_geograph.org.uk_-_2296377.jpg",
-      "license": "CC BY-SA 2.0",
-      "notes": "Commons: File:The painter and his dog, Aberaeron - geograph.org.uk - 2296377.jpg"
+      "sha256": "543087f548f8b73179829cc13506268bb31a35523179867af7618539f23a6c82",
+      "source_url": "generated:runway:3415748f-3c85-41ae-93c5-f251410eeeae",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

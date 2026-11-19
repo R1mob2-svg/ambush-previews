@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "dccb319a9c13df927e7ef2abcc06d21ed1bec9b18033ee001e697741660512ff",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Man_van_wiens_gezicht_een_gipsmasker_is_gemaakt_houdt%2C_SFA022826047.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Man van wiens gezicht een gipsmasker is gemaakt houdt, SFA022826047.jpg"
+      "sha256": "ad29583f104ee2a140d5f5db6ddd1f1fc060b1909320e6e9db8141522e9f287e",
+      "source_url": "generated:runway:64bb0a17-f2d9-4eb7-bfb7-4d01c44fd594",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

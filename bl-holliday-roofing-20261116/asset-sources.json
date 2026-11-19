@@ -5,12 +5,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "dimensions": "1440x720",
-      "sha256": "2fb2d1b2e90377af1440c42eab87e35d4c216508c7231f2b9008e4adc0088213",
-      "source_url": "https://commons.wikimedia.org/wiki/File:A_good_day_to_get_up_top_-_geograph.org.uk_-_7459764.jpg",
-      "author": "Oliver Dixon",
-      "license": "CC BY-SA 2.0",
-      "notes": "Roofer carrying out pitched roof tile repairs on scaffolding in UK. Genuine trade realism, zero manufacturer branding."
+      "sha256": "8845e76f691e013eabbb9ea1edd758a51143946ed2cc781ca02f287f7bcbee30",
+      "source_url": "generated:runway:5d77e6b9-de99-4394-a0e4-2875ad6d34c7",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-1.jpg": {
       "role": "service-1",

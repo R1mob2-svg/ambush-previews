@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "fb5fe14745a8001360dc80290e0aa31265237b7c5e447a33cf8a51d5a27131d0",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AAvsluttende_bufferkant_p%C3%A5_plen_f%C3%B8r_skr%C3%A5ning.JPG",
-      "license": "CC0",
-      "notes": "Commons: File:Avsluttende bufferkant på plen før skråning.JPG"
+      "sha256": "80f12303bd1bef7d606e97b48466f6d6502be667f607f56e07119c2477572c4b",
+      "source_url": "generated:runway:23bbdd41-b76b-45f0-8d01-e110aa5d0026",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

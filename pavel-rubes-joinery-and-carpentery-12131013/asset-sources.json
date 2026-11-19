@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "7982afef1491260b2c5dbcb10fa670b30c07b305b2842b93dd50c751293a79f3",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Sieges%2C_G.36934_%281_of_2%29.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Menuisier en Meubles, Sieges, G.36934 (1 of 2).jpg"
+      "sha256": "48523ad3cc50dcb24a4129eb7cabe23000b1d2fe9d9fbba2d0290749dee3a3a9",
+      "source_url": "generated:runway:0e233608-fc82-4249-9413-1198749e0e19",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

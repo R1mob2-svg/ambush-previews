@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "34d0fcc91a0b755421a00e335082eb96d9b69718207280ed4fb19103af55e08c",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACaj8073_fibreglass_afterwards.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Caj8073 fibreglass afterwards.jpg"
+      "sha256": "40aaece399ea8a2a94bbef2884cdcf933ea9fa6b00cbac8f5572e0b0a6ef3d3e",
+      "source_url": "generated:runway:46b1acc4-d823-4029-8f18-18e9f622d848",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

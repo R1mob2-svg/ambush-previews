@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "ec671b758b7f8d8c3dc99162c447c7f4b7ef32458d0c0b4660c0c49ae3c22e66",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3APlasterwork%2C_White_walls%2C_Rostov-on-Don%2C_Russia.jpg",
-      "license": "CC BY 4.0",
-      "notes": "Commons: File:Plasterwork, White walls, Rostov-on-Don, Russia.jpg"
+      "sha256": "460c7a4b8126bcf1920e929039ca61fd5f3efd6af58482b4628210338bc2ba28",
+      "source_url": "generated:runway:6c156e01-6fad-4a31-9441-f6a1e9aa1b8d",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

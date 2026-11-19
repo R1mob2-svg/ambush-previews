@@ -5,11 +5,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "dimensions": "1440x720",
-      "sha256": "4f0503cad4ac324548279058da187e3d4e7b7bbf210931c53f355d679b7e3af3",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Public_domain_image_-_underfloor_heating_installation.JPG",
-      "license": "CC0 / Public Domain",
-      "notes": "Underfloor heating pipe installation and structural floor loops, right weighted."
+      "sha256": "c14da1a0c5f97b0fae0e2c144eb35ffe835b8c8c03169e95cc0132f81b0538a6",
+      "source_url": "generated:runway:332fe64d-2dd7-4ea4-98da-595e3cb42df8",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-1.jpg": {
       "role": "service-1",

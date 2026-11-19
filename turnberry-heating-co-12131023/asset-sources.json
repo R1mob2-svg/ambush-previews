@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "7116cb197124ee25ad4b8373f8c7c2ebd54f32bd092e9bc3aa2f1e0ce1d3ef09",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ASkl%C3%A1rna_Nena%C4%8Dovice%2C_05.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Sklárna Nenačovice, 05.jpg"
+      "sha256": "34d89a18051151c2bd4c1c0853c2c7c7ec92523bcc317eede839e540f872f032",
+      "source_url": "generated:runway:2d4b6276-0deb-4735-a215-d957b4f33169",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

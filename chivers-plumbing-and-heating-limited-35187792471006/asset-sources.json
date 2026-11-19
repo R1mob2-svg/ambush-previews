@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "c104d1466cf74f99680fa15c5253a8a14d588a0f146cd655564fec3491e2f2c9",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACreos%2C_Elster_BK-4G_AT-102.jpg",
-      "license": "CC BY-SA 3.0 lu",
-      "notes": "Commons: File:Creos, Elster BK-4G AT-102.jpg"
+      "sha256": "caa1daef3cfb2393a4351c9361777ad58f69ed27e7098993e6c6e30c4e7f301e",
+      "source_url": "generated:runway:86b97824-62b3-4e8c-8816-7ecc3e528943",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

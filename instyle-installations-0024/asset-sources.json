@@ -1,7 +1,13 @@
 {
-    "prospect_id": "WM-LTD-20261116-0024",
-    "is-hero.jpg": "commons:Kitchen_Fitting_(6).JPG",
-    "is-svc-1.jpg": "commons:Skilled_Carpenter_Working_on_Wood_in_a_Workshop.jpg",
-    "is-svc-2.jpg": "commons:Wood_workshop_(48000955763).jpg",
-    "favicon.png": "generated:monogram"
+  "prospect_id": "WM-LTD-20261116-0024",
+  "is-hero.jpg": {
+    "role": "hero",
+    "sha256": "24e3f40a499f32424dd34fd4fc9db51d8bb24878858757465c9726ca0a21257b",
+    "source_url": "generated:runway:2565bfbe-2768-42ae-91bc-1e1f29119a0e",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
+  },
+  "is-svc-1.jpg": "commons:Skilled_Carpenter_Working_on_Wood_in_a_Workshop.jpg",
+  "is-svc-2.jpg": "commons:Wood_workshop_(48000955763).jpg",
+  "favicon.png": "generated:monogram"
 }

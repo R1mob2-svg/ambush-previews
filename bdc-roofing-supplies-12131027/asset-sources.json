@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "f7e31f78ca84487d98a781784b78a4001ac2a1de4e7e3c52d798e2cda94ffd79",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADach_Reparatur_Mai2009.JPG",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Dach Reparatur Mai2009.JPG"
+      "sha256": "0f99bd05442e251924fb687f5ecc3c8c8812eb0a5ace87ee5a655ac70a55329a",
+      "source_url": "generated:runway:f75924ed-5e29-4868-a295-27924428c935",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

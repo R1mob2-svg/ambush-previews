@@ -1,7 +1,13 @@
 {
-    "prospect_id": "WM-LTD-20261116-0025",
-    "ar-hero.jpg": "commons:Water_heater_bathroom.JPG",
-    "ar-svc-1.jpg": "commons:Gas_boiler_at_school._Buryatia,_Russia.jpg",
-    "ar-svc-2.jpg": "commons:Gasgeiser_van_het_merk_Eclipse_-_INDUS_V13173.jpg",
-    "favicon.png": "generated:monogram"
+  "prospect_id": "WM-LTD-20261116-0025",
+  "ar-hero.jpg": {
+    "role": "hero",
+    "sha256": "2c438df55c1a9e596918c9c832ae89aea44b6bcabdd22fcb29d12b8da7bed21b",
+    "source_url": "generated:runway:a5dd50b0-f74e-4912-a565-1120a1816092",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
+  },
+  "ar-svc-1.jpg": "commons:Gas_boiler_at_school._Buryatia,_Russia.jpg",
+  "ar-svc-2.jpg": "commons:Gasgeiser_van_het_merk_Eclipse_-_INDUS_V13173.jpg",
+  "favicon.png": "generated:monogram"
 }

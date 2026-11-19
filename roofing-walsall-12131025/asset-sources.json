@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "e1ce400c28c00384c05f7a76d0b689d924dc6e204b6927809f37150014245613",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AMWuerfelSept11-i29_31.JPG",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:MWuerfelSept11-i29 31.JPG"
+      "sha256": "bddc9521581619567410c9fe17786fee1d5881bb73dd6f4093866b4040da72c5",
+      "source_url": "generated:runway:eff91a6f-e3a4-49dd-a152-ec69b8e8a57e",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

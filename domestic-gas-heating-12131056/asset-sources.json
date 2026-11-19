@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "25f59a0f4e660d815ee71e721e343e17571b2739b934eccd8b4e0dcb4dc97e4d",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AIndustry_Torrance.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Commons: File:Industry Torrance.jpg"
+      "sha256": "e514a39510874f4c0028f1ba5552783d12863535ffb2be5ebacd5737d4f1051e",
+      "source_url": "generated:runway:e688df3c-9909-45d7-b493-305d4b30db2d",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

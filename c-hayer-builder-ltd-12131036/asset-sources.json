@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "35c833e9fcc312cf2861a7cd43ae669c4645c2cc5225a42482c31ec4e5add07d",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AConcrete_columns.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Concrete columns.jpg"
+      "sha256": "d0a02d94f6c5aec3ef87c6b06913f343f104c926cb1ad1c84ed90d9bfc8e36df",
+      "source_url": "generated:runway:474b272f-d59d-4a80-9a4b-160e8e71c01b",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

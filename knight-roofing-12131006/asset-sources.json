@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "95cf4eca7f9e8864d82c47694a9889bf074ca70addddbe7d77ab931eab556903",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AMaison_toulousaine%2C_53_rue_Raspail_%28Toulouse%29.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Maison toulousaine, 53 rue Raspail (Toulouse).jpg"
+      "sha256": "6d4235ada19b9617701ee41ff78284b0fe5bd6687fa66264dff444cafa351c26",
+      "source_url": "generated:runway:ffb8ab8f-4eec-4f57-90ff-f39b809c34cd",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

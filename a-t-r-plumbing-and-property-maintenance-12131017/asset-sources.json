@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "082270c346853fa4ee34d81538e07f8850f3d3751bae32216b276770a5e27ef9",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABiofuel_testing_setup.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Biofuel testing setup.jpg"
+      "sha256": "fbeddbc33d4351eaf6b8a4ff8320315dc545f0c3409036293c58ac98fb161b3c",
+      "source_url": "generated:runway:66176d8e-b1e5-4800-80c5-c9649c38f115",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

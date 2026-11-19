@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "96e9b68c71dc09805fe1be6a6934a42e005e30d85db1bec9dd88c4433c163adc",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACables_llum_4.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Cables llum 4.jpg"
+      "sha256": "ba516429514de0f95ee5921d9e98b1c29a3b57504f43aeead989a4a518d92395",
+      "source_url": "generated:runway:6fcfb390-f051-4d5a-ab75-4bd785a14730",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

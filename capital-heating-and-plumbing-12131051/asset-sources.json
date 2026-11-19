@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "5025df9e07df621d549d592db2499b39fc0794095963ddb50f2a739ca5c2c5b7",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACCTV_Inspection_of_Weeping_Tile_with_the_VIPER_Drain_Camera.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:CCTV Inspection of Weeping Tile with the VIPER Drain Camera.jpg"
+      "sha256": "df70492fef0d604ada3a359f278af413ae2cef8c1ff4426b9584556c2b3a17a8",
+      "source_url": "generated:runway:220eddac-0698-4a9f-abc5-f6c8dedfe6bb",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

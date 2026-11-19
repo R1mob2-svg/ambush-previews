@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "0efc9c3f968cef5812e5839aed9bc123ca1b0df00cc08acfd56f76ed52e8a9dc",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AUS_Navy_100607-N-6410J-246_Engineering_Aide_Seaman_Christopher_Kelly%2C_from_Schertz%2C_Md.%2C_paints_a_water_well_at_a_Pacific_Partnership_2010_engineering_civic_action_project_site_in_Quy_Nhon%2C_Vietnam.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:US Navy 100607-N-6410J-246 Engineering Aide Seaman Christopher Kelly, from Schertz, Md., paints a water well at a Pacific Partnership 2010 engineering civic action project site in Quy Nhon, Vietnam.jpg"
+      "sha256": "27e0368d4b3db5186f6faadae86f41353698d9b741b28722b97b4793b5298538",
+      "source_url": "generated:runway:950f2115-ddff-4d14-be99-e793917432ef",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

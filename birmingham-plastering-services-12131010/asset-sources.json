@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "d18a12bf5b9f14e14d49e037f945fda836c4242ec42e6e27127efaed9090e417",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AModernes_Sgraffito_als_Hausschild.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Modernes Sgraffito als Hausschild.jpg"
+      "sha256": "cefaef04244e18074e6eb280542f96394f9be62fe6a95b61f9a4b701bfab8086",
+      "source_url": "generated:runway:adca0fe9-5d28-4295-baaa-14ffd1606e4e",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

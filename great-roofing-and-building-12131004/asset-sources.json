@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "6a2df8e3c09ac6d61c6d73a111a56b6044e832cdb14daa2de4269ea442669f81",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AKaluga%2C_roof_repair_workers_%2836841040083%29.jpg",
-      "license": "CC BY-SA 2.0",
-      "notes": "Commons: File:Kaluga, roof repair workers (36841040083).jpg"
+      "sha256": "4256e389ee0bbdf6b1a46faff8fc3d1aa1db3270875ec360160a181f1e54be71",
+      "source_url": "generated:runway:b18b8f14-7aac-47ac-ba76-c859881d70c9",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

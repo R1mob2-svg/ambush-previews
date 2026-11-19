@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "dc4e9dedaa17c2f810d8efddf5e7400d0c828e054fa61d3eb7f063423f16de67",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Caleche._G.36966.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Menuisier en Voitures, Caleche. G.36966.jpg"
+      "sha256": "c78c31ea3e8d244f22ab429264ea9aefca93db1f661c4cfffab163b836017ff0",
+      "source_url": "generated:runway:cd6abfd8-4514-4bd8-92a2-70f4c47e7e86",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "61680114758ce3e93585005f46d5d383eff08890bad400c72689af901c7d33fd",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Een_beeldhouwer%2C_kunstenaar_is_met_rokende_pijp_in_zijn%2C_SFA022826050.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Een beeldhouwer, kunstenaar is met rokende pijp in zijn, SFA022826050.jpg"
+      "sha256": "2b0010abcfd2583a37e7c2f3b6f5f402dc136fd842d4a8e0ee34d81147bf3722",
+      "source_url": "generated:runway:a92d5d27-12a9-4586-bb83-e9b59ff714f4",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

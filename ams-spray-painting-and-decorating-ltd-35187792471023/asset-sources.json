@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "9b6a99fae883773869fa44dc4912196f08e946108c6bbb969e752418aa16b6ae",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3A58206_Pincelier.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:58206 Pincelier.jpg"
+      "sha256": "9b1f1d15386fbfb53bcec51a0543e1f822625b1d18aa1882d9bda52c1c07b542",
+      "source_url": "generated:runway:2cf07b11-27d7-425b-b37f-1149be62af42",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

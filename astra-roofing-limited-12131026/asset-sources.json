@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "f7bf8ac949e3abaceec00ac450af90d44a4121e644a9e77b966b711f5f457213",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACisailles-droite-et-gauche.png",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Cisailles-droite-et-gauche.png"
+      "sha256": "cfa080d4d6d85f145a5207fd738160ab8e507dedefd2ed6fbfae24a28a29b8af",
+      "source_url": "generated:runway:a9729fc7-2744-4c01-b2d5-3f10e06b09af",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

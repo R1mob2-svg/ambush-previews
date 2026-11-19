@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "b21b321f0a108905dfd0116ae46ce71c51e7493c34fc7109e5d37e6275fd2812",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABuilding_construction_in_Minsk%2C_2012.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Building construction in Minsk, 2012.jpg"
+      "sha256": "6e2261af99b067eecdb55ed2e7c98372360b47278027a3bec441e099ec6d792f",
+      "source_url": "generated:runway:3c083049-c1fd-4efd-ba3c-b3d4d9c0f970",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

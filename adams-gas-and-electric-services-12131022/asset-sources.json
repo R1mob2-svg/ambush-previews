@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "49cbe3888c6ac6c5c734c2d6a6b725a22c4867ee0eff7649c2fe5539a7eed058",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ANena%C4%8Dovice%2C_skl%C3%A1%C5%99sk%C3%A1_d%C3%ADlna%2C_2013_%2821%29.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Nenačovice, sklářská dílna, 2013 (21).jpg"
+      "sha256": "4c55f3bfe265fb93797be1f1d580d3cf16aba643cc1813acd90c5f64fac68666",
+      "source_url": "generated:runway:a007e450-26a0-4ca1-b2de-0f40463fc3e4",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

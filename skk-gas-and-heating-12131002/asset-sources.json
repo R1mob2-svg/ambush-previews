@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "9c0b2265c434778379a53b5a516ebd78456f327f7806c6942375411874aa3a6a",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AThermomat_TVK-130.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Thermomat TVK-130.jpg"
+      "sha256": "63d523d863fa85200e7fc514eaf845c9aeb1d1bf624fcd057bc20efb968cb7b3",
+      "source_url": "generated:runway:90c636ad-1be5-4fbb-85b5-99aed9b538a9",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "1388acccf3844aad435547731bb6908de45421b4438a432b2aa32a4d99eb4d2b",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AGas_meter_-_25_November_2025.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Gas meter - 25 November 2025.jpg"
+      "sha256": "7ec1283ff83c39e3d53afcf8975971cedf445c5145895a2ed554653fe13963a8",
+      "source_url": "generated:runway:30589655-6d0d-41a2-8594-5623404e8a95",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

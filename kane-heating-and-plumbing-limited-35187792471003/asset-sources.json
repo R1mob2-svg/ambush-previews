@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "07df92338044655a17e4df03a70ddd8d078b9857d9d0779d3a2acdebb5c77dc6",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ATIG%C3%81Z_station%2C_2019_Etyek.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:TIGÁZ station, 2019 Etyek.jpg"
+      "sha256": "d88fc13667aa64817c814c8394c1e6d1fa72eb3c580160de4a46807a2c87ce7d",
+      "source_url": "generated:runway:ed8ef990-dd55-44f2-9e21-27639ff3e8ef",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

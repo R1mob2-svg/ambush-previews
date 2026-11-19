@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "29495179f2160a4e2b8ceec30bad8dbbe8fb0670a3359e08c7346baec15a986b",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ATray%2C_brush%2C_roller%2C_paint_%284116925693%29.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Commons: File:Tray, brush, roller, paint (4116925693).jpg"
+      "sha256": "6c3cdaf65aea241b0599a2427b879a7904d1eef306f8e62e1caffa6d8216d156",
+      "source_url": "generated:runway:d4db0168-12c6-4cdb-8e14-fb6e348e8c2a",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "64b38f10e4e491d3c4e720c3eb8474fa19eab29c4142968dcc5dbc9d291d2a39",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ATainha_fac_psicologia_2.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Tainha fac psicologia 2.jpg"
+      "sha256": "a27c4fecbafebd57c5f20c5cebd7cec48a0e3c52c0821f9551bf1d3c91e6ec15",
+      "source_url": "generated:runway:d54dd1e1-60d3-4a6f-8a1f-4cb2bf10f220",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",
