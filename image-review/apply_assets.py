@@ -14,6 +14,15 @@ for item in plan["assets"]:
     path = ROOT / slug / "assets" / filename
     if not path.is_file():
         raise FileNotFoundError(path)
+    provenance_path = ROOT / slug / "asset-sources.json"
+    provenance = json.loads(provenance_path.read_text())
+    entries = provenance["assets"] if isinstance(provenance.get("assets"), dict) else provenance
+    old = entries.get(filename)
+    if (isinstance(old, dict)
+        and old.get("source_url") == "generated:runway:" + item["task_id"]
+        and old.get("sha256") == hashlib.sha256(path.read_bytes()).hexdigest()):
+        print("PRESERVED", slug, filename, "verified existing reviewed asset")
+        continue
     req = urllib.request.Request(url, headers={"User-Agent": "DigitalAmbushVisualReview/1.0"})
     with urllib.request.urlopen(req, timeout=90) as resp:
         data = resp.read(15_000_000)
