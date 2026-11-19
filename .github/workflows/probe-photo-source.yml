@@ -1,0 +1,15 @@
+name: Probe public commercial image sources
+on:
+  push:
+    branches: [review/visual-asset-remediation-20261119]
+    paths: [.github/workflows/probe-photo-source.yml]
+permissions: {contents: read}
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python image-review/probe_public_photo_sources.py
