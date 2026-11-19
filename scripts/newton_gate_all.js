@@ -20,7 +20,7 @@ for(const [i,slug] of folders.entries()){
     cwd:root,encoding:'utf8',timeout:180000,maxBuffer:2_000_000
   });
   const log=String(output.stdout||'')+'\n'+String(output.stderr||'');
-  const counts=/GATE (PASSED|FAILED) \((?:(\d+) of )?(\d+) checks?\)/.exec(log);
+  const counts=/GATE (PASSED|FAILED) \((?:(\d+) of )?(\d+)(?: checks)?\)/.exec(log);
   const pass=output.status===0 && Boolean(counts&&counts[1]==='PASSED');
   const faults=log.split(/\r?\n/).filter(x=>/^FAIL\s|GATE ERROR|GATE FAILED|Error:|error:/i.test(x)).slice(0,60);
   const details={slug,source_commit:process.env.GITHUB_SHA||null,
