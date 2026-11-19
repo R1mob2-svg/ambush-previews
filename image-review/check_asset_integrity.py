@@ -68,8 +68,49 @@ for item in plan:
     e=entries.get(filename,{})
     if not isinstance(e,dict) or e.get("source_url")!="generated:runway:"+item["task_id"]:
         issues.append("Planned asset not traceable: "+item["slug"]+"/"+filename)
+# Commercial photo replacements have an independent visual acceptance and attribution gate.
+licensed_installs=0
+credited_sites=set()
+for suffix in ["", "-2"]:
+    decision_path=ROOT/"image-review"/f"commons-acceptance{suffix}.json"
+    staging_path=ROOT/"image-review"/f"commons-staged{suffix}"/"staging-manifest.json"
+    if not decision_path.exists(): continue
+    if not staging_path.exists():
+        issues.append("Accepted Commons plan has no staged metadata: "+suffix)
+        continue
+    approved=json.loads(decision_path.read_text()).get("approved",[])
+    staged=json.loads(staging_path.read_text()).get("items",[])
+    for idx in approved:
+        if idx<0 or idx>=len(staged):
+            issues.append(f"Invalid Commons photo acceptance index: {suffix}/{idx}")
+            continue
+        item=staged[idx]
+        site=ROOT/item["slug"]
+        filename=item["filename"]
+        dest=site/"assets"/filename
+        if not dest.is_file():
+            issues.append("Missing accepted Commons photo "+str(dest))
+            continue
+        manifest=json.loads((site/"asset-sources.json").read_text())
+        entries=manifest["assets"] if isinstance(manifest.get("assets"),dict) else manifest
+        value=entries.get(filename,{})
+        if not isinstance(value,dict):
+            issues.append("Missing accepted photo provenance "+str(dest))
+            continue
+        digest=hashlib.sha256(dest.read_bytes()).hexdigest()
+        if digest!=item.get("sha256") or value.get("sha256")!=digest or value.get("source_url")!=item.get("source_url"):
+            issues.append("Accepted Commons provenance mismatch "+str(dest))
+            continue
+        if value.get("license")!=item.get("license"):
+            issues.append("Accepted Commons license mismatch "+str(dest))
+        credits=site/"image-credits.html"
+        if not credits.is_file() or filename not in credits.read_text() or 'href="./image-credits.html"' not in (site/"index.html").read_text():
+            issues.append("Accepted Commons photo missing visible credits page/link "+str(dest))
+        credited_sites.add(item["slug"])
+        licensed_installs+=1
+
 shared={k:v for k,v in all_origins.items() if len({p.split("/")[0] for p in v})>1 and not k.startswith("generated:monogram")}
-report={"sites":len(sites),"planned_installs":len(plan),"hero_origin_count":len(hero_sources),
+report={"sites":len(sites),"planned_installs":len(plan)+licensed_installs,"licensed_support_installs":licensed_installs,"credited_sites":len(credited_sites),"hero_origin_count":len(hero_sources),
 "manifest_images":manifest_items,"html_local_asset_references":refs,"broken_or_invalid":issues,
 "shared_photo_origins":shared,"static_asset_integrity_pass":len(issues)==0 and len(shared)==0,
 "visual_approval":"NOT_PERFORMED","public_publish":"NOT_PERFORMED","prospect_outreach":"HOLD"}
