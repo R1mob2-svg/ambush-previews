@@ -1,0 +1,16 @@
+{
+  "slug": "rso-developments-0019",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "3429ddc8f0712b2fb815904188385c81c52db09f64a8edb2d2f6a86417e71407",
+  "asset_manifest_sha256": "510a60b3a50cb289b527ab13b72df74f2ca2e2aa10bb3d2e986a2cff4ed6079a",
+  "gate2_status": "PASS",
+  "gate2_checks": 68,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "bd46823350bf53e68c80c94df10e2e3b40efec83ef3fc127be266ad13d16613c",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AA_pair_of_Purdy%27s_Project_365%284%29_Day_26_%286963807991%29.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Commons: File:A pair of Purdy's Project 365(4) Day 26 (6963807991).jpg"
+      "sha256": "58416ba81caa5cef5292fd8f9194b6942f20638066aaf1e4c7725e02949c8524",
+      "source_url": "generated:runway:2c8cce79-dd04-4eed-8a46-47c7d0c9da0a",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade image; not the customer's actual work. Accidental lettering concealed within the dark left hero title zone."
     },
     "process-bg.jpg": {
       "role": "process-bg",

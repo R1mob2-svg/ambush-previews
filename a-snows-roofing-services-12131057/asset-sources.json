@@ -4,10 +4,12 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "cca0717cd19cd28fa28efb9c168d28284cc5a8d282880a2295c1e56e6dfbb7f2",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADachdecker_Stefan_Heyer.jpg",
-      "license": "CC BY 4.0",
-      "notes": "Commons: File:Dachdecker Stefan Heyer.jpg"
+      "sha256": "4973c74160ee2ac3465824644b0d0c64396720eef66a384569d9c7ed477e75a7",
+      "source_url": "generated:runway:2dda6f2d-4970-444d-a48d-5ede518b4578",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work",
+      "contrast_review_adjusted": true,
+      "contrast_review_note": "NEWTON: measured hero contrast correction after 1440px Gate2 failure; non-generative edit."
     },
     "process-bg.jpg": {
       "role": "process-bg",

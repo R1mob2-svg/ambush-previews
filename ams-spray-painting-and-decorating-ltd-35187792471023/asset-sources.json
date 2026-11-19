@@ -4,38 +4,38 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "9b6a99fae883773869fa44dc4912196f08e946108c6bbb969e752418aa16b6ae",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3A58206_Pincelier.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:58206 Pincelier.jpg"
+      "sha256": "9b1f1d15386fbfb53bcec51a0543e1f822625b1d18aa1882d9bda52c1c07b542",
+      "source_url": "generated:runway:2cf07b11-27d7-425b-b37f-1149be62af42",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
-      "role": "process-bg",
-      "sha256": "8aef324ae0440ca322cda38b333e157d2024cb3d75da6fe661b2aa6b4f585f34",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACity_of_London_Cemetery_white_heart_floral_tribute_1.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:City of London Cemetery white heart floral tribute 1.jpg"
+      "role": "supporting",
+      "sha256": "b419e84307b77d6d5aca45c5d00341be43a902614b60beaee41f8a4e5f733f9a",
+      "source_url": "generated:runway:765cf2ff-2a50-4f88-b2b2-adffbfbe807e",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-1.jpg": {
-      "role": "service-1",
-      "sha256": "e78c23fdcb26cea31d5c2128acea465716b3d26ebcee7acb89792eb01e5f37ba",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AA_bright_red_paintbrush.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Commons: File:A bright red paintbrush.jpg"
+      "role": "supporting",
+      "sha256": "f1eb7db762b73df16a0dae9400cf0e3aec4910cc91edfce7e4f76e3b7a5c83e2",
+      "source_url": "generated:runway:c712dfc0-933b-4e82-a767-870d31a72151",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-2.jpg": {
-      "role": "service-2",
-      "sha256": "6be9a162a47853e70fb1bcefba010d9e0c6bd1db674d908e475673154fe699da",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AA_hand_holds_a_cup_with_paintbrushes_as_a_child_focuses_on_creating_art_on_an_easel_nearby.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Commons: File:A hand holds a cup with paintbrushes as a child focuses on creating art on an easel nearby.jpg"
+      "role": "supporting",
+      "sha256": "755dc975c2d8451ce9d178ccacc8034d90004fc3cb558c9f2cbe9f8c68b296b2",
+      "source_url": "generated:runway:55a3d295-51a7-4c7c-95f9-d19449dfb97a",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-3.jpg": {
-      "role": "service-3",
-      "sha256": "4ea415e2bba34324eccb8b116cb9383eb834acb16a7e973c24a1a4c6e04f896f",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AA_notebook_with_paint_brushes.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:A notebook with paint brushes.jpg"
+      "role": "supporting",
+      "sha256": "eb4fa32004d5dd0a198ecb591c8276a09f99b2dd73ec4f980aa31648af75863b",
+      "source_url": "generated:runway:cb767c3c-697a-4ae0-8d4c-d0837236c47f",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "favicon.png": {
       "role": "favicon",

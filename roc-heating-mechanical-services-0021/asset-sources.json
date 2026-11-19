@@ -1,7 +1,13 @@
 {
-    "prospect_id": "WM-LTD-20261116-0021",
-    "roc-hero.jpg": "commons:Viessmann_Vertomat_Condensing_Boiler.JPG",
-    "roc-svc-1.jpg": "commons:Boiler_room_in_a_high_school.jpg",
-    "roc-svc-2.jpg": "commons:Condensing_boiler.JPG",
-    "favicon.png": "generated:monogram"
+  "prospect_id": "WM-LTD-20261116-0021",
+  "roc-hero.jpg": {
+    "role": "hero",
+    "sha256": "3a02397a562cab60cd0a0ad500179504f92ed9b0fcc13a1bade781710b407f5a",
+    "source_url": "generated:runway:89f21ae9-4151-4e4f-9a56-07a33069b720",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
+  },
+  "roc-svc-1.jpg": "commons:Boiler_room_in_a_high_school.jpg",
+  "roc-svc-2.jpg": "commons:Condensing_boiler.JPG",
+  "favicon.png": "generated:monogram"
 }

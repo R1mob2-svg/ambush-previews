@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "4f3dac4b61e67e4abb2e9bbe41b249d4c3387a65774a6d48d7b5ed42b38de4dd",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AA_hidden_face.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Commons: File:A hidden face.jpg"
+      "sha256": "46d1fe60e1d196d5555cc76809b5f473a66f9fda70c84baf9da81a3527d9f6c7",
+      "source_url": "generated:runway:fa4ddaec-dc91-4144-a71b-be9bf23c3d40",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",
@@ -32,10 +32,14 @@
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "d95712d41d0a0929ce0536710434eb4e542fcaf359b0e90bcfb3a3206dc754c2",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AAdvertisement_stickers_of_Plumbing_service_at_Beitun%2C_Taichung_2018-10-20.jpg",
-      "license": "CC BY-SA 2.0",
-      "notes": "Commons: File:Advertisement stickers of Plumbing service at Beitun, Taichung 2018-10-20.jpg"
+      "sha256": "83cc70632cb09bb372b564e85ef32c725745517064769955feefb6b9a95b40ee",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sewer_repair.jpg",
+      "source_title": "File:Sewer repair.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "AgapePlumbingService",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "favicon.png": {
       "role": "favicon",

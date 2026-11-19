@@ -1,0 +1,16 @@
+{
+  "slug": "complete-plastering-services-12131040",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "7cd0374cd649204a3b5bedea81b29ca6b40c164671c287752880d4d5fb65f97e",
+  "asset_manifest_sha256": "0d7cc1017eb70f1307af0ba1ecab3602c3292bb92b54dcebf7c7b20fcf62809a",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

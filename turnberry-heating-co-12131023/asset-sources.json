@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "7116cb197124ee25ad4b8373f8c7c2ebd54f32bd092e9bc3aa2f1e0ce1d3ef09",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ASkl%C3%A1rna_Nena%C4%8Dovice%2C_05.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Sklárna Nenačovice, 05.jpg"
+      "sha256": "34d89a18051151c2bd4c1c0853c2c7c7ec92523bcc317eede839e540f872f032",
+      "source_url": "generated:runway:2d4b6276-0deb-4735-a215-d957b4f33169",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",
@@ -17,25 +17,25 @@
       "notes": "Commons: File:Sklárna Nenačovice, 07.jpg"
     },
     "service-1.jpg": {
-      "role": "service-1",
-      "sha256": "1573e0def0f1485c9dac4ba86b5afb49f980ce1229bc559a8fc3bbf7312c2be6",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AAnswer_to_Wtshymanski_about_main_circuit_breaker.JPG",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Answer to Wtshymanski about main circuit breaker.JPG"
+      "role": "supporting",
+      "sha256": "71a71bef9d467969c5a34aa3643839522cede24be5020e1ac749384913922fbe",
+      "source_url": "generated:runway:d167eb03-d1d5-4849-8426-a634d7584d27",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-2.jpg": {
-      "role": "service-2",
-      "sha256": "cf628e5e7277d4218ee6de680bef54922691341d78b9fb786b38b1117ec8e8b5",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABiogasverket_skelleftea.jpg",
-      "license": "CC BY 3.0",
-      "notes": "Commons: File:Biogasverket skelleftea.jpg"
+      "role": "supporting",
+      "sha256": "1359dc7955d3ce6ffd16e41be7abd97d20ab4ff66cc017425742170b79cd4f21",
+      "source_url": "generated:runway:7322c85a-052c-40bc-88f8-ef4c146f6657",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-3.jpg": {
-      "role": "service-3",
-      "sha256": "29f1cc0ad6a156db11e369cb517e84c06dde4e99cedf9eaeb5d46755e76e6b49",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AD%C3%B3zsa_Gy%C3%B6rgy_Stra%C3%9Fe%2C_TIG%C3%81Z_Gasinstallation%2C_2024_Kis%C3%BAjsz%C3%A1ll%C3%A1s.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Dózsa György Straße, TIGÁZ Gasinstallation, 2024 Kisújszállás.jpg"
+      "role": "supporting",
+      "sha256": "b6e13dc5174a641d20f1413b704198d4db9df327c027eef2a2b26d8c53ff5b4d",
+      "source_url": "generated:runway:48e53299-5d33-43fb-aa1b-6aa062ccfbfa",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "favicon.png": {
       "role": "favicon",

@@ -1,7 +1,13 @@
 {
-    "prospect_id": "WM-LTD-20261116-0026",
-    "in-hero.jpg": "commons:Electrician_Working.jpg",
-    "in-svc-1.jpg": "commons:Consumer_unit,_public_bar,_Railway_Inn,_Spofforth,_North_Yorkshire_(4th_May_2019)_001.jpg",
-    "in-svc-2.jpg": "commons:Small_house_distribution_panel_1.jpg",
-    "favicon.png": "generated:monogram"
+  "prospect_id": "WM-LTD-20261116-0026",
+  "in-hero.jpg": {
+    "role": "hero",
+    "sha256": "d2bbff1949c1a2e7723325dd61edff27a0ab0e3f4ca02b572a04fb85bb7ea46f",
+    "source_url": "generated:runway:d6dc03d4-2344-49bb-8955-bfbc708de377",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
+  },
+  "in-svc-1.jpg": "commons:Consumer_unit,_public_bar,_Railway_Inn,_Spofforth,_North_Yorkshire_(4th_May_2019)_001.jpg",
+  "in-svc-2.jpg": "commons:Small_house_distribution_panel_1.jpg",
+  "favicon.png": "generated:monogram"
 }

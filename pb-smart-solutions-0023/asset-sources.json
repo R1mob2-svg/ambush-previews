@@ -1,7 +1,13 @@
 {
-    "prospect_id": "WM-LTD-20261116-0023",
-    "pb-hero.jpg": "commons:Heilbronn_-_Böckingen_-_Kreuzgrund_-_Familienzentrum_-_Details_-_Thermostatventil_in_Aussparung_(1).jpg",
-    "pb-svc-1.jpg": "commons:Einrohrheizung.JPG",
-    "pb-svc-2.jpg": "commons:Bregenz-indoor_swimming_pool_(in_construction)-Installation-05ASD.jpg",
-    "favicon.png": "generated:monogram"
+  "prospect_id": "WM-LTD-20261116-0023",
+  "pb-hero.jpg": {
+    "role": "hero",
+    "sha256": "d5dac938f1e6ef3acaaf79053e1750fc50449379070a076ed4ba46162fd031a9",
+    "source_url": "generated:runway:d8776e7c-21cc-431e-a64f-5a49dbcbb678",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
+  },
+  "pb-svc-1.jpg": "commons:Einrohrheizung.JPG",
+  "pb-svc-2.jpg": "commons:Bregenz-indoor_swimming_pool_(in_construction)-Installation-05ASD.jpg",
+  "favicon.png": "generated:monogram"
 }

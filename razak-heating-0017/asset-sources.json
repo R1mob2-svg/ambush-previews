@@ -1,7 +1,13 @@
 {
-    "prospect_id": "WM-LTD-20261116-0017",
-    "rz-hero.jpg": "commons:Wall_mounted_boiler_in_kitchen.jpg",
-    "rz-svc-1.jpg": "commons:Replacement_of_a_central_heating_radiator,_Hillegersberg,_Rotterdam_(2022)_01.jpg",
-    "rz-svc-2.jpg": "commons:ModCon_boiler_system.jpg",
-    "favicon.png": "generated:monogram"
+  "prospect_id": "WM-LTD-20261116-0017",
+  "rz-hero.jpg": {
+    "role": "hero",
+    "sha256": "8cae540698ef4b98d45c91ccd10755b35561b1dbbc2d557570b7f7c9de98cc29",
+    "source_url": "generated:runway:a9e119a1-5b1b-4351-adf3-f0592bcbb749",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
+  },
+  "rz-svc-1.jpg": "commons:Replacement_of_a_central_heating_radiator,_Hillegersberg,_Rotterdam_(2022)_01.jpg",
+  "rz-svc-2.jpg": "commons:ModCon_boiler_system.jpg",
+  "favicon.png": "generated:monogram"
 }

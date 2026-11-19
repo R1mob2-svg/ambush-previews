@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "b29f9debaf09d44345c73b650181c911b58ff6e6de1c24f702d2fca5264920b9",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Diable%2C_G.36967.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Menuisier en Voitures, Diable, G.36967.jpg"
+      "sha256": "561ef3c6ca206b3b25fc6d4cc7c990dc023ed6180869aacf6a75052726352e4d",
+      "source_url": "generated:runway:22c3feaf-b380-48b3-a17c-307ab8335223",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

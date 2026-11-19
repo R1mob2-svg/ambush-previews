@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "4358306157e94a84db7260d4b269ac88776535f245ef44e110ae247656839e59",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AKogi_the_carpenter.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Kogi the carpenter.jpg"
+      "sha256": "12e7e7ae8dbdc6314c2d9efc977801b34d399c39b87491def1fccc187dc04cb9",
+      "source_url": "generated:runway:5f5a8ab8-4fda-4e99-a298-975e82c67eed",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

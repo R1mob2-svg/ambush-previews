@@ -1,0 +1,16 @@
+{
+  "slug": "a-snows-roofing-services-12131057",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "4f479d9e1e0f708192addb31a6dcfc100d4c3faa53877854b3c294805ef37703",
+  "asset_manifest_sha256": "b39299c51edcfc25b4a5bbd8a57fb88c12e74621096e07ac893e1b231a921b9a",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

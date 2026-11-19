@@ -1,0 +1,16 @@
+{
+  "slug": "hallows-electrical-services-ltd-12131031",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "091ba3c15cc404107c157b0830bc388a28cf234e3a8ef0a1d13071863911bfb8",
+  "asset_manifest_sha256": "97e78e816c7465487bac754dc96c18b26814754d87a1eb650099b5ebd1f35763",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "a03b512ce7ed89d8bacd49596856d29cab3a2b6c0c852b398839feb1e861069d",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACambrian_college_fireproofing_delamination_2.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Cambrian college fireproofing delamination 2.jpg"
+      "sha256": "87b1ab87c3e311b7e3549c46eaf1cd2cbaf71b5f26a278290a8412865608fffe",
+      "source_url": "generated:runway:045f9d28-fd74-4831-84c5-10eef9788d5f",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

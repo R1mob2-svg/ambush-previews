@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "8bae2820b12dcd4fc72afa1d5628be4792e282397f7ffe50a34bcfa258c12f4a",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABuilding_with_a_pink_neon_sign_in_Nablus_%28DSC03938%29.jpg",
-      "license": "CC BY 4.0",
-      "notes": "Commons: File:Building with a pink neon sign in Nablus (DSC03938).jpg"
+      "sha256": "0cacb370d2ab78b48f5d7ab3092d0beabcb3f9b4acbb654046910a30a95cd297",
+      "source_url": "generated:runway:db5c5bba-4af8-4cd0-b74b-a588576dec01",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

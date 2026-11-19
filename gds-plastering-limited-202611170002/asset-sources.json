@@ -4,38 +4,54 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "61680114758ce3e93585005f46d5d383eff08890bad400c72689af901c7d33fd",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Een_beeldhouwer%2C_kunstenaar_is_met_rokende_pijp_in_zijn%2C_SFA022826050.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Een beeldhouwer, kunstenaar is met rokende pijp in zijn, SFA022826050.jpg"
+      "sha256": "2b0010abcfd2583a37e7c2f3b6f5f402dc136fd842d4a8e0ee34d81147bf3722",
+      "source_url": "generated:runway:a92d5d27-12a9-4586-bb83-e9b59ff714f4",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "2cd7792f4b944e09041b391c5f03c315d9cc07524f6515c8957fd68eac7c3ceb",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Een_beeldhouwer%2C_kunstenaar_verwijdert_een_gipsen_masker%2C_SFA022826051.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Een beeldhouwer, kunstenaar verwijdert een gipsen masker, SFA022826051.jpg"
+      "sha256": "4c73d66bc885070ace5bb370b11d7312c712226cd3a779f79a9efb7e75de7c0d",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Plastering_by_maison.jpg",
+      "source_title": "File:Plastering by maison.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Hasslaebetch",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "fdc5a67685ba2f7103ead9c4cfd5b145de5cd200b9c0736b6f00645fd9e0cea8",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Gestold_gips_dat_in_vloeibare_vorm_over_het_gezicht_van%2C_SFA022826045.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Gestold gips dat in vloeibare vorm over het gezicht van, SFA022826045.jpg"
+      "sha256": "a163abeb634b8656f13676fb8a6715ad4e3e2fa27aaa7287c724794d62699d8c",
+      "source_url": "https://www.pexels.com/photo/crop-man-with-trowels-and-spackle-5691594/",
+      "source_title": "Skimming and plasterboarding",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "author": "Ksenia Chernaya",
+      "credit": "",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "03c344790a661c1ddd0330a3fd2a91f22ce17a03af7a8c84cb4d88544dd9d91f",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Gipsen_vrouwenbeeld%2C_waarvan_het_gezicht_door_middel_van%2C_SFA022826052.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Gipsen vrouwenbeeld, waarvan het gezicht door middel van, SFA022826052.jpg"
+      "sha256": "ba57a2eec5aaaea938af521549cba4b20c0b32782ecfbaf1da7363828bf53b3e",
+      "source_url": "https://unsplash.com/photos/a-textured-beige-wall-surface-iutexZMtf1I",
+      "source_title": "External rendering",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "author": "Andreia Cunha",
+      "credit": "",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "5e6341deafb91e057695628e29a4b44625e773f954204a66ff55f96c1814cd92",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Het_gezicht_van_een_man_die_op_een_kussen_op_een_bed_ligt%2C_SFA022826042.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Het gezicht van een man die op een kussen op een bed ligt, SFA022826042.jpg"
+      "sha256": "eaa4cb82eef1a2d5e146cfb0f303e7b97624b5c4f666a45f1d2d6b9d845bcffa",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wall_finishes_of_plastering.jpg",
+      "source_title": "File:Wall finishes of plastering.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Clariter1990",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "favicon.png": {
       "role": "favicon",

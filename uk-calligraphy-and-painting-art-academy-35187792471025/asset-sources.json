@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "ec671b758b7f8d8c3dc99162c447c7f4b7ef32458d0c0b4660c0c49ae3c22e66",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3APlasterwork%2C_White_walls%2C_Rostov-on-Don%2C_Russia.jpg",
-      "license": "CC BY 4.0",
-      "notes": "Commons: File:Plasterwork, White walls, Rostov-on-Don, Russia.jpg"
+      "sha256": "b569c00ccff2da935650648b0c7be438ad3d6105c9fa124b67e722094faf5ffb",
+      "source_url": "generated:runway:6c156e01-6fad-4a31-9441-f6a1e9aa1b8d",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade image; not the customer's actual work. Accidental lettering concealed within the dark left hero title zone."
     },
     "process-bg.jpg": {
       "role": "process-bg",
@@ -32,10 +32,14 @@
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "23f80ddaa8b1c7639386e8ae1a07d76b4504fce18826a38782c482e1206b6d00",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AS%C3%A9curit%C3%A9_au_travail_-_travail_%C3%A9quilibriste.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Sécurité au travail - travail équilibriste.jpg"
+      "sha256": "ad50588b539afb8f05296b8bc55776777ef30c2bac945db5da377c23cb67b62d",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jean-Joseph_Bernard_called_Bernard_de_Paris,_Calligraphic_Flowers,_NGA_143791.jpg",
+      "source_title": "File:Jean-Joseph Bernard called Bernard de Paris, Calligraphic Flowers, NGA 143791.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Jean-Joseph Bernard called Bernard de Paris",
+      "credit": "This file was donated to Wikimedia Commons as part of a project by the National Gallery of Art. Please see the Gallery's Open Access Policy.",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "favicon.png": {
       "role": "favicon",

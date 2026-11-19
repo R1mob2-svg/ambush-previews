@@ -1,0 +1,16 @@
+{
+  "slug": "c-hayer-builder-ltd-12131036",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "3c680c2add6fa22f0e72836c3f789bb17930b7e318ea428417bcb1a4e62b733a",
+  "asset_manifest_sha256": "9f8960746b44b0e044b1eea0496cd938457f75ba745bded14dcf09840b55e78d",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

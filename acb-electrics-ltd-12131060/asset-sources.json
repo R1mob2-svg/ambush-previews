@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "507d0522f715225d2ce022c5af2d187a6631b08aabee31139caf31d28c09a73b",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectricians_inspecting_panels_for_separate_house_meters_on_multifamily_in_NJ.JPG",
-      "license": "CC0",
-      "notes": "Commons: File:Electricians inspecting panels for separate house meters on multifamily in NJ.JPG"
+      "sha256": "09cc8292379a7a4011fdfae887c74391892a5654eafe62fe2d56ceac9843b254",
+      "source_url": "generated:runway:98c09977-f60d-4e0d-8442-cd11e63fc019",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

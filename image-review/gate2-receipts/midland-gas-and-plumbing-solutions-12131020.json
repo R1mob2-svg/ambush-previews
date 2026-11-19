@@ -1,0 +1,16 @@
+{
+  "slug": "midland-gas-and-plumbing-solutions-12131020",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "9f09fa8b22b5cfdf5f6674ae936dcc52a769ce078cb37c78f55dc9859c822a50",
+  "asset_manifest_sha256": "a04715cb3128791d66342945e2f9d8fc857e6b88a9404e2321847aa6c976df42",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

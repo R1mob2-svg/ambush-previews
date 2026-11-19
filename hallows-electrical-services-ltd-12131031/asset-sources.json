@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "14e25f5ca99f681350d1f66272539677635d4dc3b9050236b39791917a3d3fbc",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectrician_Working.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Commons: File:Electrician Working.jpg"
+      "sha256": "e3ab34724be77f4e6b5639051e3539b4aae252606ff379105cbf34788718803f",
+      "source_url": "generated:runway:c158dc90-0f34-47a4-8192-25360f3d0913",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade image; not the customer's actual work. Accidental lettering concealed within the dark left hero title zone."
     },
     "process-bg.jpg": {
       "role": "process-bg",

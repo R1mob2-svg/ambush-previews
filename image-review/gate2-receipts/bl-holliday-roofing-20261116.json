@@ -1,0 +1,16 @@
+{
+  "slug": "bl-holliday-roofing-20261116",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "33a60f0a0e87b6f8e8122d668b37ef2a0cb4055a6ab607fc92ae76f403171a5e",
+  "asset_manifest_sha256": "ea8673c02887392b8373e1037c298393698169d2e059265a61dd7a0e23ddf1bc",
+  "gate2_status": "PASS",
+  "gate2_checks": 68,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "bdc-roofing-supplies-12131027",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "1f048465cbf4b6728ccbd17875d85292380ea867dc5a5680c000e13d2a3a2368",
+  "asset_manifest_sha256": "edf106dfbe1edf79432413d03a3033da47d32f9dbf7ec00242d160470d5a7638",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

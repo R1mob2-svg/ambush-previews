@@ -1,0 +1,16 @@
+{
+  "slug": "instyle-installations-0024",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "89979e7b31001a3abecdebc969a1ab01d969beb4a4490de2333d17ce2b095c24",
+  "asset_manifest_sha256": "10726f393fc2aa4a0f10390d1c3e91a895a567d10d0895c846c198686bdbf0e6",
+  "gate2_status": "PASS",
+  "gate2_checks": 68,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

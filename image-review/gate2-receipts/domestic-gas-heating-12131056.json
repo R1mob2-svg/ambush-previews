@@ -1,0 +1,16 @@
+{
+  "slug": "domestic-gas-heating-12131056",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "d38d250c981f4f08e5345d50ad89b507aed546ac735a20daf0de243455f3e22e",
+  "asset_manifest_sha256": "539d3213bd6594781d15f2f316bb951ef96240d406a9e4799b4404ab2f778894",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

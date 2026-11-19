@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "44bdc726abaeaab11a65d3d5fbf11c9f135509c3f3fa78405e41330265d77f41",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AVacation_Marriot_Paris_6_2012-06-28.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Vacation Marriot Paris 6 2012-06-28.jpg"
+      "sha256": "3894b2a22e7c76d679cd480fd3a0718d863b2db81d0e7ca25fa3b8db4042b1c0",
+      "source_url": "generated:runway:5e9f1c56-ed7d-4edd-8815-15d2c4d562de",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

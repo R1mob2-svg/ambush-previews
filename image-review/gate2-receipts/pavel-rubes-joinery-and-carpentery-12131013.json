@@ -1,0 +1,16 @@
+{
+  "slug": "pavel-rubes-joinery-and-carpentery-12131013",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "aa5e691b87aa5f0d3fbc3dc085e38b2c09a080c72bf5c8f170c0e2cefde62372",
+  "asset_manifest_sha256": "e58f9395b25922a3accfc7b97b9d77c4cb9802c23303651cc8818aa133d18749",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

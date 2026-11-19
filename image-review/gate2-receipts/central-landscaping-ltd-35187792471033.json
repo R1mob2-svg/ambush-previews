@@ -1,0 +1,16 @@
+{
+  "slug": "central-landscaping-ltd-35187792471033",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "dcea817532b74e6e5f00a0f4aebccca154463bb02c750a3691a75631778243b6",
+  "asset_manifest_sha256": "e08bbda11fcdf0a65cd66a07149b3dfb4efdad73a680e464ccb90940598d0b1a",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

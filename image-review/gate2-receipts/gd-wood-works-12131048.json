@@ -1,0 +1,16 @@
+{
+  "slug": "gd-wood-works-12131048",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "c81194559c072ced52f32544446fff6e0e6701638f543e209969e2b0530775f2",
+  "asset_manifest_sha256": "6cefc2c3423349978ac8509c1c0e20383b80f94d1170aee52387b64448493656",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

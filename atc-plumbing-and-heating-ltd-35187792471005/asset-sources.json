@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "6a6a52a75a6074ea36e718caa4fe23f4224cef89985102d36aa3fa5fce34dc83",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AA_Hadid_Sazeh_Pishro_G4_Gas_Meter_Made_in_Iran.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:A Hadid Sazeh Pishro G4 Gas Meter Made in Iran.jpg"
+      "sha256": "7b0ee2999271f3673ac610c7ebb1bf44098e1f2293df1986d19bdc861a3c9023",
+      "source_url": "generated:runway:6f0d9f6b-dc0b-4e0f-acec-b21291c15690",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",
@@ -25,10 +25,14 @@
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "d3cb4701dc4360723b3c86f59f21cdd86796e457af66cfd114b9da808cbfdf73",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABarbados_%286821359633%29.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Commons: File:Barbados (6821359633).jpg"
+      "sha256": "00a3ea94525647a87678ca35365e9adaff536430e9d2f12d60e25f84a39106ce",
+      "source_url": "https://unsplash.com/photos/white-radiator-against-a-pale-green-wall-with-shadows-tamZSNzJJYM",
+      "source_title": "Central heating systems",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "author": "Andrew Bright",
+      "credit": "",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-3.jpg": {
       "role": "service-3",

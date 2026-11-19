@@ -1,0 +1,16 @@
+{
+  "slug": "mands-landscaping-limited-35187792471037",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "b3a7ee09ee094aefe96f8d498341f5d02d8027335eecf457d44fe46e20755924",
+  "asset_manifest_sha256": "0e707e25acfd54d4ba682cd6a311d29676b93ce85a9d60bdaea7e088e509f8ac",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

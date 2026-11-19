@@ -1,0 +1,16 @@
+{
+  "slug": "kenlee-joinery-12131046",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "b4c880cfe4fb1f69b34996275707d274b32885aef5f1a115be3de2b769e99d03",
+  "asset_manifest_sha256": "fb0f0bd0a80aeba5dad5ca2a9184445bc95122526905c47a2ed3d4bf89296d4d",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

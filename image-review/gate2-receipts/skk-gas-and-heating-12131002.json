@@ -1,0 +1,16 @@
+{
+  "slug": "skk-gas-and-heating-12131002",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "e47bc6ddd7f6465d1f03f9c78f6bac90972175a1fa50ab8183dd7b5165ffe0bc",
+  "asset_manifest_sha256": "36686ef6c85c493110db2eddc0eb514e275a9d0dad3247702048059854d68898",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "e6e9bc192a423585fa23faeb39f1fcc76905dcf5d3f3835cbbfaccbf3f9f66cf",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AFirst_aid_for_a_heel_abrasion.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:First aid for a heel abrasion.jpg"
+      "sha256": "1202ef985c74ac1126736f9c28627d346b6eadbf5dc16f2989d4939ffd1307bc",
+      "source_url": "generated:runway:ec245dbd-883d-4b0b-b8be-411dc51b8854",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",
@@ -18,10 +18,14 @@
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "3077ee21a462c9f6de2baf649758bf4207e424737c0291c1b88f294c2b3b2943",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AJohn_Cranch_-_Plasterer_-_Google_Art_Project.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:John Cranch - Plasterer - Google Art Project.jpg"
+      "sha256": "5f6e7a5d900776a3612c3714b868428b42be809b3632addd8dabe3d8197a8bb1",
+      "source_url": "https://unsplash.com/photos/hands-applying-plaster-to-a-wall-with-trowels-Re1O5byZ8bY",
+      "source_title": "Skimming and plasterboarding",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "author": "Sasun Bughdaryan",
+      "credit": "",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-2.jpg": {
       "role": "service-2",
@@ -32,10 +36,14 @@
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "1660e4b03458e4cb6e80e821be13fe141bad798a194f33b2abcbca69373f8e88",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AMilwaukee_August_2024_121_%28Orlandini_Studios%29.jpg",
+      "sha256": "c4fc1a7aaafa11ad250630419dc5c8b88676fadb37c771d39059cf41879b6096",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sand-cement-render.jpg",
+      "source_title": "File:Sand-cement-render.jpg",
       "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Milwaukee August 2024 121 (Orlandini Studios).jpg"
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Kebabknight",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "favicon.png": {
       "role": "favicon",
