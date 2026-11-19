@@ -36,10 +36,14 @@
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "1660e4b03458e4cb6e80e821be13fe141bad798a194f33b2abcbca69373f8e88",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AMilwaukee_August_2024_121_%28Orlandini_Studios%29.jpg",
+      "sha256": "c4fc1a7aaafa11ad250630419dc5c8b88676fadb37c771d39059cf41879b6096",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sand-cement-render.jpg",
+      "source_title": "File:Sand-cement-render.jpg",
       "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Milwaukee August 2024 121 (Orlandini Studios).jpg"
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Kebabknight",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "favicon.png": {
       "role": "favicon",
