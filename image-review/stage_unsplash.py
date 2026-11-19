@@ -10,8 +10,8 @@ plan=json.loads((ROOT/"image-review"/"unsplash-plan.json").read_text())
 rows=[];errors=[]
 for idx,item in enumerate(plan["items"]):
  url=item["photo_url"]
- assert url.startswith("https://images.unsplash.com/photo-")
- assert item["source_url"].startswith("https://unsplash.com/photos/")
+ assert url.startswith(("https://images.unsplash.com/photo-","https://images.pexels.com/photos/"))
+ assert item["source_url"].startswith(("https://unsplash.com/photos/","https://www.pexels.com/photo/"))
  try:
   request=urllib.request.Request(url,headers={"User-Agent":"DigitalAmbushPhotoReview/1.0","Accept":"image/jpeg,image/webp,*/*"})
   with urllib.request.urlopen(request,timeout=40) as resp:raw=resp.read(6_000_000)
@@ -22,7 +22,9 @@ for idx,item in enumerate(plan["items"]):
   fn=f"unsplash-{idx:02d}.jpg"
   path=OUT/fn
   im.save(path,"JPEG",quality=88,optimize=True,progressive=True)
-  row={**item,"staged_filename":fn,"source_title":item["service"],"license":"Unsplash License","license_url":"https://unsplash.com/license","artist":item["photographer"],"sha256":hashlib.sha256(path.read_bytes()).hexdigest(),"size":[1200,760],"review_status":"PENDING_VISUAL_APPROVAL"}
+  lic="Pexels License" if "pexels.com" in url else "Unsplash License"
+  link="https://www.pexels.com/license/" if lic=="Pexels License" else "https://unsplash.com/license"
+  row={**item,"staged_filename":fn,"source_title":item["service"],"license":lic,"license_url":link,"artist":item["photographer"],"sha256":hashlib.sha256(path.read_bytes()).hexdigest(),"size":[1200,760],"review_status":"PENDING_VISUAL_APPROVAL"}
   rows.append(row)
  except Exception as e:errors.append({"idx":idx,"slug":item["slug"],"error":str(e)[:250]})
 (OUT/"staging-manifest.json").write_text(json.dumps({"items":rows,"errors":errors},indent=2)+"\n")
