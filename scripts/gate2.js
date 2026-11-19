@@ -77,6 +77,23 @@ function normProv(v) {
     process.exit(2);
   }
   const html = fs.readFileSync(abs, 'utf8');
+  // Gate 2 contact-authenticity regression. A displayed phone must never
+  // contradict the number the button would dial. The legacy sample contact
+  // numbers are forbidden until evidence-gated into the business spec.
+  const legacyNumbers = /0121(?:&nbsp;|[\\s\\u00a0])*556(?:&nbsp;|[\\s\\u00a0])*7820|07809(?:&nbsp;|[\\s\\u00a0])*444321/i;
+  check('No shared sample telephone in preview', !legacyNumbers.test(html));
+  const telNumbers = [...html.matchAll(/<a\\b[^>]*href=["']tel:([^"']+)["'][^>]*>([\\s\\S]*?)<\\/a>/gi)];
+  const mismatchedNumbers = telNumbers.filter((m) => {
+    const dial = String(m[1]).replace(/\\D/g, '').replace(/^44/, '0');
+    const visible = String(m[2]).replace(/<[^>]*>/g, ' ').replace(/&nbsp;/g, ' ');
+    const tokens = [...visible.matchAll(/(?:\\+44|0)\\d(?:[\\s()\\-]*\\d){8,10}/g)];
+    return tokens.some((x) => {
+      const d = x[0].replace(/\\D/g, '').replace(/^44/, '0');
+      return d !== dial;
+    });
+  });
+  check('Displayed phone matches tel target', mismatchedNumbers.length === 0,
+    mismatchedNumbers.length ? mismatchedNumbers.map((m) => m[1]).join(',') : undefined);
   const dir = path.dirname(abs);
   const slug = path.basename(dir);
 
