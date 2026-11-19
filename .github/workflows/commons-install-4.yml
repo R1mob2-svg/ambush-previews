@@ -26,7 +26,7 @@ jobs:
         run: |
           git config user.name "Digital Ambush image QA"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -u
+          git add -A -- a-b-plastering-and-rendering-12131009/ uk-calligraphy-and-painting-art-academy-35187792471025/
           if ! git diff --cached --quiet; then
             git commit -m "assets(review): install two approved zero-cost trade-support images"
             git push origin HEAD:review/visual-asset-remediation-20261119
