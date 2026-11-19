@@ -1,0 +1,42 @@
+{
+  "status": "FOUNDER_REVIEW_BRANCH_ONLY",
+  "external_sends": "HOLD",
+  "approved": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    16
+  ],
+  "rejected": [
+    {
+      "id": 0,
+      "reason": "Exterior-painting slot: indoor painter, mismatch"
+    },
+    {
+      "id": 1,
+      "reason": "GDS skimming: soft muddy close-up not premium"
+    },
+    {
+      "id": 6,
+      "reason": "Central heating: unappealing old radiator photograph"
+    },
+    {
+      "id": 11,
+      "reason": "A.B skimming: mainly dirty floor, not usable finished service visual"
+    },
+    {
+      "id": 15,
+      "reason": "GDS exterior rendering: awkward crop, no clear rendered work"
+    }
+  ],
+  "evidence": "Image-review/commons-staged/review-sheet.jpg visually inspected; licensing and original URLs recorded in staging-manifest.json",
+  "rendered_qa": "PENDING"
+}
