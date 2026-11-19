@@ -11,10 +11,14 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "d862bd5a4deeab88717f288ed893d28feb1d9359d407cef861ab032c77bd70ae",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AH%C3%BCckeswagen_-_An_der_Schlo%C3%9Ffabrik_18_ies.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Hückeswagen - An der Schloßfabrik 18 ies.jpg"
+      "sha256": "0b9007535d2f7ce5840d72692d0070d856ee73b191a257876376c81596315e33",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Roof_being_repaired,_Sycamore_Avenue,_Leymoor_-_geograph.org.uk_-_7103459.jpg",
+      "source_title": "File:Roof being repaired, Sycamore Avenue, Leymoor - geograph.org.uk - 7103459.jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "habiloid",
+      "credit": "Geograph Britain and Ireland",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-1.jpg": {
       "role": "service-1",
@@ -25,10 +29,14 @@
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "aa180e0f9f8fe6e4107fc43e315a0041e97582b5e3eb664b4c3bb96395b7f4bd",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AKenya_Tak_22_BG.jpg",
+      "sha256": "c48359d5ab2a2cd6790892066a77b23474e791ca38cfc5c44cc59d3cfbc30b7d",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Roofing_services_roof_skylight.jpg",
+      "source_title": "File:Roofing services roof skylight.jpg",
       "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Kenya Tak 22 BG.jpg"
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Smtzzz",
+      "credit": "flat roof replacement",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-3.jpg": {
       "role": "service-3",

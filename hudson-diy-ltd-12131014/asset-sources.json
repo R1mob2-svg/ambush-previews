@@ -11,10 +11,14 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "02585115bb6269570c2173c0cac0aef019b395271c27876f1b20c43ddb26e83f",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Sopha%2C_Duchesse_%26c%2C_G.36941_%282_of_2%29.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Menuisier en Meubles, Sopha, Duchesse &c, G.36941 (2 of 2).jpg"
+      "sha256": "a8cccce5aa0f2c57995576639a6fead85c19fa5a7cddfce9553d9b855d2ce537",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tischlereimuseum_R%C3%BCdiger_Timme_Werkstatt.jpg",
+      "source_title": "File:Tischlereimuseum Rüdiger Timme Werkstatt.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Olaf Meister",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-1.jpg": {
       "role": "service-1",
