@@ -32,3 +32,5 @@ jobs:
               git push origin HEAD:review/visual-asset-remediation-20261119
             fi
           fi
+
+# Round 4 image-credit page installed; recertification requested.
