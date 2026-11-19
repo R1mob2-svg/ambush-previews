@@ -15,55 +15,64 @@
       "slug": "a-j-cane-painting-and-decorating-specialists-limited-35187792471026",
       "trade": "painting-decorating",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "3415748f-3c85-41ae-93c5-f251410eeeae"
     },
     {
       "slug": "a-r-gas-services-0025",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "a5dd50b0-f74e-4912-a565-1120a1816092"
     },
     {
       "slug": "a-r-plastering-services-202611170003",
       "trade": "plastering",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "64bb0a17-f2d9-4eb7-bfb7-4d01c44fd594"
     },
     {
       "slug": "a-snows-roofing-services-12131057",
       "trade": "roofing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "2dda6f2d-4970-444d-a48d-5ede518b4578"
     },
     {
       "slug": "a-t-r-plumbing-and-property-maintenance-12131017",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "66176d8e-b1e5-4800-80c5-c9649c38f115"
     },
     {
       "slug": "acb-electrics-ltd-12131060",
       "trade": "electrical",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "98c09977-f60d-4e0d-8442-cd11e63fc019"
     },
     {
       "slug": "acr-heating-solutions-ltd-35187792471004",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "f9092176-ffc7-4e1f-920b-93925fb9f266"
     },
     {
       "slug": "adams-gas-and-electric-services-12131022",
       "trade": "electrical",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "a007e450-26a0-4ca1-b2de-0f40463fc3e4"
     },
     {
       "slug": "ali-plumbing-and-heating-services-ltd-35187792471007",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "30589655-6d0d-41a2-8594-5623404e8a95"
     },
     {
       "slug": "alto-barren-plumbing-and-heating-limited-202611160018",
@@ -81,7 +90,8 @@
       "slug": "ams-spray-painting-and-decorating-ltd-35187792471023",
       "trade": "painting-decorating",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "2cf07b11-27d7-425b-b37f-1149be62af42"
     },
     {
       "slug": "assg-plumbing-and-heating-services-0013",
@@ -93,7 +103,8 @@
       "slug": "astra-roofing-limited-12131026",
       "trade": "roofing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "a9729fc7-2744-4c01-b2d5-3f10e06b09af"
     },
     {
       "slug": "atc-plumbing-and-heating-ltd-35187792471005",
@@ -111,19 +122,22 @@
       "slug": "bdc-roofing-supplies-12131027",
       "trade": "roofing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "f75924ed-5e29-4868-a295-27924428c935"
     },
     {
       "slug": "be-plastering-services",
       "trade": "plastering",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "178c4ae3-2b5a-4d15-a4e3-7cad99c28e38"
     },
     {
       "slug": "birmingham-plastering-services-12131010",
       "trade": "plastering",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "adca0fe9-5d28-4295-baaa-14ffd1606e4e"
     },
     {
       "slug": "bk-gas-and-plumbing-0014",
@@ -135,7 +149,8 @@
       "slug": "bl-holliday-roofing-20261116",
       "trade": "roofing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "5d77e6b9-de99-4394-a0e4-2875ad6d34c7"
     },
     {
       "slug": "c-hayer-builder-ltd-12131036",
@@ -165,7 +180,8 @@
       "slug": "cheek-electrical-20261116",
       "trade": "electrical",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "f3f44e31-1079-4dd1-ad9f-31f8804245ab"
     },
     {
       "slug": "chivers-plumbing-and-heating-limited-35187792471006",
@@ -177,7 +193,8 @@
       "slug": "complete-plastering-services-12131040",
       "trade": "plastering",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "f98fdbcd-ddac-467b-89d1-307362c43649"
     },
     {
       "slug": "dark-knight-plumbing-12131018",
@@ -225,7 +242,8 @@
       "slug": "hallows-electrical-services-ltd-12131031",
       "trade": "electrical",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "c158dc90-0f34-47a4-8192-25360f3d0913"
     },
     {
       "slug": "heat-zone-20261116",
@@ -345,7 +363,8 @@
       "slug": "mcd-painting-and-decorating-limited-35187792471024",
       "trade": "painting-decorating",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "2c8cce79-dd04-4eed-8a46-47c7d0c9da0a"
     },
     {
       "slug": "midland-gas-and-plumbing-solutions-12131020",
@@ -531,7 +550,8 @@
       "slug": "wilson-s-painting-and-decorating-limited-35187792471022",
       "trade": "painting-decorating",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "950f2115-ddff-4d14-be99-e793917432ef"
     }
   ]
 }
