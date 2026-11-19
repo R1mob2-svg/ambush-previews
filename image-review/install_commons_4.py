@@ -54,7 +54,7 @@ for slug in changed:
  for filename,entry in entries.items():
   if not isinstance(entry,dict):continue
   license=entry.get("license","")
-  if license.upper().startswith(("CC BY","CC0")) or license.lower()=="public domain":
+  if license.upper().startswith(("CC BY","CC0")) or license.lower() in ("public domain","unsplash license","pexels license"):
    source=entry.get("source_url","")
    if not source.startswith("https://"):continue
    name=entry.get("author") or entry.get("credit") or "Original photographer"
