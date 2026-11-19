@@ -211,7 +211,8 @@
       "slug": "dark-knight-plumbing-12131018",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "df896606-ca5e-425d-bdb2-b81ad22ed427"
     },
     {
       "slug": "dbritain-home-improvements-20261116",
@@ -224,13 +225,15 @@
       "slug": "domestic-gas-heating-12131056",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "e688df3c-9909-45d7-b493-305d4b30db2d"
     },
     {
       "slug": "elite-gas-coventry-0022",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "dfb715d2-7193-4ee8-af33-2c5fba70e21d"
     },
     {
       "slug": "gd-wood-works-12131048",
@@ -264,7 +267,8 @@
       "slug": "heat-zone-20261116",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "332fe64d-2dd7-4ea4-98da-595e3cb42df8"
     },
     {
       "slug": "hk-roofing-12131059",
@@ -319,7 +323,8 @@
       "slug": "jac-plumbing-and-heating-wolverhampton-12131053",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "f32746c6-3440-4ce2-856e-82ef2e108fd0"
     },
     {
       "slug": "joshua-mcdougal-plastering-bedworth-12131089",
@@ -339,7 +344,8 @@
       "slug": "kane-heating-and-plumbing-limited-35187792471003",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "ed8ef990-dd55-44f2-9e21-27639ff3e8ef"
     },
     {
       "slug": "kenlee-joinery-12131046",
@@ -401,13 +407,15 @@
       "slug": "midland-gas-and-plumbing-solutions-12131020",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "46b1acc4-d823-4029-8f18-18e9f622d848"
     },
     {
       "slug": "mike-cotton-gas-and-heating-12131024",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "c6adf259-cd5f-441c-abd4-b7894c5cac2b"
     },
     {
       "slug": "mim-carpenter-12131012",
@@ -427,7 +435,8 @@
       "slug": "painting-classic-cars-limited-35187792471021",
       "trade": "vehicle-spray",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "d4db0168-12c6-4cdb-8e14-fb6e348e8c2a"
     },
     {
       "slug": "pavel-rubes-joinery-and-carpentery-12131013",
@@ -447,31 +456,36 @@
       "slug": "perton-plumbing-and-heating-12131055",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "0301e1ca-b6ae-4f09-832f-f3cc102f28e8"
     },
     {
       "slug": "plumbing-heating-solutions-midlands-ltd-12131003",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "50832ae2-9c82-4bc7-8b91-f563ce1355ae"
     },
     {
       "slug": "razak-heating-0017",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "a9e119a1-5b1b-4351-adf3-f0592bcbb749"
     },
     {
       "slug": "razak-heating-ltd-202611160017",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "d75786b8-a594-487d-a7e9-878063a2f509"
     },
     {
       "slug": "renovatez-heating-plumbing-0020",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "c0fa093c-3a4b-4d35-8a78-60ad551ca497"
     },
     {
       "slug": "rj-carpenters-and-joiners-12131016",
@@ -491,13 +505,15 @@
       "slug": "rm-plumbing-and-heating-12131001",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "6dd1ae15-9c65-423a-8c1e-ccb51d3abd01"
     },
     {
       "slug": "roc-heating-mechanical-services-0021",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "89f21ae9-4151-4e4f-9a56-07a33069b720"
     },
     {
       "slug": "roofing-walsall-12131025",
@@ -517,7 +533,8 @@
       "slug": "rso-developments-ltd-202611160019",
       "trade": "building-renovation",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "6d1b95a2-69a9-457f-84d1-95a4d97ebf68"
     },
     {
       "slug": "sab-builders-and-landscaping-ltd-35187792471034",
@@ -537,7 +554,8 @@
       "slug": "skk-gas-and-heating-12131002",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "90c636ad-1be5-4fbb-85b5-99aed9b538a9"
     },
     {
       "slug": "sparkes-electrical-solutions-ltd-202611170004",
@@ -550,25 +568,29 @@
       "slug": "stm-plumbing-heating-uk-0012",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "03eb1880-dd1a-4bf7-92ac-b228bf476c2c"
     },
     {
       "slug": "turnberry-heating-co-12131023",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "2d4b6276-0deb-4735-a215-d957b4f33169"
     },
     {
       "slug": "uk-calligraphy-and-painting-art-academy-35187792471025",
       "trade": "calligraphy",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "6c156e01-6fad-4a31-9441-f6a1e9aa1b8d"
     },
     {
       "slug": "visionary-builders-12131064",
       "trade": "building-renovation",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "d8789c4b-b9a6-45e2-a72a-ea9d932b1219"
     },
     {
       "slug": "walsall-builders-and-timber-merchant-12131034",
@@ -581,13 +603,15 @@
       "slug": "walsall-plumbing-and-gas-20261116",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "d55d5c7c-5357-46d8-bf7f-fbcc20c2dd29"
     },
     {
       "slug": "west-top-builders-ltd-12131008",
       "trade": "building-renovation",
       "filename": "hero.jpg",
-      "status": "PENDING"
+      "status": "GENERATING",
+      "task_id": "5dc01604-51bd-4019-9c85-bbede3c011a8"
     },
     {
       "slug": "wilson-s-painting-and-decorating-limited-35187792471022",
