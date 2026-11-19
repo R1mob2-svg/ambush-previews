@@ -15,85 +15,97 @@
       "slug": "a-j-cane-painting-and-decorating-specialists-limited-35187792471026",
       "trade": "painting-decorating",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "3415748f-3c85-41ae-93c5-f251410eeeae"
+      "status": "READY",
+      "task_id": "3415748f-3c85-41ae-93c5-f251410eeeae",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/3415748f-3c85-41ae-93c5-f251410eeeae/6dea9045-b600-4fa6-9630-5be47b7c9650/Premium_photorealistic_commercial_website_hero_photograph_fo.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZWJkNjFmZDhhMjlkZDUzMCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIwOTgxNn0.X6qR4LN23VeJluqx8GVYNE1d5sI4K6GkSFA3kwJnm50"
     },
     {
       "slug": "a-r-gas-services-0025",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "a5dd50b0-f74e-4912-a565-1120a1816092"
+      "status": "READY",
+      "task_id": "a5dd50b0-f74e-4912-a565-1120a1816092",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/a5dd50b0-f74e-4912-a565-1120a1816092/cbfa6aff-2237-45bd-be5a-b82efcd533ba/Premium_photorealistic_commercial_website_hero_photograph_fo.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZWE0ZTBjMGNjNGEyM2NhOSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI2MTgzNn0.5zfBAPb_N7Y2A6JRh5ED_XvMnt9cxF2LVs7UaMm3g0Q"
     },
     {
       "slug": "a-r-plastering-services-202611170003",
       "trade": "plastering",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "64bb0a17-f2d9-4eb7-bfb7-4d01c44fd594"
+      "status": "READY",
+      "task_id": "64bb0a17-f2d9-4eb7-bfb7-4d01c44fd594",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/64bb0a17-f2d9-4eb7-bfb7-4d01c44fd594/e531c394-c084-4b9d-87dc-d262e02ef854/Premium_photorealistic_commercial_website_hero_photograph_fo.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZjY5NmIyNDI3OTg3NGQ2ZiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5OTE3MH0.dL_hH40iH07CMdA_9TXBd1R5RAZB3zstU8Q3QeSFJCc"
     },
     {
       "slug": "a-snows-roofing-services-12131057",
       "trade": "roofing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "2dda6f2d-4970-444d-a48d-5ede518b4578"
+      "status": "READY",
+      "task_id": "2dda6f2d-4970-444d-a48d-5ede518b4578",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/2dda6f2d-4970-444d-a48d-5ede518b4578/464761c5-a291-4981-94cf-cbd495ed7e9a/Premium_photorealistic_commercial_website_hero_photograph_fo.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMjlkNDY5OGE0NzU4NDFlMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI2NDkwNn0.lY9IloXat_0Arops0NoRT8akC9jzwl70a4eb5oNKuM8"
     },
     {
       "slug": "a-t-r-plumbing-and-property-maintenance-12131017",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "66176d8e-b1e5-4800-80c5-c9649c38f115"
+      "status": "READY",
+      "task_id": "66176d8e-b1e5-4800-80c5-c9649c38f115",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/66176d8e-b1e5-4800-80c5-c9649c38f115/817c71ab-2701-4dae-bebd-e61f89d5e414/Premium_photorealistic_commercial_website_hero_photograph_fo.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZGIzYWQ3NDAzMTE3OWRlMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIzNzY5Nn0.cnsFzXZp8a6RiFBMQIBsvc-bZajDnafHBziTWoPY334"
     },
     {
       "slug": "acb-electrics-ltd-12131060",
       "trade": "electrical",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "98c09977-f60d-4e0d-8442-cd11e63fc019"
+      "status": "READY",
+      "task_id": "98c09977-f60d-4e0d-8442-cd11e63fc019",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/98c09977-f60d-4e0d-8442-cd11e63fc019/849b89e6-5c4d-44eb-be0a-e6ea596b00ea/Premium_photorealistic_wide_commercial_website_hero_photogra.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiOTRiZWJiYjE4NzZkMmRmNiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI1NTg1N30.DPuQr9XpAUkWALwVBeYve0pgCrS0e2grBhG7fbmgGRw"
     },
     {
       "slug": "acr-heating-solutions-ltd-35187792471004",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "f9092176-ffc7-4e1f-920b-93925fb9f266"
+      "status": "READY",
+      "task_id": "f9092176-ffc7-4e1f-920b-93925fb9f266",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/f9092176-ffc7-4e1f-920b-93925fb9f266/6e898e83-8833-4898-9cef-ab305ec68e66/Premium_photorealistic_commercial_website_hero_photograph_fo.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNDVkNzZhNTZjMmJlMzIwZiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIwNzc2Nn0.UtFKLrjTmdF9Mjz5qPM15FgwyFRQsYbor-tksv9rwUs"
     },
     {
       "slug": "adams-gas-and-electric-services-12131022",
       "trade": "electrical",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "a007e450-26a0-4ca1-b2de-0f40463fc3e4"
+      "status": "READY",
+      "task_id": "a007e450-26a0-4ca1-b2de-0f40463fc3e4",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/a007e450-26a0-4ca1-b2de-0f40463fc3e4/b0910690-49b0-4953-ac2e-59590a9fec8a/Premium_photorealistic_wide_commercial_website_hero_photogra.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZTg0OTIzMTAxNzg0YWI3MCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI1NDQxNn0.q-rsTU9_N5HQCZbZB3jdHvFMuIZ1Dpn2kt-UvDUXheU"
     },
     {
       "slug": "ali-plumbing-and-heating-services-ltd-35187792471007",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "30589655-6d0d-41a2-8594-5623404e8a95"
+      "status": "READY",
+      "task_id": "30589655-6d0d-41a2-8594-5623404e8a95",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/30589655-6d0d-41a2-8594-5623404e8a95/af2522ad-32b9-45c8-9530-3d3acbe20479/Premium_photorealistic_commercial_website_hero_photograph_fo.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiOTE1ZTk1ZmVmYjVjYmJkYSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIxNTEwMn0.90zPZiMZLOUlRzn-HFAekxaATqsyWNaeuEV972Ok1Eg"
     },
     {
       "slug": "alto-barren-plumbing-and-heating-limited-202611160018",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "fa4ddaec-dc91-4144-a71b-be9bf23c3d40"
+      "status": "READY",
+      "task_id": "fa4ddaec-dc91-4144-a71b-be9bf23c3d40",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/fa4ddaec-dc91-4144-a71b-be9bf23c3d40/48d5449f-34a5-4caf-8da1-312277e6813b/Wide_premium_photorealistic_hero_photograph_for_a_UK_plumbin.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzZmODJhY2U4M2Q1MTJkOCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIxOTE1MH0.XXDpefPynEy_qibVBeoC9o-3RpkrygKel7KJq78WzFs"
     },
     {
       "slug": "alto-barren-plumbing-heating-0018",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "d0e57f7c-996e-4014-8690-ff7a53b1dcb7"
+      "status": "READY",
+      "task_id": "d0e57f7c-996e-4014-8690-ff7a53b1dcb7",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/d0e57f7c-996e-4014-8690-ff7a53b1dcb7/8aa0433d-af3e-4ba8-bb54-150c2a4413c3/Wide_premium_photorealistic_hero_photograph_for_a_UK_plumbin.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNDdjN2I0ZmRkNTA5ZTYyMSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI0NjMzM30.NfGT5aONLJuatzsrxVs71_jwvUTMKAyW0lly0Q5pCtY"
     },
     {
       "slug": "ams-spray-painting-and-decorating-ltd-35187792471023",
       "trade": "painting-decorating",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "2cf07b11-27d7-425b-b37f-1149be62af42"
+      "status": "READY",
+      "task_id": "2cf07b11-27d7-425b-b37f-1149be62af42",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/2cf07b11-27d7-425b-b37f-1149be62af42/ae37bbb3-8318-4924-9bbd-9d074425dcfe/Premium_photorealistic_commercial_website_hero_photograph_fo.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNjdhOGFlNDMwYTk2MmYwYyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI2NzkwN30.Vy2OSb41aqMiXepSjK-4qHYaSL28hudPLAmA2QLjJFM"
     },
     {
       "slug": "assg-plumbing-and-heating-services-0013",
