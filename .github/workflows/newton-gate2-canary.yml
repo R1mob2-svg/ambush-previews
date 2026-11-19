@@ -5,6 +5,7 @@ on:
       - review/visual-asset-remediation-20261119
     paths:
       - .github/workflows/newton-gate2-canary.yml
+      - scripts/gate2.js
 permissions:
   contents: read
 jobs:
