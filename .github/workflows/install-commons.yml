@@ -2,7 +2,7 @@ name: Install accepted Commons supporting photos
 on:
   push:
     branches: [review/visual-asset-remediation-20261119]
-    paths: [image-review/commons-acceptance.json]
+    paths: [image-review/commons-acceptance.json, .github/workflows/install-commons.yml]
 permissions: {contents: write}
 jobs:
   install:
@@ -12,6 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: '3.11'}
+      - run: python -m pip install --disable-pip-version-check Pillow==11.1.0
       - run: python image-review/install_commons.py
       - name: Recheck website assets after imagery installation
         run: python image-review/check_asset_integrity.py
