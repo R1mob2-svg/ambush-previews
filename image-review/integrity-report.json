@@ -1,14 +1,16 @@
 {
   "sites": 88,
-  "planned_installs": 139,
-  "licensed_support_installs": 25,
-  "credited_sites": 12,
+  "planned_installs": 141,
+  "licensed_support_installs": 27,
+  "credited_sites": 13,
   "hero_origin_count": 88,
   "manifest_images": 624,
   "html_local_asset_references": 536,
-  "broken_or_invalid": [],
+  "broken_or_invalid": [
+    "Accepted Commons photo missing visible credits page/link /home/runner/work/ambush-previews/ambush-previews/uk-calligraphy-and-painting-art-academy-35187792471025/assets/service-3.jpg"
+  ],
   "shared_photo_origins": {},
-  "static_asset_integrity_pass": true,
+  "static_asset_integrity_pass": false,
   "visual_approval": "NOT_PERFORMED",
   "public_publish": "NOT_PERFORMED",
   "prospect_outreach": "HOLD"
