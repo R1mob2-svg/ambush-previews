@@ -1,0 +1,16 @@
+{
+  "slug": "ams-spray-painting-and-decorating-ltd-35187792471023",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "afeb9d0ee6ceac4addce786597dad8ebbda07d0652fe89baa4becc167f90b8e7",
+  "asset_manifest_sha256": "bc8ccd43104af348e822408f12c5519b8c07d4c896dcdd3bc3f7300083b746f6",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

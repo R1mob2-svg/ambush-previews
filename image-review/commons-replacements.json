@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "status": "STAGING_ONLY_NO_CUSTOMER_CHANGE",
+  "external_sends": "HOLD",
+  "items": [
+    {
+      "slug": "a-b-plastering-and-rendering-12131009",
+      "filename": "service-1.jpg",
+      "commons_file": "Plastering the Wall with Care.jpg"
+    },
+    {
+      "slug": "a-j-cane-painting-and-decorating-specialists-limited-35187792471026",
+      "filename": "service-1.jpg",
+      "commons_file": "Painter paints a room arp.jpg"
+    },
+    {
+      "slug": "a-j-cane-painting-and-decorating-specialists-limited-35187792471026",
+      "filename": "service-2.jpg",
+      "commons_file": "A home painter at work.jpg"
+    },
+    {
+      "slug": "a-r-plastering-services-202611170003",
+      "filename": "process-bg.jpg",
+      "commons_file": "Wall plastering.jpg"
+    },
+    {
+      "slug": "a-r-plastering-services-202611170003",
+      "filename": "service-1.jpg",
+      "commons_file": "Dunpleister spuiten.jpg"
+    },
+    {
+      "slug": "a-r-plastering-services-202611170003",
+      "filename": "service-2.jpg",
+      "commons_file": "Plasterers working on a building.jpg"
+    },
+    {
+      "slug": "a-r-plastering-services-202611170003",
+      "filename": "service-3.jpg",
+      "commons_file": "Lathe and plaster 2.jpg"
+    },
+    {
+      "slug": "alto-barren-plumbing-and-heating-limited-202611160018",
+      "filename": "service-3.jpg",
+      "commons_file": "Sewer repair.jpg"
+    },
+    {
+      "slug": "astra-roofing-limited-12131026",
+      "filename": "service-2.jpg",
+      "commons_file": "Flat roof roofing.JPG"
+    },
+    {
+      "slug": "astra-roofing-limited-12131026",
+      "filename": "service-3.jpg",
+      "commons_file": "Roofing 003.jpg"
+    },
+    {
+      "slug": "atc-plumbing-and-heating-ltd-35187792471005",
+      "filename": "service-2.jpg",
+      "commons_file": "Household radiator.jpg"
+    },
+    {
+      "slug": "atlantic-joinery-services-ltd-12131015",
+      "filename": "process-bg.jpg",
+      "commons_file": "Carpentry in Action.jpg"
+    },
+    {
+      "slug": "atlantic-joinery-services-ltd-12131015",
+      "filename": "service-1.jpg",
+      "commons_file": "Carpenters repair a door arp.jpg"
+    },
+    {
+      "slug": "gds-plastering-limited-202611170002",
+      "filename": "process-bg.jpg",
+      "commons_file": "Plastering by maison.jpg"
+    },
+    {
+      "slug": "gds-plastering-limited-202611170002",
+      "filename": "service-1.jpg",
+      "commons_file": "Bricklayer doing the plastering.jpg"
+    },
+    {
+      "slug": "gds-plastering-limited-202611170002",
+      "filename": "service-2.jpg",
+      "commons_file": "A construction worker plastering a house 02.jpg"
+    },
+    {
+      "slug": "gds-plastering-limited-202611170002",
+      "filename": "service-3.jpg",
+      "commons_file": "Wall finishes of plastering.jpg"
+    }
+  ]
+}

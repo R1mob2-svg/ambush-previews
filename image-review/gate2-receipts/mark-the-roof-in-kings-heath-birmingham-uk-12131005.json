@@ -1,0 +1,16 @@
+{
+  "slug": "mark-the-roof-in-kings-heath-birmingham-uk-12131005",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "6c7fe547770d6371e88eee0a9ed687239445762bb3cfe97fd83fd43e75d70fe9",
+  "asset_manifest_sha256": "589de123f489534bcd234838b158b433f992537594ccfffdba005b2013913844",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

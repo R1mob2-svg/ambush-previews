@@ -1,0 +1,67 @@
+{
+  "version": 3,
+  "status": "STAGE_FOR_VISUAL_INSPECTION_ONLY",
+  "external_sends": "HOLD",
+  "items": [
+    {
+      "slug": "great-roofing-and-building-12131004",
+      "filename": "process-bg.jpg",
+      "commons_file": "Roof being repaired, Sycamore Avenue, Leymoor - geograph.org.uk - 7103459.jpg",
+      "catalog_id": 31
+    },
+    {
+      "slug": "great-roofing-and-building-12131004",
+      "filename": "service-2.jpg",
+      "commons_file": "Roofing services roof skylight.jpg",
+      "catalog_id": 37
+    },
+    {
+      "slug": "sheildslade-roofing-12131028",
+      "filename": "process-bg.jpg",
+      "commons_file": "Roof before repair.jpg",
+      "catalog_id": 34
+    },
+    {
+      "slug": "sheildslade-roofing-12131028",
+      "filename": "service-3.jpg",
+      "commons_file": "Roofs being repaired, Sycamore Avenue, Leymoor - geograph.org.uk - 7103457.jpg",
+      "catalog_id": 36
+    },
+    {
+      "slug": "rm-frogley-fencing-and-landscaping-limited-35187792471036",
+      "filename": "process-bg.jpg",
+      "commons_file": "Blake Hall Essex listed barn patio 02.jpg",
+      "catalog_id": 93
+    },
+    {
+      "slug": "rm-frogley-fencing-and-landscaping-limited-35187792471036",
+      "filename": "service-1.jpg",
+      "commons_file": "Blake Hall Essex south-east face patio 01.jpg",
+      "catalog_id": 94
+    },
+    {
+      "slug": "rm-frogley-fencing-and-landscaping-limited-35187792471036",
+      "filename": "service-2.jpg",
+      "commons_file": "Garnon Bushes pub patio trellis, Coopersale, Epping, Essex, England.jpg",
+      "catalog_id": 95
+    },
+    {
+      "slug": "rm-frogley-fencing-and-landscaping-limited-35187792471036",
+      "filename": "service-3.jpg",
+      "commons_file": "Dülmen, Wildpark -- 2015 -- 8894-8.jpg",
+      "catalog_id": 102
+    },
+    {
+      "slug": "hudson-diy-ltd-12131014",
+      "filename": "process-bg.jpg",
+      "commons_file": "Tischlereimuseum Rüdiger Timme Werkstatt.jpg",
+      "catalog_id": 44
+    },
+    {
+      "slug": "c-hayer-builder-ltd-12131036",
+      "filename": "process-bg.jpg",
+      "commons_file": "KM23- Chuuk High School Renovation Project (7928724).jpg",
+      "catalog_id": 89
+    }
+  ]
+}

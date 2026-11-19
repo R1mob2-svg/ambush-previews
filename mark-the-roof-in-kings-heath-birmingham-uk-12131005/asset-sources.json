@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "5313b064db85e908d99ba7ab5ac443ce19666c9ed3842d97dd86bfe66a9e6b6f",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AKrovca_pokrivata_Martinkovo_lupo%2C_Lu%C4%8Darjev_Kal_1950_%282%29.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Krovca pokrivata Martinkovo lupo, Lučarjev Kal 1950 (2).jpg"
+      "sha256": "9cfa5204e36926716ef1893d1adb442718d8a070dc7bbfb93ed04272d116bded",
+      "source_url": "generated:runway:d1ce3b38-f9c2-4bc6-a031-738c637b992d",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

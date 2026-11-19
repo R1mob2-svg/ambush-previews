@@ -1,0 +1,16 @@
+{
+  "slug": "birmingham-plastering-services-12131010",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "64cd345d4a1a33e97d60bb017a9c8b2b13ca1f56bfbbf2088f47e344a31fcfe1",
+  "asset_manifest_sha256": "adc084df6a924ea67ac1bef100b41806d8d8fe3cd3d50247bf558baf14db1d17",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

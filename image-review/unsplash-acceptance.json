@@ -1,0 +1,23 @@
+{
+  "status": "VISUALLY_APPROVED_FOR_REVIEW_BRANCH",
+  "external_sends": "HOLD",
+  "approved": [
+    0,
+    2,
+    3,
+    5,
+    6
+  ],
+  "rejected": [
+    {
+      "id": 1,
+      "reason": "Prominent third-party wording on workwear violates no branding rule"
+    },
+    {
+      "id": 4,
+      "reason": "Radiator barely visible; poor subject composition"
+    }
+  ],
+  "evidence": "image-review/unsplash-staged/review-sheet.jpg and confirmed original photo source pages",
+  "publish": "NO_PUBLIC_PUBLISH_OR_OUTREACH"
+}

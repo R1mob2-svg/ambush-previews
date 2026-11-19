@@ -1,0 +1,32 @@
+name: Digital Ambush image-source and visual-contact-sheet audit
+on:
+  push:
+    branches:
+      - review/visual-asset-remediation-20261119
+    paths:
+      - image-review/audit_images.py
+      - image-review/unsplash-acceptance.json
+      - .github/workflows/image-review-audit.yml
+permissions:
+  contents: write
+jobs:
+  audit-images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --disable-pip-version-check Pillow==11.1.0
+      - name: Scan all site images and create human contact sheets
+        run: python image-review/audit_images.py
+      - name: Commit read-only audit outputs to review branch
+        run: |
+          git config user.name "Digital Ambush image QA"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add image-review/audit-report.json image-review/audit-report.md image-review/contact-sheets/
+          if ! git diff --cached --quiet; then
+            git commit -m "qa(review): inventory all site images and publish contact sheets"
+            git push origin HEAD:review/visual-asset-remediation-20261119
+          fi

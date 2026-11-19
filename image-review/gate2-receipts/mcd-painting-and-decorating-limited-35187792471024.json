@@ -1,0 +1,16 @@
+{
+  "slug": "mcd-painting-and-decorating-limited-35187792471024",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "e7e503ba243d4560ead6caec25dbed3d70e245e4fff178260bc659d801e12565",
+  "asset_manifest_sha256": "51dd916bdb4f71fa2020a89962bf66dc6a22f6b75cc37944885bb01821db7c6b",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "assg-plumbing-and-heating-services-0013",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "ae6bb38c944557b20b8c855a194c78bbda935e3dca0285d6a20be085f968f21d",
+  "asset_manifest_sha256": "1883d194b21e6c51415b266ed62bda60c0a188f4e7fc6917867edc5b93666963",
+  "gate2_status": "PASS",
+  "gate2_checks": 68,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

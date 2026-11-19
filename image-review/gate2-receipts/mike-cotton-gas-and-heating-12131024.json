@@ -1,0 +1,16 @@
+{
+  "slug": "mike-cotton-gas-and-heating-12131024",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "2c43e1a751adc9be6fd65f1b7ea0f61b898b94a77fcd58b9e3fa496b59a99c2c",
+  "asset_manifest_sha256": "b58544e9112773dc50c854df50c61836cb1344bcf775dce5a179aa390f2adfff",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

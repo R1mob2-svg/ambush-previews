@@ -1,0 +1,95 @@
+{
+  "items": [
+    {
+      "slug": "a-b-plastering-and-rendering-12131009",
+      "filename": "service-1.jpg",
+      "commons_file": "A construction worker plastering a house 01.jpg",
+      "staged_filename": "replacement-00.jpg",
+      "source_title": "File:A construction worker plastering a house 01.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_construction_worker_plastering_a_house_01.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Chabie10",
+      "credit": "Own work",
+      "sha256": "fa2c94a0ba55bf80af830e3e63e384b82a16744ba9b95a5e504e184c847130f0",
+      "size": [
+        1200,
+        760
+      ],
+      "review_status": "PENDING_VISUAL_APPROVAL"
+    },
+    {
+      "slug": "gds-plastering-limited-202611170002",
+      "filename": "service-2.jpg",
+      "commons_file": "A construction worker plastering a house 03.jpg",
+      "staged_filename": "replacement-01.jpg",
+      "source_title": "File:A construction worker plastering a house 03.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_construction_worker_plastering_a_house_03.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Chabie10",
+      "credit": "Own work",
+      "sha256": "d17f866209190b38c0e4bec05f99623fa5bd6a309832a6fba28fc1455283d456",
+      "size": [
+        1200,
+        760
+      ],
+      "review_status": "PENDING_VISUAL_APPROVAL"
+    },
+    {
+      "slug": "gds-plastering-limited-202611170002",
+      "filename": "service-1.jpg",
+      "commons_file": "Plastering the Wall (2529677768).jpg",
+      "staged_filename": "replacement-02.jpg",
+      "source_title": "File:Plastering the Wall (2529677768).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Plastering_the_Wall_(2529677768).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Andrew Comings from Same, USA",
+      "credit": "Plastering the Wall",
+      "sha256": "b12a0c8ab624ebf9c06b15820a3aed466d5151edc544d5492c92beab8b556ab0",
+      "size": [
+        1200,
+        760
+      ],
+      "review_status": "PENDING_VISUAL_APPROVAL"
+    },
+    {
+      "slug": "atc-plumbing-and-heating-ltd-35187792471005",
+      "filename": "service-2.jpg",
+      "commons_file": "Replacement of a central heating radiator, Hillegersberg, Rotterdam (2022) 02.jpg",
+      "staged_filename": "replacement-03.jpg",
+      "source_title": "File:Replacement of a central heating radiator, Hillegersberg, Rotterdam (2022) 02.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Replacement_of_a_central_heating_radiator,_Hillegersberg,_Rotterdam_(2022)_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 International.(Want to use this image?)Original publication 📤: --Donald Trung 『徵國單』 (No Fake News 💬) (WikiProject Numismatics 💴) (Articles 📚) 20:14, 15 January 2022 (UTC)",
+      "credit": "Own work",
+      "sha256": "40080c9590ab6ae40c8fb4f88d7d8dd0cb288762f7fd6343541138b32e44bb50",
+      "size": [
+        1200,
+        760
+      ],
+      "review_status": "PENDING_VISUAL_APPROVAL"
+    },
+    {
+      "slug": "a-j-cane-painting-and-decorating-specialists-limited-35187792471026",
+      "filename": "service-2.jpg",
+      "commons_file": "Wall painting.jpg",
+      "staged_filename": "replacement-04.jpg",
+      "source_title": "File:Wall painting.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wall_painting.jpg",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "Gorkaazk",
+      "credit": "Own work",
+      "sha256": "8b3859bde317fffc0fbc60d2403125bbbe69a4435e63d8a6133b1998d9e83027",
+      "size": [
+        1200,
+        760
+      ],
+      "review_status": "PENDING_VISUAL_APPROVAL"
+    }
+  ],
+  "errors": []
+}

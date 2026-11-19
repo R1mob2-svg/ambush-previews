@@ -1,0 +1,16 @@
+{
+  "slug": "great-roofing-and-building-12131004",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "f820f84d8323ef1aa753373fd7759599cf1c6ecec144001eeb36e738104c25fe",
+  "asset_manifest_sha256": "7fc470b8bf177f9f0d4ac387b7b5128d29306d5f32327db432054e14404a5db3",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

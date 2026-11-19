@@ -1,0 +1,16 @@
+{
+  "slug": "heat-zone-20261116",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "b5b0916c4d3b1d41f947dd4dcb4631650c8fa1f33c6fd4dbad2011f4f2f598ae",
+  "asset_manifest_sha256": "b7e5aeec085c5b204bfa2ef14ac2922c5b54d59568eb89def3f067acc192ac78",
+  "gate2_status": "PASS",
+  "gate2_checks": 68,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

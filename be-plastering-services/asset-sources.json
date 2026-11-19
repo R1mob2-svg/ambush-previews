@@ -8,12 +8,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "dimensions": "1920x1080",
-      "sha256": "0dc67c848e716bc19595ecf255d196554b3a8bd7b771e15d70f8e70ba6f7acc0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Plastering.jpg",
-      "license": "CC BY-SA 4.0",
-      "attribution": "Haktwo2004",
-      "notes": "Two plasterers on scaffolding applying base-coat render to an external wall. Replaced prior hero (R/L=0.54, lit left-to-right against a left-dark scrim = inverted). This photo passes the composite gate at R/L=1.65."
+      "sha256": "ea7f38bf042616a911641be56b0df168b3aa6fab946f75518fdde162a0a38540",
+      "source_url": "generated:runway:178c4ae3-2b5a-4d15-a4e3-7cad99c28e38",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-1.jpg": {
       "role": "service-1",

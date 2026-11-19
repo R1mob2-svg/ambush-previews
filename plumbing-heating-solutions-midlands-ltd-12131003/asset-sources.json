@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "eddd21509373d90d1b7d24d0c7aaae6daaeeeec33dd029e41afca10715857a38",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AInstalacja_do_separacji_gaz%C3%B3w_metod%C4%85_adsorpcji_zmiennoci%C5%9Bnieniowej_%28PSA%29.JPG",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Instalacja do separacji gazów metodą adsorpcji zmiennociśnieniowej (PSA).JPG"
+      "sha256": "0ea82c824aab08d8945fa7b6b3d07f73474455434840e2491d4879cae48a4185",
+      "source_url": "generated:runway:50832ae2-9c82-4bc7-8b91-f563ce1355ae",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade image; not the customer's actual work. Accidental lettering concealed within the dark left hero title zone."
     },
     "process-bg.jpg": {
       "role": "process-bg",

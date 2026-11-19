@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "83c3d6003b10d2210a92739e20e18215492b943537e706c9c5b8d7a2a46fe239",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AE%C3%B6tv%C3%B6s_Promenade_4-6%2C_unterirdischer_Tank_und_Rohre%2C_2022_Dobog%C3%B3k%C5%91.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Eötvös Promenade 4-6, unterirdischer Tank und Rohre, 2022 Dobogókő.jpg"
+      "sha256": "def9d5a6e6510ecdf4d0d02139c1a1704c794323a6d0a3be38dc50bbbc61c376",
+      "source_url": "generated:runway:c6adf259-cd5f-441c-abd4-b7894c5cac2b",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

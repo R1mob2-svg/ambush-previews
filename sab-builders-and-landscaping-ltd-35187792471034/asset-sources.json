@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "e368347ba509cbeab7966c1904aaedeb707376e01c5d5b81d79c4a0d8cd3966c",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADistances_to_Civilization.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Distances to Civilization.jpg"
+      "sha256": "0420b6b396756fe5c0d582ebdc6323b8eeb77368c92ce352ae9fc9577f407b2b",
+      "source_url": "generated:runway:96d1c21b-0d51-415b-9c2e-6059f6270971",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

@@ -1,0 +1,16 @@
+{
+  "slug": "cheek-electrical-20261116",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "0467ebf57a8ad5dbfb75a9b3c1c2c9f84adfbbe6254c916ab635bf28d6596e32",
+  "asset_manifest_sha256": "1c2d44b4b35abdc04bf905452a6036125d30177463ea0f05cb2e5745fd4dd5a1",
+  "gate2_status": "PASS",
+  "gate2_checks": 68,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

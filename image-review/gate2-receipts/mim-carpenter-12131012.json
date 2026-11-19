@@ -1,0 +1,16 @@
+{
+  "slug": "mim-carpenter-12131012",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "09567e6fe3afd001a160dfdb567aade97b2fbc055149dc5ed2f3169143d08379",
+  "asset_manifest_sha256": "503dfd87c86f50347932a528d48e1ab4159f6eb8638e87a5b3a91e779338cbc8",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "knight-roofing-12131006",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "8c25d3183850e0ff4512190cbbfc2fb5bba418b2648559ed3f347e1bdf25e20e",
+  "asset_manifest_sha256": "5ea2c8aa131a6d5130f4be88a9cefabb6e9b7ed8a120ef4283263b5307a45c1f",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

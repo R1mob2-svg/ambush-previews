@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "3853d56a60bb9d6e88bab413d65f4d66feb99fe826302bdd37333db04d790472",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AEberhard_Bosslet_Installation_Stallung_Bregenz_2004.jpg",
-      "license": "GFDL",
-      "notes": "Commons: File:Eberhard Bosslet Installation Stallung Bregenz 2004.jpg"
+      "sha256": "3b09db8593d7336281890e4c23186718f7ee1a565cc0be75af2c876a41cbfd6c",
+      "source_url": "generated:runway:5dc01604-51bd-4019-9c85-bbede3c011a8",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

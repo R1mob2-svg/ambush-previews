@@ -1,0 +1,39 @@
+name: Newton Gate2 canary full-browser verification
+on:
+  push:
+    branches:
+      - review/visual-asset-remediation-20261119
+    paths:
+      - .github/workflows/newton-gate2-canary.yml
+      - scripts/gate2.js
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install free browser and image tooling
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y imagemagick
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+      - name: Verify representative hero and all 8 desktop/tablet/mobile viewports
+        run: |
+          set +e
+          node scripts/gate2.js a-b-plastering-and-rendering-12131009/index.html > gate2-canary.log 2>&1
+          outcome=$?
+          cat gate2-canary.log
+          echo "GATE2_EXIT=$outcome"
+          exit "$outcome"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: newton-gate2-canary-evidence
+          path: gate2-canary.log
+          retention-days: 14

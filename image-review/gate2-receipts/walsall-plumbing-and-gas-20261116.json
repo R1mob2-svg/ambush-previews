@@ -1,0 +1,16 @@
+{
+  "slug": "walsall-plumbing-and-gas-20261116",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "28bfd47884ba436aba0e22c1d977234068b16536875aa9c229b496c5d5fd9c42",
+  "asset_manifest_sha256": "8702f36695771e18687bfa445577ccc8ca153568a32337924cbed48976f6d003",
+  "gate2_status": "PASS",
+  "gate2_checks": 68,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

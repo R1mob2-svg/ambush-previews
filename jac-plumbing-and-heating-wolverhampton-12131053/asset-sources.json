@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "79d7dc7747f301687600414557e436c8b1d74a6febfa62ba168950429e2ab022",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACmp_test_14.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Cmp test 14.jpg"
+      "sha256": "d6864777a49bfea17b441279daf88274286fc9f1f149d21d25d2aea5e19de8a3",
+      "source_url": "generated:runway:f32746c6-3440-4ce2-856e-82ef2e108fd0",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

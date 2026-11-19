@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "f7bf8ac949e3abaceec00ac450af90d44a4121e644a9e77b966b711f5f457213",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACisailles-droite-et-gauche.png",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Cisailles-droite-et-gauche.png"
+      "sha256": "cfa080d4d6d85f145a5207fd738160ab8e507dedefd2ed6fbfae24a28a29b8af",
+      "source_url": "generated:runway:a9729fc7-2744-4c01-b2d5-3f10e06b09af",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",
@@ -25,17 +25,25 @@
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "6b8dad671e59248eb5ab7d67d97bd58d1ee7f56f955f44e23938272d60a591a2",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACouverture_traditionnelle_chinoise_en_tuiles.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Couverture traditionnelle chinoise en tuiles.jpg"
+      "sha256": "2724d5e72dd713490ed29fa449643654cddb1e5b41b3176fe69e8022eae8de6b",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Flat_roof_roofing.JPG",
+      "source_title": "File:Flat roof roofing.JPG",
+      "license": "Public domain",
+      "license_url": "",
+      "author": "KVDP",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "c01dab7818dbfe8f2ac2ea673e9baeeaaabb6cda306453704dc770921f2ab7be",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACouverture_traditionnelle_mexicaine_avec_feuilles_de_palmier.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Couverture traditionnelle mexicaine avec feuilles de palmier.jpg"
+      "sha256": "f7c2deac250576afa803202da05702f838bd3165f4d9d2308676bd0c0544b2c5",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Roofing_003.jpg",
+      "source_title": "File:Roofing 003.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Jeuwre",
+      "credit": "Own work",
+      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
     },
     "favicon.png": {
       "role": "favicon",

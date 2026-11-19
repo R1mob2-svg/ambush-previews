@@ -1,0 +1,16 @@
+{
+  "slug": "hlc-builders-12131007",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "717f0940fce4bc778c16693d2782c0c5064953192a6e76085ac21b74497bcec3",
+  "asset_manifest_sha256": "881056fe67c3e8bc76bed39483348bccfd4516ae0e7ef4c3455b4b8d58a30ad5",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

@@ -1,0 +1,69 @@
+{
+  "status": "VISUALLY_ACCEPTED_FOR_REVIEW_BRANCH_ONLY",
+  "external_sends": "HOLD",
+  "approved": [
+    3,
+    13
+  ],
+  "rejected": [
+    {
+      "ids": [
+        0,
+        1
+      ],
+      "reason": "Non-UK context and weak relevance to a premium local plumbing business"
+    },
+    {
+      "ids": [
+        2,
+        4,
+        5,
+        8
+      ],
+      "reason": "Tool/museum artifacts, not compelling modern site-service photography"
+    },
+    {
+      "ids": [
+        6,
+        7
+      ],
+      "reason": "Historical calligraphy manuscript not aligned with a modern teaching academy"
+    },
+    {
+      "ids": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "reason": "Distant architecture, roof work not a clear focal subject"
+    },
+    {
+      "ids": [
+        14
+      ],
+      "reason": "A street photograph rather than plastering or rendering work"
+    },
+    {
+      "ids": [
+        15
+      ],
+      "reason": "Historical decorative tile illustration rather than decorating work"
+    },
+    {
+      "ids": [
+        16
+      ],
+      "reason": "Heater restoration shot rather than intended building work"
+    },
+    {
+      "ids": [
+        17
+      ],
+      "reason": "Unbranded international military-work scene, not a local UK timber merchant"
+    }
+  ],
+  "visual_evidence": "image-review/commons-staged-4/review-sheet.jpg",
+  "publisher_approval": false,
+  "notes": "Round 4: 2 of 18 accepted after direct visual inspection; do not equate license validity with site relevance."
+}

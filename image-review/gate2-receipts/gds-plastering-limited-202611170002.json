@@ -1,0 +1,16 @@
+{
+  "slug": "gds-plastering-limited-202611170002",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "bbf7b69b4a3e0ea2e06ee947c6c7ba0f83622903296d1e2978aa29d1dacb8d44",
+  "asset_manifest_sha256": "02534f7478f3a99077c66dca6f196d69f2d91eb781bb806d4b7af094e0104736",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

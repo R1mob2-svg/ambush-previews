@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "399e6bf8467a28f8d676bff95e0aa2f0cc672b9eeb07af49e53beb664229b692",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AConstruction_of_a_new_office-building_near_Beatrixkwartier_in_The_Hague_city%3B_high_resolution_image_by_FotoDutch%2C_June_2013.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Construction of a new office-building near Beatrixkwartier in The Hague city; high resolution image by FotoDutch, June 2013.jpg"
+      "sha256": "4505878071d2c1d8e2df59c312f6c2af0058f12323481e22a808c0733efd3e85",
+      "source_url": "generated:runway:d8789c4b-b9a6-45e2-a72a-ea9d932b1219",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

@@ -5,11 +5,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "dimensions": "1440x720",
-      "sha256": "e7483415e2935d55fd1ab7ebcaa5179486a683e8e38c044e1b7473b7a8be282b",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Gas_Pipe_Installation_In_A_Construction_Site.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Certified gas line pipework installation and pressure safety checks."
+      "sha256": "b43d34237eb3f2c3b1a69b7cbb38a683a1b976a4d8b3fe624a21cc002c59cdcd",
+      "source_url": "generated:runway:6abd2a3d-c8f4-4cb3-b7c2-056565cb9f7b",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-1.jpg": {
       "role": "service-1",

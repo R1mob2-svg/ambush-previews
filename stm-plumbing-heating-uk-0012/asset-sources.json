@@ -5,11 +5,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "dimensions": "1440x720",
-      "sha256": "6dbdedff2e3b0b513370c7c088e79c52c28972057980a7a6365291d82692a991",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Plumber_01.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Authentic professional plumber carrying out domestic water connection work. Right-weighted trade action."
+      "sha256": "1f09e9d6c63652424b6e949f013b56a8f254b57eb7bccdfad26bd80fd475f7ce",
+      "source_url": "generated:runway:03eb1880-dd1a-4bf7-92ac-b228bf476c2c",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "service-1.jpg": {
       "role": "service-1",

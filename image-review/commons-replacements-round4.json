@@ -1,0 +1,115 @@
+{
+  "version": 4,
+  "status": "STAGE_FOR_VISUAL_INSPECTION_ONLY",
+  "external_sends": "HOLD",
+  "items": [
+    {
+      "slug": "a-b-plastering-and-rendering-12131009",
+      "filename": "process-bg.jpg",
+      "commons_file": "Steads Fibrous Plasterers, Eccleshill - geograph.org.uk - 7574814.jpg",
+      "catalog_id": 2
+    },
+    {
+      "slug": "a-b-plastering-and-rendering-12131009",
+      "filename": "service-3.jpg",
+      "commons_file": "Sand-cement-render.jpg",
+      "catalog_id": 3
+    },
+    {
+      "slug": "a-t-r-plumbing-and-property-maintenance-12131017",
+      "filename": "service-1.jpg",
+      "commons_file": "Cameroon male plumbier at work 02.jpg",
+      "catalog_id": 54
+    },
+    {
+      "slug": "a-t-r-plumbing-and-property-maintenance-12131017",
+      "filename": "process-bg.jpg",
+      "commons_file": "Cameroon male plumbier at work 05.jpg",
+      "catalog_id": 55
+    },
+    {
+      "slug": "great-roofing-and-building-12131004",
+      "filename": "service-2.jpg",
+      "commons_file": "Roof repair in Koryazhma.jpg",
+      "catalog_id": 28
+    },
+    {
+      "slug": "great-roofing-and-building-12131004",
+      "filename": "service-3.jpg",
+      "commons_file": "Roof repair in Koryazhma (01).jpg",
+      "catalog_id": 30
+    },
+    {
+      "slug": "great-roofing-and-building-12131004",
+      "filename": "process-bg.jpg",
+      "commons_file": "Roof repair United Community Church Main Street downtown St. Johnsbury VT September 2017.jpg",
+      "catalog_id": 29
+    },
+    {
+      "slug": "sheildslade-roofing-12131028",
+      "filename": "service-2.jpg",
+      "commons_file": "Roof repairs, Kamienica Leona Breslauera in Warsaw.jpg",
+      "catalog_id": 32
+    },
+    {
+      "slug": "atlantic-joinery-services-ltd-12131015",
+      "filename": "service-2.jpg",
+      "commons_file": "Joinery workbench 2 - 19c - Technical museum, Nizhny Novgorod.jpg",
+      "catalog_id": 42
+    },
+    {
+      "slug": "atlantic-joinery-services-ltd-12131015",
+      "filename": "service-3.jpg",
+      "commons_file": "Joinery workbench 1 - 19c - Technical museum, Nizhny Novgorod.jpg",
+      "catalog_id": 43
+    },
+    {
+      "slug": "mim-carpenter-12131012",
+      "filename": "service-2.jpg",
+      "commons_file": "Raffles Carpenters Tools.png",
+      "catalog_id": 47
+    },
+    {
+      "slug": "rj-carpenters-and-joiners-12131016",
+      "filename": "service-3.jpg",
+      "commons_file": "Carpenter'sAxe'sEdge.jpg",
+      "catalog_id": 45
+    },
+    {
+      "slug": "uk-calligraphy-and-painting-art-academy-35187792471025",
+      "filename": "service-1.jpg",
+      "commons_file": "Page of Calligraphy MET 137145.jpg",
+      "catalog_id": 119
+    },
+    {
+      "slug": "uk-calligraphy-and-painting-art-academy-35187792471025",
+      "filename": "service-2.jpg",
+      "commons_file": "Page of Calligraphy MET sf46-126-4r.jpg",
+      "catalog_id": 120
+    },
+    {
+      "slug": "uk-calligraphy-and-painting-art-academy-35187792471025",
+      "filename": "service-3.jpg",
+      "commons_file": "Jean-Joseph Bernard called Bernard de Paris, Calligraphic Flowers, NGA 143791.jpg",
+      "catalog_id": 132
+    },
+    {
+      "slug": "c-hayer-builder-ltd-12131036",
+      "filename": "service-2.jpg",
+      "commons_file": "Bregenz-Residential building Babenwohlweg 9-in Renovation-OG-masonry heater-17ASD.jpg",
+      "catalog_id": 87
+    },
+    {
+      "slug": "walsall-builders-and-timber-merchant-12131034",
+      "filename": "service-1.jpg",
+      "commons_file": "KM23- Chuuk High School Renovation Project (7934932).jpg",
+      "catalog_id": 88
+    },
+    {
+      "slug": "mcd-painting-and-decorating-limited-35187792471024",
+      "filename": "service-1.jpg",
+      "commons_file": "A Wall Decorated in Spanish Tiles MET DP836042.jpg",
+      "catalog_id": 14
+    }
+  ]
+}

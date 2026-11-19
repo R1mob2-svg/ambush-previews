@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "b75a10e5f188f8a3ee74efd6563d50a9c1d0a6cb1ba42e46854ac66f70ab6dbd",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADie_Gute_Form_2020.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Die Gute Form 2020.jpg"
+      "sha256": "42f40020234ecb724f33e0da64bf792116e16dbb11baf2506e48a42e3e7499ef",
+      "source_url": "generated:runway:72949ac2-80bf-48c6-b512-fb693ebb883b",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

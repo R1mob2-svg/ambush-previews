@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "status": "STAGING_ONLY_NO_CUSTOMER_CHANGE",
+  "external_sends": "HOLD",
+  "items": [
+    {
+      "slug": "a-j-cane-painting-and-decorating-specialists-limited-35187792471026",
+      "filename": "service-2.jpg",
+      "commons_file": "Wall painting.jpg"
+    },
+    {
+      "slug": "gds-plastering-limited-202611170002",
+      "filename": "service-1.jpg",
+      "commons_file": "Plastering the Wall (2529677768).jpg"
+    },
+    {
+      "slug": "atc-plumbing-and-heating-ltd-35187792471005",
+      "filename": "service-2.jpg",
+      "commons_file": "Replacement of a central heating radiator, Hillegersberg, Rotterdam (2022) 02.jpg"
+    },
+    {
+      "slug": "a-b-plastering-and-rendering-12131009",
+      "filename": "service-1.jpg",
+      "commons_file": "A construction worker plastering a house 01.jpg"
+    },
+    {
+      "slug": "gds-plastering-limited-202611170002",
+      "filename": "service-2.jpg",
+      "commons_file": "A construction worker plastering a house 03.jpg"
+    }
+  ]
+}

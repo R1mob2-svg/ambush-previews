@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "71a6b2b15d98a24bfdf54bf6f4764cbd90f12f5b57eb8dfc17b97181488e7c9e",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AAt_the_construction_site_in_the_rain.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:At the construction site in the rain.jpg"
+      "sha256": "05b2cececf5c0b2ecad7836da5ff646825c4298f56f31a7415c0097f129dee4e",
+      "source_url": "generated:runway:6d1b95a2-69a9-457f-84d1-95a4d97ebf68",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

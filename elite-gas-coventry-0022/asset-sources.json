@@ -1,7 +1,13 @@
 {
-    "prospect_id": "WM-LTD-20261116-0022",
-    "eg-hero.jpg": "commons:Gasgeiser_van_het_merk_Le_Classique_-_INDUS_V08719.jpg",
-    "eg-svc-1.jpg": "commons:Wall_mounted_boiler_in_kitchen.jpg",
-    "eg-svc-2.jpg": "commons:Gasgeiser_van_het_merk_Vesuvius_-_INDUS_V13127.jpg",
-    "favicon.png": "generated:monogram"
+  "prospect_id": "WM-LTD-20261116-0022",
+  "eg-hero.jpg": {
+    "role": "hero",
+    "sha256": "b9cd81b9bd98c7008017a5a10c69a2863eb9922c4e08fab285b57f2ae6451c33",
+    "source_url": "generated:runway:dfb715d2-7193-4ee8-af33-2c5fba70e21d",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
+  },
+  "eg-svc-1.jpg": "commons:Wall_mounted_boiler_in_kitchen.jpg",
+  "eg-svc-2.jpg": "commons:Gasgeiser_van_het_merk_Vesuvius_-_INDUS_V13127.jpg",
+  "favicon.png": "generated:monogram"
 }

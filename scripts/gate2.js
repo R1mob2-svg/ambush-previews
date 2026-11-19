@@ -349,7 +349,7 @@ function normProv(v) {
           // same background-size:cover + background-position mapping the browser
           // uses, then evaluate composition on those pixels. Checking the
           // rendered screenshot instead measured the scrim, not the photograph.
-          const photoCols = await p.evaluate(async (box) => {
+          const photoCols = await p.evaluate(async ({ box, titleBox }) => {
             const m = /url\(["']?(.*?)["']?\)/.exec(box.bgImage || '');
             if (!m) return null;
             const src = m[1];
@@ -419,10 +419,15 @@ function normProv(v) {
             }
             const peak = bands.length ? Math.max(...bands) : 0;
             const floor = bands.length ? Math.min(...bands) : 0;
-            const textBand = L; // H1 sits in the left-of-centre band
+            // Measure the actual heading footprint, not a hardcoded x=62% strip.
+            // This keeps the gate strict while rejecting real text overlap,
+            // rather than rejecting a bright subject correctly placed at right.
+            const h1Left = titleBox ? Math.max(0, Math.min(W - 1, titleBox.x - box.x)) : W * 0.12;
+            const h1Width = titleBox ? Math.max(20, Math.min(W - h1Left, titleBox.w)) : W * 0.3;
+            const textBand = stripMean(h1Left / W, Math.round(h1Width));
 
             return { L, M, R, peak, floor, textBand, natural: [iw, ih] };
-          }, info.heroBox);
+          }, { box: info.heroBox, titleBox: info.h1Box });
 
           if (!photoCols) {
             check('[1440] hero has real focal weight (not flat)', false,

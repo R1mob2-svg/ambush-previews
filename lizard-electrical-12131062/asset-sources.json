@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "d2977e4232791cc7f6605920b131d5a191a760980c919f23afac4d957b064267",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectician_Working.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Electician Working.jpg"
+      "sha256": "3456086f39e0b6f05d73bf9da79ebf74dea1b64eedc80201268e79a4b7dfcc93",
+      "source_url": "generated:runway:9639ed6d-314d-412b-9c3f-e429337ff51a",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
     },
     "process-bg.jpg": {
       "role": "process-bg",

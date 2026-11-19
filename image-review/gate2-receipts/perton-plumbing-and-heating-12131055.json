@@ -1,0 +1,16 @@
+{
+  "slug": "perton-plumbing-and-heating-12131055",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "1ba17083d090d4b195476b3db9d1e618b314e227d4944c00130759e418078f2b",
+  "asset_manifest_sha256": "2ba8e54e02c9696085b1c371eda3fbd94f4d4e017d977e5a83737b228f225c08",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "wilson-s-painting-and-decorating-limited-35187792471022",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "d0dcfae1e75474f6c55bdff634374a580ef7527db7d0d7aae6754424e78a4d1a",
+  "asset_manifest_sha256": "f2b22b6cd9d8d4f357780e6bca0c472b4a3d04f25a89a05ec4e4948ef8a7c75a",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

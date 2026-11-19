@@ -1,0 +1,16 @@
+{
+  "slug": "sheildslade-roofing-12131028",
+  "source_commit": "606d159c8b65eecea214bdd423018c91c07b2194",
+  "file_sha256": "8ee4a8445423e2690255db1770319ab268738d7588df3225f0b47684abdf38b0",
+  "asset_manifest_sha256": "1320169235478281d745c66fb36d93aa2f8153c00e495b48641f2156f819eb0c",
+  "gate2_status": "PASS",
+  "gate2_checks": 76,
+  "gate2_failed": 0,
+  "process_exit": 0,
+  "faults": [],
+  "verified_desktop_mobile": true,
+  "visual_human_signoff": false,
+  "newton_approved_at": null,
+  "run_id": "44573984555",
+  "outbound_email": "HOLD"
+}

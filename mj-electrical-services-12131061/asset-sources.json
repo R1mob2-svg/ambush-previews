@@ -4,10 +4,10 @@
   "assets": {
     "hero.jpg": {
       "role": "hero",
-      "sha256": "008050c2bff68b378d7e61685e7a758a7c1fc05a61efd5d549834901a869e454",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACamas_Quarters_2_electrical_refit_%28Recovery_Act%29.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Commons: File:Camas Quarters 2 electrical refit (Recovery Act).jpg"
+      "sha256": "d731329c6c0af78b5a4ed7844cb7522d32aa337553ba14769a9330dc7b3fb64b",
+      "source_url": "generated:runway:3757c67f-c458-41ce-931f-2394a97731c5",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative AI-generated trade image; not the customer's actual work. Accidental lettering concealed within the dark left hero title zone."
     },
     "process-bg.jpg": {
       "role": "process-bg",
