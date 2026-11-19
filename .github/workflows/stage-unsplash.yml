@@ -2,7 +2,7 @@ name: Stage free-use Unsplash trades imagery
 on:
   push:
     branches: [review/visual-asset-remediation-20261119]
-    paths: [.github/workflows/stage-unsplash.yml]
+    paths: [.github/workflows/stage-unsplash.yml, image-review/stage_unsplash.py, image-review/unsplash-plan.json]
 permissions: {contents: write}
 jobs:
   stage:
