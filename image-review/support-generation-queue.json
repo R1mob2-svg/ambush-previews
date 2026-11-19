@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "branch": "review/visual-asset-remediation-20261119",
+  "external_sends": "HOLD",
+  "items": [
+    {
+      "slug": "acr-heating-solutions-ltd-35187792471004",
+      "filename": "process-bg.jpg",
+      "task_id": "9ab188c4-f8ee-4e6e-a8d9-fd7e05a40adb",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "acr-heating-solutions-ltd-35187792471004",
+      "filename": "service-1.jpg",
+      "task_id": "a46603dd-bd85-4d0d-a2d7-5e7f63da8c63",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "acr-heating-solutions-ltd-35187792471004",
+      "filename": "service-2.jpg",
+      "task_id": "f86a6cdd-7794-40b9-868e-c668308561b0",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "acr-heating-solutions-ltd-35187792471004",
+      "filename": "service-3.jpg",
+      "task_id": "f35a3a53-0900-4bd8-ac9a-89ca6527e570",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "ams-spray-painting-and-decorating-ltd-35187792471023",
+      "filename": "process-bg.jpg",
+      "task_id": "765cf2ff-2a50-4f88-b2b2-adffbfbe807e",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "ams-spray-painting-and-decorating-ltd-35187792471023",
+      "filename": "service-1.jpg",
+      "task_id": "c712dfc0-933b-4e82-a767-870d31a72151",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "ams-spray-painting-and-decorating-ltd-35187792471023",
+      "filename": "service-2.jpg",
+      "task_id": "55a3d295-51a7-4c7c-95f9-d19449dfb97a",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "ams-spray-painting-and-decorating-ltd-35187792471023",
+      "filename": "service-3.jpg",
+      "task_id": "cb767c3c-697a-4ae0-8d4c-d0837236c47f",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "painting-classic-cars-limited-35187792471021",
+      "filename": "process-bg.jpg",
+      "task_id": "9de2603e-70b1-45d4-af56-e0c55e1eed0e",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "painting-classic-cars-limited-35187792471021",
+      "filename": "service-1.jpg",
+      "task_id": "d49c7883-6fd2-4bb1-8a31-55f2f2d80d7d",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "painting-classic-cars-limited-35187792471021",
+      "filename": "service-2.jpg",
+      "task_id": "fc1c368a-9c98-45c1-bf84-d0bfb7c32afb",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "painting-classic-cars-limited-35187792471021",
+      "filename": "service-3.jpg",
+      "task_id": "d01d23e0-e539-4532-af4b-67d1261e646b",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "domestic-gas-heating-12131056",
+      "filename": "process-bg.jpg",
+      "task_id": "961eadfb-642c-4b53-b3ab-73a8dc238fc5",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "domestic-gas-heating-12131056",
+      "filename": "service-1.jpg",
+      "task_id": "2b8253c1-1604-4d9d-971d-c28b63eef721",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "domestic-gas-heating-12131056",
+      "filename": "service-2.jpg",
+      "task_id": "2ad1f959-b793-446c-aaf0-5f404cc7cde0",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "domestic-gas-heating-12131056",
+      "filename": "service-3.jpg",
+      "task_id": "b99f3e36-b23a-42d4-b8ef-65202f16eca5",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "sheildslade-roofing-12131028",
+      "filename": "process-bg.jpg",
+      "task_id": "ba778b0e-39f9-4fce-9f6c-5767312e92ca",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "sheildslade-roofing-12131028",
+      "filename": "service-1.jpg",
+      "task_id": "64e37ce6-35b2-484a-86ee-bcf4f44133c3",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "sheildslade-roofing-12131028",
+      "filename": "service-2.jpg",
+      "task_id": "cc5f9828-27d6-43f5-8e0b-dcfe1a2b3fea",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "sheildslade-roofing-12131028",
+      "filename": "service-3.jpg",
+      "task_id": "f883cb33-18c2-4e28-8460-6e1e6294b37e",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "turnberry-heating-co-12131023",
+      "filename": "service-1.jpg",
+      "task_id": "d167eb03-d1d5-4849-8426-a634d7584d27",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "turnberry-heating-co-12131023",
+      "filename": "service-2.jpg",
+      "task_id": "7322c85a-052c-40bc-88f8-ef4c146f6657",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "turnberry-heating-co-12131023",
+      "filename": "service-3.jpg",
+      "task_id": "48e53299-5d33-43fb-aa1b-6aa062ccfbfa",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "cheek-electrical-20261116",
+      "filename": "CHEEK-SVC-WIRING.jpg",
+      "task_id": "13631969-fae9-4e2b-a347-cfd89fe7133f",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "wilson-s-painting-and-decorating-limited-35187792471022",
+      "filename": "process-bg.jpg",
+      "task_id": "70838e3e-2ef8-48de-b75e-f5c07d890e33",
+      "status": "GENERATING"
+    },
+    {
+      "slug": "wilson-s-painting-and-decorating-limited-35187792471022",
+      "filename": "service-1.jpg",
+      "task_id": "f46e9ba0-34eb-44ce-bcd7-da1eec2194da",
+      "status": "GENERATING"
+    }
+  ]
+}
