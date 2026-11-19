@@ -1,0 +1,537 @@
+{
+  "version": 1,
+  "branch": "review/visual-asset-remediation-20261119",
+  "public_preview_unchanged": true,
+  "external_sends": "HOLD",
+  "targets": [
+    {
+      "slug": "a-b-plastering-and-rendering-12131009",
+      "trade": "plastering",
+      "filename": "hero.jpg",
+      "status": "COMMITTED",
+      "task_id": "ec245dbd-883d-4b0b-b8be-411dc51b8854"
+    },
+    {
+      "slug": "a-j-cane-painting-and-decorating-specialists-limited-35187792471026",
+      "trade": "painting-decorating",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "a-r-gas-services-0025",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "a-r-plastering-services-202611170003",
+      "trade": "plastering",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "a-snows-roofing-services-12131057",
+      "trade": "roofing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "a-t-r-plumbing-and-property-maintenance-12131017",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "acb-electrics-ltd-12131060",
+      "trade": "electrical",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "acr-heating-solutions-ltd-35187792471004",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "adams-gas-and-electric-services-12131022",
+      "trade": "electrical",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "ali-plumbing-and-heating-services-ltd-35187792471007",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "alto-barren-plumbing-and-heating-limited-202611160018",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "alto-barren-plumbing-heating-0018",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "ams-spray-painting-and-decorating-ltd-35187792471023",
+      "trade": "painting-decorating",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "assg-plumbing-and-heating-services-0013",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "astra-roofing-limited-12131026",
+      "trade": "roofing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "atc-plumbing-and-heating-ltd-35187792471005",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "atlantic-joinery-services-ltd-12131015",
+      "trade": "joinery",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "bdc-roofing-supplies-12131027",
+      "trade": "roofing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "be-plastering-services",
+      "trade": "plastering",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "birmingham-plastering-services-12131010",
+      "trade": "plastering",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "bk-gas-and-plumbing-0014",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "bl-holliday-roofing-20261116",
+      "trade": "roofing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "c-hayer-builder-ltd-12131036",
+      "trade": "building-renovation",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "cannock-mechanical-solutions-0016",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "capital-heating-and-plumbing-12131051",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "central-landscaping-ltd-35187792471033",
+      "trade": "landscaping",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "cheek-electrical-20261116",
+      "trade": "electrical",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "chivers-plumbing-and-heating-limited-35187792471006",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "complete-plastering-services-12131040",
+      "trade": "plastering",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "dark-knight-plumbing-12131018",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "dbritain-home-improvements-20261116",
+      "trade": "building-renovation",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "domestic-gas-heating-12131056",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "elite-gas-coventry-0022",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "gd-wood-works-12131048",
+      "trade": "joinery",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "gds-plastering-limited-202611170002",
+      "trade": "plastering",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "great-roofing-and-building-12131004",
+      "trade": "roofing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "hallows-electrical-services-ltd-12131031",
+      "trade": "electrical",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "heat-zone-20261116",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "hk-roofing-12131059",
+      "trade": "roofing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "hlc-builders-12131007",
+      "trade": "building-renovation",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "hobbs-hodgetts-0015",
+      "trade": "building-renovation",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "hudson-diy-ltd-12131014",
+      "trade": "building-renovation",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "innovate-electrical-services-0026",
+      "trade": "electrical",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "innovate-electrical-services-limited-202611160026",
+      "trade": "electrical",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "instyle-installations-0024",
+      "trade": "building-renovation",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "jac-plumbing-and-heating-wolverhampton-12131053",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "joshua-mcdougal-plastering-bedworth-12131089",
+      "trade": "plastering",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "k-plastering-12131067",
+      "trade": "plastering",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "kane-heating-and-plumbing-limited-35187792471003",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "kenlee-joinery-12131046",
+      "trade": "joinery",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "knight-roofing-12131006",
+      "trade": "roofing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "lightwork-services-ltd-12131029",
+      "trade": "electrical",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "lizard-electrical-12131062",
+      "trade": "electrical",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "mands-landscaping-limited-35187792471037",
+      "trade": "landscaping",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "mark-the-roof-in-kings-heath-birmingham-uk-12131005",
+      "trade": "roofing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "matrix-i-d-c-joinery-12131050",
+      "trade": "joinery",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "mcd-painting-and-decorating-limited-35187792471024",
+      "trade": "painting-decorating",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "midland-gas-and-plumbing-solutions-12131020",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "mike-cotton-gas-and-heating-12131024",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "mim-carpenter-12131012",
+      "trade": "joinery",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "mj-electrical-services-12131061",
+      "trade": "electrical",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "painting-classic-cars-limited-35187792471021",
+      "trade": "vehicle-spray",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "pavel-rubes-joinery-and-carpentery-12131013",
+      "trade": "joinery",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "pb-smart-solutions-0023",
+      "trade": "building-renovation",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "perton-plumbing-and-heating-12131055",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "plumbing-heating-solutions-midlands-ltd-12131003",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "razak-heating-0017",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "razak-heating-ltd-202611160017",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "renovatez-heating-plumbing-0020",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "rj-carpenters-and-joiners-12131016",
+      "trade": "joinery",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "rm-frogley-fencing-and-landscaping-limited-35187792471036",
+      "trade": "landscaping",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "rm-plumbing-and-heating-12131001",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "roc-heating-mechanical-services-0021",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "roofing-walsall-12131025",
+      "trade": "roofing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "rso-developments-0019",
+      "trade": "building-renovation",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "rso-developments-ltd-202611160019",
+      "trade": "building-renovation",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "sab-builders-and-landscaping-ltd-35187792471034",
+      "trade": "landscaping",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "sheildslade-roofing-12131028",
+      "trade": "roofing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "skk-gas-and-heating-12131002",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "sparkes-electrical-solutions-ltd-202611170004",
+      "trade": "electrical",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "stm-plumbing-heating-uk-0012",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "turnberry-heating-co-12131023",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "uk-calligraphy-and-painting-art-academy-35187792471025",
+      "trade": "calligraphy",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "visionary-builders-12131064",
+      "trade": "building-renovation",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "walsall-builders-and-timber-merchant-12131034",
+      "trade": "joinery",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "walsall-plumbing-and-gas-20261116",
+      "trade": "heating-plumbing",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "west-top-builders-ltd-12131008",
+      "trade": "building-renovation",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    },
+    {
+      "slug": "wilson-s-painting-and-decorating-limited-35187792471022",
+      "trade": "painting-decorating",
+      "filename": "hero.jpg",
+      "status": "PENDING"
+    }
+  ]
+}
