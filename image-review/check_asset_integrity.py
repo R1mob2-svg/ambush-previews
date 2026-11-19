@@ -75,6 +75,7 @@ for decision_rel,staging_rel in [
     ("commons-acceptance.json","commons-staged/staging-manifest.json"),
     ("commons-acceptance-2.json","commons-staged-2/staging-manifest.json"),
     ("commons-acceptance-3.json","commons-staged-3/staging-manifest.json"),
+    ("commons-acceptance-4.json","commons-staged-4/staging-manifest.json"),
     ("unsplash-acceptance.json","unsplash-staged/staging-manifest.json"),
 ]:
     decision_path=ROOT/"image-review"/decision_rel
