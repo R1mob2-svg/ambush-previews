@@ -22,7 +22,7 @@
     {
       "slug": "a-r-gas-services-0025",
       "trade": "heating-plumbing",
-      "filename": "hero.jpg",
+      "filename": "ar-hero.jpg",
       "status": "READY",
       "task_id": "a5dd50b0-f74e-4912-a565-1120a1816092",
       "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/a5dd50b0-f74e-4912-a565-1120a1816092/cbfa6aff-2237-45bd-be5a-b82efcd533ba/Premium_photorealistic_commercial_website_hero_photograph_fo.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZWE0ZTBjMGNjNGEyM2NhOSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI2MTgzNn0.5zfBAPb_N7Y2A6JRh5ED_XvMnt9cxF2LVs7UaMm3g0Q"
@@ -94,7 +94,7 @@
     {
       "slug": "alto-barren-plumbing-heating-0018",
       "trade": "heating-plumbing",
-      "filename": "hero.jpg",
+      "filename": "ab-hero.jpg",
       "status": "READY",
       "task_id": "d0e57f7c-996e-4014-8690-ff7a53b1dcb7",
       "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/d0e57f7c-996e-4014-8690-ff7a53b1dcb7/8aa0433d-af3e-4ba8-bb54-150c2a4413c3/Wide_premium_photorealistic_hero_photograph_for_a_UK_plumbin.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNDdjN2I0ZmRkNTA5ZTYyMSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI0NjMzM30.NfGT5aONLJuatzsrxVs71_jwvUTMKAyW0lly0Q5pCtY"
@@ -214,7 +214,7 @@
     {
       "slug": "cheek-electrical-20261116",
       "trade": "electrical",
-      "filename": "hero.jpg",
+      "filename": "CHEEK-HERO-METER.jpg",
       "status": "READY",
       "task_id": "f3f44e31-1079-4dd1-ad9f-31f8804245ab",
       "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/f3f44e31-1079-4dd1-ad9f-31f8804245ab/df4b3d6f-89bf-49f7-b200-931b181b36b0/Premium_photorealistic_wide_commercial_website_hero_photogra.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNjYzODRmNDk1MmIxMDY1NyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIzMTk0NX0.8fgwNa9doVOZS3jkRSsKUUuqudw9ENiuZOfMCrXrwGQ"
@@ -257,7 +257,7 @@
     {
       "slug": "elite-gas-coventry-0022",
       "trade": "heating-plumbing",
-      "filename": "hero.jpg",
+      "filename": "eg-hero.jpg",
       "status": "GENERATING",
       "task_id": "dfb715d2-7193-4ee8-af33-2c5fba70e21d"
     },
@@ -327,7 +327,7 @@
     {
       "slug": "innovate-electrical-services-0026",
       "trade": "electrical",
-      "filename": "hero.jpg",
+      "filename": "in-hero.jpg",
       "status": "GENERATING",
       "task_id": "d6dc03d4-2344-49bb-8955-bfbc708de377"
     },
@@ -341,7 +341,7 @@
     {
       "slug": "instyle-installations-0024",
       "trade": "building-renovation",
-      "filename": "hero.jpg",
+      "filename": "is-hero.jpg",
       "status": "GENERATING",
       "task_id": "2565bfbe-2768-42ae-91bc-1e1f29119a0e"
     },
@@ -474,7 +474,7 @@
     {
       "slug": "pb-smart-solutions-0023",
       "trade": "building-renovation",
-      "filename": "hero.jpg",
+      "filename": "pb-hero.jpg",
       "status": "GENERATING",
       "task_id": "d8776e7c-21cc-431e-a64f-5a49dbcbb678"
     },
@@ -495,7 +495,7 @@
     {
       "slug": "razak-heating-0017",
       "trade": "heating-plumbing",
-      "filename": "hero.jpg",
+      "filename": "rz-hero.jpg",
       "status": "GENERATING",
       "task_id": "a9e119a1-5b1b-4351-adf3-f0592bcbb749"
     },
@@ -509,7 +509,7 @@
     {
       "slug": "renovatez-heating-plumbing-0020",
       "trade": "heating-plumbing",
-      "filename": "hero.jpg",
+      "filename": "rn-hero.jpg",
       "status": "GENERATING",
       "task_id": "c0fa093c-3a4b-4d35-8a78-60ad551ca497"
     },
@@ -537,7 +537,7 @@
     {
       "slug": "roc-heating-mechanical-services-0021",
       "trade": "heating-plumbing",
-      "filename": "hero.jpg",
+      "filename": "roc-hero.jpg",
       "status": "GENERATING",
       "task_id": "89f21ae9-4151-4e4f-9a56-07a33069b720"
     },
@@ -551,7 +551,7 @@
     {
       "slug": "rso-developments-0019",
       "trade": "building-renovation",
-      "filename": "hero.jpg",
+      "filename": "rso-hero.jpg",
       "status": "GENERATING",
       "task_id": "3740b2bd-acaa-45b8-8002-d97c9a636aa7"
     },
