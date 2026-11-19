@@ -537,11 +537,15 @@ tpl = tpl.replace(logoSlots[1], './assets/brand-mark-footer.png');
 // alt text must not claim to be someone else's logo
 tpl = tpl.replace(/alt="[^"]*Logo"/g, `alt="${esc(NAME_TITLE)} logo"`);
 
-// 12. Contact block: verified phone + email only, never invented
-if (phone) {
+// 12. Contact block: verified phone + email only, never invented.
+// The Golden Master contains legacy sample telephone numbers; they MUST NOT
+// be inherited into any business page. Require a business-matched source URL.
+const phoneSource = String(spec.phone_source_url || spec.phone_evidence_url || '').trim();
+const phoneApproved = spec.phone_verified === true && /^https:\/\//.test(phoneSource) && Boolean(phone);
+if (phoneApproved) {
   tpl = tpl.replace(/href="tel:[^"]*"/g, `href="tel:${phone.replace(/[^\d+]/g, '')}"`);
-  tpl = tpl.replace(/(?:01384|0121|01902)\s?\d{3}\s?\d{3,4}/g, phone);
 }
+tpl = require('./contact-honesty').sanitise(tpl, phoneApproved ? phone : '');
 if (email) {
   tpl = tpl.replace(/href="mailto:[^"]*"/g, `href="mailto:${email}"`);
   tpl = tpl.replace(/[\w.+-]+@[\w-]+\.[\w.]+/g, email);
