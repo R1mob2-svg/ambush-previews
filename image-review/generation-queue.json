@@ -447,99 +447,113 @@
       "slug": "matrix-i-d-c-joinery-12131050",
       "trade": "joinery",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "5f5a8ab8-4fda-4e99-a298-975e82c67eed"
+      "status": "READY",
+      "task_id": "5f5a8ab8-4fda-4e99-a298-975e82c67eed",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/5f5a8ab8-4fda-4e99-a298-975e82c67eed/43efa761-73a7-4787-98a9-1dff925e09bd/Wide_premium_photorealistic_advertising_hero_for_a_UK_bespok.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNDY0NzJjNjZjNWIyODU5YiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI3NDM0Mn0.oVu8RAOODBONWii4YEyCvGHTPTbz4SNV1c1UaTVLPmA"
     },
     {
       "slug": "mcd-painting-and-decorating-limited-35187792471024",
       "trade": "painting-decorating",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "2c8cce79-dd04-4eed-8a46-47c7d0c9da0a"
+      "status": "READY",
+      "task_id": "2c8cce79-dd04-4eed-8a46-47c7d0c9da0a",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/2c8cce79-dd04-4eed-8a46-47c7d0c9da0a/8e6fd9e1-c911-470c-bb25-e2c4598e2a7d/Premium_photorealistic_commercial_website_hero_photograph_fo.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNDBhMWMyOTUxYWYyNzkwNyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI0MjEzM30.uNecgsYuzT4fzi5cqchqDYoOC09GCJhDPXlmCklsTBg"
     },
     {
       "slug": "midland-gas-and-plumbing-solutions-12131020",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "46b1acc4-d823-4029-8f18-18e9f622d848"
+      "status": "READY",
+      "task_id": "46b1acc4-d823-4029-8f18-18e9f622d848",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/46b1acc4-d823-4029-8f18-18e9f622d848/ccd67463-26f6-40e6-bb34-1f235cbb3172/Professional_UK_heating_contractor_advertising_photo__experi.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMDA2NGY0Mjk5ZTMxY2IwNCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI2ODkwNX0.cEgd3Eo5o2prDkzJmWJElRCarr4az9bfw2qKgeNFdzM"
     },
     {
       "slug": "mike-cotton-gas-and-heating-12131024",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "c6adf259-cd5f-441c-abd4-b7894c5cac2b"
+      "status": "READY",
+      "task_id": "c6adf259-cd5f-441c-abd4-b7894c5cac2b",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/c6adf259-cd5f-441c-abd4-b7894c5cac2b/90509a56-05e1-4d2d-83a3-8d10d6278a44/Professional_UK_heating_contractor_advertising_photo__experi.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZjhmMjFjNWRhNjk2ZDc3OCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI1OTc0MX0.ZheoWB2MzC1Tc62rVUzkR7E2lgL5nxzNojDyJr7lW_w"
     },
     {
       "slug": "mim-carpenter-12131012",
       "trade": "joinery",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "b8da1aa3-7e65-448f-85fe-804d60d11e55"
+      "status": "READY",
+      "task_id": "b8da1aa3-7e65-448f-85fe-804d60d11e55",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/b8da1aa3-7e65-448f-85fe-804d60d11e55/cc4b66f9-3ed1-4306-a92b-99fa49fdcc14/Single_premium_realistic_wide_commercial_website_hero_photog.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiOWMyMDE3OGJkNDA1NTA5OCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI2NTY3NX0.Azrmxhx8z456S48RYuHPO-DrGn0sB35a-U2JmvLo65c"
     },
     {
       "slug": "mj-electrical-services-12131061",
       "trade": "electrical",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "3757c67f-c458-41ce-931f-2394a97731c5"
+      "status": "READY",
+      "task_id": "3757c67f-c458-41ce-931f-2394a97731c5",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/3757c67f-c458-41ce-931f-2394a97731c5/0eac2ea9-a2ec-4dab-bf8d-70b4ca31fa32/Single_photorealistic_premium_16_9_website_hero_photograph_f.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMWQ2NGY3OWZjMGUyNzBkYiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIwNDI1NX0.ngjQmJjThsgWabH_7SkTq7lJoRuk2vFza99VuxPJVcM"
     },
     {
       "slug": "painting-classic-cars-limited-35187792471021",
       "trade": "vehicle-spray",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "d4db0168-12c6-4cdb-8e14-fb6e348e8c2a"
+      "status": "READY",
+      "task_id": "d4db0168-12c6-4cdb-8e14-fb6e348e8c2a",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/d4db0168-12c6-4cdb-8e14-fb6e348e8c2a/8c2b2b84-3991-4a0a-b574-28158e868d36/Professional_premium_wide_16_9_website_hero_image_for_a_Brit.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiODg5OWZkMTE3N2JjOTllMSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI1MjM2OX0.WrZLW2gIRKcEgiPeFkRDA9WIKL_JPsh0OsbzGeo-H74"
     },
     {
       "slug": "pavel-rubes-joinery-and-carpentery-12131013",
       "trade": "joinery",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "0e233608-fc82-4249-9413-1198749e0e19"
+      "status": "READY",
+      "task_id": "0e233608-fc82-4249-9413-1198749e0e19",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/0e233608-fc82-4249-9413-1198749e0e19/d15c9af4-fdb8-4d1a-94c8-4b8a6fa33e91/Single_premium_realistic_wide_commercial_website_hero_photog.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMGE0NmNiNTZiMzgzZDNjYiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI2MjkzNH0.-6lnnWY4SFMAzL_5QMTmMbWqDueLE8OJxykZegZWNKY"
     },
     {
       "slug": "pb-smart-solutions-0023",
       "trade": "building-renovation",
       "filename": "pb-hero.jpg",
-      "status": "GENERATING",
-      "task_id": "d8776e7c-21cc-431e-a64f-5a49dbcbb678"
+      "status": "READY",
+      "task_id": "d8776e7c-21cc-431e-a64f-5a49dbcbb678",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/d8776e7c-21cc-431e-a64f-5a49dbcbb678/038481cc-b1aa-4fba-af15-e1ab894de626/Single_highly_professional_photorealistic_wide_UK_home_renov.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiOThhYTk1ZmNjNjUzOTE2NCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIwNzU0OH0.tg86Vem8tjYKSd22gyFEssE4mg3U97cgeGCOFwAIYMk"
     },
     {
       "slug": "perton-plumbing-and-heating-12131055",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "0301e1ca-b6ae-4f09-832f-f3cc102f28e8"
+      "status": "READY",
+      "task_id": "0301e1ca-b6ae-4f09-832f-f3cc102f28e8",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/0301e1ca-b6ae-4f09-832f-f3cc102f28e8/582e4d7b-c1a1-476b-b982-7b68daa007c2/Premium_authentic_UK_gas_and_heating_company_website_hero_ph.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiOWM2MjU0N2ZkMjFiNGRhMCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIwMDI1NX0.2KQMZJBOBurCvj8dgOJVg3b_o5MT7_5nB8msJYiABLc"
     },
     {
       "slug": "plumbing-heating-solutions-midlands-ltd-12131003",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "50832ae2-9c82-4bc7-8b91-f563ce1355ae"
+      "status": "READY",
+      "task_id": "50832ae2-9c82-4bc7-8b91-f563ce1355ae",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/50832ae2-9c82-4bc7-8b91-f563ce1355ae/4d3580de-f1a2-447f-874e-5d9a94d07e4f/Premium_authentic_UK_gas_and_heating_company_website_hero_ph.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZTE0NzQyNjdhNTczNDMwNCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5NDg1NX0.cL1aqOptdpwM9sp9h5lKYctl6G6LaU82Pixh4Z3Eypw"
     },
     {
       "slug": "razak-heating-0017",
       "trade": "heating-plumbing",
       "filename": "rz-hero.jpg",
-      "status": "GENERATING",
-      "task_id": "a9e119a1-5b1b-4351-adf3-f0592bcbb749"
+      "status": "READY",
+      "task_id": "a9e119a1-5b1b-4351-adf3-f0592bcbb749",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/a9e119a1-5b1b-4351-adf3-f0592bcbb749/40470b94-a136-4d80-b4e1-be135821eff7/Premium_authentic_UK_gas_and_heating_company_website_hero_ph.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMjgyMDZmM2YxNjg5MDA2OSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIwNDY3MX0.gwOCq37nLCzyjPf99d7XREjkvt0PrhWI7i4mXJh25gQ"
     },
     {
       "slug": "razak-heating-ltd-202611160017",
       "trade": "heating-plumbing",
       "filename": "hero.jpg",
-      "status": "GENERATING",
-      "task_id": "d75786b8-a594-487d-a7e9-878063a2f509"
+      "status": "READY",
+      "task_id": "d75786b8-a594-487d-a7e9-878063a2f509",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/d75786b8-a594-487d-a7e9-878063a2f509/c415912e-ec70-4e97-b779-e862cfe2bc88/Premium_authentic_UK_gas_and_heating_company_website_hero_ph.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNzhlNDE1NmIzNThhNDhmZiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MjgxMX0.71yS-yoU44gmnQ3fL9ixJvfrMZIwfNghl_hPAdBu5Bc"
     },
     {
       "slug": "renovatez-heating-plumbing-0020",
       "trade": "heating-plumbing",
       "filename": "rn-hero.jpg",
-      "status": "GENERATING",
-      "task_id": "c0fa093c-3a4b-4d35-8a78-60ad551ca497"
+      "status": "READY",
+      "task_id": "c0fa093c-3a4b-4d35-8a78-60ad551ca497",
+      "download_url": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-3.1-flash-lite-image/images/c0fa093c-3a4b-4d35-8a78-60ad551ca497/c1375b9d-ddb8-4f37-824c-ada682977031/Premium_wide_16_9_photorealistic_UK_plumber_website_hero_pho.jpg?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMWM3OGVjOGE2YTY5ZTkxMiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIwMDUyMn0.vmkmoPN7HlqdBTIlBXrMr9HK4GhxPzGsRGjDk-1th_s"
     },
     {
       "slug": "rj-carpenters-and-joiners-12131016",
