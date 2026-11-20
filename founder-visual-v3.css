@@ -143,7 +143,7 @@ html,body { max-width:100%; overflow-x:clip; }
   .hero .hero-bg {background-position:72% center!important;}
   .hero-section .container,.hero .container {padding-left:clamp(18px,5vw,28px)!important;padding-right:clamp(18px,5vw,28px)!important;}
   .hero-company-title,.hero-brand .hero-wordmark {
-    font-size:clamp(2rem,8.5vw,3.1rem)!important;
+    font-size:clamp(2.6rem,9.4vw,3.7rem)!important;
     line-height:1.07!important;
   }
   .hero-section .hero-title,.hero h1 {
