@@ -600,6 +600,18 @@ if (tradeKey === 'landscaping') {
   }
 }
 
+// Founder V3 is the only outgoing visual policy. It operates on the fully
+// populated, source-grounded page *before* writing any build artifact.
+// The locked Golden Master template SHA is untouched.
+const { transform: applyFounderVisualV3 } = require('./founder-visual-v3.cjs');
+const visualV3 = applyFounderVisualV3(tpl, (spec.slug || path.basename(OUT)) + '/index.html');
+if (!visualV3.changed || !visualV3.html.includes('data-founder-v3="true"') ||
+    !visualV3.html.includes('founder-v3-asset')) {
+  console.error('SPEC_REJECTED_FOUNDER_V3_VISUAL_POLICY: ' + String(visualV3.why || 'asset_or_compilation_missing'));
+  process.exit(4);
+}
+tpl = visualV3.html;
+
 // ---------------- write ----------------
 fs.mkdirSync(path.join(OUT, 'assets'), { recursive: true });
 fs.writeFileSync(path.join(OUT, 'index.html'), tpl);
