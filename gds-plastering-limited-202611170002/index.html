@@ -1048,6 +1048,14 @@
   .hero-section { min-height: 740px; }
 }
 
+
+/* Founder image framing 2026-11-20 */
+.founder-mobile-hero-photo{display:none}
+.hero-company-title{background:linear-gradient(105deg,#fff 0%,#fff 48%,#c5ecff 78%,#38bdf8 100%)!important;-webkit-background-clip:text!important;background-clip:text!important;-webkit-text-fill-color:transparent!important;color:transparent!important;text-shadow:none!important;filter:drop-shadow(0 3px 11px rgba(0,0,0,.85))}
+@media(min-width:769px) and (max-width:1100px){.hero-section{background-position:right 32%!important}}
+.services-grid>.service-card .service-img-wrapper::after,.service-img-wrapper::after{background:linear-gradient(180deg,rgba(5,11,23,.02) 0%,rgba(5,11,23,.07) 36%,rgba(5,11,23,.79) 100%)!important}
+@media(max-width:768px){.hero-section{min-height:0!important;padding-top:0!important;background-image:linear-gradient(180deg,#07101e,#0b1526)!important;background-size:100% 100%!important;background-position:center!important}.founder-mobile-hero-photo{display:block;width:100%;max-width:100%;height:auto;max-height:min(47vh,390px);object-fit:contain;object-position:right center;margin:0 auto 22px;background-color:#07101e}.hero-company-title{overflow-wrap:anywhere}}
+
 </style>
 </head>
 <body id="top">
@@ -1088,6 +1096,7 @@
 
   <!-- 2. HERO SECTION -->
   <section class="hero-section">
+<img class="founder-mobile-hero-photo" src="./assets/hero.jpg" alt="" aria-hidden="true" loading="eager" decoding="async">
     <div class="container">
       <div class="hero-content">
         <p class="hero-company-title">GDS Plastering</p>
