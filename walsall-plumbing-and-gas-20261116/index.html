@@ -164,6 +164,112 @@ footer a:hover{color:#fff}
 @media(max-width:768px){.hero-banner{background-size:contain!important;background-position:right center!important;background-repeat:no-repeat!important;background-color:#070c18!important;min-height:195px}}
 .hero-brand .hero-wordmark{background:linear-gradient(105deg,#fff 0%,#fff 52%,#b5eaff 82%,#38bdf8 100%)!important;-webkit-background-clip:text!important;background-clip:text!important;-webkit-text-fill-color:transparent!important;color:transparent!important;text-shadow:none!important;filter:drop-shadow(0 3px 10px rgba(0,0,0,.75))}
 
+
+/* FOUNDER_IMAGE_CARD_POLICY_V2: only a gentle scrim, text overlays the
+ * photographed trade work at every width. Brand accent begins the fade.
+ * Source is CSS, not a generated photograph or an unverified QA receipt. */
+:root { --founder-hero-accent: var(--accent, var(--accent-primary, #38bdf8)); }
+.hero-section {
+  position: relative !important;
+  isolation: isolate;
+  background-image:
+    linear-gradient(90deg, rgba(5,12,26,.86) 0%,rgba(5,12,26,.67) 22%,rgba(5,12,26,.31) 51%,rgba(5,12,26,.05) 83%,rgba(5,12,26,0) 100%),
+    url('./assets/hero.jpg') !important;
+  background-size: cover !important;
+  background-position: 72% 36% !important;
+  background-repeat: no-repeat !important;
+  min-height: clamp(530px, 68svh, 770px) !important;
+  padding: clamp(42px, 5vw, 84px) 0 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.hero-section .container,
+.hero-section .hero-content { position:relative; z-index:2; }
+.hero-section .hero-content { max-width: min(100%, 730px) !important; }
+.founder-mobile-hero-photo { display:none !important; }
+.hero-company-title {
+  font-size: clamp(2.7rem, 5.8vw, 5.75rem) !important;
+  line-height:1.03 !important;
+  background: linear-gradient(100deg,var(--founder-hero-accent) 0%,#dceefa 49%,#fff 78%) !important;
+  background-clip:text !important;
+  -webkit-background-clip:text !important;
+  -webkit-text-fill-color:transparent !important;
+  text-shadow:none !important;
+  filter:drop-shadow(0 4px 13px rgba(0,0,0,.69));
+}
+.hero-title { font-size:clamp(2.2rem,4.1vw,3.75rem) !important; line-height:1.1 !important; }
+.hero-title span {
+  background:linear-gradient(105deg,var(--founder-hero-accent) 0%,#fff 92%);
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;
+}
+.hero-section .hero-description {max-width:55ch !important; font-size:clamp(1rem,1.45vw,1.21rem) !important;}
+.services-grid .service-img-wrapper img {
+  filter:brightness(.70) saturate(.82) contrast(1.04) !important;
+  object-fit:cover !important;
+  object-position:center 45%;
+}
+.services-grid .service-card .service-img-wrapper::after,
+.services-grid .service-card:nth-child(3) .service-img-wrapper::after {
+  background:linear-gradient(180deg,rgba(5,11,23,.24) 0%,rgba(5,11,23,.44) 40%,rgba(5,11,23,.88) 78%,rgba(5,11,23,.96) 100%) !important;
+}
+.services-grid .service-card {overflow:hidden!important; isolation:isolate; min-height:350px;}
+.services-grid .service-card .service-body {z-index:3; position:relative; max-width:100% !important;}
+.services-grid .service-body h3 {font-size:clamp(1.35rem,1.75vw,1.85rem)!important;line-height:1.25!important;}
+.services-grid .service-body p {font-size:clamp(.91rem,1vw,1.05rem)!important;line-height:1.58!important;color:#e7edf6!important;}
+.services-grid .service-bullets {font-size:.82rem;line-height:1.4;}
+/* RSO/simpler sites use a background div rather than the template background. */
+.hero { position:relative!important; isolation:isolate; min-height:clamp(510px,68svh,720px)!important; }
+.hero .hero-bg {
+  display:block!important;
+  position:absolute!important; inset:0!important; z-index:-2!important;
+  background-position:78% 36%!important; background-size:cover!important;
+}
+.hero::before {
+  background:linear-gradient(90deg,rgba(7,12,24,.86) 0%,rgba(7,12,24,.62) 27%,rgba(7,12,24,.22) 61%,rgba(7,12,24,.02) 96%),
+             linear-gradient(180deg,rgba(7,12,24,.15),transparent 47%,rgba(7,12,24,.21))!important;
+}
+.hero .hero-banner {display:none!important;}
+.hero .hero-copy {position:relative!important;z-index:2!important;max-width:min(100%,730px)!important;}
+.hero .hero-wordmark,.hero-brand .hero-wordmark {
+  font-size:clamp(2.65rem,5.25vw,5.25rem)!important;
+  background:linear-gradient(102deg,var(--founder-hero-accent) 0%,#fff 72%)!important;
+  background-clip:text!important;-webkit-background-clip:text!important;
+  -webkit-text-fill-color:transparent!important;text-shadow:none!important;
+  filter:drop-shadow(0 3px 12px rgba(0,0,0,.65))!important;
+}
+.hero .hero-wordmark span {-webkit-text-fill-color:#fff!important;color:#fff!important;}
+.hero h1 {font-size:clamp(2.1rem,4.3vw,3.8rem)!important;}
+.hero .hero-lead {font-size:clamp(1rem,1.4vw,1.22rem)!important;}
+@media (min-width:700px) and (max-width:1100px) {
+  .hero-section {background-position:73% center!important;}
+  .hero-section .hero-content{max-width:min(75%,710px)!important;}
+  .hero {display:flex!important;align-items:center!important;padding:55px 0!important;}
+  .hero .hero-bg{background-position:75% center!important;}
+}
+@media (max-width:699px) {
+  .hero-section {
+    background-image:linear-gradient(90deg,rgba(5,12,26,.90) 0%,rgba(5,12,26,.72) 43%,rgba(5,12,26,.30) 89%),
+      url('./assets/hero.jpg')!important;
+    background-size:cover!important;background-position:73% center!important;
+    min-height:clamp(490px,75svh,820px)!important;
+    padding:45px 0!important;
+  }
+  .hero-section .hero-content {max-width:100%!important;}
+  .hero-company-title {font-size:clamp(2.05rem,8.4vw,3.35rem)!important;overflow-wrap:anywhere;}
+  .hero-title {font-size:clamp(1.9rem,6vw,2.85rem)!important;}
+  .hero {display:flex!important;align-items:center!important;padding:50px 0 58px!important;}
+  .hero .hero-bg {display:block!important;background-position:74% center!important;}
+  .hero .hero-copy{max-width:100%!important;}
+  .hero .hero-wordmark{font-size:clamp(2rem,8.5vw,3.1rem)!important;}
+  .hero h1{font-size:clamp(2rem,6.4vw,2.9rem)!important;}
+  .services-grid .service-card,.services-grid .service-card:nth-child(3){
+    min-height:410px!important;aspect-ratio:auto!important;
+  }
+  .services-grid .service-card .service-body{padding:42px 21px 22px!important;}
+}
+@media (prefers-reduced-motion:reduce) {
+  .services-grid .service-img-wrapper img {transition:none!important;}
+}
 </style>
 </head>
 <body>
