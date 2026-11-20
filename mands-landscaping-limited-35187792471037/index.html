@@ -1056,6 +1056,112 @@
 .services-grid>.service-card .service-img-wrapper::after,.service-img-wrapper::after{background:linear-gradient(180deg,rgba(5,11,23,.02) 0%,rgba(5,11,23,.07) 36%,rgba(5,11,23,.79) 100%)!important}
 @media(max-width:768px){.hero-section{min-height:0!important;padding-top:0!important;background-image:linear-gradient(180deg,#07101e,#0b1526)!important;background-size:100% 100%!important;background-position:center!important}.founder-mobile-hero-photo{display:block;width:100%;max-width:100%;height:auto;max-height:min(47vh,390px);object-fit:contain;object-position:right center;margin:0 auto 22px;background-color:#07101e}.hero-company-title{overflow-wrap:anywhere}}
 
+
+/* FOUNDER_IMAGE_CARD_POLICY_V2: only a gentle scrim, text overlays the
+ * photographed trade work at every width. Brand accent begins the fade.
+ * Source is CSS, not a generated photograph or an unverified QA receipt. */
+:root { --founder-hero-accent: var(--accent, var(--accent-primary, #38bdf8)); }
+.hero-section {
+  position: relative !important;
+  isolation: isolate;
+  background-image:
+    linear-gradient(90deg, rgba(5,12,26,.86) 0%,rgba(5,12,26,.67) 22%,rgba(5,12,26,.31) 51%,rgba(5,12,26,.05) 83%,rgba(5,12,26,0) 100%),
+    url('./assets/hero.jpg') !important;
+  background-size: cover !important;
+  background-position: 72% 36% !important;
+  background-repeat: no-repeat !important;
+  min-height: clamp(530px, 68svh, 770px) !important;
+  padding: clamp(42px, 5vw, 84px) 0 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.hero-section .container,
+.hero-section .hero-content { position:relative; z-index:2; }
+.hero-section .hero-content { max-width: min(100%, 730px) !important; }
+.founder-mobile-hero-photo { display:none !important; }
+.hero-company-title {
+  font-size: clamp(2.7rem, 5.8vw, 5.75rem) !important;
+  line-height:1.03 !important;
+  background: linear-gradient(100deg,var(--founder-hero-accent) 0%,#dceefa 49%,#fff 78%) !important;
+  background-clip:text !important;
+  -webkit-background-clip:text !important;
+  -webkit-text-fill-color:transparent !important;
+  text-shadow:none !important;
+  filter:drop-shadow(0 4px 13px rgba(0,0,0,.69));
+}
+.hero-title { font-size:clamp(2.2rem,4.1vw,3.75rem) !important; line-height:1.1 !important; }
+.hero-title span {
+  background:linear-gradient(105deg,var(--founder-hero-accent) 0%,#fff 92%);
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;
+}
+.hero-section .hero-description {max-width:55ch !important; font-size:clamp(1rem,1.45vw,1.21rem) !important;}
+.services-grid .service-img-wrapper img {
+  filter:brightness(.70) saturate(.82) contrast(1.04) !important;
+  object-fit:cover !important;
+  object-position:center 45%;
+}
+.services-grid .service-card .service-img-wrapper::after,
+.services-grid .service-card:nth-child(3) .service-img-wrapper::after {
+  background:linear-gradient(180deg,rgba(5,11,23,.24) 0%,rgba(5,11,23,.44) 40%,rgba(5,11,23,.88) 78%,rgba(5,11,23,.96) 100%) !important;
+}
+.services-grid .service-card {overflow:hidden!important; isolation:isolate; min-height:350px;}
+.services-grid .service-card .service-body {z-index:3; position:relative; max-width:100% !important;}
+.services-grid .service-body h3 {font-size:clamp(1.35rem,1.75vw,1.85rem)!important;line-height:1.25!important;}
+.services-grid .service-body p {font-size:clamp(.91rem,1vw,1.05rem)!important;line-height:1.58!important;color:#e7edf6!important;}
+.services-grid .service-bullets {font-size:.82rem;line-height:1.4;}
+/* RSO/simpler sites use a background div rather than the template background. */
+.hero { position:relative!important; isolation:isolate; min-height:clamp(510px,68svh,720px)!important; }
+.hero .hero-bg {
+  display:block!important;
+  position:absolute!important; inset:0!important; z-index:-2!important;
+  background-position:78% 36%!important; background-size:cover!important;
+}
+.hero::before {
+  background:linear-gradient(90deg,rgba(7,12,24,.86) 0%,rgba(7,12,24,.62) 27%,rgba(7,12,24,.22) 61%,rgba(7,12,24,.02) 96%),
+             linear-gradient(180deg,rgba(7,12,24,.15),transparent 47%,rgba(7,12,24,.21))!important;
+}
+.hero .hero-banner {display:none!important;}
+.hero .hero-copy {position:relative!important;z-index:2!important;max-width:min(100%,730px)!important;}
+.hero .hero-wordmark,.hero-brand .hero-wordmark {
+  font-size:clamp(2.65rem,5.25vw,5.25rem)!important;
+  background:linear-gradient(102deg,var(--founder-hero-accent) 0%,#fff 72%)!important;
+  background-clip:text!important;-webkit-background-clip:text!important;
+  -webkit-text-fill-color:transparent!important;text-shadow:none!important;
+  filter:drop-shadow(0 3px 12px rgba(0,0,0,.65))!important;
+}
+.hero .hero-wordmark span {-webkit-text-fill-color:#fff!important;color:#fff!important;}
+.hero h1 {font-size:clamp(2.1rem,4.3vw,3.8rem)!important;}
+.hero .hero-lead {font-size:clamp(1rem,1.4vw,1.22rem)!important;}
+@media (min-width:700px) and (max-width:1100px) {
+  .hero-section {background-position:73% center!important;}
+  .hero-section .hero-content{max-width:min(75%,710px)!important;}
+  .hero {display:flex!important;align-items:center!important;padding:55px 0!important;}
+  .hero .hero-bg{background-position:75% center!important;}
+}
+@media (max-width:699px) {
+  .hero-section {
+    background-image:linear-gradient(90deg,rgba(5,12,26,.90) 0%,rgba(5,12,26,.72) 43%,rgba(5,12,26,.30) 89%),
+      url('./assets/hero.jpg')!important;
+    background-size:cover!important;background-position:73% center!important;
+    min-height:clamp(490px,75svh,820px)!important;
+    padding:45px 0!important;
+  }
+  .hero-section .hero-content {max-width:100%!important;}
+  .hero-company-title {font-size:clamp(2.05rem,8.4vw,3.35rem)!important;overflow-wrap:anywhere;}
+  .hero-title {font-size:clamp(1.9rem,6vw,2.85rem)!important;}
+  .hero {display:flex!important;align-items:center!important;padding:50px 0 58px!important;}
+  .hero .hero-bg {display:block!important;background-position:74% center!important;}
+  .hero .hero-copy{max-width:100%!important;}
+  .hero .hero-wordmark{font-size:clamp(2rem,8.5vw,3.1rem)!important;}
+  .hero h1{font-size:clamp(2rem,6.4vw,2.9rem)!important;}
+  .services-grid .service-card,.services-grid .service-card:nth-child(3){
+    min-height:410px!important;aspect-ratio:auto!important;
+  }
+  .services-grid .service-card .service-body{padding:42px 21px 22px!important;}
+}
+@media (prefers-reduced-motion:reduce) {
+  .services-grid .service-img-wrapper img {transition:none!important;}
+}
 </style>
 </head>
 <body id="top">
@@ -1164,9 +1270,9 @@
     <div class="container">
       <div class="section-header">
         <span class="section-eyebrow">Our Core Specialisms</span>
-        <h2 class="section-title">Bespoke Residential Building &amp; Fit Out</h2>
+        <h2 class="section-title">Landscaping & Outdoor Living</h2>
         <p class="section-subtitle">
-          Every project is managed end-to-end under one roof, providing a seamless turnkey experience from initial architectural concepts to flawless completion.
+          Explore practical outdoor ideas, from welcoming paved seating spaces to smart garden boundaries and greener lawns.
         </p>
       </div>
 
@@ -1174,13 +1280,13 @@
         <!-- Service Card 1 -->
         <article class="service-card">
           <div class="service-img-wrapper">
-            <img src="./assets/service-1.jpg" alt="Luxury Bespoke Kitchens West Midlands" />
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/PaverPatio.jpg?width=1200" alt="Paved garden patio with interlocking stone pavers" loading="lazy" decoding="async" referrerpolicy="no-referrer">
             <span class="service-badge">Paving</span>
           </div>
           <div class="service-body">
             <h3>Paving &amp; Patios</h3>
             <p>
-              Natural stone and porcelain patios, footpaths and driveway paving on correct sub-bases.
+              Create a patio that feels connected to the garden, with considered levels, drainage, neat edging and paving that suits the space.
             </p>
             <ul class="service-bullets">
               <li>Patios &amp; paths</li>
@@ -1194,13 +1300,13 @@
         <!-- Service Card 2 -->
         <article class="service-card">
           <div class="service-img-wrapper">
-            <img src="./assets/service-2.jpg" alt="Exterior view of a completed British residential house extension, representing architectural home extension services" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Decking-and-fence-panels.jpg?width=1200" alt="Timber garden decking alongside matching fence panels" loading="lazy" decoding="async" referrerpolicy="no-referrer">
             <span class="service-badge">Decking</span>
           </div>
           <div class="service-body">
             <h3>Decking &amp; Fencing</h3>
             <p>
-              Composite and timber decking, plus fence panels, posts and gates.
+              Bring warmth and privacy outdoors with well-planned timber decking, clean fencing lines and a layout designed for everyday use.
             </p>
             <ul class="service-bullets">
               <li>Composite &amp; timber decking</li>
@@ -1214,18 +1320,18 @@
         <!-- Service Card 3 -->
         <article class="service-card">
           <div class="service-img-wrapper">
-            <img src="./assets/service-3.jpg" alt="Room undergoing active home renovation work, with ladder and building tools, representing turnkey renovation services" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lawn_of_grass.jpg?width=1200" alt="Green suburban garden lawn" loading="lazy" decoding="async" referrerpolicy="no-referrer">
             <span class="service-badge">Lawns</span>
           </div>
           <div class="service-body">
-            <h3>Turfing &amp; Planting</h3>
+            <h3>Lawns &amp; Turf</h3>
             <p>
-              Turfing, seeding, borders and planting, with drainage and keeping the site tidy.
+              A green lawn ties the garden together. Plan the ground preparation, new turf or seeding, and a simple maintenance routine for lasting results.
             </p>
             <ul class="service-bullets">
               <li>Turfing &amp; seeding</li>
-              <li>Borders &amp; planting</li>
-              <li>Garden drainage</li>
+              <li>Lawn preparation</li>
+              <li>Care &amp; maintenance</li>
             </ul>
             <a href="#contact" class="service-link">Discuss a Garden &rarr;</a>
           </div>
@@ -1417,5 +1523,6 @@
 
 
 <div class="photo-credits" style="max-width:1200px;margin:0 auto;padding:12px 24px 30px;color:#9fb0c3;font-size:11px;line-height:1.5;text-align:center">Service images are illustrative, not claimed customer projects. Photography: <a style="color:#d2e6ff" href="https://commons.wikimedia.org/wiki/File:House_extension_-_geograph.org.uk_-_6486884.jpg" target="_blank" rel="noopener">Bob Harvey / Geograph</a> (<a style="color:#d2e6ff" href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank" rel="noopener">CC BY-SA 2.0</a>); <a style="color:#d2e6ff" href="https://commons.wikimedia.org/wiki/File:Ladder_stands_against_wall_in_room_during_home_renovation_work.jpg" target="_blank" rel="noopener">Shixart1985</a> (<a style="color:#d2e6ff" href="https://creativecommons.org/licenses/by/2.0/" target="_blank" rel="noopener">CC BY 2.0</a>). Display cropped to card format.</div>
+<div class="founder-media-credits" style="font-size:11px;line-height:1.6;color:#adb9cb;padding:18px max(18px,4vw);background:#080e1e">Illustrative design photography, not this company's completed work. Images: <a href="https://commons.wikimedia.org/wiki/File:PaverPatio.jpg" rel="noopener noreferrer" target="_blank" style="color:#b5c7e0">Zachary</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="noopener noreferrer" target="_blank" style="color:#b5c7e0">CC BY-SA 3.0</a>) · <a href="https://commons.wikimedia.org/wiki/File:Decking-and-fence-panels.jpg" rel="noopener noreferrer" target="_blank" style="color:#b5c7e0">R3dus-01</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener noreferrer" target="_blank" style="color:#b5c7e0">CC BY-SA 4.0</a>) · <a href="https://commons.wikimedia.org/wiki/File:Lawn_of_grass.jpg" rel="noopener noreferrer" target="_blank" style="color:#b5c7e0">ProtoKiwi</a> (<a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener noreferrer" target="_blank" style="color:#b5c7e0">CC BY 4.0</a>). Images colour-adjusted for readability.</div>
 </body>
 </html>

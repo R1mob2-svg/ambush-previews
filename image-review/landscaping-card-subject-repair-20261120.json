@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-20",
+  "status": "SOURCE_MATCHED_NEEDS_BROWSER_QA",
+  "sendHold": true,
+  "reason": "Four user-flagged landscaping previews have neither independently verified email nor phone in canonical CRM; visual fixes for review do not unblock outreach.",
+  "files": [
+    {
+      "site": "central-landscaping-ltd-35187792471033",
+      "status": "image-reassigned",
+      "cards": [
+        "Paving & Patios",
+        "Decking & Fencing",
+        "Lawns & Turf"
+      ],
+      "verifiedCRMContact": false,
+      "requiresGate2": true
+    },
+    {
+      "site": "sab-builders-and-landscaping-ltd-35187792471034",
+      "status": "image-reassigned",
+      "cards": [
+        "Paving & Patios",
+        "Decking & Fencing",
+        "Lawns & Turf"
+      ],
+      "verifiedCRMContact": false,
+      "requiresGate2": true
+    },
+    {
+      "site": "rm-frogley-fencing-and-landscaping-limited-35187792471036",
+      "status": "image-reassigned",
+      "cards": [
+        "Paving & Patios",
+        "Decking & Fencing",
+        "Lawns & Turf"
+      ],
+      "verifiedCRMContact": false,
+      "requiresGate2": true
+    },
+    {
+      "site": "mands-landscaping-limited-35187792471037",
+      "status": "image-reassigned",
+      "cards": [
+        "Paving & Patios",
+        "Decking & Fencing",
+        "Lawns & Turf"
+      ],
+      "verifiedCRMContact": false,
+      "requiresGate2": true
+    }
+  ],
+  "images": [
+    {
+      "name": "PaverPatio.jpg",
+      "alt": "Paved garden patio with interlocking stone pavers",
+      "source_page": "https://commons.wikimedia.org/wiki/File:PaverPatio.jpg",
+      "author": "Zachary",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "remote": "https://commons.wikimedia.org/wiki/Special:FilePath/PaverPatio.jpg?width=1200",
+      "downloaded_locally": false
+    },
+    {
+      "name": "Decking-and-fence-panels.jpg",
+      "alt": "Timber garden decking alongside matching fence panels",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Decking-and-fence-panels.jpg",
+      "author": "R3dus-01",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "remote": "https://commons.wikimedia.org/wiki/Special:FilePath/Decking-and-fence-panels.jpg?width=1200",
+      "downloaded_locally": false
+    },
+    {
+      "name": "Lawn_of_grass.jpg",
+      "alt": "Green suburban garden lawn",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lawn_of_grass.jpg",
+      "author": "ProtoKiwi",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "remote": "https://commons.wikimedia.org/wiki/Special:FilePath/Lawn_of_grass.jpg?width=1200",
+      "downloaded_locally": false
+    }
+  ],
+  "notes": "Original locally stored images remain unchanged and are not represented by the new remote sources; remote live rendering and Gate2 must be rechecked."
+}
