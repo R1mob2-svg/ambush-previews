@@ -1,0 +1,161 @@
+/* Founder Preview Visual Standard V3 | 2026-11-20
+ * One continuous full-bleed hero on all viewports. Never place the
+ * mobile image in a separate row. Palette comes from each site, not
+ * one forced cyan across unrelated businesses. */
+:root { --founder-v3-accent:var(--accent, var(--accent-primary, #38bdf8)); }
+html,body { max-width:100%; overflow-x:clip; }
+.hero-section, .hero {
+  position:relative!important;
+  isolation:isolate!important;
+  overflow:hidden!important;
+  display:flex!important;
+  flex-direction:column!important;
+  justify-content:center!important;
+  align-items:stretch!important;
+  min-height:clamp(650px,76svh,880px)!important;
+  padding:clamp(50px,6.5vw,96px) 0!important;
+  box-sizing:border-box!important;
+}
+.hero-section {
+  background-size:cover,cover!important;
+  background-position:center center,74% 42%!important;
+  background-repeat:no-repeat,no-repeat!important;
+}
+/* These were inserted by the obsolete founder/mobile clone. They separated
+ * the photograph from its headline and created the exact screenshot defect. */
+.founder-mobile-hero-photo,
+.hero .hero-banner { display:none!important; }
+.hero .hero-bg {
+  position:absolute!important;
+  inset:0!important;
+  display:block!important;
+  background-size:cover!important;
+  background-position:72% 40%!important;
+  background-repeat:no-repeat!important;
+  z-index:-2!important;
+}
+.hero::before {
+  background:linear-gradient(90deg,rgba(6,13,27,.82) 0%,
+    rgba(6,13,27,.60) 29%,rgba(6,13,27,.24) 61%,
+    rgba(6,13,27,.02) 100%)!important;
+}
+.hero-section > .container,.hero-section .hero-content,
+.hero .container,.hero .hero-inner,.hero .hero-copy {
+  position:relative!important;
+  z-index:2!important;
+  width:100%;
+  box-sizing:border-box!important;
+}
+.hero-section .hero-content,.hero .hero-copy { max-width:min(100%,740px)!important; }
+.hero-company-title,.hero-brand .hero-wordmark {
+  font-size:clamp(2.9rem,6.2vw,6rem)!important;
+  line-height:1.035!important;
+  letter-spacing:-.042em!important;
+  overflow-wrap:break-word!important;
+  word-break:normal!important;
+  hyphens:none!important;
+  background:linear-gradient(100deg,var(--founder-v3-accent) 0%,#dcecf8 50%,#fff 78%)!important;
+  -webkit-background-clip:text!important;
+  background-clip:text!important;
+  -webkit-text-fill-color:transparent!important;
+  color:#fff!important;
+  text-shadow:none!important;
+  filter:drop-shadow(0 4px 13px rgba(0,0,0,.72));
+}
+.hero .hero-wordmark span {
+  color:inherit!important;
+  -webkit-text-fill-color:inherit!important;
+}
+.hero-section .hero-title,.hero h1 {
+  font-size:clamp(2.35rem,4.35vw,4.15rem)!important;
+  line-height:1.12!important;
+  max-width:760px!important;
+  text-wrap:balance;
+  margin-top:10px!important;
+}
+.hero-section .hero-title span,.hero h1 span {
+  background:linear-gradient(105deg,var(--founder-v3-accent),#fff 86%)!important;
+  -webkit-background-clip:text!important;
+  background-clip:text!important;
+  -webkit-text-fill-color:transparent!important;
+}
+.hero-section .hero-description,.hero .hero-lead {
+  max-width:55ch!important;
+  font-size:clamp(1.02rem,1.45vw,1.22rem)!important;
+  line-height:1.62!important;
+  color:#e8eef7!important;
+}
+/* Consistent photographic service cards: photograph under the text and
+ * a restrained bottom scrim, rather than blown-out scenery with tiny copy. */
+.services-grid .service-card { isolation:isolate!important; overflow:hidden!important; }
+.services-grid .service-img-wrapper { position:absolute!important;inset:0!important;z-index:-2!important;overflow:hidden!important; }
+.services-grid .service-img-wrapper img,
+.services-grid .service-card > img {
+  width:100%!important;height:100%!important;
+  object-fit:cover!important;object-position:center 45%!important;
+  filter:brightness(.68) saturate(.84) contrast(1.06)!important;
+}
+.services-grid .service-img-wrapper::after,
+.services-grid .service-card::after {
+  content:""!important;position:absolute!important;inset:0!important;
+  background:linear-gradient(180deg,
+    rgba(7,15,30,.08) 0%,rgba(7,15,30,.12) 22%,
+    rgba(7,15,30,.52) 59%,rgba(7,15,30,.94) 100%)!important;
+  pointer-events:none!important;
+}
+.services-grid .service-card .service-body,
+.services-grid .service-card .card-body {
+  z-index:2!important;
+  position:relative!important;
+  max-width:100%!important;
+  padding:clamp(22px,2.2vw,34px)!important;
+  align-self:flex-end!important;
+  margin-top:auto!important;
+}
+.services-grid .service-card:nth-child(3) .service-body {max-width:100%!important;}
+.services-grid .service-body h3,.services-grid .card-body h3 {
+  font-size:clamp(1.25rem,1.7vw,1.8rem)!important;
+  line-height:1.25!important;color:#fff!important;
+  text-shadow:0 2px 10px rgba(0,0,0,.65)!important;
+}
+.services-grid .service-body p,.services-grid .card-body p {
+  font-size:clamp(.89rem,1.04vw,1.03rem)!important;
+  line-height:1.5!important;color:#ecf2fb!important;
+}
+@media(max-width:1024px) {
+  .hero-section,.hero {
+    min-height:clamp(640px,80svh,920px)!important;
+    padding:clamp(45px,6vw,68px) 0!important;
+  }
+  .hero-section { background-position:center,76% 42%!important; }
+  .hero .hero-bg {background-position:74% 40%!important;}
+  .hero-section .hero-content,.hero .hero-copy {max-width:min(100%,680px)!important;}
+  .hero-section .hero-title,.hero h1 {font-size:clamp(2.05rem,5vw,3.55rem)!important;}
+}
+@media(max-width:640px) {
+  .hero-section,.hero {
+    min-height:max(670px,88svh)!important;
+    height:auto!important;
+    padding:45px 0 78px!important;
+    justify-content:center!important;
+  }
+  .hero-section {background-size:cover,cover!important;background-position:center,74% 43%!important;}
+  .hero .hero-bg {background-position:72% center!important;}
+  .hero-section .container,.hero .container {padding-left:clamp(18px,5vw,28px)!important;padding-right:clamp(18px,5vw,28px)!important;}
+  .hero-company-title,.hero-brand .hero-wordmark {
+    font-size:clamp(2rem,8.5vw,3.1rem)!important;
+    line-height:1.07!important;
+  }
+  .hero-section .hero-title,.hero h1 {
+    font-size:clamp(2.05rem,7vw,2.75rem)!important;
+    line-height:1.14!important;
+  }
+  .hero-section .hero-description,.hero .hero-lead {font-size:1.03rem!important;}
+  .hero-section .hero-content,.hero .hero-copy {max-width:100%!important;}
+  .services-grid .service-card,.services-grid > .service-card {min-height:350px!important;}
+  .services-grid .service-card .service-body,
+  .services-grid .service-card .card-body {padding:25px!important;}
+}
+@media(max-height:520px) and (orientation:landscape) {
+  .hero-section,.hero {min-height:640px!important;padding:42px 0!important;}
+}
