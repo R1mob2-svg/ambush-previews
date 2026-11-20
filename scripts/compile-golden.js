@@ -564,6 +564,42 @@ for (const phrase of LEAK) {
   }
 }
 
+// Founder hero/card policy is compiled INTO each page so previews render on
+// Github Pages, Brian's preview proxy and cached HTML without external CSS.
+// Its source is shared and trade-neutral, not per-prospect hardcoded markup.
+const visualPolicy = fs.readFileSync(path.join(ROOT, 'scripts', 'founder-hero-card-polish.css'), 'utf8');
+if (!visualPolicy.includes('FOUNDER_IMAGE_CARD_POLICY_V2')) {
+  console.error('SPEC_REJECTED_founder_visual_policy_missing');
+  process.exit(4);
+}
+if (!tpl.includes('FOUNDER_IMAGE_CARD_POLICY_V2')) {
+  if (!tpl.includes('</style>')) {
+    console.error('SPEC_REJECTED_no_style_element_for_visual_policy');
+    process.exit(4);
+  }
+  tpl = tpl.replace('</style>', '\n' + visualPolicy + '\n</style>');
+}
+
+// Subject-to-card QA. A generic trade photo is NOT evidence of a specific
+// service. In particular, a park/kitchen photo cannot stand in for paving,
+// decking or lawns. Fail the build rather than ship another false image.
+if (tradeKey === 'landscaping') {
+  const required = [
+    /pav(?:ing|er|ement)?|patio|flagstone|stone.?path|block.?pav/i,
+    /deck(?:ing)?|fenc(?:e|ing)|timber.?screen/i,
+    /turf|lawn|grass|garden.?plant|landscap(?:ing)?/i
+  ];
+  for (let i = 0; i < required.length; i++) {
+    const photo = five[i + 2];
+    const evidence = String(photo?.source_url || '') + ' ' + String(photo?.notes || '');
+    if (!required[i].test(evidence)) {
+      console.error('ASSET_SET_UNAVAILABLE_service_card_subject_mismatch slot=' +
+        (i + 1) + ' source=' + String(photo?.source_url || 'unverified').slice(0,180));
+      process.exit(4);
+    }
+  }
+}
+
 // ---------------- write ----------------
 fs.mkdirSync(path.join(OUT, 'assets'), { recursive: true });
 fs.writeFileSync(path.join(OUT, 'index.html'), tpl);
