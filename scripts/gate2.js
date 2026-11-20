@@ -303,9 +303,14 @@ function normProv(v) {
 
       if (isDesktop) {
         if (info.bgPos) {
-          const m = info.bgPos.match(/^([\d.]+%?)\s+([\d.]+%?)$/);
-          const rx = m ? m[1] : info.bgPos;
-          const rightWeighted = /100%|right/.test(rx) && !/^(center|50%)$/.test(rx);
+          // V3 hero has separate gradient and photograph positions; test the photograph.
+          // E.g. computed position is 'center center, 74% 42%'.
+          const photoPosition = String(info.bgPos).split(',').map(x => x.trim()).pop() || '';
+          const focal = photoPosition.match(/^(right|[\d.]+%)(?:\s|$)/i);
+          const horizontal = focal ? focal[1].toLowerCase() : '';
+          const percentage = horizontal.endsWith('%') ? Number.parseFloat(horizontal) : NaN;
+          const rightWeighted = horizontal === 'right' ||
+            (Number.isFinite(percentage) && percentage >= 68 && percentage <= 100);
           check(`[${vp.name}] hero background-position right-weighted`, rightWeighted, info.bgPos);
         }
         if (info.h1Color) {
