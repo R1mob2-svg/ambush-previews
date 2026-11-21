@@ -1,0 +1,83 @@
+PASS  <img> src not reused on page — 6 img refs unique
+PASS  asset-sources.json present — found
+PASS  every image slot has a declared source photo — all declared
+PASS  no source photo used by 2+ slots on this page — every slot distinct
+PASS  zero image recycling across the board — no photo shared with any other prospect
+PASS  zero identical asset bytes across the board — all asset bytes unique
+PASS  declared sha256 matches bytes on disk — all hashes verified
+PASS  every declared image exists on disk — all present
+PASS  favicon present — yes
+PASS  [320] hero section present — .hero-section
+PASS  [320] no baked-in hero text flag — none
+PASS  [320] company title >=1.2x the H1 — 1.27x
+PASS  [320] .nav-links hidden below 900px — none
+PASS  [320] no js errors — clean
+PASS  [320] no http errors — clean
+PASS  [320] no broken images — 0 broken
+PASS  [320] no horizontal overflow — 0px
+PASS  [390] hero section present — .hero-section
+PASS  [390] no baked-in hero text flag — none
+PASS  [390] company title >=1.2x the H1 — 1.27x
+PASS  [390] .nav-links hidden below 900px — none
+PASS  [390] no js errors — clean
+PASS  [390] no http errors — clean
+PASS  [390] no broken images — 0 broken
+PASS  [390] no horizontal overflow — 0px
+PASS  [430] hero section present — .hero-section
+PASS  [430] no baked-in hero text flag — none
+PASS  [430] company title >=1.2x the H1 — 1.27x
+PASS  [430] .nav-links hidden below 900px — none
+PASS  [430] no js errors — clean
+PASS  [430] no http errors — clean
+PASS  [430] no broken images — 0 broken
+PASS  [430] no horizontal overflow — 0px
+PASS  [768] hero section present — .hero-section
+PASS  [768] no baked-in hero text flag — none
+PASS  [768] company title >=1.2x the H1 — 1.24x
+PASS  [768] .nav-links hidden below 900px — none
+PASS  [768] no js errors — clean
+PASS  [768] no http errors — clean
+PASS  [768] no broken images — 0 broken
+PASS  [768] no horizontal overflow — 0px
+PASS  [820] hero section present — .hero-section
+PASS  [820] no baked-in hero text flag — none
+PASS  [820] company title >=1.2x the H1 — 1.24x
+PASS  [820] .nav-links hidden below 900px — none
+PASS  [820] no js errors — clean
+PASS  [820] no http errors — clean
+PASS  [820] no broken images — 0 broken
+PASS  [820] no horizontal overflow — 0px
+PASS  [1024] hero section present — .hero-section
+PASS  [1024] no baked-in hero text flag — none
+PASS  [1024] company title >=1.2x the H1 — 1.24x
+PASS  [1024] hero background-position right-weighted — 50% 50%, 76% 42%
+PASS  [1024] H1 is pure white — rgb(255, 255, 255)
+PASS  [1024] no js errors — clean
+PASS  [1024] no http errors — clean
+PASS  [1024] no broken images — 0 broken
+PASS  [1024] no horizontal overflow — 0px
+PASS  [1280] hero section present — .hero-section
+PASS  [1280] no baked-in hero text flag — none
+PASS  [1280] company title >=1.2x the H1 — 1.43x
+PASS  [1280] hero background-position right-weighted — 50% 50%, 74% 42%
+PASS  [1280] H1 is pure white — rgb(255, 255, 255)
+PASS  [1280] no js errors — clean
+PASS  [1280] no http errors — clean
+PASS  [1280] no broken images — 0 broken
+PASS  [1280] no horizontal overflow — 0px
+PASS  [1440] hero section present — .hero-section
+PASS  [1440] no baked-in hero text flag — none
+PASS  [1440] company title >=1.2x the H1 — 1.43x
+PASS  [1440] hero background-position right-weighted — 50% 50%, 74% 42%
+PASS  [1440] H1 is pure white — rgb(255, 255, 255)
+PASS  [1440] H1 legible over hero (contrast >= 4.5:1) — backdrop lum 73.9 -> 8.88:1
+PASS  [1440] hero photo has real subject contrast (not flat) — peak/floor = 8.08 (need >=1.35), direction = balanced — peak=135.9 floor=16.8 L=126.7 M=85.8 R=124.9
+PASS  [1440] hero text band is darker than the photo peak — peak/H1-band = 2.65 (need >=1.15) — textBand=51.2 peak=135.9
+INFO  [1440] hero direction: balanced (peak=135.9/floor=16.8; valid interior trade composition, not an assertion)
+PASS  [1440] no js errors — clean
+PASS  [1440] no http errors — clean
+PASS  [1440] no broken images — 0 broken
+PASS  [1440] no horizontal overflow — 0px
+
+GATE PASSED (79 checks)
+

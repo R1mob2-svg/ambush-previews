@@ -20,11 +20,10 @@
     },
     "service-2.jpg": {
       "role": "service-2",
-      "dimensions": "1200x900",
-      "sha256": "d10d76999117cb246ce784a48ed324f7feaff4d1980f47cf09c33d6c03a84480",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Cast-iron_plumbing_pipe.jpg",
-      "license": "CC0 / Public Domain",
-      "notes": "Heavy-duty domestic drainage and waste pipework installation."
+      "sha256": "9cf6fd7e80bb2702f3184c6bb79b6c62f04d58ceea512d18dafa9d5ae0557855",
+      "source_url": "generated:runway:uk-plumbing-dbritain-home-improvements-20261116-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK plumbing trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": "generated:monogram"
   }

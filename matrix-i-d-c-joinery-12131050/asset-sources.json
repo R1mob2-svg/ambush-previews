@@ -11,31 +11,31 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "a21f17b92f5fff627fec144f108236117d2ca9316f28ddebe766715731e3d472",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AKeechuli.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Keechuli.jpg"
+      "sha256": "ec108df9edb77e8dfdc1d620d032617e79acb95d4efb71fb67a4c1dc878b757d",
+      "source_url": "generated:runway:uk-joinery-matrix-i-d-c-joinery-12131050-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK joinery trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "cd3b2fc93a5057642dcb375d1f8d059876ec6392162106c7a18aa1688a0fc947",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AKongo_Gumi_workers_in_early_20th_century.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Kongo Gumi workers in early 20th century.jpg"
+      "sha256": "6f701caf5dc8e768bc37d51be21aaad389a83d57843da9e4a74213eed5fa281f",
+      "source_url": "generated:runway:uk-joinery-matrix-i-d-c-joinery-12131050-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK joinery trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "1e54f8d2838acd1df6e7d8ebac917628b367dc2ae0e715dba1d9d798aaac56eb",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AKonstruado_de_lignaj_domoj_en_Irkutsk_002.jpg",
-      "license": "CC BY-SA 3.0 cz",
-      "notes": "Commons: File:Konstruado de lignaj domoj en Irkutsk 002.jpg"
+      "sha256": "6e372ba1d479944c78e512950c460189737284e5696a9792ab5376cd762ea534",
+      "source_url": "generated:runway:uk-joinery-matrix-i-d-c-joinery-12131050-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK joinery trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "a5774143c9340ae9a338d8ca853c318c7ead1ddb390df75ae66edf4d4e7e4d40",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AKTH_Industribrunnen_detalj_av_stenfot_06.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:KTH Industribrunnen detalj av stenfot 06.jpg"
+      "sha256": "96bd0cef6a906125e2b3b40379c3ac01d7e66b3f1b4d5a61a74063f7712df63c",
+      "source_url": "generated:runway:uk-joinery-matrix-i-d-c-joinery-12131050-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK joinery trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "a4c2094fec02dcecdb072c09b555fbaae3f8e0badf728be38b2d24786187fed8",
-      "source_url": "generated:monogram-mi-header",
+      "sha256": "078bbf2e8a191b42b31d5f3daa9a244f75c482bdd9995904d4c9711cbd7a30bb",
+      "source_url": "generated:monogram-matrix-i-d-c-joinery-12131050-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=MI primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "a4c2094fec02dcecdb072c09b555fbaae3f8e0badf728be38b2d24786187fed8",
-      "source_url": "generated:monogram-mi-footer",
+      "sha256": "8b2aa8f4b92a25d59077993c9ccf889e5873d412e2c3705696c8e8408d56c6c1",
+      "source_url": "generated:monogram-matrix-i-d-c-joinery-12131050-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=MI primary=#0b1329 accent=#f59e0b"
     }

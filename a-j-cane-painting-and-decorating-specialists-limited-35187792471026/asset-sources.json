@@ -11,10 +11,10 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "ec9f441422a9774c1216d68edc8890bb6521aa71b3cbf52cdca02a4e4d068639",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ATwins_Painters_%2897906989%29.jpeg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Twins Painters (97906989).jpeg"
+      "sha256": "4a6cf00526aa7b7bd18f1c68cd4551c2101d5135aa8c252c9afa0a6ccad2cc64",
+      "source_url": "generated:runway:uk-painting-a-j-cane-painting-and-decorating-specialists-limited-35187792471026-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK painting trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
@@ -40,10 +40,10 @@
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "11c75ba031f7e88eff9e16b6336fdb1f73d8c849bb8ee530c1e77810248c49ed",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AUSMC-100507-M-2046W-002.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:USMC-100507-M-2046W-002.jpg"
+      "sha256": "66da67ee2c0ba23b1d522d2c5bfb0e096ac64f589261dfc082e7a7d3ef5b490a",
+      "source_url": "generated:runway:uk-painting-a-j-cane-painting-and-decorating-specialists-limited-35187792471026-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK painting trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -54,15 +54,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "0020230370f842e922e2e2e4214b23e94f42a6ee6bd2543b9b2585119f8f7b15",
-      "source_url": "generated:monogram-aj-header",
+      "sha256": "de5220bee8d8fd8cf33c2e15eee16992c56fbaaa34afc89b88a7acd592b967db",
+      "source_url": "generated:monogram-a-j-cane-painting-and-decorating-specialists-limited-35187792471026-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AJ primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "0020230370f842e922e2e2e4214b23e94f42a6ee6bd2543b9b2585119f8f7b15",
-      "source_url": "generated:monogram-aj-footer",
+      "sha256": "0354dd2b7902383ec13c78ab386e5a839d26bfa57f4811fd496e4779cd024d15",
+      "source_url": "generated:monogram-a-j-cane-painting-and-decorating-specialists-limited-35187792471026-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AJ primary=#0b1329 accent=#f59e0b"
     }

@@ -7,7 +7,13 @@
     "license": "AI_GENERATED_COMMERCIAL_USE",
     "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
   },
-  "roc-svc-1.jpg": "commons:Boiler_room_in_a_high_school.jpg",
+  "roc-svc-1.jpg": {
+    "role": "roc-svc-1",
+    "sha256": "3c734d1c812a00d893a2c9f8198154ac7fce1db7f207fdf9db7d230519aaf17f",
+    "source_url": "generated:runway:uk-heating-roc-heating-mechanical-services-0021-roc-svc-1",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
+  },
   "roc-svc-2.jpg": "commons:Condensing_boiler.JPG",
   "favicon.png": "generated:monogram"
 }

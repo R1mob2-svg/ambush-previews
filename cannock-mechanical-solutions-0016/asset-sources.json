@@ -12,19 +12,17 @@
     },
     "service-1.jpg": {
       "role": "service-1",
-      "dimensions": "1200x900",
-      "sha256": "29a72bf80789fc46fe3bbcb5bf52059b80882847bcd6be2c7b17d1a7835a3b01",
-      "source_url": "https://commons.wikimedia.org/wiki/File:EU-EE-Tallinn-PT-Kopli-Heat-only_boiler_station.JPG",
-      "license": "CC0 / Public Domain",
-      "notes": "Industrial boiler station and heavy-duty mechanical pipework."
+      "sha256": "5c7a5174ce55ca372b5f14ce959cd92f22105f589ad58d4b3e3bf8a0cd8e8faa",
+      "source_url": "generated:runway:uk-heating-cannock-mechanical-solutions-0016-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "dimensions": "1200x900",
-      "sha256": "207bd5d4c67296cee2c74553e46f87b34c01c4b650d3feff1b7388bdf37376fe",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Shusha_heating_systems_operating_area_(boiler_room_58_slash_7)_06.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Mechanical heating distribution manifold and valve assembly."
+      "sha256": "df73a95fe8a1aa31129048740d000dc7aa423b1f93784089143fb38dbabce230",
+      "source_url": "generated:runway:uk-heating-cannock-mechanical-solutions-0016-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": "generated:monogram"
   }

@@ -18,17 +18,17 @@
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "373c9e2bbec8805380637e05616f6a3ee8be3ff43d5fa121f6c83dc0f38d93d5",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectrical_OSHA_required_gear.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Electrical OSHA required gear.jpg"
+      "sha256": "0467d775216d96cbefe15f0de900c3fdccc117d12d23a3188a474ca4d541f87c",
+      "source_url": "generated:runway:uk-electrical-lizard-electrical-12131062-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK electrical trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "6cb94c807e807b0274ab70dc752226c88f5d1ca096421897a48f6d568ee7cfb5",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectrical_repairs_in_Port_Charlotte_after_Hurricane_Ian_1.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Electrical repairs in Port Charlotte after Hurricane Ian 1.jpg"
+      "sha256": "38fc5eb3f5c2ef2137d8e588c38c1c21d1d1f8c99f1d29d6c53e7c36f27bbb4c",
+      "source_url": "generated:runway:uk-electrical-lizard-electrical-12131062-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK electrical trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "eb2ca30b934c428ab64223d0484ac900cd426f51b60bed944b55f42b51471d85",
-      "source_url": "generated:monogram-le-header",
+      "sha256": "fad1e67de0142b72e3b3fe8e1280bdb5705e020350d7978a04fbf1ae2c8b8889",
+      "source_url": "generated:monogram-lizard-electrical-12131062-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=LE primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "eb2ca30b934c428ab64223d0484ac900cd426f51b60bed944b55f42b51471d85",
-      "source_url": "generated:monogram-le-footer",
+      "sha256": "c2225b8285bdc3dba1cadc64aa703d9b2ab58585471cf3678ee299d0a8dc664a",
+      "source_url": "generated:monogram-lizard-electrical-12131062-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=LE primary=#0b1329 accent=#f59e0b"
     }

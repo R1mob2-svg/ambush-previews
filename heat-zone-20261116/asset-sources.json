@@ -20,11 +20,10 @@
     },
     "service-2.jpg": {
       "role": "service-2",
-      "dimensions": "1200x900",
-      "sha256": "839de946197654e200f66fd18eefced7865d2fa17cb8d7d02829674822cfea74",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Heizkreisverteiler.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Precision manifold distribution circuits and flow meters."
+      "sha256": "36aeed5de642800c69fe1b452575ec4b3169c7f31c10cb02724d3dd00c6eefd0",
+      "source_url": "generated:runway:uk-heating-heat-zone-20261116-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": "generated:monogram"
   }

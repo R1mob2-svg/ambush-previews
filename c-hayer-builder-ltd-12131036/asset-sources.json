@@ -11,28 +11,24 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "b4dfa963120b9528364f66f647bd7a6974934890a20e5e8083a420bdd1c9b272",
-      "source_url": "https://commons.wikimedia.org/wiki/File:KM23-_Chuuk_High_School_Renovation_Project_(7928724).jpg",
-      "source_title": "File:KM23- Chuuk High School Renovation Project (7928724).jpg",
-      "license": "Public domain",
-      "license_url": "",
-      "author": "U.S. Marine Corps photo by Lance Cpl. Trent A. Henry",
-      "credit": "This image was released by the United States Marine Corps with the ID 230719-M-FP389-1285 (next). This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing. العربية ∙ বাংলা ∙ Bahasa Indonesia ∙ Bahaso Jambi ∙ Deutsch ∙ Deuts",
-      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
+      "sha256": "33e36ebb13bf8d2bdee884f965f9e48bd1537603fcaa500135f983751adbee4f",
+      "source_url": "generated:runway:uk-building-c-hayer-builder-ltd-12131036-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK building trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "eaeff0dd52964f8f4429871002f6dede652b9c77e7b2c52a342e64ad4e4c332b",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACN_building.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:CN building.jpg"
+      "sha256": "923a01b6cd0bb23fdd71acf2749f4aca8db8703cb46c841b3d1a09d715c1200a",
+      "source_url": "generated:runway:uk-building-c-hayer-builder-ltd-12131036-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK building trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "ba3d0017945564669f66fe50bfff123c1b177ed6153ea62560e57cd97c3925a6",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AAngeformtes-Fundament.jpg",
-      "license": "CC BY-SA 2.0",
-      "notes": "Commons: File:Angeformtes-Fundament.jpg"
+      "sha256": "e46c6bd61d99128050aa498ec2dc3dbc81a81d0fc85aa744a92b2c95be230741",
+      "source_url": "generated:runway:uk-building-c-hayer-builder-ltd-12131036-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK building trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
@@ -50,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "e637b306908e9c76316f2ae4513aa97b835e45002586c553949d206df1ac9e5f",
-      "source_url": "generated:monogram-ch-header",
+      "sha256": "d13a9c9de600d8407a38c387fb12cdc735d0fa74d93bfa39e95093035afe0be3",
+      "source_url": "generated:monogram-c-hayer-builder-ltd-12131036-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=CH primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "e637b306908e9c76316f2ae4513aa97b835e45002586c553949d206df1ac9e5f",
-      "source_url": "generated:monogram-ch-footer",
+      "sha256": "17582d3e8d13b87f657022f036cf30462459c82ebf4d48fa4822cc8086377179",
+      "source_url": "generated:monogram-c-hayer-builder-ltd-12131036-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=CH primary=#0b1329 accent=#f59e0b"
     }

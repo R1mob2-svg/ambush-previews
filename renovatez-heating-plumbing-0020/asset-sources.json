@@ -7,7 +7,19 @@
     "license": "AI_GENERATED_COMMERCIAL_USE",
     "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
   },
-  "rn-svc-1.jpg": "commons:Hatchery_Plumbing_Maintenance_(50976243386).jpg",
-  "rn-svc-2.jpg": "commons:Various_plumbing_hoses,_mainly_for_bathroom_and_kitchen_installations,_in_German_hardware_store_2023.jpg",
+  "rn-svc-1.jpg": {
+    "role": "rn-svc-1",
+    "sha256": "173849ef31c785b57d4e925d4d41f85f24196b2da15fd65df211b37430f5d0c4",
+    "source_url": "generated:runway:uk-heating-renovatez-heating-plumbing-0020-rn-svc-1",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
+  },
+  "rn-svc-2.jpg": {
+    "role": "rn-svc-2",
+    "sha256": "15b15a849b357e5c0cb91e7f55dffe899b858c5eab88139f8201524c823f5d67",
+    "source_url": "generated:runway:uk-heating-renovatez-heating-plumbing-0020-rn-svc-2",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
+  },
   "favicon.png": "generated:monogram"
 }

@@ -11,31 +11,31 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "fb98266d74885abd6524772a722c050c00a95d3a4e3b0b007ac859f59af7fd08",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AAn_under-construction_Buddhist_temple_in_Cambodia.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:An under-construction Buddhist temple in Cambodia.jpg"
+      "sha256": "ca4dd08537d3c03185fbc59cd7e7d36fb2dbd7ebd1b225dad4ac87f45acd9fb6",
+      "source_url": "generated:runway:uk-building-rso-developments-ltd-202611160019-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK building trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "bce3123d0833750ccd1c45b122141c3d733331f476b336f0bf8bb63685d49d2b",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AAnn_Arbor_Michigan_Skyline_-_panoramio.jpg",
-      "license": "CC BY 3.0",
-      "notes": "Commons: File:Ann Arbor Michigan Skyline - panoramio.jpg"
+      "sha256": "e2a425e13102b8ae9022bc9b9ea38ee66d85b70fd33fec56a81ebd347e032de6",
+      "source_url": "generated:runway:uk-building-rso-developments-ltd-202611160019-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK building trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "22b0c452e10439dba8361df4eb9de816a281deaac05b815358dc0fc0377bb2f8",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AAutomatedCraneControl.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:AutomatedCraneControl.jpg"
+      "sha256": "d35c423ea1025fc5d35a8a966972f398e273f1a92ac9ee7bc82022e537ab880c",
+      "source_url": "generated:runway:uk-building-rso-developments-ltd-202611160019-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK building trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "ea0ac494059f8ae6fd55fb2afd102c99f9e6f482d4ade9e394aacd07e3195b8c",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AAzersu_18_of_March.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Azersu 18 of March.jpg"
+      "sha256": "c82b188bd4d714ef1e337bb7cf1de2924e4c32e796bb8b9fd4e3725e112a3bb2",
+      "source_url": "generated:runway:uk-building-rso-developments-ltd-202611160019-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK building trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "cfb88fd752be16297eae2dc58a3b36ab0941d80c50e2ac9d147c776109a645fb",
-      "source_url": "generated:monogram-rd-header",
+      "sha256": "2bf7c44d7015ac8ffbffd850de6036bde7bdec149498e133ddb83c98bb59246a",
+      "source_url": "generated:monogram-rso-developments-ltd-202611160019-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=RD primary=#1c1917 accent=#d97706"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "cfb88fd752be16297eae2dc58a3b36ab0941d80c50e2ac9d147c776109a645fb",
-      "source_url": "generated:monogram-rd-footer",
+      "sha256": "f0f949924be2ab66470c76c0edb58f3c9e94e1d69879fb99a5fe068c8903aea1",
+      "source_url": "generated:monogram-rso-developments-ltd-202611160019-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=RD primary=#1c1917 accent=#d97706"
     }

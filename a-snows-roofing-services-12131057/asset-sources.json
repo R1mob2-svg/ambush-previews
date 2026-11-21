@@ -13,31 +13,31 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "dcf7293512f5a5cecf0e91d6867cd3480d49ffd364964116699a0a6e62dc6354",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADachdecker_35.JPG",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Dachdecker 35.JPG"
+      "sha256": "f21503dd66ada725e0fc8ce95786d434a4b53b5e4d6762c32f5d827b44e7e1b3",
+      "source_url": "generated:runway:uk-roofing-a-snows-roofing-services-12131057-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK roofing trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "835b2d04c1362fdf7e58979841eb1b75eefeb8b3f1f9da92318755b2eaf3062b",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADachdecker_39.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Dachdecker 39.jpg"
+      "sha256": "754c543e5dce5f766b4f764d02cb6babea3e779f952f5ed2fa3a7f4bb62dcb56",
+      "source_url": "generated:runway:uk-roofing-a-snows-roofing-services-12131057-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK roofing trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "f18cc915a3d2b80a619ac1b3f660311e1ba075c566a67b960797eebdcba6c824",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADachdeckerarbeiten.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Dachdeckerarbeiten.jpg"
+      "sha256": "cd37ec5598fbcb038a3d69647de88cb41d9c97b16b41b498056a9e7b1d9eb30a",
+      "source_url": "generated:runway:uk-roofing-a-snows-roofing-services-12131057-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK roofing trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "97251321dc0d3dc64b106082ccdc29cebee8eee41cbfb01f3c8ee0aefaf98c1e",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADachisolierung_Steinwolle_01.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Dachisolierung Steinwolle 01.jpg"
+      "sha256": "a28d5e83727ee8371d6fab4048cc04d642f4b7bbf06d0feff91ff639a7aad36a",
+      "source_url": "generated:runway:uk-roofing-a-snows-roofing-services-12131057-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK roofing trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -48,15 +48,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "c696112fd2ac6ddec62b507831e27be40242ab74142236a49668d44884ea1085",
-      "source_url": "generated:monogram-as-header",
+      "sha256": "c79a37bf298c2ccaca6ff7aca8124e6ce4010a60af33ae1d13f779d56d149853",
+      "source_url": "generated:monogram-a-snows-roofing-services-12131057-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AS primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "c696112fd2ac6ddec62b507831e27be40242ab74142236a49668d44884ea1085",
-      "source_url": "generated:monogram-as-footer",
+      "sha256": "94e794499cd0c0a813fb8d35cdc2aa2e24fdc2e6e48182219658e03d3c619949",
+      "source_url": "generated:monogram-a-snows-roofing-services-12131057-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AS primary=#0b1329 accent=#f59e0b"
     }

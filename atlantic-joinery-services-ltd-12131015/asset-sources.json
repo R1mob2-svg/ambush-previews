@@ -33,17 +33,17 @@
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "de69a41de48d25437ba8c142771600f1464ebba6d4b368d7d8044c550ea0c294",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Chaise_%C3%A0_Porteur%2C_G.36971.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Menuisier en Voitures, Chaise à Porteur, G.36971.jpg"
+      "sha256": "00e3b8e6bde37ddea0b9671c5bb7b281b9942571e49ec48d6fe0058bb1a6fe6a",
+      "source_url": "generated:runway:uk-joinery-atlantic-joinery-services-ltd-12131015-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK joinery trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "7f88eaac544979058e53381e19eadeba3800305b30ca1aa76ea219a12327e642",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Coupes_Transversales_du_devant_et_du_derri%C3%A8re_de_la_Berline%2C_G.36961.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Menuisier en Voitures, Coupes Transversales du devant et du derrière de la Berline, G.36961.jpg"
+      "sha256": "8ae3808b3353412bd61d0fe5e84a057edbe56e2c80160fb9d5242514df847a15",
+      "source_url": "generated:runway:uk-joinery-atlantic-joinery-services-ltd-12131015-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK joinery trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -54,15 +54,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "aafc2d917ac83db1f328a30949b2f039601589988a5ed3ec367d0362de1f6295",
-      "source_url": "generated:monogram-aj-header",
+      "sha256": "e4aee09bcca707220be06a1519dd2cd3dfbd27dc98613ee8c626a198361a53ba",
+      "source_url": "generated:monogram-atlantic-joinery-services-ltd-12131015-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AJ primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "aafc2d917ac83db1f328a30949b2f039601589988a5ed3ec367d0362de1f6295",
-      "source_url": "generated:monogram-aj-footer",
+      "sha256": "eb0b11f4102716664e4a46368fc21822c13d81a2a297aef48477cb2ca827c7e7",
+      "source_url": "generated:monogram-atlantic-joinery-services-ltd-12131015-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AJ primary=#0b1329 accent=#f59e0b"
     }

@@ -11,10 +11,10 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "a424c45569c7040a7932bb061b18a57b71170a5d57db4fb429da23fe48cf0d69",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3A750_Jahre_Uetersen_19.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:750 Jahre Uetersen 19.jpg"
+      "sha256": "95c3e9e22a72197b3e08e7f79912b2e04ce48bd1fb034a67986e3fa4f0eadb7e",
+      "source_url": "generated:runway:uk-joinery-kenlee-joinery-12131046-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK joinery trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "ed828468eb8d46242945a6947b238290ff567278759c5130b6ca4fe8de25a497",
-      "source_url": "generated:monogram-kj-header",
+      "sha256": "66ce57409c071345760f9dc2ba087fed8e69c9df2496fd257f897e814d617612",
+      "source_url": "generated:monogram-kenlee-joinery-12131046-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=KJ primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "ed828468eb8d46242945a6947b238290ff567278759c5130b6ca4fe8de25a497",
-      "source_url": "generated:monogram-kj-footer",
+      "sha256": "1672b365d82612d989004cca147cefb76b1fe2fc0c763e701900c0fb4a1cdce3",
+      "source_url": "generated:monogram-kenlee-joinery-12131046-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=KJ primary=#0b1329 accent=#f59e0b"
     }

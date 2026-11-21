@@ -15,11 +15,10 @@
     },
     "service-1.jpg": {
       "role": "service-1",
-      "dimensions": "1920x1440",
-      "sha256": "009c6f834688a7cd26ff0c7265229f3d36992f01a0efd2dfa3bf048087124a16",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Plasterwork,_White_walls,_Rostov-on-Don,_Russia.jpg",
-      "license": "CC BY 4.0",
-      "notes": "Freshly plastered and finished white interior walls, smooth uniform finish with protective floor sheeting. Replaces prior asset which showed concrete blocklaying (masonry, not plastering)."
+      "sha256": "81cf6938b97c0dc63d83ac1c8737d13607f29e9b44a9576e48ccf9c783ab5ab8",
+      "source_url": "generated:runway:uk-plastering-be-plastering-services-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK plastering trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",

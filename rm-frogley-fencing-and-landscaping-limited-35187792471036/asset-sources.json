@@ -46,14 +46,10 @@
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "67a1680bab59a730a22675bb6711f882dca48c8b19370b466c3080df260a86d8",
-      "source_url": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Wildpark_--_2015_--_8894-8.jpg",
-      "source_title": "File:Dülmen, Wildpark -- 2015 -- 8894-8.jpg",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "author": "Dietmar Rabich",
-      "credit": "Own work",
-      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
+      "sha256": "bcfb1363b798ca8a6f6bf745b82e529b750c81222a17b54c58a3614d631f5f41",
+      "source_url": "generated:runway:uk-landscaping-rm-frogley-fencing-and-landscaping-limited-35187792471036-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK landscaping trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -64,15 +60,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "2b76ff02b71af79a6825a7971dbc50b22c843000f85a16a4bc10024fafaab5bf",
-      "source_url": "generated:monogram-rf-header",
+      "sha256": "a083dcf8dfc718ef68ccf7acee7b4bfeccc2651dcb2e2b3e97dbe281c41f4258",
+      "source_url": "generated:monogram-rm-frogley-fencing-and-landscaping-limited-35187792471036-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=RF primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "2b76ff02b71af79a6825a7971dbc50b22c843000f85a16a4bc10024fafaab5bf",
-      "source_url": "generated:monogram-rf-footer",
+      "sha256": "67d3047728611141fed8e4dc3b0f0a60d73b91da6821725110e2b5986419a9af",
+      "source_url": "generated:monogram-rm-frogley-fencing-and-landscaping-limited-35187792471036-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=RF primary=#0b1329 accent=#f59e0b"
     }

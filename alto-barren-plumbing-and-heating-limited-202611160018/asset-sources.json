@@ -11,35 +11,31 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "ce09982536966157a2c4b498c67d56b62cda033b50c281ea1453fde2c3e72bb9",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AA_Bird%27s_Eye_View_%28with_a_Raised_Eye_Brow%29_%289596831103%29.jpg",
-      "license": "CC BY-SA 2.0",
-      "notes": "Commons: File:A Bird's Eye View (with a Raised Eye Brow) (9596831103).jpg"
+      "sha256": "c1f4bd30d47219e6b0139576c4dbe6971e692f8fce07d00ce75fc0862c4e17b6",
+      "source_url": "generated:runway:uk-plumbing-alto-barren-plumbing-and-heating-limited-202611160018-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK plumbing trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "43f97475fdcb248587a38aaaa747a5af0d944825b9bbeb906a88bde46a7ba3be",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AAbdeckungen_P1550397.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Abdeckungen P1550397.jpg"
+      "sha256": "6169b87271c7892ce219ff076be11df7b40d05e5678da3b74ba79d93c1dc2a58",
+      "source_url": "generated:runway:uk-plumbing-alto-barren-plumbing-and-heating-limited-202611160018-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK plumbing trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "af5024aaeef3a074afbc2232fe9b8ff19a9df046987b6cd4de70249f2a6220fa",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AAbdeckungen_P1550400.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Abdeckungen P1550400.jpg"
+      "sha256": "f4cee3c9ade5702e68a6c1d00b0d35b8cbd22a466f7fe4b8cfded5d0f7fa67ee",
+      "source_url": "generated:runway:uk-plumbing-alto-barren-plumbing-and-heating-limited-202611160018-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK plumbing trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "83cc70632cb09bb372b564e85ef32c725745517064769955feefb6b9a95b40ee",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Sewer_repair.jpg",
-      "source_title": "File:Sewer repair.jpg",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "author": "AgapePlumbingService",
-      "credit": "Own work",
-      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
+      "sha256": "8e4b91872c428441cfeb44bc745bb7bff794692798dd4c4ebe2ec80d3b0835c4",
+      "source_url": "generated:runway:uk-plumbing-alto-barren-plumbing-and-heating-limited-202611160018-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK plumbing trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -50,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "df56038ed72c95cecce9d58c9baa2441e733d222a518eeb0c634ace0930f15aa",
-      "source_url": "generated:monogram-ab-header",
+      "sha256": "6990d87886df842e2ab897cf82cf5c62c337844c7537c649926921358bf7673d",
+      "source_url": "generated:monogram-alto-barren-plumbing-and-heating-limited-202611160018-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AB primary=#0b1329 accent=#3b82f6"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "df56038ed72c95cecce9d58c9baa2441e733d222a518eeb0c634ace0930f15aa",
-      "source_url": "generated:monogram-ab-footer",
+      "sha256": "1585c423a6256416a3364939a6cabb545c81aec40bded2c111a8deaae05d438e",
+      "source_url": "generated:monogram-alto-barren-plumbing-and-heating-limited-202611160018-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AB primary=#0b1329 accent=#3b82f6"
     }

@@ -11,31 +11,31 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "9347ed0029e2e4f05d6e45fe1e7f9cc7c709a0abd18e3db7d9bf99a0be79faf4",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADried_flowers_on_a_gas_meter.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Dried flowers on a gas meter.jpg"
+      "sha256": "3a4b3e797b4e676bc973aeb64231f6a6c5c837f5c20c5ff30366b1cfce34414b",
+      "source_url": "generated:runway:uk-heating-chivers-plumbing-and-heating-limited-35187792471006-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "a4281bf229094b49d650298a756ec6d668c27f205ad90a294f3c6fe0ba01c513",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AErdgas_MK_V280.JPG",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Erdgas MK V280.JPG"
+      "sha256": "62f9c08da804d3f8de48afdb3397f16862105bc20ec1eae13abd780770945b9e",
+      "source_url": "generated:runway:uk-heating-chivers-plumbing-and-heating-limited-35187792471006-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "9fb1cf905d2d90d24a9bc1fa7c7e1f4c9df328c02641fbc3dd3df40d916ed8bb",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AGarriga_comptador_gas_FedericoCiervo_2610.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Garriga comptador gas FedericoCiervo 2610.jpg"
+      "sha256": "ca01b6dc0162022c57f2f1d7b461149c53e97fbd586f62899f407c7bd74060ca",
+      "source_url": "generated:runway:uk-heating-chivers-plumbing-and-heating-limited-35187792471006-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "df5779537acea448d6b8b34b5e6ecd8b40d65e6af0e072153e958d63ce768842",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AGas_Meter_%288845661187%29.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Commons: File:Gas Meter (8845661187).jpg"
+      "sha256": "2e3db90be50dd354b37fdda3f9c89411e6f42e4b7b161ba2a835673aee9d8dcf",
+      "source_url": "generated:runway:uk-heating-chivers-plumbing-and-heating-limited-35187792471006-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "26c0ea1dda80a5a06636db520fd6e1887bd3e71f655b039801a577004930c212",
-      "source_url": "generated:monogram-cp-header",
+      "sha256": "cdf87b1457277a9d59554e5c95a6fc5e575beeab4d0516e47c2f34cd42e9cbd9",
+      "source_url": "generated:monogram-chivers-plumbing-and-heating-limited-35187792471006-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=CP primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "26c0ea1dda80a5a06636db520fd6e1887bd3e71f655b039801a577004930c212",
-      "source_url": "generated:monogram-cp-footer",
+      "sha256": "a39cfec59f4ffc04fa0f8f6681f8ba6604985fb2846e672ed1d541b4b60c1633",
+      "source_url": "generated:monogram-chivers-plumbing-and-heating-limited-35187792471006-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=CP primary=#0b1329 accent=#f59e0b"
     }

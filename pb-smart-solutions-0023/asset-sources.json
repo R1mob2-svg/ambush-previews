@@ -7,7 +7,19 @@
     "license": "AI_GENERATED_COMMERCIAL_USE",
     "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
   },
-  "pb-svc-1.jpg": "commons:Einrohrheizung.JPG",
-  "pb-svc-2.jpg": "commons:Bregenz-indoor_swimming_pool_(in_construction)-Installation-05ASD.jpg",
+  "pb-svc-1.jpg": {
+    "role": "pb-svc-1",
+    "sha256": "73433bb988c749ac2e62a776208c064bbf5a48a25f745ef1c769d91364526255",
+    "source_url": "generated:runway:uk-heating-pb-smart-solutions-0023-pb-svc-1",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
+  },
+  "pb-svc-2.jpg": {
+    "role": "pb-svc-2",
+    "sha256": "be9bc0fb5c9af9b046052126620415bdd268e0fed2b9b1c69cc5e7e27a495b48",
+    "source_url": "generated:runway:uk-heating-pb-smart-solutions-0023-pb-svc-2",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
+  },
   "favicon.png": "generated:monogram"
 }

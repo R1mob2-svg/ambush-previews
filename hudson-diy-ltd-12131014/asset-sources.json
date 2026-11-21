@@ -11,35 +11,31 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "a8cccce5aa0f2c57995576639a6fead85c19fa5a7cddfce9553d9b855d2ce537",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Tischlereimuseum_R%C3%BCdiger_Timme_Werkstatt.jpg",
-      "source_title": "File:Tischlereimuseum Rüdiger Timme Werkstatt.jpg",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-      "author": "Olaf Meister",
-      "credit": "Own work",
-      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
+      "sha256": "c59b1ac88d5fd2efc2035b2b1fb2aa12b18fe70e475ff81c41b8d0797960f89b",
+      "source_url": "generated:runway:uk-joinery-hudson-diy-ltd-12131014-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK joinery trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "ee7602361dc4d700705ec07dc5b06661454c1d02121595c59fdaeebb0786f3ae",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Veilleuse_et_Lit_de_Repos%2C_G.36942_%282_of_2%29.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Menuisier en Meubles, Veilleuse et Lit de Repos, G.36942 (2 of 2).jpg"
+      "sha256": "7105c8df39573b0ab9d58aeed1b3ce9ad9e7440d1bc1a05b5a6b2e1e704d1f9a",
+      "source_url": "generated:runway:uk-joinery-hudson-diy-ltd-12131014-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK joinery trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "8971bc8cc4e1eec39af6649a5dd5473f50317101563d0b5d2e6944150a0fb1f4",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Berline%2C_%C3%89l%C3%A9vation_Lat%C3%A9rale%2C_G.36959.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Menuisier en Voitures, Berline, Élévation Latérale, G.36959.jpg"
+      "sha256": "eceedac0a6b86f01ba6234c4fcd9cbcfbd168023bd91b1baf5e734b0a4e895ea",
+      "source_url": "generated:runway:uk-joinery-hudson-diy-ltd-12131014-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK joinery trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "6565992ed53754778f213b787993d2d4756dbc2d4dab7d1ccec273f88bebad8d",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Voitures%2C_Berline%2C_%C3%89l%C3%A9vations_par_devant_et_par_derri%C3%A8re%2C_G.36960.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Menuisier en Voitures, Berline, Élévations par devant et par derrière, G.36960.jpg"
+      "sha256": "5faab0176d5d2015d8972b183ebd13ee8b73e0be5d40742ef22328ae29d9afff",
+      "source_url": "generated:runway:uk-joinery-hudson-diy-ltd-12131014-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK joinery trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -50,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "285de2f49b2feef09acd2ffd3c5155f8e718d86206eadd3022dd9a3363d88bd3",
-      "source_url": "generated:monogram-hd-header",
+      "sha256": "944006f8760a802fe6b298041f45510520b05d067609b6d788562e4ebef52b6e",
+      "source_url": "generated:monogram-hudson-diy-ltd-12131014-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=HD primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "285de2f49b2feef09acd2ffd3c5155f8e718d86206eadd3022dd9a3363d88bd3",
-      "source_url": "generated:monogram-hd-footer",
+      "sha256": "26bbf81b924f25e5f30127d40da1fc602ce66cf97b682e8922b19bcd450460d0",
+      "source_url": "generated:monogram-hudson-diy-ltd-12131014-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=HD primary=#0b1329 accent=#f59e0b"
     }

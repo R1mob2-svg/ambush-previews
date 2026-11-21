@@ -12,11 +12,10 @@
     },
     "service-1.jpg": {
       "role": "service-1",
-      "dimensions": "1200x900",
-      "sha256": "01abd120cab4482afca9a20dce4b1e9e3d53b41a6ac00425cac47f8dfe093ab0",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Replacement_of_a_central_heating_radiator,_Hillegersberg,_Rotterdam_(2022)_03.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Radiator pipe connection and system pressure regulation valves."
+      "sha256": "36ad4fecd75a4aa8179c2b728a1bb8bea7a10fc8ed6a650439dc02b6407d82db",
+      "source_url": "generated:runway:uk-plumbing-hobbs-hodgetts-0015-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK plumbing trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",

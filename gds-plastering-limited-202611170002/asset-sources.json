@@ -62,15 +62,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "c01cc3a027ed277ff110ca18fefb9ece159c409a78cfa134883c2b8da1b8342a",
-      "source_url": "generated:monogram-gp-header",
+      "sha256": "4b17e6afcb1e0b5f05dc5d5d4e3e01a68f18578c96c17c358ac806f0120568e8",
+      "source_url": "generated:monogram-gds-plastering-limited-202611170002-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=GP primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "c01cc3a027ed277ff110ca18fefb9ece159c409a78cfa134883c2b8da1b8342a",
-      "source_url": "generated:monogram-gp-footer",
+      "sha256": "0ff5e25a571e4679f166d0c76e8a256d536caf33a63be44ae65f75f7d5da8361",
+      "source_url": "generated:monogram-gds-plastering-limited-202611170002-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=GP primary=#0b1329 accent=#f59e0b"
     }

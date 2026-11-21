@@ -18,24 +18,24 @@
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "13c37a8635c8c0ff6b6e9670ae6e778777812ded5645b9c5eea00cb2a05954fa",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AConduit_installation_for_the_communication_system_of_a_power_sub-station_located_in_Queens._%28CS179%2C_02-19-2019%29_%2846262523155%29.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Commons: File:Conduit installation for the communication system of a power sub-station located in Queens. (CS179, 02-19-2019) (46262523155).jpg"
+      "sha256": "4875b3251d74573339a165a9f8bb95d1e8017936e36bcce933a94ba7a1a4fc46",
+      "source_url": "generated:runway:uk-electrical-mj-electrical-services-12131061-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK electrical trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "05fd730a606ce7ddeaa8cc913dc69edecdaf5ff3b1f466c8ded95e25f3a6bc80",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADefense.gov_photo_essay_080826-F-0000V-001.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Defense.gov photo essay 080826-F-0000V-001.jpg"
+      "sha256": "ec5aa664b7167b087eaa9065ba1cdee646c22680b706f9ae2ea442885cdd1ede",
+      "source_url": "generated:runway:uk-electrical-mj-electrical-services-12131061-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK electrical trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "1cd9afbfbba17338b75e7c2d5319ecd3633898d487b295b3086bdf7b0a940f16",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADomaine_%C3%A9lectro-m%C3%A9canique_illustr%C3%A9_lors_d%27une_foire_exposition.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Domaine électro-mécanique illustré lors d'une foire exposition.jpg"
+      "sha256": "28eba8ec2dbd7fe01ac43ff057d801d7a528815d610f1f1ebc0d4db7af5373e4",
+      "source_url": "generated:runway:uk-electrical-mj-electrical-services-12131061-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK electrical trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "6607ebaf7393a28d73d1df7dd2ce3e97181d7836d731fad3c628be10c74a0fee",
-      "source_url": "generated:monogram-me-header",
+      "sha256": "f692edd001a3267f72c99949346393a629806900cbf4190c420a9fca2ad94193",
+      "source_url": "generated:monogram-mj-electrical-services-12131061-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=ME primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "6607ebaf7393a28d73d1df7dd2ce3e97181d7836d731fad3c628be10c74a0fee",
-      "source_url": "generated:monogram-me-footer",
+      "sha256": "349d06eb06a74447eca4fd0b1f1f700f6d6ea238fe4bb5d425c0949ba0f526f7",
+      "source_url": "generated:monogram-mj-electrical-services-12131061-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=ME primary=#0b1329 accent=#f59e0b"
     }

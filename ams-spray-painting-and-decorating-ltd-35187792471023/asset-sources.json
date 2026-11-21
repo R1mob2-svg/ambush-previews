@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "604a6287383f23591109bda8e7fb01c13b4f2338cb90939323a55ae98b5baf61",
-      "source_url": "generated:monogram-as-header",
+      "sha256": "f60d802808a85a703f4b08da0a4e61d14a02b3daa65313dbf19e42681ddee59d",
+      "source_url": "generated:monogram-ams-spray-painting-and-decorating-ltd-35187792471023-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AS primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "604a6287383f23591109bda8e7fb01c13b4f2338cb90939323a55ae98b5baf61",
-      "source_url": "generated:monogram-as-footer",
+      "sha256": "31e726976054fd8d72edd20201fdfb9cf416fa6aec8c7fd8d23efc690ac2f5ac",
+      "source_url": "generated:monogram-ams-spray-painting-and-decorating-ltd-35187792471023-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AS primary=#0b1329 accent=#f59e0b"
     }

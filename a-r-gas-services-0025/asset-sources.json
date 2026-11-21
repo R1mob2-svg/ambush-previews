@@ -7,7 +7,19 @@
     "license": "AI_GENERATED_COMMERCIAL_USE",
     "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
   },
-  "ar-svc-1.jpg": "commons:Gas_boiler_at_school._Buryatia,_Russia.jpg",
-  "ar-svc-2.jpg": "commons:Gasgeiser_van_het_merk_Eclipse_-_INDUS_V13173.jpg",
+  "ar-svc-1.jpg": {
+    "role": "ar-svc-1",
+    "sha256": "baf30902cd67827514c6c7d8e42092d09598a35397b2d3d062cbfb6a49995659",
+    "source_url": "generated:runway:uk-heating-a-r-gas-services-0025-ar-svc-1",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
+  },
+  "ar-svc-2.jpg": {
+    "role": "ar-svc-2",
+    "sha256": "6d708eca00b9976bcaad695385fe82cad06df667a224d8005698f3c12fd65281",
+    "source_url": "generated:runway:uk-heating-a-r-gas-services-0025-ar-svc-2",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
+  },
   "favicon.png": "generated:monogram"
 }

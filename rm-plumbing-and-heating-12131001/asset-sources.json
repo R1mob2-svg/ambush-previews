@@ -11,17 +11,17 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "6f022b984911c03945463514c782ab76650bf7eeec6df4ee82bc088317a0c4e9",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACombo_penetration.jpg",
-      "license": "CC BY 3.0",
-      "notes": "Commons: File:Combo penetration.jpg"
+      "sha256": "d2b5a80ba80c93ac869e0741987afbec4971e6f1e556373e89bde8a546c0ba32",
+      "source_url": "generated:runway:uk-plumbing-rm-plumbing-and-heating-12131001-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK plumbing trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "e35f09942c40f49ba6b514606b7aab645930e7fd8b93e51f639d9b798d50cd62",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AConstrucci%C3%B3_canonada.JPG",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Construcció canonada.JPG"
+      "sha256": "635cc1a36c1463986ddee87fd5341860420a5dd1c5f7ac8aacde877cb2244c1a",
+      "source_url": "generated:runway:uk-plumbing-rm-plumbing-and-heating-12131001-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK plumbing trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
@@ -32,10 +32,10 @@
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "b133eacb227f34910fb1017bbe559d859f08ea35e3d795d7b245e37deb01cd25",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACp25_grand_coulee_dam.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Cp25 grand coulee dam.jpg"
+      "sha256": "0a0ab98c1aba3fd7cbd7a49f8607ad77b07cd356d802676bfa2d556be7e73c3e",
+      "source_url": "generated:runway:uk-plumbing-rm-plumbing-and-heating-12131001-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK plumbing trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "7a0b818b6d1f55a64586fa4100c515a25b1fcf71d66f9d6ae796bbbcdfe86531",
-      "source_url": "generated:monogram-rp-header",
+      "sha256": "4f1498a3b1565475a8f4c9bfa10cc68f08012798a010f27c968ce44c6902ce89",
+      "source_url": "generated:monogram-rm-plumbing-and-heating-12131001-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=RP primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "7a0b818b6d1f55a64586fa4100c515a25b1fcf71d66f9d6ae796bbbcdfe86531",
-      "source_url": "generated:monogram-rp-footer",
+      "sha256": "e363e5eb1c4da27cf352110094f5dace200b03d1fb8ef1eab0e35f1d7bf64f40",
+      "source_url": "generated:monogram-rm-plumbing-and-heating-12131001-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=RP primary=#0b1329 accent=#f59e0b"
     }

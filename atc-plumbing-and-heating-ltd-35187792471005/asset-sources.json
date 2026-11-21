@@ -11,17 +11,17 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "cf5d893db5b6d615fbfbf0675a342d8ced1d817ab02997e4d146335b1d8301ce",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3A20190918_192129_Gas_meter_in_Lodz%2C_Poland_2019.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:20190918 192129 Gas meter in Lodz, Poland 2019.jpg"
+      "sha256": "8ba2c77bf56e157a49a23f5f856c7eaa008d2d606aebdf4090a4c098ef7d2a93",
+      "source_url": "generated:runway:uk-heating-atc-plumbing-and-heating-ltd-35187792471005-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "25fc1bdc74bc26651aeca3300792963f2f587999a8bd32852281d47d8420b019",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3A2025-02-09_25_%26_27_Giorgi_Shatberashvili_2nd_Lane.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:2025-02-09 25 & 27 Giorgi Shatberashvili 2nd Lane.jpg"
+      "sha256": "73523a889408668658cb31a03474dca9e96005578d571c42d74e1ec1ac037cbf",
+      "source_url": "generated:runway:uk-heating-atc-plumbing-and-heating-ltd-35187792471005-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
@@ -36,10 +36,10 @@
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "09d5ba0fce643312f659787d5158a326962ae4d7f8b0bb8cce69e4dbcc5d9968",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AB%C3%B3brka_skansen_-_liczniki_gazowe_rotorowe_2015.08.20_p.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Bóbrka skansen - liczniki gazowe rotorowe 2015.08.20 p.jpg"
+      "sha256": "dbc509bcdbe64ccc089dbd1f475a83c655b099ffdb5086c970e1df18d732f847",
+      "source_url": "generated:runway:uk-heating-atc-plumbing-and-heating-ltd-35187792471005-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -50,15 +50,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "9a57bea94e0581034b3d4e9c558aaa35f8bff497c41007c3b63cbb8e4346efde",
-      "source_url": "generated:monogram-ap-header",
+      "sha256": "3742ff2c7d62cc703ac1ef3a2806a86ea9e529afadf77d8edfcc744c089b61cc",
+      "source_url": "generated:monogram-atc-plumbing-and-heating-ltd-35187792471005-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AP primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "9a57bea94e0581034b3d4e9c558aaa35f8bff497c41007c3b63cbb8e4346efde",
-      "source_url": "generated:monogram-ap-footer",
+      "sha256": "b6c8ff82440a25d71971408b5bfe60dac5a0aeeecc8a28b7b679f18873d9a933",
+      "source_url": "generated:monogram-atc-plumbing-and-heating-ltd-35187792471005-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AP primary=#0b1329 accent=#f59e0b"
     }
