@@ -2,7 +2,16 @@
  * One continuous full-bleed hero on all viewports. Never place the
  * mobile image in a separate row. Palette comes from each site, not
  * one forced cyan across unrelated businesses. */
-:root { --founder-v3-accent:var(--accent, var(--accent-primary, #38bdf8)); }
+:root {
+  --founder-v3-accent: var(--accent, var(--accent-primary, #38bdf8));
+  /* Pale blend keeps the business's hue legible on the near-black hero/cards.
+     Never replace a site-specific palette with a single global colour. */
+  --founder-v3-readable-accent: color-mix(in srgb, var(--founder-v3-accent) 45%, #ffffff 55%);
+}
+/* Fallback for browsers without color-mix(); later declaration wins when supported. */
+@supports not (color: color-mix(in srgb, red, white)) {
+  :root { --founder-v3-readable-accent: #f8fafc; }
+}
 html,body { max-width:100%; overflow-x:clip; }
 .hero-section, .hero {
   position:relative!important;
@@ -115,12 +124,46 @@ html,body { max-width:100%; overflow-x:clip; }
 .services-grid .service-card:nth-child(3) .service-body {max-width:100%!important;}
 .services-grid .service-body h3,.services-grid .card-body h3 {
   font-size:clamp(1.25rem,1.7vw,1.8rem)!important;
-  line-height:1.25!important;color:#fff!important;
-  text-shadow:0 2px 10px rgba(0,0,0,.65)!important;
+  line-height:1.25!important;
+  color:var(--founder-v3-readable-accent, #f8fafc)!important;
+  text-shadow:0 2px 10px rgba(0,0,0,.7)!important;
 }
 .services-grid .service-body p,.services-grid .card-body p {
   font-size:clamp(.89rem,1.04vw,1.03rem)!important;
   line-height:1.5!important;color:#ecf2fb!important;
+}
+/* Brand hierarchy V4: existing hero spans keep their precise highlights.
+   Plain-text hero headings receive a subtle, responsive two-tone fallback.
+   This changes presentation only; never invents or rewrites copy. */
+.hero-section .hero-title:not(:has(span)),
+.hero h1:not(:has(span)) {
+  color:#fff!important;
+  background-image:linear-gradient(100deg,#fff 0%,#fff 23%,
+    var(--founder-v3-readable-accent, #e2e8f0) 64%,#fff 98%)!important;
+  background-clip:text!important;
+  -webkit-background-clip:text!important;
+  -webkit-text-fill-color:transparent!important;
+  filter:drop-shadow(0 2px 12px rgba(0,0,0,.6));
+}
+.hero-section .hero-title span,.hero h1 span {
+  color:var(--founder-v3-readable-accent, #e2e8f0)!important;
+  -webkit-text-fill-color:var(--founder-v3-readable-accent, #e2e8f0)!important;
+  background:none!important;
+}
+.sec-head h2,.section-header h2,.services-section h2,
+.section-heading h2,.section-title {
+  background-image:linear-gradient(105deg,#fff 0%,#fff 30%,
+    var(--founder-v3-readable-accent, #e2e8f0) 85%)!important;
+  background-clip:text!important;
+  -webkit-background-clip:text!important;
+  -webkit-text-fill-color:transparent!important;
+}
+/* Some site generations put card titles directly under .service-card
+   instead of wrapping them in .service-body. */
+.services-grid .service-card h3,
+.service-card .service-body h3,
+.service-card .card-body h3 {
+  color:var(--founder-v3-readable-accent, #e2e8f0)!important;
 }
 @media(max-width:1024px) {
   .hero-section,.hero {
