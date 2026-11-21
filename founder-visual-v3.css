@@ -6,7 +6,7 @@
   --founder-v3-accent: var(--accent, var(--accent-primary, #38bdf8));
   /* Pale blend keeps the business's hue legible on the near-black hero/cards.
      Never replace a site-specific palette with a single global colour. */
-  --founder-v3-readable-accent: color-mix(in srgb, var(--founder-v3-accent) 45%, #ffffff 55%);
+  --founder-v3-readable-accent: color-mix(in srgb, var(--founder-v3-accent) 40%, #ffffff 60%);
 }
 /* Fallback for browsers without color-mix(); later declaration wins when supported. */
 @supports not (color: color-mix(in srgb, red, white)) {
