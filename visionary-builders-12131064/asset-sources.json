@@ -11,24 +11,24 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "1b51a5889ce5e25084df0a1485e43a457328a8bc5b8c25b2c88bbb2ccef204e9",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AConstruction_pipes_1.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Construction pipes 1.jpg"
+      "sha256": "e732dd7aa3322d899365eda2480964c6387af701bd90e9c4b8513df55880a931",
+      "source_url": "generated:runway:uk-building-visionary-builders-12131064-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK building trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "e1c601abf612b9388c9d973f7560cf0c9ce0175e5d6a09812a806fd12969d66b",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AConstruction_pipes_2.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Construction pipes 2.jpg"
+      "sha256": "c945d8293ca2c1490b18339cb96049f68a063fd4f7dff75803cc03ec7ed1aec0",
+      "source_url": "generated:runway:uk-building-visionary-builders-12131064-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK building trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "3d8ef25564c321815a97ed815a80e539881675d4bedcff5c2ce70d8367a42543",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AConstruction_University_City_Philadelphia.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Construction University City Philadelphia.jpg"
+      "sha256": "ca65f4aeb7e1ae5f25013d5a3efe0d2e240643870aadb3df405d334d6b6be463",
+      "source_url": "generated:runway:uk-building-visionary-builders-12131064-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK building trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "a0ca98af79a53032a8fa4ee2f1523e746efd4a2ab8875a2005d5c9e6fca99011",
-      "source_url": "generated:monogram-vb-header",
+      "sha256": "a9a73312429bddd5b4f1a7117530a505b186ad476586f75e04cfa78c92e13a87",
+      "source_url": "generated:monogram-visionary-builders-12131064-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=VB primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "a0ca98af79a53032a8fa4ee2f1523e746efd4a2ab8875a2005d5c9e6fca99011",
-      "source_url": "generated:monogram-vb-footer",
+      "sha256": "c3e4f0452283db54140f407955a31381b2c896bddfdfa3d84f285807d35addf3",
+      "source_url": "generated:monogram-visionary-builders-12131064-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=VB primary=#0b1329 accent=#f59e0b"
     }

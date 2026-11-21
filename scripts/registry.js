@@ -47,6 +47,7 @@ for (const slug of slugs) {
     const f0 = { ...(p0.assets || {}) };
     for (const [k, v] of Object.entries(p0)) if (k !== 'assets') f0[k] = v;
     for (const [file, v] of Object.entries(f0)) {
+      if (!/\.(jpe?g|png|webp)$/i.test(file)) continue;
       const origin = typeof v === 'string' ? v : v && (v.source_url || v.source);
       if (origin && origin !== 'PENDING_AG' && !String(origin).startsWith('generated:')) declared.add(file.toLowerCase());
     }
@@ -66,6 +67,7 @@ for (const slug of slugs) {
   for (const [k, v] of Object.entries(prov)) if (k !== 'assets') flat[k] = v;
 
   for (const [file, v] of Object.entries(flat)) {
+    if (!/\.(jpe?g|png|webp)$/i.test(file)) continue;
     const origin = typeof v === 'string' ? v : v && (v.source_url || v.source);
     if (!origin || origin === 'PENDING_AG' || String(origin).startsWith('generated:')) continue;
     (origins[origin] = origins[origin] || []).push({ slug, file });

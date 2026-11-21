@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "8cf9339ac5668fbf22d6c9e323741dc7bfaad49300f66c8898f314bfecec0458",
-      "source_url": "generated:monogram-ah-header",
+      "sha256": "0fc34f0c98bac99a785743fe2c570eadf62f7c671ff0425a7cc882f8de61bdf9",
+      "source_url": "generated:monogram-acr-heating-solutions-ltd-35187792471004-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AH primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "8cf9339ac5668fbf22d6c9e323741dc7bfaad49300f66c8898f314bfecec0458",
-      "source_url": "generated:monogram-ah-footer",
+      "sha256": "59e46839a7c13eb78551ece28f0de65ebf3661f880ecbb9e7efa2638bbb028fc",
+      "source_url": "generated:monogram-acr-heating-solutions-ltd-35187792471004-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AH primary=#0b1329 accent=#f59e0b"
     }

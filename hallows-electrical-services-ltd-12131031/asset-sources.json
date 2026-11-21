@@ -11,17 +11,17 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "fa8a2c8bf3b4ba4abb2143cde60ed013a6a2004615b62cb50b3d5d157316757a",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectrician%27s_Mate_3rd_Class_Eric_Anderson_rewiring_the_coils_of_a_motor.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Electrician's Mate 3rd Class Eric Anderson rewiring the coils of a motor.jpg"
+      "sha256": "19fc8c89aa99e5c850336da45d956d516419119c89776c0c39473b4eb7c4b79b",
+      "source_url": "generated:runway:uk-electrical-hallows-electrical-services-ltd-12131031-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK electrical trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "2cd0641222fb23b23af6565ed7fec73db98abc8b75cf6d5b0f3add70a6ea83e0",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AElectricians_-_Flickr_-_konstantin.tilberg.jpg",
-      "license": "CC BY 2.0",
-      "notes": "Commons: File:Electricians - Flickr - konstantin.tilberg.jpg"
+      "sha256": "8374d1c49d93de1ed1bf33542e9c4b8dbb5a9df95620cd8096cd8344437b32b3",
+      "source_url": "generated:runway:uk-electrical-hallows-electrical-services-ltd-12131031-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK electrical trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "ade5b4518638515d2b64ec7709c1032913ba493aa58ba27e45038fee5d95c482",
-      "source_url": "generated:monogram-he-header",
+      "sha256": "248ee9e9ed183e92efe5f9100918f3f2902935b145494b9b9c06a6bd578456ff",
+      "source_url": "generated:monogram-hallows-electrical-services-ltd-12131031-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=HE primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "ade5b4518638515d2b64ec7709c1032913ba493aa58ba27e45038fee5d95c482",
-      "source_url": "generated:monogram-he-footer",
+      "sha256": "eda68dba3f63263ef1f3d0f6fe6f37ccabf21e40f094da318cc07d62c1b7312f",
+      "source_url": "generated:monogram-hallows-electrical-services-ltd-12131031-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=HE primary=#0b1329 accent=#f59e0b"
     }

@@ -11,31 +11,31 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "e024052316ace07e8a0fc979a83a274cf931e47fb9c3916f8506474501738ae8",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AThermische_Stellantriebe%2C_Thermische_Antriebe%2C_Fussbodenheizung%2C_thermal_actuator%2C_actuateur_thermique.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Thermische Stellantriebe, Thermische Antriebe, Fussbodenheizung, thermal actuator, actuateur thermique.jpg"
+      "sha256": "45abf94ace70133df7b11db3f924cfd632535859a1e64f85c1ef735da9e5488c",
+      "source_url": "generated:runway:uk-heating-skk-gas-and-heating-12131002-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "355468b0b35eb06c9caac7a6908c1dfa6ba913f55caceebbcf1c3bec18ef6cf2",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AThermomat_for_parquet.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Thermomat for parquet.jpg"
+      "sha256": "b3e2808e491cd4bdba96316260ad172f9e32b00d9652b655f9d9aef14130d5ca",
+      "source_url": "generated:runway:uk-heating-skk-gas-and-heating-12131002-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "ff9b46ead06b0f6b84997cbb7401eec39f0ce9c0d864fb062b3a078744645dc7",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AThermomat.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Thermomat.jpg"
+      "sha256": "4a6aa339b2ffafa2af733b06e86f2b09ba8df2e2fb35f56a5197a3ab33fd815e",
+      "source_url": "generated:runway:uk-heating-skk-gas-and-heating-12131002-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "ca5fa35e0511b6a16d02cb4c5a4032efc6474a658daf963e9afe7e0d5ca581ec",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ATopn%C3%A9_f%C3%B3lie_HEATMAX_Carbon_Fabric.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Topné fólie HEATMAX Carbon Fabric.jpg"
+      "sha256": "5b93710cccd3def2c71a1151442c0c0bfc4d6751a32df21abd5fe311b582fa33",
+      "source_url": "generated:runway:uk-heating-skk-gas-and-heating-12131002-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "bf6a54ed6d14e7c139333c8ec8498228acc2e6eca26a27d24203f5da64e50243",
-      "source_url": "generated:monogram-sg-header",
+      "sha256": "b998b74566035ee04efa5baf2c4f1415036f107cfc26b6b43ac910142cad09af",
+      "source_url": "generated:monogram-skk-gas-and-heating-12131002-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=SG primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "bf6a54ed6d14e7c139333c8ec8498228acc2e6eca26a27d24203f5da64e50243",
-      "source_url": "generated:monogram-sg-footer",
+      "sha256": "568de4a3e7d288cfabde4dabd69db923fe7e8d0ef313f8ab6405b4272b0f51f0",
+      "source_url": "generated:monogram-skk-gas-and-heating-12131002-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=SG primary=#0b1329 accent=#f59e0b"
     }

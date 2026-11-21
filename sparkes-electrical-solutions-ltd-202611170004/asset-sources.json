@@ -11,31 +11,31 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "57ace361b338132708b3f347708a002fd0a157d7640b54c2155b07e658e59ac6",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADesigning_rewiring_in_2-room_apartment.JPG",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Designing rewiring in 2-room apartment.JPG"
+      "sha256": "fc098d8dd4c4c5262bb0f3da1c651b8789c05c32dd65722a8b60800d37e183e1",
+      "source_url": "generated:runway:uk-electrical-sparkes-electrical-solutions-ltd-202611170004-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK electrical trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "21c0d5f78ceca5e5b844d58f6def639a03db9f04f6408983c17da3b5c5624d8d",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AE4735_-_DPLA_-_652bae6d8bdd0eafaa4ac8f136ae7271.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:E4735 - DPLA - 652bae6d8bdd0eafaa4ac8f136ae7271.jpg"
+      "sha256": "07c0ce337efed55bee8e45d7430b3eb327787b6fdf9f855add7f8987c57476df",
+      "source_url": "generated:runway:uk-electrical-sparkes-electrical-solutions-ltd-202611170004-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK electrical trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "6c3493b129947e972af9877e477ea654ebd912280929ce9857e19fecd6dfa626",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AE8617_-_DPLA_-_ff0c1e79d3a97e39aed3f169f4aeb3cf.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:E8617 - DPLA - ff0c1e79d3a97e39aed3f169f4aeb3cf.jpg"
+      "sha256": "7819fed150d8f0229fbe497aa2c920f60fdc633a108ac24bd549fb95b7d94191",
+      "source_url": "generated:runway:uk-electrical-sparkes-electrical-solutions-ltd-202611170004-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK electrical trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "8676244b2b9f1ab49711217620b17015381066c6d70decbc08aa5909650e6deb",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AE8618_-_DPLA_-_a58da953f2c6bdc00f9c62db7c40a2ff.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:E8618 - DPLA - a58da953f2c6bdc00f9c62db7c40a2ff.jpg"
+      "sha256": "3951bbbdd13f7daa5e5d34788d7ade678981388997d223dc9d0e35186444c9f5",
+      "source_url": "generated:runway:uk-electrical-sparkes-electrical-solutions-ltd-202611170004-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK electrical trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "5fca5426df544f6f2831f51f79dc21d1dcdf050105934716ba1722af41e54799",
-      "source_url": "generated:monogram-se-header",
+      "sha256": "bd66c7a367648e92f36ed9113a04c61df6dbbd8f5f3275b180bbbd3dcea93f7f",
+      "source_url": "generated:monogram-sparkes-electrical-solutions-ltd-202611170004-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=SE primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "5fca5426df544f6f2831f51f79dc21d1dcdf050105934716ba1722af41e54799",
-      "source_url": "generated:monogram-se-footer",
+      "sha256": "deb4e8707d162ab8c6c1e41601d6df394636636081e70650662ed9046b3e1a39",
+      "source_url": "generated:monogram-sparkes-electrical-solutions-ltd-202611170004-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=SE primary=#0b1329 accent=#f59e0b"
     }

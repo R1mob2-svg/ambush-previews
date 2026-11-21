@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "d27505d1cf0446e68ccd6b10751e63831d1092ccb9d4b68b7f6ba5a2cfd3ca8b",
-      "source_url": "generated:monogram-sr-header",
+      "sha256": "1ad781c8b87d0f89a7d140e15c6940001469095b99c3d207acad7f52d36dc0ba",
+      "source_url": "generated:monogram-sheildslade-roofing-12131028-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=SR primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "d27505d1cf0446e68ccd6b10751e63831d1092ccb9d4b68b7f6ba5a2cfd3ca8b",
-      "source_url": "generated:monogram-sr-footer",
+      "sha256": "b9f9a7c8d9bfda030e6f74ed643da419cc3eca3e683bdbcc79f1df1aa85fdc61",
+      "source_url": "generated:monogram-sheildslade-roofing-12131028-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=SR primary=#0b1329 accent=#f59e0b"
     }

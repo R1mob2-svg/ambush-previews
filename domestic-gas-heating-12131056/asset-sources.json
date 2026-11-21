@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "4d1e568ec78184b4af9c2ea35992e6e371e9267e43135038a79a16de5bb45c36",
-      "source_url": "generated:monogram-dg-header",
+      "sha256": "c54a6fc6e4cfe7de8ea0a73720abf3cafa9f574375848d03546262abc4e70411",
+      "source_url": "generated:monogram-domestic-gas-heating-12131056-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=DG primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "4d1e568ec78184b4af9c2ea35992e6e371e9267e43135038a79a16de5bb45c36",
-      "source_url": "generated:monogram-dg-footer",
+      "sha256": "581bdc535834d2c9bc39b0a14578bda5491cba718cd00150494b61faa3b3035b",
+      "source_url": "generated:monogram-domestic-gas-heating-12131056-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=DG primary=#0b1329 accent=#f59e0b"
     }

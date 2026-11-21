@@ -11,31 +11,31 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "c2537b45331ada0f6b84824fb11d6311cce2a9736155961e206907fbbbb2ab89",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABoiler_Scale.JPG",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Boiler Scale.JPG"
+      "sha256": "92d83976a9b6454bb59e248c3a51e64d35391f441ed50e821c3d200f6a69aeec",
+      "source_url": "generated:runway:uk-plumbing-a-t-r-plumbing-and-property-maintenance-12131017-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK plumbing trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "8903498757542b0b82224cf6e7f2a012f8a9eef69f8a9566720423aba23a92e6",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABor-be%27er.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Bor-be'er.jpg"
+      "sha256": "669116dbad57ad489ca7ab63ebab071cfc6b143f3df14c40a5e14d90e4eb321e",
+      "source_url": "generated:runway:uk-plumbing-a-t-r-plumbing-and-property-maintenance-12131017-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK plumbing trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "2d0c5c0adbc7aca217e1238951d15eac78ee475a705aab09bc9c48cb49f0d6fb",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABrass_NPT_threaded_Pipe_Plug_in_a_Caliper.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Brass NPT threaded Pipe Plug in a Caliper.jpg"
+      "sha256": "6739b47e8333da44169cbc2de4650b24aad4f17c4a82f5e5f10cf135dbfa7aa6",
+      "source_url": "generated:runway:uk-plumbing-a-t-r-plumbing-and-property-maintenance-12131017-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK plumbing trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "bd84262eebe9447e6fd649db626026989ef5a24620d38f7b6c0341a2fe77e948",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABregenz-sanitary_roof_ventilation_%28pressure_equalization%29-flat_roof-01ASD.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Bregenz-sanitary roof ventilation (pressure equalization)-flat roof-01ASD.jpg"
+      "sha256": "546e67df8bc83a9198ce8ad553f5af6f0051408cf64dabc6aacff0b46a51854f",
+      "source_url": "generated:runway:uk-plumbing-a-t-r-plumbing-and-property-maintenance-12131017-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK plumbing trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "15bb31ccfdd328b1453c88ebeac32f57143acbd210b614d119598a3b0d5cf2c2",
-      "source_url": "generated:monogram-at-header",
+      "sha256": "f39bed2f72cd225f1d975e4f74d10f246999b7ea3a2761a87935c3b802b11d5e",
+      "source_url": "generated:monogram-a-t-r-plumbing-and-property-maintenance-12131017-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AT primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "15bb31ccfdd328b1453c88ebeac32f57143acbd210b614d119598a3b0d5cf2c2",
-      "source_url": "generated:monogram-at-footer",
+      "sha256": "4463643cab6461b8cbd70b390ac62215237cfd01af9f302c24bcb4332ad76aca",
+      "source_url": "generated:monogram-a-t-r-plumbing-and-property-maintenance-12131017-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AT primary=#0b1329 accent=#f59e0b"
     }

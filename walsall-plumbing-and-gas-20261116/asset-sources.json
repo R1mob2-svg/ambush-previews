@@ -20,11 +20,10 @@
     },
     "service-2.jpg": {
       "role": "service-2",
-      "dimensions": "1200x900",
-      "sha256": "26a344f29a2be11f98bb3cd79980dbf4f724553030b7a4f691f8b00ea0221523",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Dornbirn-Ebnit-underfloor_heating-system-01ASD.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Underfloor heating manifold loops and distribution system, unbranded."
+      "sha256": "912f619cbbf77630eb96728e0b6a399dcb240b800005a3351a223cc254d6b11b",
+      "source_url": "generated:runway:uk-heating-walsall-plumbing-and-gas-20261116-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": "generated:monogram"
   }

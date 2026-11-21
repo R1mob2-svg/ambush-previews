@@ -11,31 +11,31 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "5ad7e274b810d9b2948f07ac395f37f7ded2ad4efc3db1b71c36e7d5a3c81197",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-liquid_screed-01ASD.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Dornbirn-liquid screed-01ASD.jpg"
+      "sha256": "081cfdfe504d6336b2811d6e25406d121e30e2d5c6a93300972b8759cf9a60e5",
+      "source_url": "generated:runway:uk-heating-razak-heating-ltd-202611160017-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "7606bada0850e3d0414d1add7027122a7c5e2c52e88fd9c5108cdbf7111a6ba4",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-liquid_screed-02ASD.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Dornbirn-liquid screed-02ASD.jpg"
+      "sha256": "9a7954405fa87ede4e88fdedd00075b260bcc68d9f9b6c34857d9eb2a9b60a33",
+      "source_url": "generated:runway:uk-heating-razak-heating-ltd-202611160017-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "8e4bb18d57fb6addd4210685632a5160ad0946bea42c15ba3987245d8ab6f63f",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-liquid_screed-03ASD.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Dornbirn-liquid screed-03ASD.jpg"
+      "sha256": "82f1045d812afe033a0a92428cf168dbbc49d4f78676a1d57dc8c533de3d231d",
+      "source_url": "generated:runway:uk-heating-razak-heating-ltd-202611160017-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "976c4a254cd4482ad98e535d422c41fdf4dd697ebbbdb98c10362610eab5fc9d",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AEinbau_Anhydritestrich.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Einbau Anhydritestrich.jpg"
+      "sha256": "99a49c5da0881ac9bab183fc8813894006e6250dd788c045ce5755fbbc4208e7",
+      "source_url": "generated:runway:uk-heating-razak-heating-ltd-202611160017-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "b086873ab1d35d61a5cc4d99850adb08f7121f3d5a3a66ee1c7262c811aeae35",
-      "source_url": "generated:monogram-rh-header",
+      "sha256": "ea56231a9256f06c4f3da798c47c58d1014f246ca560553f05bdf5e2f995532f",
+      "source_url": "generated:monogram-razak-heating-ltd-202611160017-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=RH primary=#0f172a accent=#ef4444"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "b086873ab1d35d61a5cc4d99850adb08f7121f3d5a3a66ee1c7262c811aeae35",
-      "source_url": "generated:monogram-rh-footer",
+      "sha256": "bb94d9b4ba85abf6f98861bd206f9e80b0dbfe0147fd4c2ee453f7dc0255f492",
+      "source_url": "generated:monogram-razak-heating-ltd-202611160017-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=RH primary=#0f172a accent=#ef4444"
     }

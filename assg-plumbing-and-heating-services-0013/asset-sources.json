@@ -20,11 +20,10 @@
     },
     "service-2.jpg": {
       "role": "service-2",
-      "dimensions": "1200x900",
-      "sha256": "06495fc7f8ea040d803d6b246fdb0cdc733d1124ab88709627246229c8d6513a",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Stillson_Pipe_Wrench_of_Stephen_and_Elmer_Braun.jpg",
-      "license": "CC0 / Public Domain",
-      "notes": "Heavy-duty Stillson plumbing wrench for precision pipe fitting and repairs."
+      "sha256": "1276d948aa014b30dabface59f6b5f362dbceaa03dd631bb60006f313f0ca3ee",
+      "source_url": "generated:runway:uk-heating-assg-plumbing-and-heating-services-0013-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": "generated:monogram"
   }

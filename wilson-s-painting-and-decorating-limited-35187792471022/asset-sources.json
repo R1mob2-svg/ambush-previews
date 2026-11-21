@@ -25,17 +25,17 @@
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "f051dbd5361211e4895b9268e65b7fbc6c240d701d2dfa7fc73d4ad6c49c31fb",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AValjak_cetka_1.JPG",
-      "license": "Public domain",
-      "notes": "Commons: File:Valjak cetka 1.JPG"
+      "sha256": "7d1d2602474d1e6d16bdb95fe7341ef80af391fcf6c1666b520cd7e53a862e45",
+      "source_url": "generated:runway:uk-painting-wilson-s-painting-and-decorating-limited-35187792471022-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK painting trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "b250e8bb41cf6fcb3d9055307fb0e50058f43fcd09b20630ddeb4c75e8572d06",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3A2000s_Wistoba_Chinex_Plus_professional_trade_paintbrush_model_1508_50_mm_width_stainless_steel_ferrule.jpg",
-      "license": "CC BY 4.0",
-      "notes": "Commons: File:2000s Wistoba Chinex Plus professional trade paintbrush model 1508 50 mm width stainless steel ferrule.jpg"
+      "sha256": "32bdca4a620c61cd0833be9004befb53534c8f7d82f2dcba9318a84204959c37",
+      "source_url": "generated:runway:uk-painting-wilson-s-painting-and-decorating-limited-35187792471022-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK painting trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "e6b576f735b5e73d3e165d05831ca73ef58bc1b81193094987b1189da735defb",
-      "source_url": "generated:monogram-ws-header",
+      "sha256": "2c66540cc045d4668dd320ec7179dcc6189e84da6c5807b644c6f2080f3c5eda",
+      "source_url": "generated:monogram-wilson-s-painting-and-decorating-limited-35187792471022-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=WS primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "e6b576f735b5e73d3e165d05831ca73ef58bc1b81193094987b1189da735defb",
-      "source_url": "generated:monogram-ws-footer",
+      "sha256": "dbd84bfb7bca6f449bfe50f1e5a4d0dfa7ebea57f6bd9c9ba4e1a7349cbd5105",
+      "source_url": "generated:monogram-wilson-s-painting-and-decorating-limited-35187792471022-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=WS primary=#0b1329 accent=#f59e0b"
     }

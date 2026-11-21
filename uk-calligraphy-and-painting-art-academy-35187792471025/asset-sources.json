@@ -11,35 +11,31 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "b301180febf9d1dc8077cc6b25c69d0037fc1c500369d2719a196f47f958ee44",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AOtto_Richter%2C_Bau-_und_Zimmer-Decorations-Malerei%2C_Firmenschreiberei%2C_Leipzig%2C_Rechnung_vom_31._Dezember_1902.jpg",
-      "license": "Public domain",
-      "notes": "Commons: File:Otto Richter, Bau- und Zimmer-Decorations-Malerei, Firmenschreiberei, Leipzig, Rechnung vom 31. Dezember 1902.jpg"
+      "sha256": "58eda8f7b7cdcb21eb2b70eb1c32abf039d09e164015311044828aed22979364",
+      "source_url": "generated:runway:uk-painting-uk-calligraphy-and-painting-art-academy-35187792471025-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK painting trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "cb8ace245160196134164596845c256d3ba0e46afaa006ad638ba3f28f31cdcc",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ASoniat_Street%2C_Uptown_New_Orleans_22_April_2026_-_1.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Soniat Street, Uptown New Orleans 22 April 2026 - 1.jpg"
+      "sha256": "7e864755904b1146ba624958bfeec9ba1fe0fc335fe2db97102c916075fdb073",
+      "source_url": "generated:runway:uk-painting-uk-calligraphy-and-painting-art-academy-35187792471025-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK painting trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "439b2975e0a78be74c6cec3183a1ea828f146377a928b07320dae9538b919005",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ASouthafrican_painter.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Southafrican painter.jpg"
+      "sha256": "0da19dd663aa121e36c2209fb64f74883ea953a4786734dec9e231c8a6a5390d",
+      "source_url": "generated:runway:uk-painting-uk-calligraphy-and-painting-art-academy-35187792471025-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK painting trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "ad50588b539afb8f05296b8bc55776777ef30c2bac945db5da377c23cb67b62d",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Jean-Joseph_Bernard_called_Bernard_de_Paris,_Calligraphic_Flowers,_NGA_143791.jpg",
-      "source_title": "File:Jean-Joseph Bernard called Bernard de Paris, Calligraphic Flowers, NGA 143791.jpg",
-      "license": "CC0",
-      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "author": "Jean-Joseph Bernard called Bernard de Paris",
-      "credit": "This file was donated to Wikimedia Commons as part of a project by the National Gallery of Art. Please see the Gallery's Open Access Policy.",
-      "notes": "Licensed third-party illustrative photograph, cropped and resized; not evidence of this business's own completed jobs."
+      "sha256": "0602d6fbefb9c34d644023e9286cd5b36890142007fda0eb8de84f2b0cad42e6",
+      "source_url": "generated:runway:uk-painting-uk-calligraphy-and-painting-art-academy-35187792471025-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK painting trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -50,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "39d2fe87781aad6689a375af139949b0d4527dcdde806aec095ee94f63fc00da",
-      "source_url": "generated:monogram-cp-header",
+      "sha256": "4fcdee579437c40e48701836be99670e73154e0cd696c40e6b59cf9007963cd9",
+      "source_url": "generated:monogram-uk-calligraphy-and-painting-art-academy-35187792471025-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=CP primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "39d2fe87781aad6689a375af139949b0d4527dcdde806aec095ee94f63fc00da",
-      "source_url": "generated:monogram-cp-footer",
+      "sha256": "a73d08d83f4821e8d77dcc2b2d8564d9c5106ae42938d2832ca448d5d5276cf5",
+      "source_url": "generated:monogram-uk-calligraphy-and-painting-art-academy-35187792471025-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=CP primary=#0b1329 accent=#f59e0b"
     }

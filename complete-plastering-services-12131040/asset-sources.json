@@ -11,31 +11,31 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "e1918223ef0668cf5600b33c1837c53d9a9d1fbe5bc6c8ed5443aa23af1cfe65",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AWorker_at_Dhaka_14.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Worker at Dhaka 14.jpg"
+      "sha256": "9d4cb789eb8868b53917e8779c22622d0020349f120ef165fdeac6d2bbb144e2",
+      "source_url": "generated:runway:uk-plastering-complete-plastering-services-12131040-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK plastering trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "b9f604610a2c3af520682ef54b49982e5f0df2fd9ed7a2be71e39ef51729d0c0",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3A%D0%A0%D0%B5%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F_%D0%BC%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%B8%D0%BF%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%2C_24.10.2025_%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0_04.jpg",
-      "license": "CC BY 4.0",
-      "notes": "Commons: File:Реконструкция московского ипподрома, 24.10.2025 отделка 04.jpg"
+      "sha256": "2e1fc6e0cc2145f4e9172d1d481acb4e1013b0e30523d03ab5da9e16d1dca66c",
+      "source_url": "generated:runway:uk-plastering-complete-plastering-services-12131040-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK plastering trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "11fa44d976d2b8deca52003062d6413b82839bcf732b96bdfc015384654d0697",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3A%D0%A0%D0%B5%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F_%D0%BC%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%B8%D0%BF%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%BC%D0%B0%2C_24.10.2025_%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%B0_05.jpg",
-      "license": "CC BY 4.0",
-      "notes": "Commons: File:Реконструкция московского ипподрома, 24.10.2025 отделка 05.jpg"
+      "sha256": "436b62e2928235b523589673da284a8478ce5873b0b501e1bd3232f67522d229",
+      "source_url": "generated:runway:uk-plastering-complete-plastering-services-12131040-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK plastering trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "a0ce63f5441f4483d6bf591cc92fdea4cb33f8dc4452130e32d62cdda0151d53",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3A066Aa._Sortavala._Soviet_Cosmonauts_Street%2C_18.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:066Aa. Sortavala. Soviet Cosmonauts Street, 18.jpg"
+      "sha256": "6ca7fe67aac006d2a2e4dc1e8a4486bfcd0440e025d0ae1eda99f5d947a41286",
+      "source_url": "generated:runway:uk-plastering-complete-plastering-services-12131040-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK plastering trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "5e095558466107bb27b7f1b809eaa6505454b7ccc34bed6e8fc19cfc4c5586ba",
-      "source_url": "generated:monogram-cp-header",
+      "sha256": "305531dbae9534990ce00eaf6aff482a2c79610eaf8b3c25065e4db0969ceaad",
+      "source_url": "generated:monogram-complete-plastering-services-12131040-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=CP primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "5e095558466107bb27b7f1b809eaa6505454b7ccc34bed6e8fc19cfc4c5586ba",
-      "source_url": "generated:monogram-cp-footer",
+      "sha256": "97a7987bc777f584ff5c36311eebf1f5975d61d00517d62fce1ca9b0edea5102",
+      "source_url": "generated:monogram-complete-plastering-services-12131040-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=CP primary=#0b1329 accent=#f59e0b"
     }

@@ -8,6 +8,12 @@
     "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
   },
   "eg-svc-1.jpg": "commons:Wall_mounted_boiler_in_kitchen.jpg",
-  "eg-svc-2.jpg": "commons:Gasgeiser_van_het_merk_Vesuvius_-_INDUS_V13127.jpg",
+  "eg-svc-2.jpg": {
+    "role": "eg-svc-2",
+    "sha256": "210e5965515ab8d30deb8f3d9ca73cf94fb114154d6f5e26fba82ff2b59f430e",
+    "source_url": "generated:runway:uk-heating-elite-gas-coventry-0022-eg-svc-2",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
+  },
   "favicon.png": "generated:monogram"
 }

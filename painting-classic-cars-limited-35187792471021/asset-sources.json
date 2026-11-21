@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "5f6416ed960eddbebd3d77a74eb070221723882ebaec400a4df097c5c298c857",
-      "source_url": "generated:monogram-pc-header",
+      "sha256": "240c7b4b5088352c956c19c29d96b4478bc0c6a63322174e074e88e640bb463a",
+      "source_url": "generated:monogram-painting-classic-cars-limited-35187792471021-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=PC primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "5f6416ed960eddbebd3d77a74eb070221723882ebaec400a4df097c5c298c857",
-      "source_url": "generated:monogram-pc-footer",
+      "sha256": "eacb194f128e60622ef61ae89fbdd3b600f8a150b6b5f85024c44449cf0b9398",
+      "source_url": "generated:monogram-painting-classic-cars-limited-35187792471021-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=PC primary=#0b1329 accent=#f59e0b"
     }

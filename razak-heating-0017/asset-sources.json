@@ -7,7 +7,13 @@
     "license": "AI_GENERATED_COMMERCIAL_USE",
     "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
   },
-  "rz-svc-1.jpg": "commons:Replacement_of_a_central_heating_radiator,_Hillegersberg,_Rotterdam_(2022)_01.jpg",
+  "rz-svc-1.jpg": {
+    "role": "rz-svc-1",
+    "sha256": "1e4666adeae87a387e056c16f83ce1dc9ecde5eedab1efe19a28fc13dd86b053",
+    "source_url": "generated:runway:uk-heating-razak-heating-0017-rz-svc-1",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
+  },
   "rz-svc-2.jpg": "commons:ModCon_boiler_system.jpg",
   "favicon.png": "generated:monogram"
 }

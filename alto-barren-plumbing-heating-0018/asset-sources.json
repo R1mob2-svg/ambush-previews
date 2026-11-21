@@ -8,6 +8,12 @@
     "notes": "Illustrative AI-generated trade scene; not a photograph of the customer's actual work"
   },
   "ab-svc-1.jpg": "commons:Plumbing_Installation_(8909644).jpg",
-  "ab-svc-2.jpg": "commons:Replacement_of_a_central_heating_radiator,_Hillegersberg,_Rotterdam_(2022)_03.jpg",
+  "ab-svc-2.jpg": {
+    "role": "ab-svc-2",
+    "sha256": "ecbdb665965ddcc0b7b91f51f6de3cd78f912d2f370bae4f2824333119c1b5cd",
+    "source_url": "generated:runway:uk-heating-alto-barren-plumbing-heating-0018-ab-svc-2",
+    "license": "AI_GENERATED_COMMERCIAL_USE",
+    "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
+  },
   "favicon.png": "generated:monogram"
 }

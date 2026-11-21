@@ -11,10 +11,10 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "22af18c4f06f0a6a6e525427cc877cab2b6ce2c36808f4fa4e6d2dd719c4ebde",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ASkl%C3%A1rna_Nena%C4%8Dovice%2C_07.jpg",
-      "license": "CC BY-SA 3.0",
-      "notes": "Commons: File:Sklárna Nenačovice, 07.jpg"
+      "sha256": "bae3effcb550402295ee361a18f3dc868bde2b863f0e635c10172f8ae96f97d6",
+      "source_url": "generated:runway:uk-heating-turnberry-heating-co-12131023-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "supporting",
@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "a4c0e14e2c2128e6fbfcb635e6cba9bb7eeba91a26c42ae3d87edbcc469f82fe",
-      "source_url": "generated:monogram-th-header",
+      "sha256": "85c256ffb6e0dc1cd7db9d6b2957bdf48ebd8a149991c9ac38bd6d33cfdbfd33",
+      "source_url": "generated:monogram-turnberry-heating-co-12131023-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=TH primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "a4c0e14e2c2128e6fbfcb635e6cba9bb7eeba91a26c42ae3d87edbcc469f82fe",
-      "source_url": "generated:monogram-th-footer",
+      "sha256": "0f308c29193f5c8f334e5e7d18b5953ee6e9ba793e3178ac756abde9a559507c",
+      "source_url": "generated:monogram-turnberry-heating-co-12131023-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=TH primary=#0b1329 accent=#f59e0b"
     }

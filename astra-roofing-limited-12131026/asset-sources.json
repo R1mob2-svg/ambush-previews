@@ -18,10 +18,10 @@
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "95b4cb3c7e9801c3051dcc29da681c6c98a30428ed1c1382e1923a01c9ecae8e",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AChaumi%C3%A8re_au_travail_sur_son_toit.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Chaumière au travail sur son toit.jpg"
+      "sha256": "8fd06c64222b2b8dfcfd1711e5e077d0a6494383bda657ef1cc648ab315441df",
+      "source_url": "generated:runway:uk-roofing-astra-roofing-limited-12131026-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK roofing trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
@@ -54,15 +54,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "b8d920b90cc267fa70ec347a91d50734546b34977c097cfc32776fcf66501ed7",
-      "source_url": "generated:monogram-ar-header",
+      "sha256": "0a4410d66c545babc8b5be03caaed68c545b3feea12f469867d7505f9b299033",
+      "source_url": "generated:monogram-astra-roofing-limited-12131026-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AR primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "b8d920b90cc267fa70ec347a91d50734546b34977c097cfc32776fcf66501ed7",
-      "source_url": "generated:monogram-ar-footer",
+      "sha256": "87601856d3da67285784c3f63fea6e5023cbd3124c4a7ea3c2f4056ef5649420",
+      "source_url": "generated:monogram-astra-roofing-limited-12131026-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AR primary=#0b1329 accent=#f59e0b"
     }

@@ -11,31 +11,31 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "ab75a4b1cc307a1c1b803c3a7d27afce612fc1bef80cd5d5b12d7c5557f1099d",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ANena%C4%8Dovice%2C_skl%C3%A1%C5%99sk%C3%A1_d%C3%ADlna%2C_2013_%2822%29.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Nenačovice, sklářská dílna, 2013 (22).jpg"
+      "sha256": "3f8aa819e14f79c7b115cdc87c4504fdda8dbc651acb61c2807191d3987e0306",
+      "source_url": "generated:runway:uk-heating-adams-gas-and-electric-services-12131022-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "0f7565683dad090df2320c6c29bc833620f5de266b9c20a55baadb484d4bcc8c",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ANeoCafe_-_2025-05-05.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:NeoCafe - 2025-05-05.jpg"
+      "sha256": "4a8fce2ca50caaa5cb17b97769ac38a1fa81a2fe3cb85ddf5dd575c60a36e429",
+      "source_url": "generated:runway:uk-heating-adams-gas-and-electric-services-12131022-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "f7620484ed337a9e68261462d765a3d751fdb863439571790916ab180126203d",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ANew_gas_pipe_and_damp_patch_%286130294630%29.jpg",
-      "license": "CC BY-SA 2.0",
-      "notes": "Commons: File:New gas pipe and damp patch (6130294630).jpg"
+      "sha256": "82284c4f770eb6f4137a951f5026cc09ae144205156bc8b71bedca235c097754",
+      "source_url": "generated:runway:uk-heating-adams-gas-and-electric-services-12131022-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "2ccc53301e79890dba4bb7ceffba94d8fffe05ae9397f38b7458da3a09d9308e",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ARoma%2C_ventanas_1995_10.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Roma, ventanas 1995 10.jpg"
+      "sha256": "58075ae83c137f75bcd0c40a2fccccf02e1a1e833e4875dfa51a2e24ca752810",
+      "source_url": "generated:runway:uk-heating-adams-gas-and-electric-services-12131022-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK heating trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "bb7fedde0cf78493623e528cb294fa361b50ee39b1449eac4676079cbd5cd951",
-      "source_url": "generated:monogram-ag-header",
+      "sha256": "af65d71aa239759f2c66e6b8c5c505450a9c7c7d47f7fe369dd71834a522d207",
+      "source_url": "generated:monogram-adams-gas-and-electric-services-12131022-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AG primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "bb7fedde0cf78493623e528cb294fa361b50ee39b1449eac4676079cbd5cd951",
-      "source_url": "generated:monogram-ag-footer",
+      "sha256": "630d802460a9aebad9304825f47af18c762a4304cbb98767e8f718c6a8b72eb1",
+      "source_url": "generated:monogram-adams-gas-and-electric-services-12131022-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=AG primary=#0b1329 accent=#f59e0b"
     }

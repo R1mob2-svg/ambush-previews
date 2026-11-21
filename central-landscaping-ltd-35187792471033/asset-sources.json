@@ -11,31 +11,31 @@
     },
     "process-bg.jpg": {
       "role": "process-bg",
-      "sha256": "5c813f6e91eb44b243f6299c570c67d6a5918934c9c0e412e5d991afd3e26976",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3AAmbulance_readyfor_emargency_response_22.png",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Ambulance readyfor emargency response 22.png"
+      "sha256": "bf7d640210a19063ccac10acfb81048902239d15a1a7fd659b6a3319e8311cfb",
+      "source_url": "generated:runway:uk-landscaping-central-landscaping-ltd-35187792471033-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK landscaping trade scene; replaces mismatched third-party Commons asset"
     },
     "service-1.jpg": {
       "role": "service-1",
-      "sha256": "d01de4b536f70eb3cc03fab355f217e2f270907f34af81453896f117590414d0",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABlatchford_Central_Park.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Blatchford Central Park.jpg"
+      "sha256": "cdfea1f76593802e3306b0432cc812a38b70a1a06a83bb26e742e772ef27bb42",
+      "source_url": "generated:runway:uk-landscaping-central-landscaping-ltd-35187792471033-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK landscaping trade scene; replaces mismatched third-party Commons asset"
     },
     "service-2.jpg": {
       "role": "service-2",
-      "sha256": "e2b53eeb995eebfb25ba68a65d39a83a2d9ceafaadaa15a778eaf741f7fa9eb4",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ABoulder_among_shrubs.jpg",
-      "license": "CC BY-SA 4.0",
-      "notes": "Commons: File:Boulder among shrubs.jpg"
+      "sha256": "eb2ab223fa5327ab76d1579aab37030d54f26e96a48135b73190e3bf81e1323d",
+      "source_url": "generated:runway:uk-landscaping-central-landscaping-ltd-35187792471033-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK landscaping trade scene; replaces mismatched third-party Commons asset"
     },
     "service-3.jpg": {
       "role": "service-3",
-      "sha256": "fb9a901bf2731f3d45896fde2fc16430fd4ac8675356fc6171093b9d2115c609",
-      "source_url": "https://commons.wikimedia.org/wiki/File%3ACascading_Mums_on_Wall.jpg",
-      "license": "CC0",
-      "notes": "Commons: File:Cascading Mums on Wall.jpg"
+      "sha256": "55cb80f9346f4bd52a4a1790c4223fe977a6f5da2479c39a8a6255c283d94d17",
+      "source_url": "generated:runway:uk-landscaping-central-landscaping-ltd-35187792471033-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE",
+      "notes": "Illustrative UK landscaping trade scene; replaces mismatched third-party Commons asset"
     },
     "favicon.png": {
       "role": "favicon",
@@ -46,15 +46,15 @@
     },
     "brand-mark.png": {
       "role": "header",
-      "sha256": "e52716e63bc47d4c93a1663818f4acbdecf09edd805b401911affb6f7bbfdbdc",
-      "source_url": "generated:monogram-cl-header",
+      "sha256": "3d322c7fb9eb95103fea2a17c3bc9479143545fb82faca25894e9906d7703f17",
+      "source_url": "generated:monogram-central-landscaping-ltd-35187792471033-brand-mark",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=CL primary=#0b1329 accent=#f59e0b"
     },
     "brand-mark-footer.png": {
       "role": "footer",
-      "sha256": "e52716e63bc47d4c93a1663818f4acbdecf09edd805b401911affb6f7bbfdbdc",
-      "source_url": "generated:monogram-cl-footer",
+      "sha256": "df8ef560af61398e32e6fc99944ce60d8cde857daa94da9a0af8e6dd532971da",
+      "source_url": "generated:monogram-central-landscaping-ltd-35187792471033-brand-mark-footer",
       "license": "GENERATED",
       "notes": "deterministic monogram initials=CL primary=#0b1329 accent=#f59e0b"
     }
