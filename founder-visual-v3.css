@@ -93,43 +93,140 @@ html,body { max-width:100%; overflow-x:clip; }
   line-height:1.62!important;
   color:#e8eef7!important;
 }
-/* Consistent photographic service cards: photograph under the text and
- * a restrained bottom scrim, rather than blown-out scenery with tiny copy. */
-.services-grid .service-card { isolation:isolate!important; overflow:hidden!important; }
-.services-grid .service-img-wrapper { position:absolute!important;inset:0!important;z-index:0!important;overflow:hidden!important; }
-.services-grid .service-img-wrapper img,
-.services-grid .service-card > img {
-  width:100%!important;height:100%!important;
-  object-fit:cover!important;object-position:center 45%!important;
-  filter:brightness(.68) saturate(.84) contrast(1.06)!important;
+/* Service-card policy V5: information first, trade photo as faint texture.
+ * Card height is content-driven so copy never hides behind a fixed photo crop.
+ * All headline highlights follow the individual site's --accent/--accent-primary.
+ */
+.services-grid .service-card,
+.services-grid > .service-card,
+.services-grid .service-card--wide {
+  position:relative!important;
+  isolation:isolate!important;
+  overflow:hidden!important;
+  display:flex!important;
+  flex-direction:column!important;
+  justify-content:center!important;
+  align-items:stretch!important;
+  min-width:0!important;
+  min-height:clamp(360px,34vw,480px)!important;
+  height:auto!important;
+  aspect-ratio:auto!important;
+  padding:0!important;
+  background-color:var(--bg-surface,var(--surface,#0c172a))!important;
+  border-radius:18px!important;
 }
-.services-grid .service-img-wrapper::after,
+.services-grid .service-card > img,
+.services-grid .service-card .service-img-wrapper img {
+  position:absolute!important;
+  inset:0!important;
+  width:100%!important;
+  height:100%!important;
+  object-fit:cover!important;
+  object-position:center 44%!important;
+  filter:grayscale(.14) saturate(.62) brightness(.42) contrast(.94)!important;
+  opacity:.32!important;
+  z-index:0!important;
+  pointer-events:none!important;
+}
+.services-grid .service-card .service-img-wrapper {
+  position:absolute!important;
+  inset:0!important;
+  z-index:0!important;
+  width:100%!important;
+  height:100%!important;
+  overflow:hidden!important;
+  pointer-events:none!important;
+}
 .services-grid .service-card::after {
-  content:""!important;position:absolute!important;inset:0!important;
-  background:linear-gradient(180deg,
-    rgba(7,15,30,.08) 0%,rgba(7,15,30,.12) 22%,
-    rgba(7,15,30,.52) 59%,rgba(7,15,30,.94) 100%)!important;
+  content:""!important;
+  position:absolute!important;
+  inset:0!important;
+  display:block!important;
+  z-index:1!important;
+  background:linear-gradient(100deg,
+    rgba(6,13,27,.94) 0%,rgba(6,13,27,.87) 55%,rgba(6,13,27,.78) 100%)!important;
+  pointer-events:none!important;
+}
+.services-grid .service-card .service-img-wrapper::after {
+  content:""!important;
+  position:absolute!important;
+  inset:0!important;
+  z-index:1!important;
+  background:rgba(6,13,27,.58)!important;
   pointer-events:none!important;
 }
 .services-grid .service-card .service-body,
-.services-grid .service-card .card-body {
-  z-index:2!important;
+.services-grid .service-card .card-body,
+.services-grid .service-card:nth-child(3) .service-body {
   position:relative!important;
+  z-index:3!important;
+  display:flex!important;
+  flex-direction:column!important;
+  justify-content:center!important;
+  align-items:flex-start!important;
+  flex:1 0 auto!important;
+  width:100%!important;
   max-width:100%!important;
-  padding:clamp(22px,2.2vw,34px)!important;
-  align-self:stretch!important;
-  margin-top:auto!important;
+  margin:0!important;
+  padding:clamp(24px,2.7vw,38px)!important;
+  text-align:left!important;
 }
-.services-grid .service-card:nth-child(3) .service-body {max-width:100%!important;}
-.services-grid .service-card h3, .service-card .service-body h3, .service-card .card-body h3 {
-  font-size:clamp(1.25rem,1.7vw,1.8rem)!important;
-  line-height:1.25!important;
-  color:var(--founder-v3-readable-accent, #f8fafc)!important;
-  text-shadow:0 2px 10px rgba(0,0,0,.7)!important;
+.services-grid .service-card h3,
+.services-grid .service-card .service-body h3,
+.services-grid .service-card .card-body h3 {
+  font-size:clamp(1.45rem,1.9vw,2rem)!important;
+  line-height:1.22!important;
+  font-weight:800!important;
+  letter-spacing:-.025em!important;
+  color:var(--founder-v3-readable-accent,#e2e8f0)!important;
+  text-shadow:0 1px 8px rgba(0,0,0,.35)!important;
+  overflow-wrap:break-word!important;
+  margin:0 0 14px!important;
 }
-.services-grid .service-body p,.services-grid .card-body p {
-  font-size:clamp(.89rem,1.04vw,1.03rem)!important;
-  line-height:1.5!important;color:#ecf2fb!important;
+.services-grid .service-body p,
+.services-grid .card-body p {
+  font-size:clamp(.97rem,1.13vw,1.08rem)!important;
+  line-height:1.68!important;
+  color:#edf2fa!important;
+  max-width:66ch!important;
+  margin:0 0 12px!important;
+  text-wrap:pretty;
+  opacity:1!important;
+}
+.services-grid .service-body p.service-detail,
+.services-grid .card-body p.service-detail {
+  font-size:clamp(.94rem,1.05vw,1.04rem)!important;
+  line-height:1.7!important;
+  color:#d9e4f2!important;
+}
+.services-grid .service-body .service-bullets,
+.services-grid .service-body .service-link,
+.services-grid .card-body .svc-list,
+.services-grid .service-body .svc-list {
+  position:relative!important;
+  z-index:4!important;
+}
+.services-grid .service-card .card-icon,
+.services-grid .service-card .service-badge,
+.services-grid .service-card .tag {
+  position:relative!important;
+  z-index:4!important;
+}
+@media(max-width:640px) {
+  .services-grid .service-card,
+  .services-grid > .service-card,
+  .services-grid .service-card--wide {
+    min-height:360px!important;
+    height:auto!important;
+    aspect-ratio:auto!important;
+  }
+  .services-grid .service-card .service-body,
+  .services-grid .service-card .card-body {
+    padding:25px 22px!important;
+  }
+  .services-grid .service-card h3 { font-size:clamp(1.35rem,5.2vw,1.72rem)!important; }
+  .services-grid .service-body p,
+  .services-grid .card-body p { font-size:1rem!important; }
 }
 /* Brand hierarchy V4: existing hero spans keep their precise highlights.
    Plain-text hero headings receive a subtle, responsive two-tone fallback.
