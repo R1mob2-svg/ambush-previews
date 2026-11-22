@@ -1,0 +1,60 @@
+{
+  "schema_version": "chatgpt.digital_ambush.image_first_pilot.v1",
+  "task_id": "DA-CHATGPT-AG-12131-009-20261122",
+  "prospect_id": "AG-12131-009-a-b-plastering-rendering",
+  "business_name": "A.B PLASTERING & RENDERING",
+  "original_crm_repo": "R1mob2-svg/cloudmaker-prospect-crm",
+  "crm_path": "prospects/index.json",
+  "crm_sha_at_selection": "afd1730c397d20e3fa12ec9659b78997433772f7",
+  "selection": {
+    "phone": "+447864670314",
+    "public_email": null,
+    "website_status": "NO_WEBSITE",
+    "business_directory": "https://www.yell.com/biz/a-b-plastering-birmingham-10923811/"
+  },
+  "socials": {
+    "independently_verified_official_social_url": null,
+    "note": "Search performed; no official social page was verified. Public directory service info used."
+  },
+  "concept": {
+    "generated_with": "ChatGPT image generation",
+    "original_resolution": "1024x1536",
+    "full_image_sha256": "92226558655bc21e06c9ea78d39e9557de77a005557faf6902cb023ccdee8d66",
+    "full_image_available_in": "ChatGPT conversation artifact only; not archived full-size in GitHub",
+    "github_thumbnail_path": "chatgpt-digital-ambush/ab-plastering-rendering-20261122/concept-thumbnail.webp",
+    "thumbnail_sha256": "7ae83aad0b28fe70886c136fb3ca86458061c974f6e95b2a693c834e87c95294",
+    "thumbnail_resolution": "96x144",
+    "note": "Visual art direction reference, not flattened HTML/site or proof of actual customer workmanship."
+  },
+  "website": {
+    "source_path": "chatgpt-digital-ambush/ab-plastering-rendering-20261122/index.html",
+    "live_url": "https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/ab-plastering-rendering-20261122/",
+    "commit": "8819e651f8e03bf848da003af5adfdeb75943b84",
+    "test_status": "LIVE_BROWSER_RENDER_CHECKED",
+    "subject_match_hero": "plastering",
+    "subject_match_cards": [
+      "skimming",
+      "exterior rendering",
+      "dry lining"
+    ],
+    "image_source": "external Unsplash registry source URLs (pilot only); not yet self-hosted in GitHub; production asset gate still required",
+    "mobile_menu_qa": "NOT_TESTED",
+    "eleven_width_visual_matrix": "NOT_TESTED"
+  },
+  "email": {
+    "source_paths": [
+      "chatgpt-digital-ambush/ab-plastering-rendering-20261122/email-preview.html",
+      "chatgpt-digital-ambush/ab-plastering-rendering-20261122/email-preview/index.html",
+      "chatgpt-digital-ambush/ab-plastering-rendering-20261122/email.txt"
+    ],
+    "live_url": "https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/ab-plastering-rendering-20261122/email-preview/",
+    "test_status": "PUBLIC_HTTP_FETCH_RENDERED_HTML",
+    "email_screenshot_qa": "NOT_CERTIFIED_FOR_CUSTOMER_SEND",
+    "recipient": null,
+    "actually_sent": false
+  },
+  "status": "INTERNAL_DESIGN_PILOT_ONLY",
+  "promote_to_production": false,
+  "new_external_sent": 0,
+  "notes": "Actual HTML website and internal email preview are published in existing GitHub Pages; no separate queue/CRM created. Remaining production gates: all assets self-hosted with licence/hash, actual screenshot email hero capture, 11 viewports and mobile menu, Kerry/Founder QA, verified customer email and authorised Studio link."
+}
