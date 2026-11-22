@@ -4,10 +4,12 @@
   "businessName": "CHEEK ELECTRICAL LIMITED",
   "publicEmail": "jackcheek@hotmail.co.uk",
   "publicPhone": "07540 847285",
-  "personalisedOpening": "Cheek Electrical is listed as an electrical installation company in Shirley, Solihull. We prepared a mobile-friendly website concept showing how customers could explore your services and contact you directly.",
+  "personalisedOpening": "A responsive native-HTML homepage rebuild for CHEEK ELECTRICAL LIMITED, using verified Shirley contact details and evidence-safe electrical installation enquiry copy.",
   "websiteUrl": "https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/cheek-electrical-20261122/",
-  "siteGitBlobSha": "e5a15df9c4855502de13290543041c579aa9a0e9",
-  "outboundStatus": "UNSENT_INTERNAL_DRAFT",
-  "imageStatus": "AWAITING_REAL_PUBLIC_CHROMIUM_SCREENSHOT",
-  "notes": "Founder-owned review only; no customer sends; existing company contact verified from CRM 2026-11-16, current Companies House active."
+  "siteGitBlobSha": "702de57f0d7d0fb31d7c1093e1c52fcf37f8ca67",
+  "outboundStatus": "UNSENT_INTERNAL_DRAFT_SCREENSHOT_PENDING",
+  "imageStatus": "AWAITING_REAL_PUBLIC_CHROMIUM_SCREENSHOT_FROM_EXACT_NEW_SHA",
+  "notes": "Founder review only. Old Cheek source is rejected and superseded. No customer send. Final dark email requires NEO frozen hero screenshot parity.",
+  "previousRejectedSiteGitBlobSha": "e5a15df9c4855502de13290543041c579aa9a0e9",
+  "taskId": "DA-CHATGPT-WM-LTD-20261116-0007-20261122T23Z-REBUILD"
 }
