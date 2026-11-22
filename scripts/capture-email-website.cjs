@@ -57,13 +57,22 @@ async function run(){
    if(!nav||nav.status()!==200)throw Error("BAD_PUBLIC_PAGE_"+label);
    const assets=await checkImages(page);
    if(!assets.count||assets.failed.length||assets.missing.length)throw Error("IMAGE_OR_ANCHOR_ERROR_"+label+":"+JSON.stringify(assets).slice(0,400));
-   const state=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth-innerWidth,body:(document.body.innerText||"").length,h1:!!document.querySelector("h1")}));
+   const state=await page.evaluate(()=>{
+    const hero=document.querySelector("[data-hero-copy]")||document.querySelector(".hero-copy")||document.querySelector(".hero__copy")||document.querySelector(".hero .inner");
+    const header=document.querySelector("[data-content-edge]")||document.querySelector("header .topbar")||document.querySelector("header .inner");
+    const heroLeft=hero?.getBoundingClientRect().left,headerLeft=header?.getBoundingClientRect().left;
+    return {overflow:document.documentElement.scrollWidth-innerWidth,body:(document.body.innerText||"").length,h1:!!document.querySelector("h1"),
+     hero_alignment_measured:Number.isFinite(heroLeft)&&Number.isFinite(headerLeft),
+     hero_left_edge_delta_px:Number.isFinite(heroLeft)&&Number.isFinite(headerLeft)?Math.round(Math.abs(heroLeft-headerLeft)*100)/100:null};
+   });
+   if(!state.hero_alignment_measured)throw Error("HERO_LEFT_ALIGNMENT_UNMEASURABLE_"+label);
+   if(state.hero_left_edge_delta_px>20)throw Error("HERO_LEFT_ALIGNMENT_FAILED_"+label+"_DELTA_"+state.hero_left_edge_delta_px);
    if(state.overflow>2||state.body<300||!state.h1||errors.length)throw Error("RENDER_FAILED_"+label+":"+JSON.stringify(state));
    if(width<=430){
     const b=page.locator("[aria-controls][aria-expanded]").first();
     if(await b.count()){await b.click();if(await b.getAttribute("aria-expanded")!=="true")throw Error("MOBILE_MENU_FAILED_"+label);await b.click()}
    }
-   receipt.checks.push({label,width,height,decoded_photos:assets.count,status:"PASS"});
+   receipt.checks.push({label,width,height,decoded_photos:assets.count,hero_left_edge_delta_px:state.hero_left_edge_delta_px,status:"PASS"});
    if(capture.has(label)){
     const name="homepage-"+expected.slice(0,12)+"-"+label+".jpg",filepath=path.join(out,name);
     await page.screenshot({path:filepath,type:"jpeg",quality:83,animations:"disabled"});
