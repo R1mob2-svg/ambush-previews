@@ -1,13 +1,14 @@
 Subject: A website idea for Cheek Electrical
-STATUS: INTERNAL DRAFT ONLY; DO NOT SEND
+STATUS: INTERNAL DRAFT ONLY — DO NOT SEND
 
-Cheek Electrical is listed as an electrical installation company in Shirley, Solihull. We prepared a mobile-friendly website concept showing how customers could explore your services and contact you directly.
+Cheek Electrical is listed as an electrical installation company based in Shirley, Solihull.
 
-Review website: https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/cheek-electrical-20261122/
+We rebuilt a responsive homepage concept around the published business details and a straightforward route for electrical installation enquiries:
 
-We also build custom business apps and AI Agent in a Box owner apps for diaries, customers, quotes, invoices and enquiries.
+https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/cheek-electrical-20261122/
 
-Regards,
+Entreprenuity also creates custom business apps and AI assistants that can bring enquiries, customers, diary, jobs, staff, quotes, invoices, documents, reminders and permitted workflows into one owner app.
+
+This draft is not approved for prospect delivery. The exact live-site hero screenshot, secure Entreprenuity customer URL, responsive QA, legal checks and Founder approval are still required.
+
 Entreprenuity Web Design
-
-Real website screenshot pending NEO Playwright QA; approval still required.
