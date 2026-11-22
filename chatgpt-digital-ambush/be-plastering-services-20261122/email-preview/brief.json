@@ -1,0 +1,14 @@
+{
+  "schema": "digital-ambush.email-photo-brief.v1",
+  "prospect_id": "WM-LTD-20261113-0003",
+  "businessName": "B&E Plastering Services Ltd",
+  "publicEmail": "Beps.ltd@gmail.com",
+  "publicPhone": "07930 895146",
+  "businessEvidence": "https://nextdoor.co.uk/pages/be-plastering-services-ltd/",
+  "websiteStatus": "NO_WEBSITE_VERIFIED_IN_CRM_PENDING_SEND_RECHECK",
+  "marketingOfferBy": "Entreprenuity",
+  "email_stage": "INTERNAL_REVIEW_ONLY",
+  "send_authorised": false,
+  "proof_required": "frozen website screenshots via capture-email-website.cjs",
+  "imagePolicy": "No AI-generated concept or remote mShots in outbound email"
+}
