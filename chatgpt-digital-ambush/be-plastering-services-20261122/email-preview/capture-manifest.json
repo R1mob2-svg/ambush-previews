@@ -1,0 +1,87 @@
+{
+  "schema": "digital-ambush.actual-live-site-screenshots.v1",
+  "site_url": "https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/be-plastering-services-20261122/",
+  "site_blob_sha": "fd3e592990662872f1e09231cae3b6dc36a88e47",
+  "source_html_bytes": 20300,
+  "capture_method": "Playwright Chromium real public GitHub Pages",
+  "screenshots": [
+    {
+      "label": "mobile-hero",
+      "filename": "mobile-hero-fd3e59299066.jpg",
+      "width": 390,
+      "height": 844,
+      "bytes": 38165,
+      "sha256": "17f7b4cb17f2908e0a661a433e81f8392be34389c8acd9ee6b7cd0ccb6b09a09"
+    },
+    {
+      "label": "mobile-services",
+      "filename": "mobile-services-fd3e59299066.jpg",
+      "width": 390,
+      "height": 844,
+      "bytes": 55638,
+      "sha256": "91b47fc7e7e8ea1812767d299a46986f720ec622efd0b3b94c0da218a863c45f"
+    },
+    {
+      "label": "tablet-hero",
+      "filename": "tablet-hero-fd3e59299066.jpg",
+      "width": 820,
+      "height": 1180,
+      "bytes": 116538,
+      "sha256": "d4b3b0c78a5b4c3ba993526a9165330c325ea699b03657ea0692a9e4d9883ad6"
+    },
+    {
+      "label": "tablet-services",
+      "filename": "tablet-services-fd3e59299066.jpg",
+      "width": 820,
+      "height": 1180,
+      "bytes": 144400,
+      "sha256": "0ef9729e42aab4846f00beb2ec4205568706ef6e0a586ea6630151dcc01541da"
+    },
+    {
+      "label": "desktop-hero",
+      "filename": "desktop-hero-fd3e59299066.jpg",
+      "width": 1200,
+      "height": 860,
+      "bytes": 91514,
+      "sha256": "55b25611f9d646a02567f8279c37b6b8c6307b0cc44198c1f747710c0aed324f"
+    },
+    {
+      "label": "desktop-services",
+      "filename": "desktop-services-fd3e59299066.jpg",
+      "width": 1200,
+      "height": 860,
+      "bytes": 113581,
+      "sha256": "bd905b02bc780b35d864c85056178636fa12cc44a14fb0df243a1fc8c6476894"
+    }
+  ],
+  "qa_checks": [
+    {
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "status": "PASS",
+      "overflow": 0,
+      "mediaBackgrounds": 5,
+      "navigationChecked": true
+    },
+    {
+      "device": "tablet",
+      "width": 820,
+      "height": 1180,
+      "status": "PASS",
+      "overflow": 0,
+      "mediaBackgrounds": 5,
+      "navigationChecked": false
+    },
+    {
+      "device": "desktop",
+      "width": 1200,
+      "height": 860,
+      "status": "PASS",
+      "overflow": 0,
+      "mediaBackgrounds": 5,
+      "navigationChecked": false
+    }
+  ],
+  "external_send_authorised": false
+}
