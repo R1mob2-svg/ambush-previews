@@ -1,27 +1,20 @@
-Subject: A new website and business-app idea for B&E Plastering
-To: B&E Plastering Services Ltd (FUTURE OUTREACH DRAFT ONLY)
-Sender: Entreprenuity Web Design
+Subject: B&E Plastering | Your new website preview
+Status: INTERNAL REVIEW COPY ONLY — NOT SENT TO PROSPECT
 
-Your plastering work deserves a website that looks the part.
+We built this for B&E Plastering.
 
-We saw your posts about ceiling overboarding, skimming and kitchen plastering, and have already built a personalised working homepage concept showing those services clearly.
+We saw the ceiling overboarding, skimming and kitchen plastering projects you've shared, and created a working website preview designed to showcase those services.
 
-View your real website preview:
+VIEW YOUR WEBSITE:
 https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/be-plastering-services-20261122/
 
-Beyond the website, imagine running your business from one custom app:
-* Jobs and calendar bookings
-* Connected email enquiries and customer replies
-* Team schedules, assignments and photo/job records
-* Customers, quotes, invoices and documents
-* Follow-ups and automated reminders
-* Your own AI business assistant to help manage everyday workflows
+Imagine running your business from one app.
 
-We have built a custom owner-app system for a transport business and can tailor an app to the way a plastering company works. Features and third-party integrations are scoped before delivery.
+Alongside websites, we build custom business apps with AI assistants. Features can include email enquiries, jobs and calendars, customer and staff records, quotes and invoices, and AI-assisted reminders and follow-ups. We tailor features and integrations to the business.
 
-If the design interests you, we can discuss the next steps with no obligation.
+Have a look at your website first. If the idea appeals, we can discuss the next steps.
 
 Kind regards,
 Entreprenuity Web Design
 
-INTERNAL REVIEW VERSION ONLY. No prospect email has been sent. External sending requires Founder approval of exact content, legal checks, approved Zoho sender and secure Entreprenuity review URL.
+Internal test draft. No email has been sent to B&E. External prospect sending requires a separately approved exact recipient, sender, legal checks and a secure Entreprenuity preview URL.
