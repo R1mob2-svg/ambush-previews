@@ -294,8 +294,16 @@ function normProv(v) {
       // 2) Zero baked-in hero text.
       check(`[${vp.name}] no baked-in hero text flag`, !info.bakedTextFlag,
         info.bakedTextFlag || 'none');
-      // 3) Brand title must dominate the H1 by at least 20% on the Golden Master.
-      if (info.isGolden && info.wmSize && info.h1Size) {
+      // 3) Brand title must dominate the H1 by at least 20% on EVERY template.
+      // NEO 2026-11-22: this assertion used to be gated on `info.isGolden`, which
+      // is only true for simplicity-golden-v1. Every other template skipped the
+      // check entirely and still recorded a PASS, so 24 mobile heroes shipped at
+      // a 1.04x-1.08x brand/H1 ratio and the gate reported green. A missing
+      // measurement is now a failure, never a silent skip.
+      if (!info.wmSize || !info.h1Size) {
+        check(`[${vp.name}] company title vs H1 is measurable`, false,
+          `brand=${info.wmSize == null ? 'none' : info.wmSize} h1=${info.h1Size == null ? 'none' : info.h1Size}`);
+      } else {
         const dominance = info.wmSize / info.h1Size;
         check(`[${vp.name}] company title >=1.2x the H1`, dominance >= 1.2,
           `${dominance.toFixed(2)}x`);
