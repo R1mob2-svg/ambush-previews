@@ -1,8 +1,8 @@
 {
   "schema": "digital-ambush.real-html-capture.v1",
   "url": "https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/alto-barren-plumbing-heating-20261123/",
-  "html_blob_sha": "bf54e3507d24b0dc050cfb76085c8fa9f6fbbf84",
-  "at": "2026-11-23T16:01:35.102Z",
+  "html_blob_sha": "6157d4c7af29b184494af5ac1dadf0b1c42617b1",
+  "at": "2026-11-23T19:05:48.087Z",
   "checks": [
     {
       "label": "phone320",
@@ -106,23 +106,23 @@
       "label": "mobile390",
       "width": 390,
       "height": 844,
-      "filename": "homepage-bf54e3507d24-mobile390.jpg",
-      "bytes": 49843,
-      "sha256": "f5978d42cac9973ab0091cec184380170c8344f62369434e4e433bc0f3cfda16"
+      "filename": "homepage-6157d4c7af29-mobile390.jpg",
+      "bytes": 50203,
+      "sha256": "e76d8cb8f7c0e1ddaa3752605ba0905c909c0f337c76f6566a7829a8ddab0f32"
     },
     {
       "label": "tablet820",
       "width": 820,
       "height": 1180,
-      "filename": "homepage-bf54e3507d24-tablet820.jpg",
-      "bytes": 96810,
-      "sha256": "0213788cd56b582fc31fd5f36682cd258a5410469deb39e7a350db9e79d3619a"
+      "filename": "homepage-6157d4c7af29-tablet820.jpg",
+      "bytes": 97386,
+      "sha256": "610b01385ccf002acc2799743078977ad9be5322e4fe197cd8d1d826221164fd"
     },
     {
       "label": "desktop1200",
       "width": 1200,
       "height": 850,
-      "filename": "homepage-bf54e3507d24-desktop1200.jpg",
+      "filename": "homepage-6157d4c7af29-desktop1200.jpg",
       "bytes": 131780,
       "sha256": "a66a7b480d5a9600423d8c4244655c1cd5801a593fcc0847b3d6bedefee5edbd"
     }
