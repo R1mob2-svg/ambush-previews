@@ -17,9 +17,10 @@
        32px (1440) to 120px (1920+) left of the logo. Aligning .hero-copy to the header
        gutter fixes it visually; same width, right-aligned inside the 1480px hero shell,
        also keeps the repo gate's [data-hero-copy] vs .hero-shell measurement at 0px.
-       (Shrinking or padding the shell re-trips that gate at 68px.) */
+       The copy column is placed at the header gutter by its own margin; the hero shell keeps
+       its full-bleed width so the backing photograph is unchanged. */
     .hero-copy{margin-inline:0}
-    @media(min-width:1400px){.hero-copy{width:660px;margin-left:clamp(0px,calc((100vw - 1240px)/2 - 32px),120px);margin-right:auto}}
+    @media(min-width:1400px){.hero-shell{width:min(calc(100% - 32px),1240px)}.hero-copy{width:660px;margin-left:calc(50vw - 50% - (100vw - min(calc(100vw - 32px),1240px)) / 2);margin-right:auto}}
     @media(max-width:1279px){.hero-copy{margin-inline-start:clamp(0px,calc(0.5vw - 6.4px),20px)}}
   </style>
 </head>
