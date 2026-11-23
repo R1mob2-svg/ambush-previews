@@ -116,7 +116,7 @@ function preBuildGuard(lead) {
     return { reason: 'COMPANY_NOT_VERIFIED_LTD' };
   if (!/^[A-Z0-9]{6,9}$/i.test(String(lead.company_number || '').trim()))
     return { reason: 'COMPANY_NUMBER_MISSING' };
-  if (!/^(?:\\+44|0)[0-9 ()-]{9,}$/.test(String(lead.public_phone || '').trim()))
+  if (!/^(?:\+44|0)[0-9 ()-]{9,}$/.test(String(lead.public_phone || '').trim()))
     return { reason: 'PUBLIC_TELEPHONE_MISSING' };
   const websiteGate = String(lead.website_status || '').toUpperCase();
   if (!websiteGate.startsWith('NO_OFFICIAL_SITE_FOUND_WITHIN_') || lead.website_url)
