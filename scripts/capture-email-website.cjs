@@ -59,7 +59,7 @@ async function run(){
    if(!assets.count||assets.failed.length||assets.missing.length)throw Error("IMAGE_OR_ANCHOR_ERROR_"+label+":"+JSON.stringify(assets).slice(0,400));
    const state=await page.evaluate(()=>{
     const hero=document.querySelector("[data-hero-copy]")||document.querySelector(".hero-copy")||document.querySelector(".hero__copy")||document.querySelector(".hero .inner");
-    const header=document.querySelector("[data-content-edge]")||document.querySelector("header .topbar")||document.querySelector("header .inner");
+    const header=document.querySelector("[data-content-edge]")||document.querySelector(".hero-shell")||document.querySelector("header .topbar")||document.querySelector("header .inner")||document.querySelector(".shell");
     const heroLeft=hero?.getBoundingClientRect().left,headerLeft=header?.getBoundingClientRect().left;
     return {overflow:document.documentElement.scrollWidth-innerWidth,body:(document.body.innerText||"").length,h1:!!document.querySelector("h1"),
      hero_alignment_measured:Number.isFinite(heroLeft)&&Number.isFinite(headerLeft),

@@ -36,7 +36,11 @@ function build(sitePath,receiptPath,briefPath){
   const bytes=fs.readFileSync(path.join(dir,meta.filename));
   if(bytes.length<4000||bytes[0]!==255||bytes[1]!==216||bytes[2]!==255)throw Error("INVALID_JPEG_"+label);
   if(sha256(bytes)!==meta.sha256)throw Error("SCREENSHOT_HASH_MISMATCH_"+label);
-  screen[label]={name:meta.filename,url:r.url+"email-preview/"+encodeURIComponent(meta.filename)};
+  // Screenshots are written into the receipt directory (the slug, not email-preview/). Resolve the public
+  // URL from the receipt location so the generated hero image never 404s.
+  const relDir=path.relative(path.resolve("chatgpt-digital-ambush"),path.resolve(dir)).split(path.sep).filter(Boolean).join("/");
+  const publicBase=r.url+(relDir?relDir.replace(/[^a-z0-9_/-]/gi,"")+"/":"");
+  screen[label]={name:meta.filename,url:publicBase+encodeURIComponent(meta.filename)};
  }
  const link=esc(r.url),brand=esc(company),opening=esc(personal);
  function image(label,cls,width,alt,visible){
