@@ -1,0 +1,15 @@
+{
+  "schema": "digital-ambush.asset-provenance.v1",
+  "prospect_id": "WM-LTD-20261116-0013",
+  "business_name": "ASSG PLUMBING AND HEATING SERVICES LTD",
+  "source_manifest": "assg-plumbing-and-heating-services-0013/asset-sources.json",
+  "source_manifest_blob_sha": "983c151b642c7704c79bc7376dc01ece53877250",
+  "assets": {
+    "hero": {"path": "../../assg-plumbing-and-heating-services-0013/assets/hero.jpg", "sha256": "1ae98f2d260c37c32fa647e9c6360d62e92ed05ee2608cc7e15cf58ee3acac59", "source": "generated:runway:6e4ff6eb-7d03-4478-8c01-a32053739620", "rights": "AI_GENERATED_COMMERCIAL_USE", "disclosure": "Illustrative; not company work"},
+    "service_1": {"path": "../../assg-plumbing-and-heating-services-0013/assets/service-1.jpg", "sha256": "4bb5cf69ebf1145082ecd8f9180266a78c6fbedaff9a985f5a5d8e890018d67d", "source": "https://commons.wikimedia.org/wiki/File:Copper_water_pipes.jpg", "rights": "CC BY-SA 3.0"},
+    "service_2": {"path": "../../assg-plumbing-and-heating-services-0013/assets/service-2.jpg", "sha256": "1276d948aa014b30dabface59f6b5f362dbceaa03dd631bb60006f313f0ca3ee", "source": "generated:runway:uk-heating-assg-plumbing-and-heating-services-0013-service-2", "rights": "AI_GENERATED_COMMERCIAL_USE", "disclosure": "Illustrative; not company work"}
+  },
+  "generated_new_image_this_run": false,
+  "tinyfish_used": false,
+  "customer_send": false
+}
