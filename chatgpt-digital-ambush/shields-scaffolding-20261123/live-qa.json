@@ -1,0 +1,159 @@
+{
+  "site": "https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/shields-scaffolding-20261123/",
+  "expected_blob": "ecdd1781e0dc181f3eb1226c81d37eaab5a1c757",
+  "served_blob": "ecdd1781e0dc181f3eb1226c81d37eaab5a1c757",
+  "match": true,
+  "allPass": true,
+  "rows": [
+    {
+      "w": 320,
+      "ok": true,
+      "overflow": 0,
+      "imgs": 5,
+      "broken": 0,
+      "anchors": 0,
+      "delta": 0,
+      "errs": 0,
+      "netfail": 0,
+      "menu": "true"
+    },
+    {
+      "w": 390,
+      "ok": true,
+      "overflow": 0,
+      "imgs": 5,
+      "broken": 0,
+      "anchors": 0,
+      "delta": 0,
+      "errs": 0,
+      "netfail": 0,
+      "menu": "true"
+    },
+    {
+      "w": 430,
+      "ok": true,
+      "overflow": 0,
+      "imgs": 5,
+      "broken": 0,
+      "anchors": 0,
+      "delta": 0,
+      "errs": 0,
+      "netfail": 0,
+      "menu": "true"
+    },
+    {
+      "w": 768,
+      "ok": true,
+      "overflow": 0,
+      "imgs": 5,
+      "broken": 0,
+      "anchors": 0,
+      "delta": 0,
+      "errs": 0,
+      "netfail": 0,
+      "menu": "true"
+    },
+    {
+      "w": 820,
+      "ok": true,
+      "overflow": 0,
+      "imgs": 5,
+      "broken": 0,
+      "anchors": 0,
+      "delta": 0,
+      "errs": 0,
+      "netfail": 0,
+      "menu": "true"
+    },
+    {
+      "w": 1024,
+      "ok": true,
+      "overflow": 0,
+      "imgs": 5,
+      "broken": 0,
+      "anchors": 0,
+      "delta": 0,
+      "errs": 0,
+      "netfail": 0,
+      "menu": "n/a"
+    },
+    {
+      "w": 1200,
+      "ok": true,
+      "overflow": 0,
+      "imgs": 5,
+      "broken": 0,
+      "anchors": 0,
+      "delta": 0,
+      "errs": 0,
+      "netfail": 0,
+      "menu": "n/a"
+    },
+    {
+      "w": 1280,
+      "ok": true,
+      "overflow": 0,
+      "imgs": 5,
+      "broken": 0,
+      "anchors": 0,
+      "delta": 0,
+      "errs": 0,
+      "netfail": 0,
+      "menu": "n/a"
+    },
+    {
+      "w": 1440,
+      "ok": true,
+      "overflow": 0,
+      "imgs": 5,
+      "broken": 0,
+      "anchors": 0,
+      "delta": 0,
+      "errs": 0,
+      "netfail": 0,
+      "menu": "n/a"
+    },
+    {
+      "w": 1920,
+      "ok": true,
+      "overflow": 0,
+      "imgs": 5,
+      "broken": 0,
+      "anchors": 0,
+      "delta": 0,
+      "errs": 0,
+      "netfail": 0,
+      "menu": "n/a"
+    },
+    {
+      "w": 2560,
+      "ok": true,
+      "overflow": 0,
+      "imgs": 5,
+      "broken": 0,
+      "anchors": 0,
+      "delta": 0,
+      "errs": 0,
+      "netfail": 0,
+      "menu": "n/a"
+    },
+    {
+      "w": 3440,
+      "ok": true,
+      "overflow": 0,
+      "imgs": 5,
+      "broken": 0,
+      "anchors": 0,
+      "delta": 0,
+      "errs": 0,
+      "netfail": 0,
+      "menu": "n/a"
+    }
+  ],
+  "screenshots": [
+    "mobile390",
+    "tablet820",
+    "desktop1200"
+  ],
+  "at": "2026-11-23T19:50:28.417Z"
+}

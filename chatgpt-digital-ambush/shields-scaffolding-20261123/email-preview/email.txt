@@ -7,7 +7,7 @@ We've prepared a private design preview showing how Shield's Scaffolding could p
 The concept is a real responsive website, with accurate public business details and no invented reviews, accreditations, completed-project claims or pricing promises.
 
 Website preview:
-__SITE_URL__
+https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/shields-scaffolding-20261123/
 
 Entreprenuity Web Design also creates custom business apps and an AI Agent in a Box with an owner app. Optional capabilities can include inbox and email, diary and jobs, staff and customer CRM, quotes and invoices, documents, follow-ups and an AI assistant.
 
