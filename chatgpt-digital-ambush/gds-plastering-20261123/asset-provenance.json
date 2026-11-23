@@ -1,0 +1,46 @@
+{
+  "schema": "digital_ambush.asset_provenance.v1",
+  "prospect_id": "PRO-GMAPS-20261117-0002",
+  "task_id": "DA-CHATGPT-PRO-GMAPS-20261117-0002-20261123T04Z",
+  "source_site_blob_sha": "22c3794905731d3633d61d6cce9d286ea25122d6",
+  "inherited_manifest": "gds-plastering-limited-202611170002/asset-sources.json",
+  "inherited_manifest_blob_sha": "8a7cd096e948ed4aa97a5a859cffcd13c20f5efc",
+  "assets": {
+    "hero": {
+      "public_url": "https://r1mob2-svg.github.io/ambush-previews/gds-plastering-limited-202611170002/assets/hero.jpg",
+      "sha256": "2b0010abcfd2583a37e7c2f3b6f5f402dc136fd842d4a8e0ee34d81147bf3722",
+      "source_url": "generated:runway:a92d5d27-12a9-4586-bb83-e9b59ff714f4",
+      "rights": "AI_GENERATED_COMMERCIAL_USE",
+      "use": "illustrative plastering trade scene; not prospect work"
+    },
+    "service_1": {
+      "public_url": "https://r1mob2-svg.github.io/ambush-previews/gds-plastering-limited-202611170002/assets/service-1.jpg",
+      "sha256": "a163abeb634b8656f13676fb8a6715ad4e3e2fa27aaa7287c724794d62699d8c",
+      "source_url": "https://www.pexels.com/photo/crop-man-with-trowels-and-spackle-5691594/",
+      "rights": "Pexels License",
+      "use": "illustrative skimming and plasterboarding"
+    },
+    "service_2": {
+      "public_url": "https://r1mob2-svg.github.io/ambush-previews/gds-plastering-limited-202611170002/assets/service-2.jpg",
+      "sha256": "ba57a2eec5aaaea938af521549cba4b20c0b32782ecfbaf1da7363828bf53b3e",
+      "source_url": "https://unsplash.com/photos/a-textured-beige-wall-surface-iutexZMtf1I",
+      "rights": "Unsplash License",
+      "use": "illustrative external render texture"
+    },
+    "service_3": {
+      "public_url": "https://r1mob2-svg.github.io/ambush-previews/gds-plastering-limited-202611170002/assets/service-3.jpg",
+      "sha256": "eaa4cb82eef1a2d5e146cfb0f303e7b97624b5c4f666a45f1d2d6b9d845bcffa",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wall_finishes_of_plastering.jpg",
+      "rights": "CC0",
+      "use": "illustrative plaster repair and finish"
+    },
+    "process_bg": {
+      "public_url": "https://r1mob2-svg.github.io/ambush-previews/gds-plastering-limited-202611170002/assets/process-bg.jpg",
+      "sha256": "4c73d66bc885070ace5bb370b11d7312c712226cd3a779f79a9efb7e75de7c0d",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Plastering_by_maison.jpg",
+      "rights": "CC BY-SA 4.0",
+      "use": "illustrative ambient plastering backdrop"
+    }
+  },
+  "external_send": false
+}
