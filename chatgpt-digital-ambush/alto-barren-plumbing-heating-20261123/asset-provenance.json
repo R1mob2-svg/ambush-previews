@@ -1,0 +1,61 @@
+{
+  "schema": "digital_ambush.asset_provenance.v1",
+  "task_id": "DA-CHATGPT-WM-LTD-20261116-0018-20261123T15Z",
+  "prospect_id": "WM-LTD-20261116-0018",
+  "source_repository": "R1mob2-svg/ambush-previews",
+  "source_commit": "a34a709bb86653ce8c5a8018a2078946969912cd",
+  "source_manifest_path": "alto-barren-plumbing-and-heating-limited-202611160018/asset-sources.json",
+  "source_manifest_blob_sha": "6d7270a65c8559470498d9206484af2f11addc2c",
+  "usage_note": "Same-prospect asset vault reused by reference; illustrative assets are not represented as prospect work.",
+  "assets": [
+    {
+      "file": "hero.jpg",
+      "role": "hero",
+      "git_blob_sha": "1995b13fe5c90766b98c30b60c14d01d463279f5",
+      "sha256": "46d1fe60e1d196d5555cc76809b5f473a66f9fda70c84baf9da81a3527d9f6c7",
+      "source": "generated:runway:fa4ddaec-dc91-4144-a71b-be9bf23c3d40",
+      "license": "AI_GENERATED_COMMERCIAL_USE"
+    },
+    {
+      "file": "service-1.jpg",
+      "role": "service-1",
+      "git_blob_sha": "9b83734fc530951dd39a5902053475abf19e3fd9",
+      "sha256": "6169b87271c7892ce219ff076be11df7b40d05e5678da3b74ba79d93c1dc2a58",
+      "source": "generated:runway:uk-plumbing-alto-barren-plumbing-and-heating-limited-202611160018-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE"
+    },
+    {
+      "file": "service-2.jpg",
+      "role": "service-2",
+      "git_blob_sha": "1fa8b605558633258c30e9844a63a0d16be9d314",
+      "sha256": "f4cee3c9ade5702e68a6c1d00b0d35b8cbd22a466f7fe4b8cfded5d0f7fa67ee",
+      "source": "generated:runway:uk-plumbing-alto-barren-plumbing-and-heating-limited-202611160018-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE"
+    },
+    {
+      "file": "service-3.jpg",
+      "role": "service-3",
+      "git_blob_sha": "df3daa847dcfffa2329b49db8d65baf9b86c6c8f",
+      "sha256": "8e4b91872c428441cfeb44bc745bb7bff794692798dd4c4ebe2ec80d3b0835c4",
+      "source": "generated:runway:uk-plumbing-alto-barren-plumbing-and-heating-limited-202611160018-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE"
+    },
+    {
+      "file": "process-bg.jpg",
+      "role": "process-background",
+      "git_blob_sha": "d8c24f5fe717b2cd1cf10e7db33aa15abcd99cee",
+      "sha256": "c1f4bd30d47219e6b0139576c4dbe6971e692f8fce07d00ce75fc0862c4e17b6",
+      "source": "generated:runway:uk-plumbing-alto-barren-plumbing-and-heating-limited-202611160018-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE"
+    },
+    {
+      "file": "brand-mark.png",
+      "role": "brand-mark",
+      "git_blob_sha": "ff7e30401db75a92feaa12c08d32c0a0832deff8",
+      "sha256": "6990d87886df842e2ab897cf82cf5c62c337844c7537c649926921358bf7673d",
+      "source": "generated:monogram-alto-barren-plumbing-and-heating-limited-202611160018-brand-mark",
+      "license": "GENERATED"
+    }
+  ],
+  "status": "PROVENANCE_COMPLETE"
+}
