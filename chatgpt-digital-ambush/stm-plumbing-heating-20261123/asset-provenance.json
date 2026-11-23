@@ -1,0 +1,39 @@
+{
+  "schema": "chatgpt.digital_ambush.asset_provenance.v1",
+  "prospect_id": "WM-LTD-20261116-0012",
+  "site_blob_sha": "2e3e8994614a5cdeadc011ef1239562e13b2fb00",
+  "source_manifest": {
+    "repository": "R1mob2-svg/ambush-previews",
+    "path": "stm-plumbing-heating-uk-0012/asset-sources.json",
+    "blob_sha": "6eaaadc5406d0d983cf51072226439ac86dae985"
+  },
+  "disclosure": "Photographic assets are illustrative licensed trade imagery and are not represented as STM Plumbing & Heating (UK) Limited's actual completed work.",
+  "assets": [
+    {
+      "path": "stm-plumbing-heating-uk-0012/assets/hero.jpg",
+      "role": "hero-and-wide-card",
+      "git_blob_sha": "3af775e05874f79e05d20e89d382a3b5cb4ee9a3",
+      "sha256": "1f09e9d6c63652424b6e949f013b56a8f254b57eb7bccdfad26bd80fd475f7ce",
+      "source_url": "generated:runway:03eb1880-dd1a-4bf7-92ac-b228bf476c2c",
+      "license": "AI_GENERATED_COMMERCIAL_USE"
+    },
+    {
+      "path": "stm-plumbing-heating-uk-0012/assets/service-1.jpg",
+      "role": "pipework-service",
+      "git_blob_sha": "bda8d93f5f581fc3c5da6b079d2017c7538c0dee",
+      "sha256": "87e2347c22f4278b2ce73c6229b2e2f0d42c27e4494a21aeef1215ece88621b2",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Propane_torch_soldering_copper_pipe.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "path": "stm-plumbing-heating-uk-0012/assets/service-2.jpg",
+      "role": "heating-service",
+      "git_blob_sha": "77a27ef6a6a6f4efccd3c56bc5cbbc18a9a15071",
+      "sha256": "a47e43cf4e668d5688b0dd10a958bc187b3c80d840d65eee3338b2e5aadbc110",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wall_mounted_boiler_in_kitchen.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "verified_at": "2026-11-23T09:08:00.000Z",
+  "verification_scope": "Source manifest and hashes bound. Real decode, subject match and public HTTP readback require exact-SHA NEO browser QA."
+}
