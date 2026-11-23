@@ -290,6 +290,7 @@ const TRADE_KEY = {
   roofer: 'roofing', roofing: 'roofing',
   plasterer: 'plastering', plastering: 'plastering',
   builder: 'building', building: 'building',
+  scaffolding: 'scaffolding', scaffolder: 'scaffolding',
   joiner: 'joinery', joinery: 'joinery', carpenter: 'joinery',
   painter: 'painting', painting: 'painting', decorator: 'painting',
   landscaper: 'landscaping', landscaping: 'landscaping', gardener: 'landscaping',
