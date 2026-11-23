@@ -11,8 +11,8 @@
  *   2. crawl public directory / social pages already recorded as evidence
  *   3. extract candidate addresses from raw HTML (mailto: + text patterns)
  *   4. MX-verify the domain of each candidate
- *   5. on success: write email + email_evidence_url + email_verified_at, and
- *      promote to FRESH_QUALIFIED (unbuilt) or BUILT_READY_FOR_REVIEW (built)
+ *   5. on success: write email + email_evidence_url + email_verified_at, but
+ *      keep RESEARCH_HOLD until independent company, phone and official-site QA
  *
  * Every accepted address commits and pushes on its own — atomic, small.
  *
@@ -202,7 +202,12 @@ async function commitOne(lead, hit) {
   target.email_verification_level = 'MX_VERIFIED_PUBLIC_SOURCE';
   target.email_source_url = hit.evidence;
   target.updated_at = new Date().toISOString();
-  const next = built ? 'BUILT_READY_FOR_REVIEW' : 'FRESH_QUALIFIED';
+  // CRITICAL: MX verifies a domain, NOT the company, phone or absence of a website.
+  // Never undo a previous qualification quarantine when enriching an email.
+  const next = 'RESEARCH_HOLD';
+  target.qualification_status = 'RESEARCH_HOLD';
+  target.selected_for_outreach = false;
+  target.qualification_reason = 'PENDING_INDEPENDENT_COMPANY_PHONE_WEBSITE_EVIDENCE';
   target.pipeline_status = next;
   if (target.status) target.status = next;
 
@@ -242,7 +247,7 @@ async function commitOne(lead, hit) {
     const verified = String(l.email_deliverability_status || '').toUpperCase() === 'MAILBOX_VERIFIED';
     if (hasEmail && verified) return false;
     const s = l.pipeline_status || l.status;
-    return ['FRESH_QUALIFIED', 'PHONE_ONLY_NO_PUBLIC_EMAIL', 'NEEDS_ENRICHMENT', 'BUILT_READY_FOR_REVIEW'].includes(s);
+    return ['FRESH_QUALIFIED', 'PHONE_ONLY_NO_PUBLIC_EMAIL', 'NEEDS_ENRICHMENT', 'BUILT_READY_FOR_REVIEW', 'RESEARCH_HOLD'].includes(s);
   });
 
   log('QUEUE', `${queue.length} leads lacking a verified public email`);
