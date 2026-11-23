@@ -1,0 +1,15 @@
+INTERNAL DRAFT — SCREENSHOT PENDING — UNSENT
+Prospect: D Britain Home Improvements Limited
+Recipient identity for later review only: britain67@hotmail.co.uk
+NEW_EXTERNAL_SENT=0
+
+Subject: A clearer online home for D Britain Home Improvements
+
+We prepared a responsive homepage concept that gives the business identity, plumbing-led services and direct contact routes a confident place online.
+
+Internal website preview:
+https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/d-britain-home-improvements-20261123/
+
+Entreprenuity Web Design also builds a custom business app and an optional AI Agent in a Box owner app. A tailored owner app could bring together inbox and email, diary, jobs, staff, customer CRM, quotes and invoices, documents, follow-ups and an AI assistant.
+
+This draft is not sendable. It remains blocked until real frozen screenshots of exact site blob 06899f7cb18244dd52cb31f9362b975e33ecbd75 exist, independent browser QA passes, a secure Studio URL is ready, legal/suppression review passes, and the Founder approves the exact recipient and revision.
