@@ -1,0 +1,21 @@
+{
+  "schema": "digital_ambush.internal_email_brief.v1",
+  "task_id": "DA-CHATGPT-PRO-GMAPS-20261117-0002-20261123T04Z",
+  "prospect_id": "PRO-GMAPS-20261117-0002",
+  "business_name": "GDS Plastering Limited",
+  "recipient_under_review": "gds_services@hotmail.com",
+  "public_phone": "07305 744364",
+  "website_url": "https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/gds-plastering-20261123/",
+  "website_blob_sha": "22c3794905731d3633d61d6cce9d286ea25122d6",
+  "email_status": "INTERNAL_DRAFT_SCREENSHOT_PENDING_UNSENT",
+  "first_pixel_requirement": "Frozen real website hero screenshot only; no AI concept image or mShots",
+  "required_images": [
+    "hero-mobile390.jpg",
+    "hero-tablet820.jpg",
+    "hero-desktop1200.jpg",
+    "services-mobile390.jpg",
+    "services-tablet820.jpg",
+    "services-desktop1200.jpg"
+  ],
+  "new_external_sent": 0
+}
