@@ -249,6 +249,12 @@ async function hydrateCommonsPhoto(p) {
     if (!actualLicense || (declared === 'public domain'
       ? !/public domain|cc0/.test(actualLicense)
       : !actualLicense.includes(declared.replace(/\s+/g,' ')))) return null;
+    // Commons attribution is data, not a guessed pool label. Always use the
+    // actual creator supplied by the file page for Creative Commons work.
+    const actualAuthor = String(info.extmetadata?.Artist?.value || '')
+      .replace(/<[^>]*>/g,'').replace(/&amp;/g,'&')
+      .replace(/&quot;/g,'"').replace(/&#39;/g,"'").trim().slice(0,180);
+    if (declared !== 'public domain' && !actualAuthor) return null;
     const media = String(info.thumburl || info.url || '');
     const mediaUrl = new URL(media);
     if (mediaUrl.protocol !== 'https:' || mediaUrl.hostname !== 'upload.wikimedia.org') return null;
@@ -267,7 +273,7 @@ async function hydrateCommonsPhoto(p) {
     const tmp = destination + '.' + process.pid + '.partial';
     fs.writeFileSync(tmp, bytes);
     fs.renameSync(tmp, destination);
-    return { ...p, local_file: destination, commons_verified_license: actualLicense };
+    return { ...p, local_file: destination, author: actualAuthor || 'Public domain', commons_verified_license: actualLicense };
   } catch (err) {
     log('COMMONS_PHOTO_UNAVAILABLE source=' + source.slice(0,120) + ' reason=' + String(err?.message || 'unknown').slice(0,85));
     return null;
