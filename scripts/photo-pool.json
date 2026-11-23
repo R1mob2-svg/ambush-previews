@@ -1,706 +1,762 @@
 [
- {
-  "trade": "heating",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/heating-file-2008-12-09-anhydrite-screed-for-underfloor-heating-with-undesirable-blistering-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A2008-12-09_Anhydrite_screed_for_underfloor_heating_with_undesirable_blistering.jpg",
-  "license": "CC BY-SA 3.0",
-  "author": "GT1976",
-  "notes": "Commons: File:2008-12-09 Anhydrite screed for underfloor heating with undesirable blistering.jpg"
- },
- {
-  "trade": "heating",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/heating-file-armado-del-piso-radiante-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AArmado_del_piso_radiante.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Maisire",
-  "notes": "Commons: File:Armado del piso radiante.jpg"
- },
- {
-  "trade": "heating",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/heating-file-bauteilaktivierung-2-2-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ABauteilaktivierung_2_2.jpg",
-  "license": "CC BY 3.0",
-  "author": "Helyesen",
-  "notes": "Commons: File:Bauteilaktivierung 2 2.jpg"
- },
- {
-  "trade": "heating",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/heating-file-circuit-de-menjador-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ACircuit_de_menjador.JPG",
-  "license": "CC BY-SA 3.0",
-  "author": "Wikimedia Commons contributor",
-  "notes": "Commons: File:Circuit de menjador.JPG"
- },
- {
-  "trade": "heating",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/heating-file-col-lector-terra-radiant-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ACol.lector_terra_radiant.JPG",
-  "license": "CC BY-SA 3.0",
-  "author": "Wikimedia Commons contributor",
-  "notes": "Commons: File:Col.lector terra radiant.JPG"
- },
- {
-  "trade": "heating",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/heating-file-col-lector-terra-radiant-i-tubs-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ACol%C2%B7lector_terra_radiant_i_tubs.JPG",
-  "license": "CC BY-SA 3.0",
-  "author": "Wikimedia Commons contributor",
-  "notes": "Commons: File:Col\u00b7lector terra radiant i tubs.JPG"
- },
- {
-  "trade": "heating",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/heating-file-dornbirn-ebnit-underfloor-heating-system-01asd-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-Ebnit-underfloor_heating-system-01ASD.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Asurnipal",
-  "notes": "Commons: File:Dornbirn-Ebnit-underfloor heating-system-01ASD.jpg"
- },
- {
-  "trade": "heating",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/heating-file-dornbirn-ebnit-underfloor-heating-system-02asd-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-Ebnit-underfloor_heating-system-02ASD.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Asurnipal",
-  "notes": "Commons: File:Dornbirn-Ebnit-underfloor heating-system-02ASD.jpg"
- },
- {
-  "trade": "plumber",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/plumber-file-water-damage-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A-_Water_damage_-.jpg",
-  "license": "CC BY-SA 2.5",
-  "author": "User:Nino Barbieri",
-  "notes": "Commons: File:- Water damage -.jpg"
- },
- {
-  "trade": "plumber",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/plumber-file-05-06-13-plumbing-1-8714966981-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A05-06-13_plumbing_1_%288714966981%29.jpg",
-  "license": "CC BY 2.0",
-  "author": "University of the Fraser Valley",
-  "notes": "Commons: File:05-06-13 plumbing 1 (8714966981).jpg"
- },
- {
-  "trade": "plumber",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/plumber-file-05-06-13-plumbing-2-8716084472-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A05-06-13_plumbing_2_%288716084472%29.jpg",
-  "license": "CC BY 2.0",
-  "author": "University of the Fraser Valley",
-  "notes": "Commons: File:05-06-13 plumbing 2 (8716084472).jpg"
- },
- {
-  "trade": "plumber",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/plumber-file-05-06-13-plumbing-3-8714964469-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A05-06-13_plumbing_3_%288714964469%29.jpg",
-  "license": "CC BY 2.0",
-  "author": "University of the Fraser Valley",
-  "notes": "Commons: File:05-06-13 plumbing 3 (8714964469).jpg"
- },
- {
-  "trade": "plumber",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/plumber-file-0support-14993849934-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A0support_%2814993849934%29.jpg",
-  "license": "CC BY 2.0",
-  "author": "SuSanA Secretariat",
-  "notes": "Commons: File:0support (14993849934).jpg"
- },
- {
-  "trade": "plumber",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/plumber-file-18-jago-plumbing-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A18_Jago_Plumbing.JPG",
-  "license": "CC BY-SA 4.0",
-  "author": "CambridgeBayWeather",
-  "notes": "Commons: File:18 Jago Plumbing.JPG"
- },
- {
-  "trade": "plumber",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/plumber-file-2-inch-copper-pipe-firestops-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A2_inch_copper_pipe_firestops.jpg",
-  "license": "CC BY 3.0",
-  "author": "Achim Hering",
-  "notes": "Commons: File:2 inch copper pipe firestops.jpg"
- },
- {
-  "trade": "plumber",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/plumber-file-2006-0602turdapotaissasewer0114-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A2006_0602TurdaPotaissaSewer0114.jpg",
-  "license": "CC BY 2.5",
-  "author": "CristianChirita",
-  "notes": "Commons: File:2006 0602TurdaPotaissaSewer0114.jpg"
- },
- {
-  "trade": "electrician",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/electrician-file-111-121-low-cost-rewiring-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A111-121_low-cost_rewiring.JPG",
-  "license": "CC BY-SA 3.0",
-  "author": "Dmitry G",
-  "notes": "Commons: File:111-121 low-cost rewiring.JPG"
- },
- {
-  "trade": "electrician",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/electrician-file-2-room-apartment-rewiring-in-brick-14-storey-house-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A2-room_apartment_rewiring_in_brick_14-storey_house.JPG",
-  "license": "CC BY-SA 3.0",
-  "author": "Dmitry G",
-  "notes": "Commons: File:2-room apartment rewiring in brick 14-storey house.JPG"
- },
- {
-  "trade": "electrician",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/electrician-file-20241108-132115-hdr-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A20241108_132115_HDR.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Jos\u00e9 Jaime L\u00f3pez Fentanes",
-  "notes": "Commons: File:20241108 132115 HDR.jpg"
- },
- {
-  "trade": "electrician",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/electrician-file-63m-2-room-ap-rewiring-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A63m%C2%B2_2-room_ap_rewiring.JPG",
-  "license": "CC BY-SA 3.0",
-  "author": "Dmitry G",
-  "notes": "Commons: File:63m\u00b2 2-room ap rewiring.JPG"
- },
- {
-  "trade": "electrician",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/electrician-file-alians-pl-controlofatypicalswitchgearinanelectricnetworkinthehousingstockofcommunesin.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AAlians_PL%2CControlofatypicalswitchgearinanelectricnetworkinthehousingstockofcommunesinPoland-File1%2C02-07-2021.jpg",
-  "license": "CC0",
-  "author": "Alians PL",
-  "notes": "Commons: File:Alians PL,ControlofatypicalswitchgearinanelectricnetworkinthehousingstockofcommunesinPoland-File1,02-07-2021.jpg"
- },
- {
-  "trade": "electrician",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/electrician-file-alians-pl-controlofatypicalswitchgearinanelectricnetworkinthehousingstockofcommunesin.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AAlians_PL%2CControlofatypicalswitchgearinanelectricnetworkinthehousingstockofcommunesinPoland-File2%2C02-07-2021.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Alians PL",
-  "notes": "Commons: File:Alians PL,ControlofatypicalswitchgearinanelectricnetworkinthehousingstockofcommunesinPoland-File2,02-07-2021.jpg"
- },
- {
-  "trade": "electrician",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/electrician-file-alians-pl-controlofatypicalswitchgearinanelectricnetworkinthehousingstockofcommunesin.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AAlians_PL%2CControlofatypicalswitchgearinanelectricnetworkinthehousingstockofcommunesinPoland-File3%2C02-07-2021.jpg",
-  "license": "CC0",
-  "author": "Alians PL",
-  "notes": "Commons: File:Alians PL,ControlofatypicalswitchgearinanelectricnetworkinthehousingstockofcommunesinPoland-File3,02-07-2021.jpg"
- },
- {
-  "trade": "electrician",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/electrician-file-alians-pl-typicalswitchgearinelectricnetworksinthehousingstockoflocalcommunesinpoland.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AAlians_PL%2CTypicalswitchgearinelectricnetworksinthehousingstockoflocalcommunesinPoland%2C02-07-2021.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Alians PL",
-  "notes": "Commons: File:Alians PL,TypicalswitchgearinelectricnetworksinthehousingstockoflocalcommunesinPoland,02-07-2021.jpg"
- },
- {
-  "trade": "roofer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/roofer-file-cath-drale-notre-dame-de-l-assomption-de-moncton-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale_Notre-Dame_de_l%27Assomption_de_Moncton.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "GilCor84",
-  "notes": "Commons: File:Cath\u00e9drale Notre-Dame de l'Assomption de Moncton.jpg"
- },
- {
-  "trade": "roofer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/roofer-file-dachdecker-roofing-work-1-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ADachdecker_-_Roofing_work_1.jpg",
-  "license": "CC0",
-  "author": "Sciencia58",
-  "notes": "Commons: File:Dachdecker - Roofing work 1.jpg"
- },
- {
-  "trade": "roofer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/roofer-file-dachdecker-roofing-work-2-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ADachdecker_-_Roofing_work_2.jpg",
-  "license": "CC0",
-  "author": "Sciencia58",
-  "notes": "Commons: File:Dachdecker - Roofing work 2.jpg"
- },
- {
-  "trade": "roofer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/roofer-file-dachdecker-roofing-work-3-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ADachdecker_-_Roofing_work_3.jpg",
-  "license": "CC0",
-  "author": "Sciencia58",
-  "notes": "Commons: File:Dachdecker - Roofing work 3.jpg"
- },
- {
-  "trade": "roofer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/roofer-file-defense-gov-news-photo-120127-a-ip644-038-u-s-navy-petty-officer-2nd-class-michael-mc.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ADefense.gov_News_Photo_120127-A-IP644-038_-_U.S._Navy_Petty_Officer_2nd_Class_Michael_McAfee_drills_to_attach_a_roof_to_a_new_school_during_Southern_Partnership_Station_2012_in_Callao_Peru.jpg",
-  "license": "Public domain",
-  "author": "Spc. Jennifer Grier, U.S. Army",
-  "notes": "Commons: File:Defense.gov News Photo 120127-A-IP644-038 - U.S. Navy Petty Officer 2nd Class Michael McAfee drills to attach a roof to a new school during Southern Partnership Station 2012 in Callao Peru.jpg"
- },
- {
-  "trade": "roofer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/roofer-file-reroofing-of-sint-michielskerk-sint-lievens-houtem-2026-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AReroofing_of_Sint-Michielskerk%2C_Sint-Lievens-Houtem%2C_2026.jpg",
-  "license": "CC0",
-  "author": "DimiTalen",
-  "notes": "Commons: File:Reroofing of Sint-Michielskerk, Sint-Lievens-Houtem, 2026.jpg"
- },
- {
-  "trade": "roofer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/roofer-file-roofing-001-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ARoofing_001.jpg",
-  "license": "CC0",
-  "author": "Jeuwre",
-  "notes": "Commons: File:Roofing 001.jpg"
- },
- {
-  "trade": "roofer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/roofer-file-roofing-002-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ARoofing_002.jpg",
-  "license": "CC0",
-  "author": "Jeuwre",
-  "notes": "Commons: File:Roofing 002.jpg"
- },
- {
-  "trade": "builder",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/builder-file-0903-bamboo-scaffolding-3048912429-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A0903_bamboo_scaffolding_%283048912429%29.jpg",
-  "license": "CC BY-SA 2.0",
-  "author": "Peretz Partensky from San Francisco, USA",
-  "notes": "Commons: File:0903 bamboo scaffolding (3048912429).jpg"
- },
- {
-  "trade": "builder",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/builder-file-150nriversideplaza9-24-15-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A150NRiversidePlaza9_24_15.JPG",
-  "license": "CC BY-SA 4.0",
-  "author": "Hyperion924",
-  "notes": "Commons: File:150NRiversidePlaza9 24 15.JPG"
- },
- {
-  "trade": "builder",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/builder-file-176-ba-os-cementerio-12524534635-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A176_Ba%C3%B1os_cementerio_%2812524534635%29.jpg",
-  "license": "CC BY-SA 2.0",
-  "author": "MunicipioPinas from Pi\u00f1as, Ecuador",
-  "notes": "Commons: File:176 Ba\u00f1os cementerio (12524534635).jpg"
- },
- {
-  "trade": "builder",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/builder-file-1897-02-01-la-ilustraci-n-art-stica-guerra-de-cuba-construcci-n-de-un-barrac-n-de-pal.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A1897-02-01%2C_La_Ilustraci%C3%B3n_Art%C3%ADstica%2C_Guerra_de_Cuba%2C_Construcci%C3%B3n_de_un_barrac%C3%B3n_de_palma_y_guano_para_tropas_en_Vi%C3%B1ales%2C_G%C3%B3mez_Carrera.jpg",
-  "license": "Public domain",
-  "author": "Jos\u00e9 G\u00f3mez de la Carrera",
-  "notes": "Commons: File:1897-02-01, La Ilustraci\u00f3n Art\u00edstica, Guerra de Cuba, Construcci\u00f3n de un barrac\u00f3n de palma y guano para tropas en Vi\u00f1ales, G\u00f3mez Carrera.jpg"
- },
- {
-  "trade": "builder",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/builder-file-1st-ave-from-james-st-seattle-washington-ca-1891-laroche-316-jpeg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A1st_Ave_from_James_St%2C_Seattle%2C_Washington%2C_ca_1891_%28LAROCHE_316%29.jpeg",
-  "license": "Public domain",
-  "author": "Frank La Roche",
-  "notes": "Commons: File:1st Ave from James St, Seattle, Washington, ca 1891 (LAROCHE 316).jpeg"
- },
- {
-  "trade": "builder",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/builder-file-3d-printer-arm-for-semi-automated-construction-of-sustainable-houses-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A3D-printer_arm_for_semi-automated_construction_of_sustainable_houses.jpg",
-  "license": "CC BY 2.5",
-  "author": "Video Autor: Alfredo Milano\nDrone views: Italdron\n\n\nProject by:\nWASP: Engineering and 3D printing construction \nMario Cucinella Architects: Architectural design and project management\nIn collaboration with:\nSOS - School of Sustainability: Research partner\nMapei: Materials consultancy and supply\nMilan Ingegneria: Structural consultancy\nCapoferri: Frames engineering and production\nRiceHouse: Bio-materials consultancy and supply\nFrassinago: Landscaping\nLucifero\u2019s: Lighting design\nAriatta: Energy and internal comfort consultancy\nImola Legno: Timber solutions consultancy and supply\nPrimat \u2022 Terracruda\u00ae: Earthen floor supply\nCefla: Electrical solutions supply\nUnder the patronage of: \nMunicipality of Massa Lombarda \nSponsored by:\n\nTer Costruzioni",
-  "notes": "Commons: File:3D-printer arm for semi-automated construction of sustainable houses.jpg"
- },
- {
-  "trade": "builder",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/builder-file-432-park-avenue-march-2015-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A432_Park_Avenue%2C_March_2015.jpg",
-  "license": "CC BY 4.0",
-  "author": "Louis Brickman",
-  "notes": "Commons: File:432 Park Avenue, March 2015.jpg"
- },
- {
-  "trade": "builder",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/builder-file-aboudsultan1-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AABOUDSULTAN1.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "ABOUDSULTAN",
-  "notes": "Commons: File:ABOUDSULTAN1.jpg"
- },
- {
-  "trade": "plasterer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/plasterer-file-bearded-plasterer-with-hawk-and-trowel-met-dp700299-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A-Bearded_Plasterer_with_Hawk_and_Trowel-_MET_DP700299.jpg",
-  "license": "CC0",
-  "author": "Unknown authorUnknown author",
-  "notes": "Commons: File:-Bearded Plasterer with Hawk and Trowel- MET DP700299.jpg"
- },
- {
-  "trade": "plasterer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/plasterer-file-0012-moscow-2016-08-08-05-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A0012_Moscow_2016-08-08_05.jpg",
-  "license": "CC0",
-  "author": "Rakoon",
-  "notes": "Commons: File:0012 Moscow 2016-08-08 05.jpg"
- },
- {
-  "trade": "plasterer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/plasterer-file-0044-august-9th-2016-in-moscow-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A0044_August_9th%2C_2016_in_Moscow.jpg",
-  "license": "CC0",
-  "author": "Rakoon",
-  "notes": "Commons: File:0044 August 9th, 2016 in Moscow.jpg"
- },
- {
-  "trade": "plasterer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/plasterer-file-0068-31st-of-july-2016-in-moscow-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A0068_31st_of_July_2016_in_Moscow.jpg",
-  "license": "CC0",
-  "author": "Rakoon",
-  "notes": "Commons: File:0068 31st of July 2016 in Moscow.jpg"
- },
- {
-  "trade": "plasterer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/plasterer-file-a-quick-break-5581450888-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AA_quick_break_%285581450888%29.jpg",
-  "license": "CC BY 2.0",
-  "author": "Nico Crisafulli from USA",
-  "notes": "Commons: File:A quick break (5581450888).jpg"
- },
- {
-  "trade": "plasterer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/plasterer-file-a-roman-plasterer-zahrtmann-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AA_Roman_Plasterer_%28Zahrtmann%29.jpg",
-  "license": "Public domain",
-  "author": "Kristian Zahrtmann",
-  "notes": "Commons: File:A Roman Plasterer (Zahrtmann).jpg"
- },
- {
-  "trade": "plasterer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/plasterer-file-beeldhouwkunst-maken-van-gipsmaskers-een-beeldhouwer-kunstenaar-is-bezig-met-het-aanb.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Een_beeldhouwer%2C_kunstenaar_is_bezig_met_het_aanbrengen%2C_SFA022826048.jpg",
-  "license": "Public domain",
-  "author": "Unknown authorUnknown author",
-  "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Een beeldhouwer, kunstenaar is bezig met het aanbrengen, SFA022826048.jpg"
- },
- {
-  "trade": "plasterer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/plasterer-file-beeldhouwkunst-maken-van-gipsmaskers-een-beeldhouwer-kunstenaar-is-bezig-met-het-aanb.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Een_beeldhouwer%2C_kunstenaar_is_bezig_met_het_aanbrengen%2C_SFA022826049.jpg",
-  "license": "Public domain",
-  "author": "Unknown authorUnknown author",
-  "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Een beeldhouwer, kunstenaar is bezig met het aanbrengen, SFA022826049.jpg"
- },
- {
-  "trade": "joinery",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/joinery-file-10-peintures-annamites-repr-sentant-les-m-tiers-au-tonkin-charpentier-dessin-annamite.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A10_peintures_annamites_repr%C3%A9sentant_les_m%C3%A9tiers_au_Tonkin_%28%22Charpentier_-_dessin_annamite%22%29.jpg",
-  "license": "Public domain",
-  "author": "AnonymousUnknown author",
-  "notes": "Commons: File:10 peintures annamites repr\u00e9sentant les m\u00e9tiers au Tonkin (\"Charpentier - dessin annamite\").jpg"
- },
- {
-  "trade": "joinery",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/joinery-file-book-illustration-mod-les-de-menuiserie-choisis-parmi-ce-que-paris-offre-de-plus-nouv.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ABook_Illustration%2C_Mod%C3%A8les_de_menuiserie-_choisis_parmi_ce_que_Paris_offre_de_plus_nouveau%2C_de_plus_remarquable_et_de_meilleur_go%C3%BBt-_accompagn%C3%A9s_de_d%C3%A9tails_et_d%C3%A9veloppemens_qui_doivent_en_faciliter_%28CH_68774905%29.jpg",
-  "license": "Public domain",
-  "author": "Unknown artistUnknown artist",
-  "notes": "Commons: File:Book Illustration, Mod\u00e8les de menuiserie- choisis parmi ce que Paris offre de plus nouveau, de plus remarquable et de meilleur go\u00fbt- accompagn\u00e9s de d\u00e9tails et d\u00e9veloppemens qui doivent en faciliter (CH 68774905).jpg"
- },
- {
-  "trade": "joinery",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/joinery-file-deuren-en-wandtapijten-rp-p-1964-4553-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ADeuren_en_wandtapijten%2C_RP-P-1964-4553.jpg",
-  "license": "CC0",
-  "author": "Rijksmuseum",
-  "notes": "Commons: File:Deuren en wandtapijten, RP-P-1964-4553.jpg"
- },
- {
-  "trade": "joinery",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/joinery-file-d-tails-de-menuiserie-force-en-maniere-de-moise-profil-de-la-crois-e-rampante-dessin.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AD%C3%A9tails_de_menuiserie._Force_en_maniere_de_moise_%3B_Profil_de_la_crois%C3%A9e_rampante_-_dessin_-_non_sign%C3%A9_-_btv1b531640964.jpg",
-  "license": "Public domain",
-  "author": "Lequeu, Jean-Jacques (1757-1826). Dessinateur pr\u00e9sum\u00e9",
-  "notes": "Commons: File:D\u00e9tails de menuiserie. Force en maniere de moise ; Profil de la crois\u00e9e rampante - dessin - non sign\u00e9 - btv1b531640964.jpg"
- },
- {
-  "trade": "joinery",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/joinery-file-d-tails-de-menuiserie-porte-chaperonn-e-parapet-en-bois-non-sign-btv1b531640947-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AD%C3%A9tails_de_menuiserie._Porte_chaperonn%C3%A9e_%3B_Parapet_en_bois_-_non_sign%C3%A9_-_btv1b531640947.jpg",
-  "license": "Public domain",
-  "author": "Lequeu, Jean-Jacques (1757-1826). Dessinateur pr\u00e9sum\u00e9",
-  "notes": "Commons: File:D\u00e9tails de menuiserie. Porte chaperonn\u00e9e ; Parapet en bois - non sign\u00e9 - btv1b531640947.jpg"
- },
- {
-  "trade": "joinery",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/joinery-file-menuisier-en-meubles-canap-s-g-36940-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Canap%C3%A9s%2C_G.36940.jpg",
-  "license": "CC0",
-  "author": "B\u00e9nard, Robert (Paris, en 1734 - en 1777), graveur",
-  "notes": "Commons: File:Menuisier en Meubles, Canap\u00e9s, G.36940.jpg"
- },
- {
-  "trade": "joinery",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/joinery-file-menuisier-en-meubles-chaises-et-developpemens-g-36937-1-of-2-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Chaises_et_developpemens%2C_G.36937_%281_of_2%29.jpg",
-  "license": "CC0",
-  "author": "B\u00e9nard, Robert (Paris, en 1734 - en 1777), graveur",
-  "notes": "Commons: File:Menuisier en Meubles, Chaises et developpemens, G.36937 (1 of 2).jpg"
- },
- {
-  "trade": "joinery",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/joinery-file-menuisier-en-meubles-chaises-et-developpemens-g-36937-2-of-2-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Chaises_et_developpemens%2C_G.36937_%282_of_2%29.jpg",
-  "license": "CC0",
-  "author": "B\u00e9nard, Robert (Paris, en 1734 - en 1777), graveur",
-  "notes": "Commons: File:Menuisier en Meubles, Chaises et developpemens, G.36937 (2 of 2).jpg"
- },
- {
-  "trade": "painter",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/painter-file-0086-wall-painting-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A0086_wall_painting.jpg",
-  "license": "CC BY 4.0",
-  "author": "Virtual-Pano",
-  "notes": "Commons: File:0086 wall painting.jpg"
- },
- {
-  "trade": "painter",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/painter-file-108703-tel-aviv-distressed-neighborhood-pikiwiki-israel-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A108703_tel_aviv_-_distressed_neighborhood_PikiWiki_Israel.jpg",
-  "license": "Public domain",
-  "author": "\u05e4\u05e8\u05e0\u05e7 \u05e1\u05d7\u05d5\u05dc\u05d8\u05df",
-  "notes": "Commons: File:108703 tel aviv - distressed neighborhood PikiWiki Israel.jpg"
- },
- {
-  "trade": "painter",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/painter-file-8-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A8%D9%87%D9%85%DB%8C%D8%A7%D8%B1%D8%A7%D9%86.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Shirin",
-  "notes": "Commons: File:8\u0647\u0645\u06cc\u0627\u0631\u0627\u0646.jpg"
- },
- {
-  "trade": "painter",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/painter-file-a-home-painter-at-work-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AA_home_painter_at_work.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "E. Stanley Ukeni",
-  "notes": "Commons: File:A home painter at work.jpg"
- },
- {
-  "trade": "painter",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/painter-file-acima-de-tudo-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AAcima_de_tudo.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "SPUTNIKFCL",
-  "notes": "Commons: File:Acima de tudo.jpg"
- },
- {
-  "trade": "painter",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/painter-file-amersfoort-havik-16-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AAmersfoort.Havik.16.JPG",
-  "license": "CC BY-SA 3.0 nl",
-  "author": "JohnBoers",
-  "notes": "Commons: File:Amersfoort.Havik.16.JPG"
- },
- {
-  "trade": "painter",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/painter-file-anstreicher-01-fcm-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AAnstreicher_01_%28fcm%29.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Photograph:  Frank C. M\u00fcller, Frankfurt am Main",
-  "notes": "Commons: File:Anstreicher 01 (fcm).jpg"
- },
- {
-  "trade": "painter",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/painter-file-cornerstone-church-vow-2016-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ACornerstone_Church_VOW_2016.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Craigster81",
-  "notes": "Commons: File:Cornerstone Church VOW 2016.jpg"
- },
- {
-  "trade": "landscaper",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/landscaper-file-2022-07-04-11-54-14-landscaping-in-a-yard-along-lochatong-road-in-the-mountainview-se.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A2022-07-04_11_54_14_Landscaping_in_a_yard_along_Lochatong_Road_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Famartin",
-  "notes": "Commons: File:2022-07-04 11 54 14 Landscaping in a yard along Lochatong Road in the Mountainview section of Ewing Township, Mercer County, New Jersey.jpg"
- },
- {
-  "trade": "landscaper",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/landscaper-file-2023-04-19-16-34-56-landscaping-in-a-yard-along-lochatong-road-in-the-mountainview-se.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A2023-04-19_16_34_56_Landscaping_in_a_yard_along_Lochatong_Road_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Famartin",
-  "notes": "Commons: File:2023-04-19 16 34 56 Landscaping in a yard along Lochatong Road in the Mountainview section of Ewing Township, Mercer County, New Jersey.jpg"
- },
- {
-  "trade": "landscaper",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/landscaper-file-6-door-landscaping-truck-i-75-1-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A6-Door_Landscaping_Truck%3B_I-75-1.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "DanTD",
-  "notes": "Commons: File:6-Door Landscaping Truck; I-75-1.jpg"
- },
- {
-  "trade": "landscaper",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/landscaper-file-6-door-landscaping-truck-i-75-2-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A6-Door_Landscaping_Truck%3B_I-75-2.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "DanTD",
-  "notes": "Commons: File:6-Door Landscaping Truck; I-75-2.jpg"
- },
- {
-  "trade": "landscaper",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/landscaper-file-aanleg-grassentuin-1994-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AAanleg_Grassentuin_1994.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Gerttabak",
-  "notes": "Commons: File:Aanleg Grassentuin 1994.jpg"
- },
- {
-  "trade": "landscaper",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/landscaper-file-aarrepuisto-luonnonkiviportaat-rinne-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AAarrepuisto_luonnonkiviportaat_rinne.jpg",
-  "license": "CC BY-SA 3.0",
-  "author": "Htm",
-  "notes": "Commons: File:Aarrepuisto luonnonkiviportaat rinne.jpg"
- },
- {
-  "trade": "landscaper",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/landscaper-file-aarrepuisto-puro-luonnonkivet-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AAarrepuisto_puro_luonnonkivet.jpg",
-  "license": "CC BY-SA 3.0",
-  "author": "Htm",
-  "notes": "Commons: File:Aarrepuisto puro luonnonkivet.jpg"
- },
- {
-  "trade": "landscaper",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/landscaper-file-acacia-garden-center-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AAcacia_garden_center.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Resultads",
-  "notes": "Commons: File:Acacia garden center.jpg"
- },
- {
-  "trade": "tiler",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/tiler-file-20250413-berlin-04-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3A%2820250413%29_Berlin_04.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Roy Zuo",
-  "notes": "Commons: File:(20250413) Berlin 04.jpg"
- },
- {
-  "trade": "tiler",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/tiler-file-azulejos-carteler-a-integrada-01-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AAzulejos._Carteler%C3%ADa_integrada._01.jpg",
-  "license": "CC BY 4.0",
-  "author": "DRNRMRZ",
-  "notes": "Commons: File:Azulejos. Carteler\u00eda integrada. 01.jpg"
- },
- {
-  "trade": "tiler",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/tiler-file-azulejos-escudo-de-canarias-de-1878-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AAzulejos._Escudo_de_Canarias_de_1878.jpg",
-  "license": "CC BY 4.0",
-  "author": "DRNRMRZ",
-  "notes": "Commons: File:Azulejos. Escudo de Canarias de 1878.jpg"
- },
- {
-  "trade": "tiler",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/tiler-file-azulejos-escudo-de-espa-a-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AAzulejos._Escudo_de_Espa%C3%B1a.jpg",
-  "license": "CC BY 4.0",
-  "author": "DRNRMRZ",
-  "notes": "Commons: File:Azulejos. Escudo de Espa\u00f1a.jpg"
- },
- {
-  "trade": "tiler",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/tiler-file-bathroom-splash-back-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ABathroom_splash_back.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Smtzzz",
-  "notes": "Commons: File:Bathroom splash back.jpg"
- },
- {
-  "trade": "tiler",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/tiler-file-central-park-manhole-tiling-png.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ACentral_Park_Manhole_Tiling.png",
-  "license": "CC BY-SA 4.0",
-  "author": "Harry Princeton",
-  "notes": "Commons: File:Central Park Manhole Tiling.png"
- },
- {
-  "trade": "tiler",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/tiler-file-centro-arqueol-gico-de-la-almoina-06-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ACentro_Arqueol%C3%B3gico_de_la_Almoina_06.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Simon Burchell",
-  "notes": "Commons: File:Centro Arqueol\u00f3gico de la Almoina 06.jpg"
- },
- {
-  "trade": "tiler",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/tiler-file-ceramic-tile-tessellations-in-marrakech-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ACeramic_Tile_Tessellations_in_Marrakech.jpg",
-  "license": "CC BY-SA 3.0",
-  "author": "Ian Alexander",
-  "notes": "Commons: File:Ceramic Tile Tessellations in Marrakech.jpg"
- },
- {
-  "trade": "gas_engineer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/gas_engineer-file-avenida-de-juan-andres-2016-05-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AAvenida_de_Juan_Andres%2C_2016_%2805%29.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Draceane",
-  "notes": "Commons: File:Avenida de Juan Andres, 2016 (05).jpg"
- },
- {
-  "trade": "gas_engineer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/gas_engineer-file-avenida-de-juan-andres-2016-07-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AAvenida_de_Juan_Andres%2C_2016_%2807%29.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Draceane",
-  "notes": "Commons: File:Avenida de Juan Andres, 2016 (07).jpg"
- },
- {
-  "trade": "gas_engineer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/gas_engineer-file-avenida-de-juan-andres-2016-08-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AAvenida_de_Juan_Andres%2C_2016_%2808%29.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "Draceane",
-  "notes": "Commons: File:Avenida de Juan Andres, 2016 (08).jpg"
- },
- {
-  "trade": "gas_engineer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/gas_engineer-file-brandon-2011-08-27-12-34-28-6086683733-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ABrandon_2011-08-27_12-34-28_%286086683733%29.jpg",
-  "license": "CC BY-SA 2.0",
-  "author": "Joanna Poe from Munith, MI, USA",
-  "notes": "Commons: File:Brandon 2011-08-27 12-34-28 (6086683733).jpg"
- },
- {
-  "trade": "gas_engineer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/gas_engineer-file-burgos-varios-02-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ABurgos%2C_varios_02.jpg",
-  "license": "CC BY-SA 4.0",
-  "author": "LBM1948",
-  "notes": "Commons: File:Burgos, varios 02.jpg"
- },
- {
-  "trade": "gas_engineer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/gas_engineer-file-dominospizzarichmondhill5-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ADominosPizzaRichmondHill5.jpg",
-  "license": "CC0",
-  "author": "Raysonho @ Open Grid Scheduler / Scalable Grid Engine",
-  "notes": "Commons: File:DominosPizzaRichmondHill5.jpg"
- },
- {
-  "trade": "gas_engineer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/gas_engineer-file-doorway-to-refinishing-shop-24806414502-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3ADoorway_to_Refinishing_Shop_%2824806414502%29.jpg",
-  "license": "CC BY-SA 2.0",
-  "author": "Ross Dunn",
-  "notes": "Commons: File:Doorway to Refinishing Shop (24806414502).jpg"
- },
- {
-  "trade": "gas_engineer",
-  "local_file": "/tmp/ambush-previews/scripts/photo-cache/gas_engineer-file-g-scharf-laying-gas-pipes-jpg.jpg",
-  "source_url": "https://commons.wikimedia.org/wiki/File%3AG._Scharf_laying_gas_pipes.jpg",
-  "license": "Public domain",
-  "author": "George Scharf (1788-1860)",
-  "notes": "Commons: File:G. Scharf laying gas pipes.jpg"
- }
+  {
+    "trade": "heating",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/heating-file-2008-12-09-anhydrite-screed-for-underfloor-heating-with-undesirable-blistering-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A2008-12-09_Anhydrite_screed_for_underfloor_heating_with_undesirable_blistering.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "GT1976",
+    "notes": "Commons: File:2008-12-09 Anhydrite screed for underfloor heating with undesirable blistering.jpg"
+  },
+  {
+    "trade": "heating",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/heating-file-armado-del-piso-radiante-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AArmado_del_piso_radiante.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Maisire",
+    "notes": "Commons: File:Armado del piso radiante.jpg"
+  },
+  {
+    "trade": "heating",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/heating-file-bauteilaktivierung-2-2-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ABauteilaktivierung_2_2.jpg",
+    "license": "CC BY 3.0",
+    "author": "Helyesen",
+    "notes": "Commons: File:Bauteilaktivierung 2 2.jpg"
+  },
+  {
+    "trade": "heating",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/heating-file-circuit-de-menjador-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACircuit_de_menjador.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Wikimedia Commons contributor",
+    "notes": "Commons: File:Circuit de menjador.JPG"
+  },
+  {
+    "trade": "heating",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/heating-file-col-lector-terra-radiant-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACol.lector_terra_radiant.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Wikimedia Commons contributor",
+    "notes": "Commons: File:Col.lector terra radiant.JPG"
+  },
+  {
+    "trade": "heating",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/heating-file-col-lector-terra-radiant-i-tubs-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACol%C2%B7lector_terra_radiant_i_tubs.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Wikimedia Commons contributor",
+    "notes": "Commons: File:Col·lector terra radiant i tubs.JPG"
+  },
+  {
+    "trade": "heating",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/heating-file-dornbirn-ebnit-underfloor-heating-system-01asd-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-Ebnit-underfloor_heating-system-01ASD.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Asurnipal",
+    "notes": "Commons: File:Dornbirn-Ebnit-underfloor heating-system-01ASD.jpg"
+  },
+  {
+    "trade": "heating",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/heating-file-dornbirn-ebnit-underfloor-heating-system-02asd-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ADornbirn-Ebnit-underfloor_heating-system-02ASD.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Asurnipal",
+    "notes": "Commons: File:Dornbirn-Ebnit-underfloor heating-system-02ASD.jpg"
+  },
+  {
+    "trade": "plumber",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/plumber-file-water-damage-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A-_Water_damage_-.jpg",
+    "license": "CC BY-SA 2.5",
+    "author": "User:Nino Barbieri",
+    "notes": "Commons: File:- Water damage -.jpg"
+  },
+  {
+    "trade": "plumber",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/plumber-file-05-06-13-plumbing-1-8714966981-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A05-06-13_plumbing_1_%288714966981%29.jpg",
+    "license": "CC BY 2.0",
+    "author": "University of the Fraser Valley",
+    "notes": "Commons: File:05-06-13 plumbing 1 (8714966981).jpg"
+  },
+  {
+    "trade": "plumber",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/plumber-file-05-06-13-plumbing-2-8716084472-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A05-06-13_plumbing_2_%288716084472%29.jpg",
+    "license": "CC BY 2.0",
+    "author": "University of the Fraser Valley",
+    "notes": "Commons: File:05-06-13 plumbing 2 (8716084472).jpg"
+  },
+  {
+    "trade": "plumber",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/plumber-file-05-06-13-plumbing-3-8714964469-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A05-06-13_plumbing_3_%288714964469%29.jpg",
+    "license": "CC BY 2.0",
+    "author": "University of the Fraser Valley",
+    "notes": "Commons: File:05-06-13 plumbing 3 (8714964469).jpg"
+  },
+  {
+    "trade": "plumber",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/plumber-file-0support-14993849934-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A0support_%2814993849934%29.jpg",
+    "license": "CC BY 2.0",
+    "author": "SuSanA Secretariat",
+    "notes": "Commons: File:0support (14993849934).jpg"
+  },
+  {
+    "trade": "plumber",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/plumber-file-18-jago-plumbing-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A18_Jago_Plumbing.JPG",
+    "license": "CC BY-SA 4.0",
+    "author": "CambridgeBayWeather",
+    "notes": "Commons: File:18 Jago Plumbing.JPG"
+  },
+  {
+    "trade": "plumber",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/plumber-file-2-inch-copper-pipe-firestops-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A2_inch_copper_pipe_firestops.jpg",
+    "license": "CC BY 3.0",
+    "author": "Achim Hering",
+    "notes": "Commons: File:2 inch copper pipe firestops.jpg"
+  },
+  {
+    "trade": "plumber",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/plumber-file-2006-0602turdapotaissasewer0114-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A2006_0602TurdaPotaissaSewer0114.jpg",
+    "license": "CC BY 2.5",
+    "author": "CristianChirita",
+    "notes": "Commons: File:2006 0602TurdaPotaissaSewer0114.jpg"
+  },
+  {
+    "trade": "electrician",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/electrician-file-111-121-low-cost-rewiring-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A111-121_low-cost_rewiring.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Dmitry G",
+    "notes": "Commons: File:111-121 low-cost rewiring.JPG"
+  },
+  {
+    "trade": "electrician",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/electrician-file-2-room-apartment-rewiring-in-brick-14-storey-house-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A2-room_apartment_rewiring_in_brick_14-storey_house.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Dmitry G",
+    "notes": "Commons: File:2-room apartment rewiring in brick 14-storey house.JPG"
+  },
+  {
+    "trade": "electrician",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/electrician-file-20241108-132115-hdr-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A20241108_132115_HDR.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "José Jaime López Fentanes",
+    "notes": "Commons: File:20241108 132115 HDR.jpg"
+  },
+  {
+    "trade": "electrician",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/electrician-file-63m-2-room-ap-rewiring-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A63m%C2%B2_2-room_ap_rewiring.JPG",
+    "license": "CC BY-SA 3.0",
+    "author": "Dmitry G",
+    "notes": "Commons: File:63m² 2-room ap rewiring.JPG"
+  },
+  {
+    "trade": "electrician",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/electrician-file-alians-pl-controlofatypicalswitchgearinanelectricnetworkinthehousingstockofcommunesin.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAlians_PL%2CControlofatypicalswitchgearinanelectricnetworkinthehousingstockofcommunesinPoland-File1%2C02-07-2021.jpg",
+    "license": "CC0",
+    "author": "Alians PL",
+    "notes": "Commons: File:Alians PL,ControlofatypicalswitchgearinanelectricnetworkinthehousingstockofcommunesinPoland-File1,02-07-2021.jpg"
+  },
+  {
+    "trade": "electrician",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/electrician-file-alians-pl-controlofatypicalswitchgearinanelectricnetworkinthehousingstockofcommunesin.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAlians_PL%2CControlofatypicalswitchgearinanelectricnetworkinthehousingstockofcommunesinPoland-File2%2C02-07-2021.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Alians PL",
+    "notes": "Commons: File:Alians PL,ControlofatypicalswitchgearinanelectricnetworkinthehousingstockofcommunesinPoland-File2,02-07-2021.jpg"
+  },
+  {
+    "trade": "electrician",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/electrician-file-alians-pl-controlofatypicalswitchgearinanelectricnetworkinthehousingstockofcommunesin.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAlians_PL%2CControlofatypicalswitchgearinanelectricnetworkinthehousingstockofcommunesinPoland-File3%2C02-07-2021.jpg",
+    "license": "CC0",
+    "author": "Alians PL",
+    "notes": "Commons: File:Alians PL,ControlofatypicalswitchgearinanelectricnetworkinthehousingstockofcommunesinPoland-File3,02-07-2021.jpg"
+  },
+  {
+    "trade": "electrician",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/electrician-file-alians-pl-typicalswitchgearinelectricnetworksinthehousingstockoflocalcommunesinpoland.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAlians_PL%2CTypicalswitchgearinelectricnetworksinthehousingstockoflocalcommunesinPoland%2C02-07-2021.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Alians PL",
+    "notes": "Commons: File:Alians PL,TypicalswitchgearinelectricnetworksinthehousingstockoflocalcommunesinPoland,02-07-2021.jpg"
+  },
+  {
+    "trade": "roofer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/roofer-file-cath-drale-notre-dame-de-l-assomption-de-moncton-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACath%C3%A9drale_Notre-Dame_de_l%27Assomption_de_Moncton.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "GilCor84",
+    "notes": "Commons: File:Cathédrale Notre-Dame de l'Assomption de Moncton.jpg"
+  },
+  {
+    "trade": "roofer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/roofer-file-dachdecker-roofing-work-1-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ADachdecker_-_Roofing_work_1.jpg",
+    "license": "CC0",
+    "author": "Sciencia58",
+    "notes": "Commons: File:Dachdecker - Roofing work 1.jpg"
+  },
+  {
+    "trade": "roofer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/roofer-file-dachdecker-roofing-work-2-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ADachdecker_-_Roofing_work_2.jpg",
+    "license": "CC0",
+    "author": "Sciencia58",
+    "notes": "Commons: File:Dachdecker - Roofing work 2.jpg"
+  },
+  {
+    "trade": "roofer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/roofer-file-dachdecker-roofing-work-3-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ADachdecker_-_Roofing_work_3.jpg",
+    "license": "CC0",
+    "author": "Sciencia58",
+    "notes": "Commons: File:Dachdecker - Roofing work 3.jpg"
+  },
+  {
+    "trade": "roofer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/roofer-file-defense-gov-news-photo-120127-a-ip644-038-u-s-navy-petty-officer-2nd-class-michael-mc.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ADefense.gov_News_Photo_120127-A-IP644-038_-_U.S._Navy_Petty_Officer_2nd_Class_Michael_McAfee_drills_to_attach_a_roof_to_a_new_school_during_Southern_Partnership_Station_2012_in_Callao_Peru.jpg",
+    "license": "Public domain",
+    "author": "Spc. Jennifer Grier, U.S. Army",
+    "notes": "Commons: File:Defense.gov News Photo 120127-A-IP644-038 - U.S. Navy Petty Officer 2nd Class Michael McAfee drills to attach a roof to a new school during Southern Partnership Station 2012 in Callao Peru.jpg"
+  },
+  {
+    "trade": "roofer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/roofer-file-reroofing-of-sint-michielskerk-sint-lievens-houtem-2026-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AReroofing_of_Sint-Michielskerk%2C_Sint-Lievens-Houtem%2C_2026.jpg",
+    "license": "CC0",
+    "author": "DimiTalen",
+    "notes": "Commons: File:Reroofing of Sint-Michielskerk, Sint-Lievens-Houtem, 2026.jpg"
+  },
+  {
+    "trade": "roofer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/roofer-file-roofing-001-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ARoofing_001.jpg",
+    "license": "CC0",
+    "author": "Jeuwre",
+    "notes": "Commons: File:Roofing 001.jpg"
+  },
+  {
+    "trade": "roofer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/roofer-file-roofing-002-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ARoofing_002.jpg",
+    "license": "CC0",
+    "author": "Jeuwre",
+    "notes": "Commons: File:Roofing 002.jpg"
+  },
+  {
+    "trade": "builder",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/builder-file-0903-bamboo-scaffolding-3048912429-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A0903_bamboo_scaffolding_%283048912429%29.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Peretz Partensky from San Francisco, USA",
+    "notes": "Commons: File:0903 bamboo scaffolding (3048912429).jpg"
+  },
+  {
+    "trade": "builder",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/builder-file-150nriversideplaza9-24-15-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A150NRiversidePlaza9_24_15.JPG",
+    "license": "CC BY-SA 4.0",
+    "author": "Hyperion924",
+    "notes": "Commons: File:150NRiversidePlaza9 24 15.JPG"
+  },
+  {
+    "trade": "builder",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/builder-file-176-ba-os-cementerio-12524534635-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A176_Ba%C3%B1os_cementerio_%2812524534635%29.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "MunicipioPinas from Piñas, Ecuador",
+    "notes": "Commons: File:176 Baños cementerio (12524534635).jpg"
+  },
+  {
+    "trade": "builder",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/builder-file-1897-02-01-la-ilustraci-n-art-stica-guerra-de-cuba-construcci-n-de-un-barrac-n-de-pal.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A1897-02-01%2C_La_Ilustraci%C3%B3n_Art%C3%ADstica%2C_Guerra_de_Cuba%2C_Construcci%C3%B3n_de_un_barrac%C3%B3n_de_palma_y_guano_para_tropas_en_Vi%C3%B1ales%2C_G%C3%B3mez_Carrera.jpg",
+    "license": "Public domain",
+    "author": "José Gómez de la Carrera",
+    "notes": "Commons: File:1897-02-01, La Ilustración Artística, Guerra de Cuba, Construcción de un barracón de palma y guano para tropas en Viñales, Gómez Carrera.jpg"
+  },
+  {
+    "trade": "builder",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/builder-file-1st-ave-from-james-st-seattle-washington-ca-1891-laroche-316-jpeg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A1st_Ave_from_James_St%2C_Seattle%2C_Washington%2C_ca_1891_%28LAROCHE_316%29.jpeg",
+    "license": "Public domain",
+    "author": "Frank La Roche",
+    "notes": "Commons: File:1st Ave from James St, Seattle, Washington, ca 1891 (LAROCHE 316).jpeg"
+  },
+  {
+    "trade": "builder",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/builder-file-3d-printer-arm-for-semi-automated-construction-of-sustainable-houses-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A3D-printer_arm_for_semi-automated_construction_of_sustainable_houses.jpg",
+    "license": "CC BY 2.5",
+    "author": "Video Autor: Alfredo Milano\nDrone views: Italdron\n\n\nProject by:\nWASP: Engineering and 3D printing construction \nMario Cucinella Architects: Architectural design and project management\nIn collaboration with:\nSOS - School of Sustainability: Research partner\nMapei: Materials consultancy and supply\nMilan Ingegneria: Structural consultancy\nCapoferri: Frames engineering and production\nRiceHouse: Bio-materials consultancy and supply\nFrassinago: Landscaping\nLucifero’s: Lighting design\nAriatta: Energy and internal comfort consultancy\nImola Legno: Timber solutions consultancy and supply\nPrimat • Terracruda®: Earthen floor supply\nCefla: Electrical solutions supply\nUnder the patronage of: \nMunicipality of Massa Lombarda \nSponsored by:\n\nTer Costruzioni",
+    "notes": "Commons: File:3D-printer arm for semi-automated construction of sustainable houses.jpg"
+  },
+  {
+    "trade": "builder",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/builder-file-432-park-avenue-march-2015-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A432_Park_Avenue%2C_March_2015.jpg",
+    "license": "CC BY 4.0",
+    "author": "Louis Brickman",
+    "notes": "Commons: File:432 Park Avenue, March 2015.jpg"
+  },
+  {
+    "trade": "builder",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/builder-file-aboudsultan1-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AABOUDSULTAN1.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "ABOUDSULTAN",
+    "notes": "Commons: File:ABOUDSULTAN1.jpg"
+  },
+  {
+    "trade": "plasterer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/plasterer-file-bearded-plasterer-with-hawk-and-trowel-met-dp700299-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A-Bearded_Plasterer_with_Hawk_and_Trowel-_MET_DP700299.jpg",
+    "license": "CC0",
+    "author": "Unknown authorUnknown author",
+    "notes": "Commons: File:-Bearded Plasterer with Hawk and Trowel- MET DP700299.jpg"
+  },
+  {
+    "trade": "plasterer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/plasterer-file-0012-moscow-2016-08-08-05-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A0012_Moscow_2016-08-08_05.jpg",
+    "license": "CC0",
+    "author": "Rakoon",
+    "notes": "Commons: File:0012 Moscow 2016-08-08 05.jpg"
+  },
+  {
+    "trade": "plasterer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/plasterer-file-0044-august-9th-2016-in-moscow-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A0044_August_9th%2C_2016_in_Moscow.jpg",
+    "license": "CC0",
+    "author": "Rakoon",
+    "notes": "Commons: File:0044 August 9th, 2016 in Moscow.jpg"
+  },
+  {
+    "trade": "plasterer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/plasterer-file-0068-31st-of-july-2016-in-moscow-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A0068_31st_of_July_2016_in_Moscow.jpg",
+    "license": "CC0",
+    "author": "Rakoon",
+    "notes": "Commons: File:0068 31st of July 2016 in Moscow.jpg"
+  },
+  {
+    "trade": "plasterer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/plasterer-file-a-quick-break-5581450888-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AA_quick_break_%285581450888%29.jpg",
+    "license": "CC BY 2.0",
+    "author": "Nico Crisafulli from USA",
+    "notes": "Commons: File:A quick break (5581450888).jpg"
+  },
+  {
+    "trade": "plasterer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/plasterer-file-a-roman-plasterer-zahrtmann-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AA_Roman_Plasterer_%28Zahrtmann%29.jpg",
+    "license": "Public domain",
+    "author": "Kristian Zahrtmann",
+    "notes": "Commons: File:A Roman Plasterer (Zahrtmann).jpg"
+  },
+  {
+    "trade": "plasterer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/plasterer-file-beeldhouwkunst-maken-van-gipsmaskers-een-beeldhouwer-kunstenaar-is-bezig-met-het-aanb.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Een_beeldhouwer%2C_kunstenaar_is_bezig_met_het_aanbrengen%2C_SFA022826048.jpg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Een beeldhouwer, kunstenaar is bezig met het aanbrengen, SFA022826048.jpg"
+  },
+  {
+    "trade": "plasterer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/plasterer-file-beeldhouwkunst-maken-van-gipsmaskers-een-beeldhouwer-kunstenaar-is-bezig-met-het-aanb.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ABeeldhouwkunst_Maken_van_gipsmaskers_Een_beeldhouwer%2C_kunstenaar_is_bezig_met_het_aanbrengen%2C_SFA022826049.jpg",
+    "license": "Public domain",
+    "author": "Unknown authorUnknown author",
+    "notes": "Commons: File:Beeldhouwkunst Maken van gipsmaskers Een beeldhouwer, kunstenaar is bezig met het aanbrengen, SFA022826049.jpg"
+  },
+  {
+    "trade": "joinery",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/joinery-file-10-peintures-annamites-repr-sentant-les-m-tiers-au-tonkin-charpentier-dessin-annamite.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A10_peintures_annamites_repr%C3%A9sentant_les_m%C3%A9tiers_au_Tonkin_%28%22Charpentier_-_dessin_annamite%22%29.jpg",
+    "license": "Public domain",
+    "author": "AnonymousUnknown author",
+    "notes": "Commons: File:10 peintures annamites représentant les métiers au Tonkin (\"Charpentier - dessin annamite\").jpg"
+  },
+  {
+    "trade": "joinery",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/joinery-file-book-illustration-mod-les-de-menuiserie-choisis-parmi-ce-que-paris-offre-de-plus-nouv.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ABook_Illustration%2C_Mod%C3%A8les_de_menuiserie-_choisis_parmi_ce_que_Paris_offre_de_plus_nouveau%2C_de_plus_remarquable_et_de_meilleur_go%C3%BBt-_accompagn%C3%A9s_de_d%C3%A9tails_et_d%C3%A9veloppemens_qui_doivent_en_faciliter_%28CH_68774905%29.jpg",
+    "license": "Public domain",
+    "author": "Unknown artistUnknown artist",
+    "notes": "Commons: File:Book Illustration, Modèles de menuiserie- choisis parmi ce que Paris offre de plus nouveau, de plus remarquable et de meilleur goût- accompagnés de détails et développemens qui doivent en faciliter (CH 68774905).jpg"
+  },
+  {
+    "trade": "joinery",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/joinery-file-deuren-en-wandtapijten-rp-p-1964-4553-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ADeuren_en_wandtapijten%2C_RP-P-1964-4553.jpg",
+    "license": "CC0",
+    "author": "Rijksmuseum",
+    "notes": "Commons: File:Deuren en wandtapijten, RP-P-1964-4553.jpg"
+  },
+  {
+    "trade": "joinery",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/joinery-file-d-tails-de-menuiserie-force-en-maniere-de-moise-profil-de-la-crois-e-rampante-dessin.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AD%C3%A9tails_de_menuiserie._Force_en_maniere_de_moise_%3B_Profil_de_la_crois%C3%A9e_rampante_-_dessin_-_non_sign%C3%A9_-_btv1b531640964.jpg",
+    "license": "Public domain",
+    "author": "Lequeu, Jean-Jacques (1757-1826). Dessinateur présumé",
+    "notes": "Commons: File:Détails de menuiserie. Force en maniere de moise ; Profil de la croisée rampante - dessin - non signé - btv1b531640964.jpg"
+  },
+  {
+    "trade": "joinery",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/joinery-file-d-tails-de-menuiserie-porte-chaperonn-e-parapet-en-bois-non-sign-btv1b531640947-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AD%C3%A9tails_de_menuiserie._Porte_chaperonn%C3%A9e_%3B_Parapet_en_bois_-_non_sign%C3%A9_-_btv1b531640947.jpg",
+    "license": "Public domain",
+    "author": "Lequeu, Jean-Jacques (1757-1826). Dessinateur présumé",
+    "notes": "Commons: File:Détails de menuiserie. Porte chaperonnée ; Parapet en bois - non signé - btv1b531640947.jpg"
+  },
+  {
+    "trade": "joinery",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/joinery-file-menuisier-en-meubles-canap-s-g-36940-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Canap%C3%A9s%2C_G.36940.jpg",
+    "license": "CC0",
+    "author": "Bénard, Robert (Paris, en 1734 - en 1777), graveur",
+    "notes": "Commons: File:Menuisier en Meubles, Canapés, G.36940.jpg"
+  },
+  {
+    "trade": "joinery",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/joinery-file-menuisier-en-meubles-chaises-et-developpemens-g-36937-1-of-2-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Chaises_et_developpemens%2C_G.36937_%281_of_2%29.jpg",
+    "license": "CC0",
+    "author": "Bénard, Robert (Paris, en 1734 - en 1777), graveur",
+    "notes": "Commons: File:Menuisier en Meubles, Chaises et developpemens, G.36937 (1 of 2).jpg"
+  },
+  {
+    "trade": "joinery",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/joinery-file-menuisier-en-meubles-chaises-et-developpemens-g-36937-2-of-2-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AMenuisier_en_Meubles%2C_Chaises_et_developpemens%2C_G.36937_%282_of_2%29.jpg",
+    "license": "CC0",
+    "author": "Bénard, Robert (Paris, en 1734 - en 1777), graveur",
+    "notes": "Commons: File:Menuisier en Meubles, Chaises et developpemens, G.36937 (2 of 2).jpg"
+  },
+  {
+    "trade": "painter",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/painter-file-0086-wall-painting-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A0086_wall_painting.jpg",
+    "license": "CC BY 4.0",
+    "author": "Virtual-Pano",
+    "notes": "Commons: File:0086 wall painting.jpg"
+  },
+  {
+    "trade": "painter",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/painter-file-108703-tel-aviv-distressed-neighborhood-pikiwiki-israel-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A108703_tel_aviv_-_distressed_neighborhood_PikiWiki_Israel.jpg",
+    "license": "Public domain",
+    "author": "פרנק סחולטן",
+    "notes": "Commons: File:108703 tel aviv - distressed neighborhood PikiWiki Israel.jpg"
+  },
+  {
+    "trade": "painter",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/painter-file-8-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A8%D9%87%D9%85%DB%8C%D8%A7%D8%B1%D8%A7%D9%86.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Shirin",
+    "notes": "Commons: File:8همیاران.jpg"
+  },
+  {
+    "trade": "painter",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/painter-file-a-home-painter-at-work-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AA_home_painter_at_work.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "E. Stanley Ukeni",
+    "notes": "Commons: File:A home painter at work.jpg"
+  },
+  {
+    "trade": "painter",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/painter-file-acima-de-tudo-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAcima_de_tudo.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "SPUTNIKFCL",
+    "notes": "Commons: File:Acima de tudo.jpg"
+  },
+  {
+    "trade": "painter",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/painter-file-amersfoort-havik-16-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAmersfoort.Havik.16.JPG",
+    "license": "CC BY-SA 3.0 nl",
+    "author": "JohnBoers",
+    "notes": "Commons: File:Amersfoort.Havik.16.JPG"
+  },
+  {
+    "trade": "painter",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/painter-file-anstreicher-01-fcm-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAnstreicher_01_%28fcm%29.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Photograph:  Frank C. Müller, Frankfurt am Main",
+    "notes": "Commons: File:Anstreicher 01 (fcm).jpg"
+  },
+  {
+    "trade": "painter",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/painter-file-cornerstone-church-vow-2016-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACornerstone_Church_VOW_2016.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Craigster81",
+    "notes": "Commons: File:Cornerstone Church VOW 2016.jpg"
+  },
+  {
+    "trade": "landscaper",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/landscaper-file-2022-07-04-11-54-14-landscaping-in-a-yard-along-lochatong-road-in-the-mountainview-se.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A2022-07-04_11_54_14_Landscaping_in_a_yard_along_Lochatong_Road_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Famartin",
+    "notes": "Commons: File:2022-07-04 11 54 14 Landscaping in a yard along Lochatong Road in the Mountainview section of Ewing Township, Mercer County, New Jersey.jpg"
+  },
+  {
+    "trade": "landscaper",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/landscaper-file-2023-04-19-16-34-56-landscaping-in-a-yard-along-lochatong-road-in-the-mountainview-se.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A2023-04-19_16_34_56_Landscaping_in_a_yard_along_Lochatong_Road_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Famartin",
+    "notes": "Commons: File:2023-04-19 16 34 56 Landscaping in a yard along Lochatong Road in the Mountainview section of Ewing Township, Mercer County, New Jersey.jpg"
+  },
+  {
+    "trade": "landscaper",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/landscaper-file-6-door-landscaping-truck-i-75-1-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A6-Door_Landscaping_Truck%3B_I-75-1.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "DanTD",
+    "notes": "Commons: File:6-Door Landscaping Truck; I-75-1.jpg"
+  },
+  {
+    "trade": "landscaper",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/landscaper-file-6-door-landscaping-truck-i-75-2-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A6-Door_Landscaping_Truck%3B_I-75-2.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "DanTD",
+    "notes": "Commons: File:6-Door Landscaping Truck; I-75-2.jpg"
+  },
+  {
+    "trade": "landscaper",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/landscaper-file-aanleg-grassentuin-1994-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAanleg_Grassentuin_1994.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Gerttabak",
+    "notes": "Commons: File:Aanleg Grassentuin 1994.jpg"
+  },
+  {
+    "trade": "landscaper",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/landscaper-file-aarrepuisto-luonnonkiviportaat-rinne-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAarrepuisto_luonnonkiviportaat_rinne.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Htm",
+    "notes": "Commons: File:Aarrepuisto luonnonkiviportaat rinne.jpg"
+  },
+  {
+    "trade": "landscaper",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/landscaper-file-aarrepuisto-puro-luonnonkivet-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAarrepuisto_puro_luonnonkivet.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Htm",
+    "notes": "Commons: File:Aarrepuisto puro luonnonkivet.jpg"
+  },
+  {
+    "trade": "landscaper",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/landscaper-file-acacia-garden-center-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAcacia_garden_center.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Resultads",
+    "notes": "Commons: File:Acacia garden center.jpg"
+  },
+  {
+    "trade": "tiler",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/tiler-file-20250413-berlin-04-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3A%2820250413%29_Berlin_04.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Roy Zuo",
+    "notes": "Commons: File:(20250413) Berlin 04.jpg"
+  },
+  {
+    "trade": "tiler",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/tiler-file-azulejos-carteler-a-integrada-01-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAzulejos._Carteler%C3%ADa_integrada._01.jpg",
+    "license": "CC BY 4.0",
+    "author": "DRNRMRZ",
+    "notes": "Commons: File:Azulejos. Cartelería integrada. 01.jpg"
+  },
+  {
+    "trade": "tiler",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/tiler-file-azulejos-escudo-de-canarias-de-1878-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAzulejos._Escudo_de_Canarias_de_1878.jpg",
+    "license": "CC BY 4.0",
+    "author": "DRNRMRZ",
+    "notes": "Commons: File:Azulejos. Escudo de Canarias de 1878.jpg"
+  },
+  {
+    "trade": "tiler",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/tiler-file-azulejos-escudo-de-espa-a-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAzulejos._Escudo_de_Espa%C3%B1a.jpg",
+    "license": "CC BY 4.0",
+    "author": "DRNRMRZ",
+    "notes": "Commons: File:Azulejos. Escudo de España.jpg"
+  },
+  {
+    "trade": "tiler",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/tiler-file-bathroom-splash-back-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ABathroom_splash_back.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Smtzzz",
+    "notes": "Commons: File:Bathroom splash back.jpg"
+  },
+  {
+    "trade": "tiler",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/tiler-file-central-park-manhole-tiling-png.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACentral_Park_Manhole_Tiling.png",
+    "license": "CC BY-SA 4.0",
+    "author": "Harry Princeton",
+    "notes": "Commons: File:Central Park Manhole Tiling.png"
+  },
+  {
+    "trade": "tiler",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/tiler-file-centro-arqueol-gico-de-la-almoina-06-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACentro_Arqueol%C3%B3gico_de_la_Almoina_06.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Simon Burchell",
+    "notes": "Commons: File:Centro Arqueológico de la Almoina 06.jpg"
+  },
+  {
+    "trade": "tiler",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/tiler-file-ceramic-tile-tessellations-in-marrakech-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ACeramic_Tile_Tessellations_in_Marrakech.jpg",
+    "license": "CC BY-SA 3.0",
+    "author": "Ian Alexander",
+    "notes": "Commons: File:Ceramic Tile Tessellations in Marrakech.jpg"
+  },
+  {
+    "trade": "gas_engineer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/gas_engineer-file-avenida-de-juan-andres-2016-05-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAvenida_de_Juan_Andres%2C_2016_%2805%29.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Draceane",
+    "notes": "Commons: File:Avenida de Juan Andres, 2016 (05).jpg"
+  },
+  {
+    "trade": "gas_engineer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/gas_engineer-file-avenida-de-juan-andres-2016-07-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAvenida_de_Juan_Andres%2C_2016_%2807%29.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Draceane",
+    "notes": "Commons: File:Avenida de Juan Andres, 2016 (07).jpg"
+  },
+  {
+    "trade": "gas_engineer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/gas_engineer-file-avenida-de-juan-andres-2016-08-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AAvenida_de_Juan_Andres%2C_2016_%2808%29.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Draceane",
+    "notes": "Commons: File:Avenida de Juan Andres, 2016 (08).jpg"
+  },
+  {
+    "trade": "gas_engineer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/gas_engineer-file-brandon-2011-08-27-12-34-28-6086683733-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ABrandon_2011-08-27_12-34-28_%286086683733%29.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Joanna Poe from Munith, MI, USA",
+    "notes": "Commons: File:Brandon 2011-08-27 12-34-28 (6086683733).jpg"
+  },
+  {
+    "trade": "gas_engineer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/gas_engineer-file-burgos-varios-02-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ABurgos%2C_varios_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "LBM1948",
+    "notes": "Commons: File:Burgos, varios 02.jpg"
+  },
+  {
+    "trade": "gas_engineer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/gas_engineer-file-dominospizzarichmondhill5-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ADominosPizzaRichmondHill5.jpg",
+    "license": "CC0",
+    "author": "Raysonho @ Open Grid Scheduler / Scalable Grid Engine",
+    "notes": "Commons: File:DominosPizzaRichmondHill5.jpg"
+  },
+  {
+    "trade": "gas_engineer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/gas_engineer-file-doorway-to-refinishing-shop-24806414502-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3ADoorway_to_Refinishing_Shop_%2824806414502%29.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Ross Dunn",
+    "notes": "Commons: File:Doorway to Refinishing Shop (24806414502).jpg"
+  },
+  {
+    "trade": "gas_engineer",
+    "local_file": "/tmp/ambush-previews/scripts/photo-cache/gas_engineer-file-g-scharf-laying-gas-pipes-jpg.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AG._Scharf_laying_gas_pipes.jpg",
+    "license": "Public domain",
+    "author": "George Scharf (1788-1860)",
+    "notes": "Commons: File:G. Scharf laying gas pipes.jpg"
+  },
+  {
+    "trade": "scaffolding",
+    "local_file": "PERSISTENT_CACHE_BY_SOURCE_URL",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AHouse%20scaffolding%20in%20Fairham%20-%2028%20April%202025.jpg",
+    "license": "Public domain",
+    "author": "Aethonatic",
+    "notes": "2025, UK domestic scaffolding, CC0"
+  },
+  {
+    "trade": "scaffolding",
+    "local_file": "PERSISTENT_CACHE_BY_SOURCE_URL",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AHouse%20with%20scaffolding%20-%20geograph.org.uk%20-%206015198.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "DS Pugh",
+    "notes": "UK house scaffolding"
+  },
+  {
+    "trade": "scaffolding",
+    "local_file": "PERSISTENT_CACHE_BY_SOURCE_URL",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AA%20lot%20of%20scaffolding%20at%20the%20front%20of%20a%20house%20-%20geograph.org.uk%20-%204925578.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Bill Boaden",
+    "notes": "London domestic scaffolding"
+  },
+  {
+    "trade": "scaffolding",
+    "local_file": "PERSISTENT_CACHE_BY_SOURCE_URL",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AScaffolding%20in%20place%20-%20geograph.org.uk%20-%207990051.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Geograph contributor",
+    "notes": "UK scaffolding in place, 2025"
+  },
+  {
+    "trade": "scaffolding",
+    "local_file": "PERSISTENT_CACHE_BY_SOURCE_URL",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AScaffold%20covering%20in%20Tottenham%20London%2001%20processed.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Acabashi",
+    "notes": "London scaffold covering, 2024"
+  },
+  {
+    "trade": "scaffolding",
+    "local_file": "PERSISTENT_CACHE_BY_SOURCE_URL",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AHiding%20the%20scaffolding%20on%20Church%20Street%2C%202026.jpg",
+    "license": "CC BY-SA 4.0",
+    "author": "Andy Dingley",
+    "notes": "Monmouth scaffolding, 2026"
+  },
+  {
+    "trade": "scaffolding",
+    "local_file": "PERSISTENT_CACHE_BY_SOURCE_URL",
+    "source_url": "https://commons.wikimedia.org/wiki/File%3AHouse%20with%20scaffolding%20-%20geograph.org.uk%20-%20892452.jpg",
+    "license": "CC BY-SA 2.0",
+    "author": "Geograph contributor",
+    "notes": "UK house scaffolding"
+  }
 ]
