@@ -1,17 +1,12 @@
-INTERNAL DRAFT — SCREENSHOT PENDING — UNSENT
-Prospect: Sparkes Electrical Solutions Ltd
-Recipient identity for later review only: infosparkes.electrical@gmail.com
-NEW_EXTERNAL_SENT=0
+Subject: A website idea for Sparkes Electrical Solutions Ltd
 
-Subject: A sharper online home for Sparkes Electrical Solutions
+INTERNAL REVIEW ONLY - NOT SENT
 
-Jack,
-
-We prepared a responsive homepage concept that gives Sparkes Electrical Solutions Ltd a confident business identity, a clear explanation of the electrical enquiries you handle, and direct phone and email contact routes.
-
-Internal website preview:
+We put together a working website preview for Sparkes Electrical Solutions Ltd:
 https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/sparkes-electrical-20261123/
 
-Entreprenuity Web Design also builds custom business apps and an optional AI Agent in a Box owner app. A tailored owner app could bring together inbox and email, diary, jobs, staff, customer CRM, quotes and invoices, documents, follow-ups and an AI assistant.
+The screenshot in the HTML version is a real capture of that live page.
 
-This draft is not sendable. It remains blocked until the real frozen screenshots of exact site blob 30fb40dc0754c7c2f1f0c68a491a27a94ec5ad5a exist, independent browser QA passes, a secure Studio URL is ready, legal/suppression review passes, and the Founder approves the exact recipient and revision.
+Call 07794 042747 / infosparkes.electrical@gmail.com
+
+GeminX Digital Ambush

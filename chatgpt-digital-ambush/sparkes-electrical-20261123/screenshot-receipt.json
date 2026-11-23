@@ -1,0 +1,131 @@
+{
+  "schema": "digital-ambush.real-html-capture.v1",
+  "url": "https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/sparkes-electrical-20261123/",
+  "html_blob_sha": "0ea79579c58d5d2d89a830c3c924c8e5fa45828d",
+  "at": "2026-11-23T07:08:12.957Z",
+  "checks": [
+    {
+      "label": "phone320",
+      "width": 320,
+      "height": 800,
+      "decoded_photos": 5,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "mobile390",
+      "width": 390,
+      "height": 844,
+      "decoded_photos": 5,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "phone430",
+      "width": 430,
+      "height": 932,
+      "decoded_photos": 5,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "tablet768",
+      "width": 768,
+      "height": 1024,
+      "decoded_photos": 5,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "tablet820",
+      "width": 820,
+      "height": 1180,
+      "decoded_photos": 5,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1024",
+      "width": 1024,
+      "height": 768,
+      "decoded_photos": 5,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1200",
+      "width": 1200,
+      "height": 850,
+      "decoded_photos": 5,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1280",
+      "width": 1280,
+      "height": 800,
+      "decoded_photos": 5,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1440",
+      "width": 1440,
+      "height": 900,
+      "decoded_photos": 5,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "wide1920",
+      "width": 1920,
+      "height": 1080,
+      "decoded_photos": 5,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "wide2560",
+      "width": 2560,
+      "height": 1440,
+      "decoded_photos": 5,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "ultrawide3440",
+      "width": 3440,
+      "height": 1440,
+      "decoded_photos": 5,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    {
+      "label": "mobile390",
+      "width": 390,
+      "height": 844,
+      "filename": "homepage-0ea79579c58d-mobile390.jpg",
+      "bytes": 61635,
+      "sha256": "9a99aeb020d76af9bbf746d44136686dc0f5561c2160bf1b470a993f43ae1551"
+    },
+    {
+      "label": "tablet820",
+      "width": 820,
+      "height": 1180,
+      "filename": "homepage-0ea79579c58d-tablet820.jpg",
+      "bytes": 98092,
+      "sha256": "2625f6d0319aca353ae8463f7f42ee7f9a309b6d2a4f2aadc3f929f8d36ac057"
+    },
+    {
+      "label": "desktop1200",
+      "width": 1200,
+      "height": 850,
+      "filename": "homepage-0ea79579c58d-desktop1200.jpg",
+      "bytes": 130207,
+      "sha256": "b29362988d248711eec1a0220a2c9bcba48a96a1ce109e2d9c470828989b4ed0"
+    }
+  ],
+  "send_allowed": false
+}
