@@ -1,0 +1,15 @@
+{
+  "schema": "digital_ambush.email_review_brief.v3",
+  "prospectId": "WM-LTD-20261116-0012",
+  "taskId": "DA-CHATGPT-WM-LTD-20261116-0012-20261123T09Z",
+  "businessName": "STM PLUMBING & HEATING (UK) LIMITED",
+  "publicEmail": "maloneyst@hotmail.com",
+  "publicPhone": "02476 688440",
+  "personalisedOpening": "A responsive native-HTML homepage for STM Plumbing & Heating (UK) Limited using verified Coventry contact details and evidence-safe plumbing and heating enquiry copy.",
+  "websiteUrl": "https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/stm-plumbing-heating-20261123/",
+  "siteGitBlobSha": "2e3e8994614a5cdeadc011ef1239562e13b2fb00",
+  "outboundStatus": "UNSENT_INTERNAL_DRAFT_SCREENSHOT_PENDING",
+  "imageStatus": "PENDING_REAL_PUBLIC_CHROMIUM_HERO_SCREENSHOTS",
+  "offerTerms": ["website design", "custom business apps", "AI Agent in a Box", "private owner app"],
+  "notes": "Founder review only. NEO must capture the exact live site at 390, 820 and 1200, publish frozen JPEGs, rebuild the first-pixel screenshot panel and pass validate-email-site-match.cjs before promotion."
+}
