@@ -1,0 +1,61 @@
+{
+  "schema": "digital_ambush.asset_provenance.v1",
+  "task_id": "DA-CHATGPT-WM-LTD-20261116-0019-20261123T16Z",
+  "prospect_id": "WM-LTD-20261116-0019",
+  "source_repository": "R1mob2-svg/ambush-previews",
+  "source_commit": "2a88d6c3554e4dfb9c7be2a7c949d37c1536b6f1",
+  "source_manifest_path": "rso-developments-ltd-202611160019/asset-sources.json",
+  "source_manifest_blob_sha": "1660bac14aefa32ff1ce1a54159841c6b757f54b",
+  "usage_note": "Same-prospect asset vault reused by reference; illustrative assets are not represented as prospect work.",
+  "assets": [
+    {
+      "file": "hero.jpg",
+      "role": "hero",
+      "git_blob_sha": "c605f5cc4923d5a5d4fd90350421952fedfce0a0",
+      "sha256": "05b2cececf5c0b2ecad7836da5ff646825c4298f56f31a7415c0097f129dee4e",
+      "source": "generated:runway:6d1b95a2-69a9-457f-84d1-95a4d97ebf68",
+      "license": "AI_GENERATED_COMMERCIAL_USE"
+    },
+    {
+      "file": "service-1.jpg",
+      "role": "service-1",
+      "git_blob_sha": "a51bd6110f0f0876647f2de5d7e2d3afa0a0ec7e",
+      "sha256": "e2a425e13102b8ae9022bc9b9ea38ee66d85b70fd33fec56a81ebd347e032de6",
+      "source": "generated:runway:uk-building-rso-developments-ltd-202611160019-service-1",
+      "license": "AI_GENERATED_COMMERCIAL_USE"
+    },
+    {
+      "file": "service-2.jpg",
+      "role": "service-2",
+      "git_blob_sha": "24d3cbb00ab4f502cd4e5afcce356dad49286e38",
+      "sha256": "d35c423ea1025fc5d35a8a966972f398e273f1a92ac9ee7bc82022e537ab880c",
+      "source": "generated:runway:uk-building-rso-developments-ltd-202611160019-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE"
+    },
+    {
+      "file": "service-3.jpg",
+      "role": "service-3",
+      "git_blob_sha": "2e599c91e331ecbb4778fd696373249e09a44d7f",
+      "sha256": "c82b188bd4d714ef1e337bb7cf1de2924e4c32e796bb8b9fd4e3725e112a3bb2",
+      "source": "generated:runway:uk-building-rso-developments-ltd-202611160019-service-3",
+      "license": "AI_GENERATED_COMMERCIAL_USE"
+    },
+    {
+      "file": "process-bg.jpg",
+      "role": "process-background",
+      "git_blob_sha": "d65af61f4266f2e04c4b6d54596987589f34dfdf",
+      "sha256": "ca4dd08537d3c03185fbc59cd7e7d36fb2dbd7ebd1b225dad4ac87f45acd9fb6",
+      "source": "generated:runway:uk-building-rso-developments-ltd-202611160019-process-bg",
+      "license": "AI_GENERATED_COMMERCIAL_USE"
+    },
+    {
+      "file": "brand-mark.png",
+      "role": "brand-mark",
+      "git_blob_sha": "e5ca6be840c212356499f51ada41b5d41d40568a",
+      "sha256": "2bf7c44d7015ac8ffbffd850de6036bde7bdec149498e133ddb83c98bb59246a",
+      "source": "generated:monogram-rso-developments-ltd-202611160019-brand-mark",
+      "license": "GENERATED"
+    }
+  ],
+  "status": "PROVENANCE_COMPLETE"
+}
