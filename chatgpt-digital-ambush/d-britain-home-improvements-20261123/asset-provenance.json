@@ -1,0 +1,36 @@
+{
+  "schema": "chatgpt.digital_ambush.asset_provenance.v1",
+  "prospect_id": "WM-LTD-20261116-0011",
+  "site_blob_sha": "06899f7cb18244dd52cb31f9362b975e33ecbd75",
+  "source_manifest": {
+    "repository": "R1mob2-svg/ambush-previews",
+    "path": "dbritain-home-improvements-20261116/asset-sources.json",
+    "blob_sha": "1caf63c964772a41156223ffecefd795233a6157"
+  },
+  "disclosure": "Photographic assets are illustrative licensed trade imagery and are not represented as D Britain Home Improvements Limited's actual completed work.",
+  "assets": [
+    {
+      "path": "dbritain-home-improvements-20261116/assets/hero.jpg",
+      "role": "hero-and-wide-card",
+      "sha256": "30453409aeefb3bc00743037730f6f4b1bfe456a3b5fe01c6823c0cc2077c276",
+      "source_url": "generated:runway:f7be104e-c304-46bb-86aa-fb6d8ea0df0c",
+      "license": "AI_GENERATED_COMMERCIAL_USE"
+    },
+    {
+      "path": "dbritain-home-improvements-20261116/assets/service-1.jpg",
+      "role": "service-and-process",
+      "sha256": "2561c0e41a77136f4fc51dd86a0c873e4508f8b029e8ee230d67de39c411245e",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Plumber_uses_two_wrenches_to_tighten_a_fitting.jpg",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "path": "dbritain-home-improvements-20261116/assets/service-2.jpg",
+      "role": "service",
+      "sha256": "9cf6fd7e80bb2702f3184c6bb79b6c62f04d58ceea512d18dafa9d5ae0557855",
+      "source_url": "generated:runway:uk-plumbing-dbritain-home-improvements-20261116-service-2",
+      "license": "AI_GENERATED_COMMERCIAL_USE"
+    }
+  ],
+  "verified_at": "2026-11-23T08:08:28.809Z",
+  "verification_scope": "source manifest and hashes bound; real decode, subject-match and public HTTP readback delegated to exact-SHA NEO browser QA"
+}
