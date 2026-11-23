@@ -154,6 +154,7 @@ const TRADE_ALIASES = {
   roofer: 'roofing', roofing: 'roofing',
   plasterer: 'plastering', plastering: 'plastering',
   builder: 'building', building: 'building',
+  scaffolding: 'scaffolding', scaffolder: 'scaffolding',
   joiner: 'joinery', joinery: 'joinery', carpenter: 'joinery',
   painter: 'painting', painting: 'painting', decorator: 'painting',
   landscaper: 'landscaping', landscaping: 'landscaping', gardener: 'landscaping',
@@ -259,6 +260,23 @@ const TRADE = {
     ],
     hero: 'extensions, structural alterations, brickwork and renovation',
   },
+  scaffolding: {
+    title: 'Scaffolding & Safe Access',
+    sub: 'Scaffolding access for residential, commercial and trade projects',
+    cards: [
+      { badge: 'Residential', h: 'Residential Scaffolding', link: 'Discuss House Scaffolding',
+        p: 'Temporary access scaffolding for home renovation, maintenance and roofing projects.',
+        li: ['House scaffolding', 'Renovation access', 'Roof and facade projects'] },
+      { badge: 'Trade Access', h: 'Scaffolding for Building Trades', link: 'Discuss Trade Access',
+        p: 'Access structures for builders, roofers and property refurbishment projects.',
+        li: ['Construction access', 'Roofline projects', 'Trade coordination'] },
+      { badge: 'Commercial', h: 'Commercial Scaffolding', link: 'Request a Project Quote',
+        p: 'Scaffolding enquiries for commercial buildings and larger construction work.',
+        li: ['Commercial access', 'Project planning', 'Construction sites'] },
+    ],
+    hero: 'residential, commercial and trade scaffolding',
+  },
+
   joinery: {
     title: 'Joinery & Carpentry Services',
     sub: 'Staircases, doors, fitted furniture and general carpentry by a qualified joiner',
