@@ -568,6 +568,32 @@ if (email) {
   tpl = tpl.replace(/[\w.+-]+@[\w-]+\.[\w.]+/g, email);
 }
 
+// Credit the FIVE actually selected images, not the template's unrelated photos.
+// Keeps Creative Commons attribution and licence links tied to the published bytes.
+const templateCredits = [...tpl.matchAll(/<div class="photo-credits"[^>]*>[\s\S]*?<\/div>/g)];
+if (templateCredits.length !== 1) {
+  console.error('SPEC_REJECTED_photo_credit_slot_missing_or_duplicated');
+  process.exit(4);
+}
+const creditHtml = five.map((p) => {
+  const sourceUrl = esc(p.source_url).replace(/"/g, '&quot;');
+  const author = esc(p.author || 'Wikimedia Commons contributor');
+  const licence = String(p.license || 'UNVERIFIED');
+  const match = /^CC BY(-SA)? (\d(?:\.\d)?)$/i.exec(licence);
+  const licenceHtml = match
+    ? '<a href="https://creativecommons.org/licenses/by' +
+      (match[1] ? '-sa' : '') + '/' + match[2] +
+      '/" rel="noopener" target="_blank">' + esc(licence) + '</a>'
+    : esc(licence);
+  return '<a href="' + sourceUrl + '" rel="noopener" target="_blank">' +
+      author + '</a> (' + licenceHtml + ')';
+}).join('; ');
+tpl = tpl.replace(templateCredits[0][0],
+  '<div class="photo-credits" style="max-width:1200px;margin:0 auto;' +
+  'padding:12px 24px 30px;color:#9fb0c3;font-size:11px;line-height:1.5;text-align:center">' +
+  'Photographs are illustrative, not work claimed by this business. ' +
+  'Photo attribution: ' + creditHtml + '.</div>');
+
 // 13. Honesty guard: if any kitchen-bespoke language survived in VISIBLE copy, refuse.
 //     alt="" and photo-credit attributions are provenance, not claims, so they are
 //     excluded from the scan.
@@ -647,6 +673,7 @@ five.forEach((p, i) => {
     sha256: sha256File(dest),
     source_url: p.source_url,
     license: p.license || 'UNVERIFIED',
+    author: p.author || 'Wikimedia Commons contributor',
     notes: p.notes || '',
   };
 });
