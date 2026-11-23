@@ -1,13 +1,13 @@
 {
   "schema": "digital_ambush.qa_recertification_required.v1",
   "site": "https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/shields-scaffolding-20261123/",
-  "expected_blob": "65046329220418d80fe5728ddbecf8712cd2f2c2",
+  "expected_blob": "9f162bee8daf243d4b169f325a6ef1c68bc56006",
   "email_expected_blob": "9f1c306cd46ce17f85ffd9c048fb0cd04c594fe2",
   "served_blob": null,
   "match": false,
   "allPass": false,
   "status": "NEEDS_EXACT_SHA_12_WIDTH_RETEST_AND_SCREENSHOT_RECAPTURE",
-  "blocker": "Previous site and HTML email misspelled registered SHIELDS SCAFFOLDING LTD as Shield's; HTML has now been corrected. Previous screenshots reflect superseded source and must be regenerated.",
+  "blocker": "Registered name corrected and licensed photo credits added. Previous screenshots reflect superseded SHA. Re-run browser and recapture frozen mobile/tablet/desktop screenshots from new site source SHA.",
   "previous_layout_only_qa": {
     "site_blob": "ecdd1781e0dc181f3eb1226c81d37eaab5a1c757",
     "served_blob": "ecdd1781e0dc181f3eb1226c81d37eaab5a1c757",
@@ -168,5 +168,6 @@
     "3_frozen_screenshot_sha_binding",
     "email_site_parity",
     "sender_legal_and_suppression_gate"
-  ]
+  ],
+  "previous_name_repaired_site_sha": "65046329220418d80fe5728ddbecf8712cd2f2c2"
 }
