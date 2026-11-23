@@ -112,6 +112,19 @@ function preBuildGuard(lead) {
     return { reason: 'EMAIL_NOT_MX_VERIFIED', detail: `deliverability=${lead.email_deliverability_status || 'MISSING'}` };
   }
   if (!emailEvidenceUrl(lead)) return { reason: 'NO_EMAIL_EVIDENCE_URL', detail: 'email_evidence_url missing' };
+  if (String(lead.company_type || '').toUpperCase() !== 'ACTIVE_LTD_VERIFIED')
+    return { reason: 'COMPANY_NOT_VERIFIED_LTD' };
+  if (!/^[A-Z0-9]{6,9}$/i.test(String(lead.company_number || '').trim()))
+    return { reason: 'COMPANY_NUMBER_MISSING' };
+  if (!/^(?:\\+44|0)[0-9 ()-]{9,}$/.test(String(lead.public_phone || '').trim()))
+    return { reason: 'PUBLIC_TELEPHONE_MISSING' };
+  const websiteGate = String(lead.website_status || '').toUpperCase();
+  if (!websiteGate.startsWith('NO_OFFICIAL_SITE_FOUND_WITHIN_') || lead.website_url)
+    return { reason: 'NO_WEBSITE_GATE_UNPROVEN', detail: websiteGate || 'MISSING' };
+  if (String(lead.do_not_contact ?? 'FALSE').toUpperCase() !== 'FALSE' ||
+      lead.outreach?.outbound_sent === true ||
+      (Array.isArray(lead.outreach?.send_receipts) && lead.outreach.send_receipts.length))
+    return { reason: 'DNC_OR_ALREADY_CONTACTED' };
   return null;
 }
 
@@ -199,6 +212,69 @@ function loadPool() {
   try { return JSON.parse(fs.readFileSync(POOL_PATH, 'utf8')); } catch (e) { return []; }
 }
 
+// The legacy photo pool points at disposable /tmp paths. On Railway those
+// vanish at restart, silently making every builder job ASSET_SET_UNAVAILABLE.
+// Rehydrate only selected Commons images into the existing persistent RUN_DIR.
+// No paid image API and no duplication of the GitHub CRM or scheduler.
+const COMMONS_CACHE = path.join(RUN_DIR, 'commons-photo-cache');
+async function hydrateCommonsPhoto(p) {
+  const source = String(p?.source_url || '');
+  if (!/^https:\/\/commons\.wikimedia\.org\/wiki\/File(?::|%3A)/i.test(source))
+    return null;
+  const label = String(p?.license || '');
+  if (!/^(CC BY(?:-SA)? \d(?:\.\d)?|Public domain)$/i.test(label))
+    return null;
+  const key = crypto.createHash('sha256').update(source).digest('hex').slice(0,24);
+  mkdirSyncSafe(COMMONS_CACHE);
+  for (const ext of ['jpg','png','webp']) {
+    const existing = path.join(COMMONS_CACHE, key + '.' + ext);
+    if (fs.existsSync(existing) && fs.statSync(existing).size > 2048)
+      return { ...p, local_file: existing };
+  }
+  try {
+    const title = decodeURIComponent(new URL(source).pathname.split('/wiki/')[1] || '');
+    if (!title.startsWith('File:')) return null;
+    const api = new URL('https://commons.wikimedia.org/w/api.php');
+    for (const [k,v] of Object.entries({
+      action:'query',format:'json',formatversion:'2',prop:'imageinfo',
+      iiprop:'url|extmetadata',iiurlwidth:'1600',titles:title
+    })) api.searchParams.set(k,v);
+    const metaReq = await fetch(api, { headers:{ 'User-Agent':'DigitalAmbush-RightsCheck/1.0' }, signal:AbortSignal.timeout(15000) });
+    if (!metaReq.ok) return null;
+    const info = (await metaReq.json())?.query?.pages?.[0]?.imageinfo?.[0];
+    if (!info) return null;
+    const actualLicense = String(info.extmetadata?.LicenseShortName?.value || '')
+      .replace(/<[^>]*>/g,'').trim().toLowerCase();
+    const declared = label.toLowerCase();
+    if (!actualLicense || (declared === 'public domain'
+      ? !/public domain|cc0/.test(actualLicense)
+      : !actualLicense.includes(declared.replace(/\s+/g,' ')))) return null;
+    const media = String(info.thumburl || info.url || '');
+    const mediaUrl = new URL(media);
+    if (mediaUrl.protocol !== 'https:' || mediaUrl.hostname !== 'upload.wikimedia.org') return null;
+    const download = await fetch(media, { headers:{ 'User-Agent':'DigitalAmbush-RightsCheck/1.0' }, signal:AbortSignal.timeout(30000) });
+    if (!download.ok) return null;
+    const length = Number(download.headers.get('content-length') || 0);
+    if (length > 15_000_000) return null;
+    const bytes = Buffer.from(await download.arrayBuffer());
+    if (bytes.length < 2048 || bytes.length > 15_000_000) return null;
+    const ext = bytes[0]===0xff && bytes[1]===0xd8 ? 'jpg'
+      : bytes[0]===0x89 && bytes.toString('ascii',1,4)==='PNG' ? 'png'
+      : bytes.toString('ascii',0,4)==='RIFF' && bytes.toString('ascii',8,12)==='WEBP' ? 'webp'
+      : null;
+    if (!ext) return null;
+    const destination = path.join(COMMONS_CACHE, key + '.' + ext);
+    const tmp = destination + '.' + process.pid + '.partial';
+    fs.writeFileSync(tmp, bytes);
+    fs.renameSync(tmp, destination);
+    return { ...p, local_file: destination, commons_verified_license: actualLicense };
+  } catch (err) {
+    log('COMMONS_PHOTO_UNAVAILABLE source=' + source.slice(0,120) + ' reason=' + String(err?.message || 'unknown').slice(0,85));
+    return null;
+  }
+}
+function mkdirSyncSafe(dir) { fs.mkdirSync(dir,{recursive:true}); }
+
 // Pool entries use `local_file`; the compiler's spec wants `file`.
 const toSpecPhoto = (p) => ({
   file: p.local_file || p.file,
@@ -274,7 +350,7 @@ function setLeadStatus(lead, status, extra = {}) {
     `${alreadyBuilt.size} already BUILT_READY_FOR_REVIEW`);
 
   const used = usedOrigins();
-  const cleanPool = loadPool().filter((p) => (p.local_file || p.file) && fs.existsSync(p.local_file || p.file) && !used.has(p.source_url));
+  const cleanPool = loadPool().filter((p) => p.source_url && !used.has(p.source_url));
   log(`PHOTO POOL: ${cleanPool.length} unused verified origins (${used.size} already burned board-wide)`);
 
   // bucket by normalised trade so every page gets on-trade photography
@@ -311,7 +387,12 @@ function setLeadStatus(lead, status, extra = {}) {
 
     // assemble 5 unique ON-TRADE photos
     const bucket = poolByTrade[tradeKey] || [];
-    const take = bucket.splice(0, 5);
+    const take = [];
+    while (bucket.length && take.length < 5) {
+      const candidate = bucket.shift();
+      const verified = await hydrateCommonsPhoto(candidate);
+      if (verified) take.push(verified);
+    }
     if (take.length < 5) {
       log(`ASSET_SET_UNAVAILABLE ${slug} (${lead.business_name}) — only ${take.length}/5 on-trade photos left for ${tradeKey}`);
       state.skipped.push({ slug, trade: tradeKey, reason: 'ASSET_SET_UNAVAILABLE', remaining: take.length, at: new Date().toISOString() });
