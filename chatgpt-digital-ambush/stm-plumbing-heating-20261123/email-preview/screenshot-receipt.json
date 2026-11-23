@@ -1,0 +1,131 @@
+{
+  "schema": "digital-ambush.real-html-capture.v1",
+  "url": "https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/stm-plumbing-heating-20261123/",
+  "html_blob_sha": "e55591304dcb889bb88ab93895efadf14b5b0fb8",
+  "at": "2026-11-23T11:41:54.136Z",
+  "checks": [
+    {
+      "label": "phone320",
+      "width": 320,
+      "height": 800,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "mobile390",
+      "width": 390,
+      "height": 844,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "phone430",
+      "width": 430,
+      "height": 932,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "tablet768",
+      "width": 768,
+      "height": 1024,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "tablet820",
+      "width": 820,
+      "height": 1180,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1024",
+      "width": 1024,
+      "height": 768,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1200",
+      "width": 1200,
+      "height": 850,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1280",
+      "width": 1280,
+      "height": 800,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1440",
+      "width": 1440,
+      "height": 900,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "wide1920",
+      "width": 1920,
+      "height": 1080,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "wide2560",
+      "width": 2560,
+      "height": 1440,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "ultrawide3440",
+      "width": 3440,
+      "height": 1440,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    {
+      "label": "mobile390",
+      "width": 390,
+      "height": 844,
+      "filename": "homepage-e55591304dcb-mobile390.jpg",
+      "bytes": 67263,
+      "sha256": "2da0d4bfce0fc725af02f0a67663d08b1ec08ccf33306d3519ad95d4429d9e4f"
+    },
+    {
+      "label": "tablet820",
+      "width": 820,
+      "height": 1180,
+      "filename": "homepage-e55591304dcb-tablet820.jpg",
+      "bytes": 133036,
+      "sha256": "3b4f439d69d167b030322cef903229519e2f99f9692e0399bdb7716ea8623b55"
+    },
+    {
+      "label": "desktop1200",
+      "width": 1200,
+      "height": 850,
+      "filename": "homepage-e55591304dcb-desktop1200.jpg",
+      "bytes": 143563,
+      "sha256": "79633af0b5e02df1623dcdbf0a238d57865aed40f1377cda7f21c0f0a1def469"
+    }
+  ],
+  "send_allowed": false
+}
