@@ -1,0 +1,13 @@
+{
+  "schema": "digital_ambush.internal_email_brief.v1",
+  "task_id": "DA-CHATGPT-PRO-GMAPS-20261117-0002-20261123T04Z",
+  "prospect_id": "PRO-GMAPS-20261117-0002",
+  "businessName": "GDS Plastering Limited",
+  "publicEmail": "gds_services@hotmail.com",
+  "publicPhone": "07305 744364",
+  "personalisedOpening": "We saw GDS Plastering Limited listed for plastering work in the West Midlands, so we put together a working preview showing how a short, clear page could present interior walls, plasterboarding, rendering and repair enquiries. It is a design idea, not your official site, and the images are illustrative rather than your completed jobs.",
+  "website_url": "https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/gds-plastering-20261123/",
+  "website_blob_sha": "22c3794905731d3633d61d6cce9d286ea25122d6",
+  "email_status": "INTERNAL_DRAFT_SCREENSHOT_PENDING_UNSENT",
+  "new_external_sent": 0
+}
