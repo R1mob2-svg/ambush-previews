@@ -7,9 +7,9 @@
   "personalisedOpening": "A responsive native-HTML homepage rebuild for CHEEK ELECTRICAL LIMITED, using verified Shirley contact details and evidence-safe electrical installation enquiry copy.",
   "websiteUrl": "https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/cheek-electrical-20261122/",
   "siteGitBlobSha": "702de57f0d7d0fb31d7c1093e1c52fcf37f8ca67",
-  "outboundStatus": "UNSENT_INTERNAL_DRAFT_SCREENSHOT_PENDING",
-  "imageStatus": "AWAITING_REAL_PUBLIC_CHROMIUM_SCREENSHOT_FROM_EXACT_NEW_SHA",
-  "notes": "Founder review only. Old Cheek source is rejected and superseded. No customer send. Final dark email requires NEO frozen hero screenshot parity.",
+  "outboundStatus": "UNSENT_INTERNAL_DRAFT_SCREENSHOT_BUILT_PARITY_PASSED",
+  "imageStatus": "REAL_PUBLIC_CHROMIUM_HERO_SHOTS_FROZEN_AND_VERIFIED_SHA256",
+  "notes": "Founder review only. Old Cheek source is rejected and superseded. No customer send. NEO 2026-11-23 07:30Z: hero screenshots frozen from live blob 702de57\u2026, 12-width gate PASS, email parity PASS, still NOT send-ready until explicit founder approval.",
   "previousRejectedSiteGitBlobSha": "e5a15df9c4855502de13290543041c579aa9a0e9",
   "taskId": "DA-CHATGPT-WM-LTD-20261116-0007-20261122T23Z-REBUILD"
 }
