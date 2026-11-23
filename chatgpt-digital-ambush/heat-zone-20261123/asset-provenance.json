@@ -1,0 +1,31 @@
+{
+  "schema": "digital_ambush.asset_provenance.v1",
+  "prospect_id": "WM-LTD-20261116-0010",
+  "task_id": "DA-CHATGPT-WM-LTD-20261116-0010-20261123T03Z",
+  "source_site_blob_sha": "8ee5d9dae75ed9fbb83ec170050369f2e3eee1ca",
+  "assets": {
+    "hero": {
+      "public_url": "https://r1mob2-svg.github.io/ambush-previews/heat-zone-20261116/assets/hero.jpg",
+      "sha256": "92ec0e32bb9bfa53d2f4625ca9164b3dd2f31e2c7176d8ba74bcfda9ede412f0",
+      "source_url": "generated:runway:332fe64d-2dd7-4ea4-98da-595e3cb42df8",
+      "rights": "AI_GENERATED_COMMERCIAL_USE",
+      "use": "illustrative; not prospect work"
+    },
+    "service_1": {
+      "public_url": "https://r1mob2-svg.github.io/ambush-previews/heat-zone-20261116/assets/service-1.jpg",
+      "sha256": "e489b28b6fc90699f8060f96647540bd0e5bd8e07ce527b4f7b051371514bf40",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Thermostatic_Radiator_Valve.jpg",
+      "rights": "CC BY-SA 3.0",
+      "use": "illustrative thermostatic radiator control"
+    },
+    "service_2": {
+      "public_url": "https://r1mob2-svg.github.io/ambush-previews/heat-zone-20261116/assets/service-2.jpg",
+      "sha256": "36aeed5de642800c69fe1b452575ec4b3169c7f31c10cb02724d3dd00c6eefd0",
+      "source_url": "generated:runway:uk-heating-heat-zone-20261116-service-2",
+      "rights": "AI_GENERATED_COMMERCIAL_USE",
+      "use": "illustrative heating trade scene"
+    }
+  },
+  "inherited_manifest": "heat-zone-20261116/asset-sources.json",
+  "external_send": false
+}
