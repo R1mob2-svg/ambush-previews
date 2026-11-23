@@ -1,0 +1,33 @@
+{
+  "schema": "digital-ambush.asset-provenance.v1",
+  "prospect_id": "WM-LTD-20261116-0015",
+  "business_name": "HOBBS & HODGETTS LIMITED",
+  "reused_existing_assets": true,
+  "source_repository": "R1mob2-svg/ambush-previews",
+  "source_folder": "assg-plumbing-and-heating-services-0013/assets",
+  "assets": {
+    "hero": {
+      "path": "assets/hero.jpg",
+      "source_blob_sha": "f51f05f976884259686f548c7162dccc1ea7ca13",
+      "licence": "AI_GENERATED_COMMERCIAL_USE",
+      "source": "generated:runway:6e4ff6eb-7d03-4478-8c01-a32053739620",
+      "disclosure": "Illustrative scene, not the company"
+    },
+    "service_1": {
+      "path": "assets/service-1.jpg",
+      "source_blob_sha": "6df90f78de8f4717e04e0cb02e882e718f22fbbc",
+      "licence": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Copper_water_pipes.jpg",
+      "attribution_in_footer": true
+    },
+    "service_2": {
+      "path": "assets/service-2.jpg",
+      "source_blob_sha": "bf32258048220444b1b802f66a712a3826a13377",
+      "licence": "AI_GENERATED_COMMERCIAL_USE",
+      "source": "generated:runway:uk-heating-assg-plumbing-and-heating-services-0013-service-2",
+      "disclosure": "Illustrative scene, not the company"
+    }
+  },
+  "new_image_generated": false,
+  "customer_send": false
+}
