@@ -11,7 +11,7 @@
  *   2. follow the business's own site / public listing pages
  *   3. take an email ONLY if it is published verbatim on a page we fetched
  *   4. MX-verify the domain
- *   5. only then write a FRESH_QUALIFIED row, with email_evidence_url
+ *   5. only then write a RESEARCH_HOLD row with email_evidence_url, pending incorporation, phone and official-site verification
  *
  * Never guesses. Never permutes. Never invents an address, a review, an
  * accreditation or a service list.
@@ -205,14 +205,14 @@ async function commitLead(record) {
 
   git(CRM, ['add', '--', 'prospects/index.json']);
   const cm = git(CRM, ['-c', 'user.email=neo@geminx.ai', '-c', 'user.name=NEO', 'commit', '-q', '-m',
-    `feat(prospects): ${record.prospect_id} ${record.business_name} — FRESH_QUALIFIED (verified public email)\n\n` +
+    `feat(prospects): ${record.prospect_id} ${record.business_name} — RESEARCH_HOLD (verified email only; no incorporation, phone or site clearance)\n\n` +
     `email: ${record.public_email}\n` +
     `email_evidence_url: ${record.email_evidence_url}\n` +
     `mx_domain: ${record.mx_domain} (live MX lookup passed)\n` +
     `trade: ${record.trade_category} · town: ${record.location}\n` +
     `source: ${record.source_type} — ${record.source_url}\n\n` +
     `Address published verbatim on the cited page. Not guessed or permuted.\n` +
-    `NO VERIFIED PUBLIC EMAIL = NO BUILD is enforced downstream.\n` +
+    `EMAIL ALONE IS NOT QUALIFICATION. RESEARCH_HOLD until company number, phone, official site checks and compliance independently pass.\n` +
     `Outbound HOLD: NEW EXTERNAL SENT = 0, DRAFTS = 0.`]);
   if (!cm.ok) return { ok: false, reason: 'COMMIT_FAILED', detail: (cm.stderr || '').split('\n')[0] };
   const sha = git(CRM, ['rev-parse', '--short', 'HEAD']).stdout.trim();
@@ -228,6 +228,7 @@ async function commitLead(record) {
   log('BOOT', 'public-email trade sourcer start — Companies House ingestion disabled');
   const state = fs.existsSync(STATE_PATH) ? JSON.parse(fs.readFileSync(STATE_PATH, 'utf8')) : { seen: {}, qualified: [] };
 
+  state.research_hold = Array.isArray(state.research_hold) ? state.research_hold : [];
   const ex = existingKeys();
   let found = 0;
   let seq = 0;
@@ -302,9 +303,14 @@ async function commitLead(record) {
           evidence_urls: [r.url],
           scrape_lane: 'PUBLIC_EMAIL',
           scraper_version: 'source-verified-trades-v1',
-          website_status: accepted.isFreeMail ? 'NO_OWN_WEBSITE_PUBLIC_EMAIL_ONLY' : 'HAS_WEBSITE',
-          pipeline_status: 'FRESH_QUALIFIED',
-          status: 'FRESH_QUALIFIED',
+          website_status: accepted.isFreeMail ? 'OFFICIAL_SITE_UNCHECKED' : 'HAS_ACTIVE_WEBSITE',
+          pipeline_status: 'RESEARCH_HOLD',
+          status: 'RESEARCH_HOLD',
+          qualification_status: 'RESEARCH_HOLD',
+          qualification_reason: accepted.isFreeMail
+            ? 'COMPANY_AND_PHONE_AND_WEBSITE_EVIDENCE_REQUIRED'
+            : 'EXISTING_OFFICIAL_WEBSITE_FOUND',
+          selected_for_outreach: false,
           notes: `Discovered by public web email search for ${trade.label} in ${place}. Email published verbatim at ${r.url} and MX-verified on ${accepted.domain}. No reviews, accreditations or service claims recorded — none were verified.`,
           created_at: new Date().toISOString(),
           updated_at: new Date().toISOString(),
@@ -315,9 +321,9 @@ async function commitLead(record) {
           ex.emails.add(accepted.email);
           ex.names.add(name.toLowerCase());
           ex.domains.add(host);
-          state.qualified.push({ id, name, email: accepted.email, evidence: r.url, sha: res.sha });
+          state.research_hold.push({ id, name, email: accepted.email, evidence: r.url, sha: res.sha });
           fs.writeFileSync(STATE_PATH, JSON.stringify(state, null, 2));
-          log('QUALIFIED', `${id} ${name}`, { email: accepted.email, sha: res.sha });
+          log('RESEARCH_HOLD', `${id} ${name}`, { email: accepted.email, sha: res.sha });
         } else {
           log('COMMIT_REJECT', `${name}`, res);
         }
@@ -326,6 +332,6 @@ async function commitLead(record) {
     }
   }
 
-  log('COMPLETE', `qualified=${state.qualified.length} target=${TARGET}`);
+  log('COMPLETE', `research_hold=${state.research_hold.length} target=${TARGET}`);
   fs.writeFileSync(STATE_PATH, JSON.stringify(state, null, 2));
 })();
