@@ -1,0 +1,45 @@
+{
+  "schema": "chatgpt.digital_ambush.asset_provenance.v1",
+  "prospect_id": "PRO-GMAPS-20261117-0004",
+  "site_blob_sha": "30fb40dc0754c7c2f1f0c68a491a27a94ec5ad5a",
+  "source_manifest": {
+    "repository": "R1mob2-svg/ambush-previews",
+    "path": "sparkes-electrical-solutions-ltd-202611170004/asset-sources.json",
+    "blob_sha": "e22c7b72c77b2467568dbb7f7926afba7c378e96"
+  },
+  "disclosure": "All photographic assets are illustrative AI-generated electrical trade scenes from the existing licensed vault and are not represented as Sparkes Electrical Solutions Ltd's actual work.",
+  "assets": [
+    {
+      "path": "sparkes-electrical-solutions-ltd-202611170004/hero.jpg",
+      "role": "hero",
+      "sha256": "f479766bf98999acf2aac7b7342dc3b84454f8807ae31525a55d223f39c1300a",
+      "license": "AI_GENERATED_COMMERCIAL_USE"
+    },
+    {
+      "path": "sparkes-electrical-solutions-ltd-202611170004/process-bg.jpg",
+      "role": "process",
+      "sha256": "fc098d8dd4c4c5262bb0f3da1c651b8789c05c32dd65722a8b60800d37e183e1",
+      "license": "AI_GENERATED_COMMERCIAL_USE"
+    },
+    {
+      "path": "sparkes-electrical-solutions-ltd-202611170004/service-1.jpg",
+      "role": "service",
+      "sha256": "07c0ce337efed55bee8e45d7430b3eb327787b6fdf9f855add7f8987c57476df",
+      "license": "AI_GENERATED_COMMERCIAL_USE"
+    },
+    {
+      "path": "sparkes-electrical-solutions-ltd-202611170004/service-2.jpg",
+      "role": "service",
+      "sha256": "7819fed150d8f0229fbe497aa2c920f60fdc633a108ac24bd549fb95b7d94191",
+      "license": "AI_GENERATED_COMMERCIAL_USE"
+    },
+    {
+      "path": "sparkes-electrical-solutions-ltd-202611170004/service-3.jpg",
+      "role": "service",
+      "sha256": "3951bbbdd13f7daa5e5d34788d7ade678981388997d223dc9d0e35186444c9f5",
+      "license": "AI_GENERATED_COMMERCIAL_USE"
+    }
+  ],
+  "verified_at": "2026-11-23T05:03:09.999Z",
+  "verification_scope": "manifest and hash carry-forward; image decode and subject-match require NEO browser QA"
+}
