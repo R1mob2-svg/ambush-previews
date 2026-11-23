@@ -1,0 +1,131 @@
+{
+  "schema": "digital-ambush.real-html-capture.v1",
+  "url": "https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/deol-super-construction-20261123/",
+  "html_blob_sha": "27960d5ee9bb9c4f14225f5122a8c8a7e47f31bf",
+  "at": "2026-11-23T21:01:16.018Z",
+  "checks": [
+    {
+      "label": "phone320",
+      "width": 320,
+      "height": 800,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "mobile390",
+      "width": 390,
+      "height": 844,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "phone430",
+      "width": 430,
+      "height": 932,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "tablet768",
+      "width": 768,
+      "height": 1024,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "tablet820",
+      "width": 820,
+      "height": 1180,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1024",
+      "width": 1024,
+      "height": 768,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1200",
+      "width": 1200,
+      "height": 850,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1280",
+      "width": 1280,
+      "height": 800,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1440",
+      "width": 1440,
+      "height": 900,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "wide1920",
+      "width": 1920,
+      "height": 1080,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "wide2560",
+      "width": 2560,
+      "height": 1440,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "ultrawide3440",
+      "width": 3440,
+      "height": 1440,
+      "decoded_photos": 3,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    {
+      "label": "mobile390",
+      "width": 390,
+      "height": 844,
+      "filename": "homepage-27960d5ee9bb-mobile390.jpg",
+      "bytes": 69201,
+      "sha256": "c26fd3edb5319bef302f2984ec8e23cec93c495bd772d9d7f534cc186e9c0448"
+    },
+    {
+      "label": "tablet820",
+      "width": 820,
+      "height": 1180,
+      "filename": "homepage-27960d5ee9bb-tablet820.jpg",
+      "bytes": 122600,
+      "sha256": "5efd96a800a3f775b231a656229689369542d9bd4530525a2657c86aade144b8"
+    },
+    {
+      "label": "desktop1200",
+      "width": 1200,
+      "height": 850,
+      "filename": "homepage-27960d5ee9bb-desktop1200.jpg",
+      "bytes": 147153,
+      "sha256": "2ca705e8803b539ebfc7572527a6c12c884355de3f4ce9e6045097592eb8783b"
+    }
+  ],
+  "send_allowed": false
+}
