@@ -84,11 +84,13 @@ function build(sitePath,receiptPath,briefPath){
  '<a class="button" href="'+link+'" style="display:inline-block;background:#f0af7c;color:#10242b;text-decoration:none;border-radius:7px;font-size:14px;font-weight:bold;padding:14px 19px">OPEN WEBSITE PREVIEW ↗</a>',
  '<p style="font-size:13px;color:#cfdbdb;margin:19px 0 0">Kind regards,<br><strong style="color:#fff">Entreprenuity Web Design</strong></p></td></tr>',
  '<tr><td style="padding:14px 20px;background:#0a1920;color:#9db2b5;font-size:10px;line-height:1.5">Internal founder review only. No prospect email has been sent. Live website SHA '+actual.slice(0,12)+'. Custom app capabilities are optional; final outreach requires separately approved sender, recipient, secure Studio URL and legal checks.</td></tr>',
+ '<!-- NEO 2026-11-23: PECR opt-out line. Required before any external send; harmless in internal review. -->',
+ '<tr><td style="padding:10px 20px;background:#0a1920;color:#9db2b5;font-size:10px;line-height:1.5">You are receiving this because your business contact details are published publicly. If you would prefer not to hear from us, reply to this email with "no further contact" and we will remove you and not write again.</td></tr>',
  '</table></td></tr></table></body></html>'
  ].join("\n");
  const output=path.join(dir,"index.html");
  fs.writeFileSync(output,html+"\n");
- const plain=["Subject: A website preview for "+company,"Public company email: "+recipient+" (DRAFT ONLY, NOT SENT)","",""+personal,"","Open the working website: "+r.url,"","Imagine running your business from one app: email, diary/jobs, customers/staff, quotes and invoices, and AI help with follow-ups.","","Entreprenuity Web Design","Internal founder review only. No customer send authorised."].join("\n");
+const plain=["Subject: A website preview for "+company,"Public company email: "+recipient+" (DRAFT ONLY, NOT SENT)","",""+personal,"","Open the working website: "+r.url,"","Imagine running your business from one app: email, diary/jobs, customers/staff, quotes and invoices, and AI help with follow-ups.","","Entreprenuity Web Design","Internal founder review only. No customer send authorised.","","You are receiving this because your business contact details are published publicly. If you would prefer not to hear from us, reply to this email with \"no further contact\" and we will remove you and not write again."].join("\n");
  fs.writeFileSync(path.join(dir,"email.txt"),plain+"\n");
  console.log(JSON.stringify({state:"HERO_FIRST_HTML_EMAIL_DRAFT_WRITTEN",email:output,siteSha:actual,visibleScreenPerViewport:1,firstVisible:"REAL_SITE_HERO",customerSend:0}));
 }
