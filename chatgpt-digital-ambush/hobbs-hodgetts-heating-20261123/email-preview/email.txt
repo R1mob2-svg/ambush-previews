@@ -1,12 +1,11 @@
-INTERNAL DRAFT ONLY · NOT SENT
-Hobbs & Hodgetts Limited
-Verified published business email: hobbsandhodgetts2010@outlook.com
-Company phone: 01902 334723
+Subject: A website preview for Hobbs & Hodgetts Limited
+Public company email: hobbsandhodgetts2010@outlook.com (DRAFT ONLY, NOT SENT)
 
-We have built a responsive website idea for Hobbs & Hodgetts Limited to help potential customers understand heating and plumbing enquiry routes and get in touch directly.
+We prepared a heating and plumbing website concept using your published business contact details, with clear ways for potential customers to get in touch. The site is an independent preview for your consideration, not an official company website.
 
-See website concept: https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/hobbs-hodgetts-heating-20261123/
+Open the working website: https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/hobbs-hodgetts-heating-20261123/
 
-Entreprenuity Web Design can also discuss a custom business app and an optional AI assistant for the day-to-day office workload.
+Imagine running your business from one app: email, diary/jobs, customers/staff, quotes and invoices, and AI help with follow-ups.
 
-This is an internal review draft. The first-pixel email screenshot of the exact site is pending independent NEO Chromium QA. No customer email is approved or sent.
+Entreprenuity Web Design
+Internal founder review only. No customer send authorised.
