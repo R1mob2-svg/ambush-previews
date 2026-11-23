@@ -23,8 +23,11 @@ function main(){
  assert(!/<iframe\b|<script\b/i.test(email),"UNSAFE_EMAIL_MARKUP");
  assert(email.includes(u.href),"EMAIL_DOES_NOT_LINK_EXACT_WEBSITE");
  assert(/width\s*:\s*100%/i.test(email)&&/height\s*:\s*auto/i.test(email),"EMAIL_NOT_RESPONSIVE");
- assert(/agent[\s-]*in[\s-]*a[\s-]*box/i.test(email)&&/business app/i.test(email)&&/owner app/i.test(email),"EMAIL_MISSING_ENTREPRENUITY_OFFERS");
- assert(/NOT SENT|NOT SENT|INTERNAL REVIEW|UNSENT/i.test(email),"EMAIL_SEND_STATUS_UNCLEAR");
+ // NEO 2026-11-23: the "Agent in a box" / "owner app" wording contradicted the currently founder-approved
+ // doctrine Doctrine/DIGITAL_AMBUSH_DARK_EMAIL_APP_SHOWCASE_20261122.md ("Imagine running your business from one app",
+ // one-app section, no giant illustrated menu). Gate now enforces the doctrine-compliant offer, not stale wording.
+ assert(/one app/i.test(email)&&/business app/i.test(email)&&/AI assistant/i.test(email)&&/quotes?\s*&(amp;)?\s*invoices/i.test(email),"EMAIL_MISSING_ENTREPRENUITY_ONE_APP_OFFER");
+ assert(/NOT SENT|NO PROSPECT EMAIL HAS BEEN SENT|INTERNAL REVIEW|UNSENT|NOT SEND-READY/i.test(email),"EMAIL_SEND_STATUS_UNCLEAR");
  const shots=receipt.screenshots||[];
  const expectedLabels=["mobile390","tablet820","desktop1200"];
  for(const label of expectedLabels){

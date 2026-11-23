@@ -38,8 +38,11 @@ function build(sitePath,receiptPath,briefPath){
   if(sha256(bytes)!==meta.sha256)throw Error("SCREENSHOT_HASH_MISMATCH_"+label);
   // Screenshots are written into the receipt directory (the slug, not email-preview/). Resolve the public
   // URL from the receipt location so the generated hero image never 404s.
-  const relDir=path.relative(path.resolve("chatgpt-digital-ambush"),path.resolve(dir)).split(path.sep).filter(Boolean).join("/");
-  const publicBase=r.url+(relDir?relDir.replace(/[^a-z0-9_/-]/gi,"")+"/":"");
+  // NEO 2026-11-23 fix: r.url already ends with the site folder. Prepending relDir produced
+  // <site>/<site>/email-preview/... and every hero image 404'd in the published email.
+  // Public GitHub Pages path mirrors <site>/email-preview/, regardless of the local output dir form.
+  const sitePath=new URL(r.url).pathname.replace(/\/?$/,"/");
+  const publicBase=new URL(r.url).origin+sitePath+"email-preview/";
   screen[label]={name:meta.filename,url:publicBase+encodeURIComponent(meta.filename)};
  }
  const link=esc(r.url),brand=esc(company),opening=esc(personal);

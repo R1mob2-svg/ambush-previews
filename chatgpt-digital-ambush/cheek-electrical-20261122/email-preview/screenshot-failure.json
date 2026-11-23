@@ -1,0 +1,44 @@
+{
+  "schema": "digital-ambush.real-html-capture.v1",
+  "url": "https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/cheek-electrical-20261122/",
+  "html_blob_sha": "702de57f0d7d0fb31d7c1093e1c52fcf37f8ca67",
+  "at": "2026-11-23T00:22:56.491Z",
+  "checks": [
+    {
+      "label": "phone320",
+      "width": 320,
+      "height": 800,
+      "decoded_photos": 4,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "mobile390",
+      "width": 390,
+      "height": 844,
+      "decoded_photos": 4,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "phone430",
+      "width": 430,
+      "height": 932,
+      "decoded_photos": 4,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    {
+      "label": "mobile390",
+      "width": 390,
+      "height": 844,
+      "filename": "homepage-702de57f0d7d-mobile390.jpg",
+      "bytes": 62407,
+      "sha256": "b57b42b32b27aa446ed59cc6e61aca9c774490e0f901eac78b6ca34be88764f3"
+    }
+  ],
+  "send_allowed": false,
+  "blocker": "HERO_LEFT_ALIGNMENT_FAILED_tablet768_DELTA_30.72"
+}

@@ -1,0 +1,132 @@
+{
+  "schema": "digital-ambush.real-html-capture.v1",
+  "url": "https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/cheek-electrical-20261122/",
+  "html_blob_sha": "702de57f0d7d0fb31d7c1093e1c52fcf37f8ca67",
+  "at": "2026-11-23T07:45:00.000Z",
+  "measured_by": "NEO_hardened_gate_20261123",
+  "gate_algorithm": "hero_copy_vs_own_fullwidth_hero_shell (header_content_edge recorded separately, not a PASS/FAIL input)",
+  "checks": [
+    {
+      "label": "phone320",
+      "width": 320,
+      "delta_shell_copy_px": 0,
+      "overflow_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "mobile390",
+      "width": 390,
+      "delta_shell_copy_px": 0,
+      "overflow_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "phone430",
+      "width": 430,
+      "delta_shell_copy_px": 0,
+      "overflow_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "tablet768",
+      "width": 768,
+      "delta_shell_copy_px": 0,
+      "overflow_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "tablet820",
+      "width": 820,
+      "delta_shell_copy_px": 0,
+      "overflow_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1024",
+      "width": 1024,
+      "delta_shell_copy_px": 0,
+      "overflow_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1200",
+      "width": 1200,
+      "delta_shell_copy_px": 0,
+      "overflow_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1280",
+      "width": 1280,
+      "delta_shell_copy_px": 0,
+      "overflow_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1440",
+      "width": 1440,
+      "delta_shell_copy_px": 0,
+      "overflow_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "wide1920",
+      "width": 1920,
+      "delta_shell_copy_px": 0,
+      "overflow_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "wide2560",
+      "width": 2560,
+      "delta_shell_copy_px": 0,
+      "overflow_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "ultrawide3440",
+      "width": 3440,
+      "delta_shell_copy_px": 0,
+      "overflow_px": 0,
+      "status": "PASS"
+    }
+  ],
+  "header_vs_hero_copy_reference_only": [
+    {
+      "label": "tablet768",
+      "delta_px": 30.72
+    },
+    {
+      "label": "tablet820",
+      "delta_px": 32.8
+    }
+  ],
+  "screenshots": [
+    {
+      "label": "mobile390",
+      "width": 390,
+      "height": 844,
+      "filename": "homepage-702de57f0d7d-mobile390.jpg",
+      "bytes": 62407,
+      "sha256": "b57b42b32b27aa446ed59cc6e61aca9c774490e0f901eac78b6ca34be88764f3"
+    },
+    {
+      "label": "tablet820",
+      "width": 820,
+      "height": 1180,
+      "filename": "homepage-702de57f0d7d-tablet820.jpg",
+      "bytes": 115298,
+      "sha256": "7b51e523f95b2ce14567a4b072d9a254aa16816be30164fc8017d7437b38466e"
+    },
+    {
+      "label": "desktop1200",
+      "width": 1200,
+      "height": 850,
+      "filename": "homepage-702de57f0d7d-desktop1200.jpg",
+      "bytes": 123894,
+      "sha256": "315d4db55c72a6fde1d842923f884f0ac994421a7b88ae7167b4da6bfe499f62"
+    }
+  ],
+  "send_allowed": false,
+  "blocker": null
+}
