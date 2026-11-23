@@ -1,0 +1,132 @@
+{
+  "schema": "digital-ambush.real-html-capture.v1",
+  "url": "https://r1mob2-svg.github.io/ambush-previews/chatgpt-digital-ambush/gds-plastering-20261123/",
+  "html_blob_sha": "22c3794905731d3633d61d6cce9d286ea25122d6",
+  "at": "2026-11-23T06:06:02.402Z",
+  "checks": [
+    {
+      "label": "phone320",
+      "width": 320,
+      "height": 800,
+      "decoded_photos": 4,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "mobile390",
+      "width": 390,
+      "height": 844,
+      "decoded_photos": 4,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "phone430",
+      "width": 430,
+      "height": 932,
+      "decoded_photos": 4,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "tablet768",
+      "width": 768,
+      "height": 1024,
+      "decoded_photos": 4,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "tablet820",
+      "width": 820,
+      "height": 1180,
+      "decoded_photos": 4,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1024",
+      "width": 1024,
+      "height": 768,
+      "decoded_photos": 4,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1200",
+      "width": 1200,
+      "height": 850,
+      "decoded_photos": 4,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1280",
+      "width": 1280,
+      "height": 800,
+      "decoded_photos": 4,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "desktop1440",
+      "width": 1440,
+      "height": 900,
+      "decoded_photos": 4,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "wide1920",
+      "width": 1920,
+      "height": 1080,
+      "decoded_photos": 4,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "wide2560",
+      "width": 2560,
+      "height": 1440,
+      "decoded_photos": 4,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "ultrawide3440",
+      "width": 3440,
+      "height": 1440,
+      "decoded_photos": 4,
+      "hero_left_edge_delta_px": 0,
+      "status": "PASS"
+    }
+  ],
+  "screenshots": [
+    {
+      "label": "mobile390",
+      "width": 390,
+      "height": 844,
+      "filename": "homepage-22c379490573-mobile390.jpg",
+      "bytes": 68517,
+      "sha256": "652f5e59c14335b97d2ee40a4594db80ff57c31ab8bf36df1afe0755ac2d23fa"
+    },
+    {
+      "label": "tablet820",
+      "width": 820,
+      "height": 1180,
+      "filename": "homepage-22c379490573-tablet820.jpg",
+      "bytes": 134168,
+      "sha256": "33997f8ed09f201ef870b2f4ff3c2c39085d6cc0bd4a40df4b463fe72b6cb918"
+    },
+    {
+      "label": "desktop1200",
+      "width": 1200,
+      "height": 850,
+      "filename": "homepage-22c379490573-desktop1200.jpg",
+      "bytes": 160707,
+      "sha256": "8fab3783c1d37c8856f41d363132dba3fdfb2f900e4ac30e0c4a09f10c68ad3f"
+    }
+  ],
+  "send_allowed": false,
+  "generated_by": "NEO independent QA 2026-11-23T06Z; screenshots captured twice with identical SHA-256"
+}
