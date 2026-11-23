@@ -6,7 +6,7 @@
   "source_repository": "R1mob2-svg/ambush-previews",
   "image_generation_status": "UNAVAILABLE_GOOGLE_429_QUOTA_EXHAUSTED_AND_OPENAI_INSUFFICIENT_QUOTA",
   "fallback_mode": "LICENSED_WIKIMEDIA_COMMONS_PHOTOGRAPHS_WITH_DOCUMENTED_PROVENANCE",
-  "usage_note": "All photographs are CC BY-SA licensed Wikimedia Commons images used illustratively. None is represented as Shield's Scaffolding's own completed work. Source URLs and licence are recorded for attribution.",
+  "usage_note": "All photographs are CC BY-SA licensed Wikimedia Commons images used illustratively. None is represented as Shields Scaffolding's own completed work. Source URLs and licence are recorded for attribution.",
   "assets": [
     {
       "file": "assets/hero.jpg",
