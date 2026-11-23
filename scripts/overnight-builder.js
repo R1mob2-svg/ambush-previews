@@ -280,6 +280,7 @@ const toSpecPhoto = (p) => ({
   file: p.local_file || p.file,
   source_url: p.source_url,
   license: p.license || 'UNVERIFIED',
+  author: p.author || 'Wikimedia Commons contributor',
   notes: p.notes || '',
 });
 
