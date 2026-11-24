@@ -133,7 +133,7 @@ const LOCK = { new_external_sent: 0, drafts: 0 };
 log(`BOOT: outbound lock asserted — NEW EXTERNAL SENT = ${LOCK.new_external_sent}, DRAFTS = ${LOCK.drafts}`);
 
 // ---------- template integrity ----------
-const LOCKED_SHA = '8f9b23518b5fae0ac99944a2c60e8c9ea6e438e1b9926ab5a5365679d07cb869';
+const LOCKED_SHA = '474dae6b093b3f431b13f63e336374c0821d902b975c67442c2577e2c45d4898';
 const tplPath = path.join(REPO, 'templates', 'simplicity-design-fit-refresh.html');
 if (!fs.existsSync(tplPath)) {
   log('FATAL: Golden Master template missing at ' + tplPath);
