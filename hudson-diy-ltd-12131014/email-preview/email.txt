@@ -1,10 +1,11 @@
-Subject: HUDSON DIY LTD | your website preview
+Subject: A website preview for HUDSON DIY LTD
+Public company email: hudson-diy@outlook.com
 
-INTERNAL_DRAFT_SCREENSHOT_PENDING · UNSENT
+HUDSON DIY LTD is listed in Birmingham B14 7AT for joinery, carpentry and property-improvement work. Public listings near Kings Heath describe doors, staircases and fitted furniture rather than run-of-the-mill DIY, so we built the preview around that joinery focus rather than padding it out with generic trade copy.
 
-We prepared a live website preview using the current public business details for HUDSON DIY LTD:
-https://r1mob2-svg.github.io/ambush-previews/hudson-diy-ltd-12131014/
+Open the working website: https://r1mob2-svg.github.io/ambush-previews/hudson-diy-ltd-12131014/
 
-Exact published-site screenshots from source SHA 505e028ab6a4191b54eb2dc89f9792a149d42474 and independent email parity QA are required before any customer send.
+If you ever want to run the business from one place — email, diary, jobs, customers, quotes and invoices in a single app — that's what we build.
 
-Internal draft only. No customer email has been sent.
+Entreprenuity Web Design
+You are receiving this because your business contact details are published publicly. If you would prefer not to hear from us, reply “NO THANKS” (or “no further contact”) and we will suppress all future contact.

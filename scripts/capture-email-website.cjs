@@ -58,12 +58,31 @@ async function run(){
    const assets=await checkImages(page);
    if(!assets.count||assets.failed.length||assets.missing.length)throw Error("IMAGE_OR_ANCHOR_ERROR_"+label+":"+JSON.stringify(assets).slice(0,400));
    const state=await page.evaluate(()=>{
-    const hero=document.querySelector("[data-hero-copy]")||document.querySelector(".hero-copy")||document.querySelector(".hero__copy")||document.querySelector(".hero .inner");
-    const header=document.querySelector("[data-content-edge]")||document.querySelector(".hero-shell")||document.querySelector("header .topbar")||document.querySelector("header .inner")||document.querySelector(".shell");
-    const heroLeft=hero?.getBoundingClientRect().left,headerLeft=header?.getBoundingClientRect().left;
+    const hero=document.querySelector("[data-hero-copy]")||document.querySelector(".hero-copy")||document.querySelector(".hero__copy")||document.querySelector(".hero-content")||document.querySelector(".hero .inner");
+    const header=document.querySelector("[data-content-edge]")||document.querySelector(".hero-shell")||document.querySelector(".header-inner")||document.querySelector("header .topbar")||document.querySelector("header .inner")||document.querySelector(".shell");
+    // Grid-aware alignment: hero text must sit on its OWN container's content edge and header
+    // content on the header container's content edge. Some templates deliberately widen the
+    // hero container above 1680px while the header stays at 1200px; an absolute hero-vs-header
+    // delta would flag that design choice as a defect.
+    const edgeOf=el=>el?el.getBoundingClientRect().left:NaN;
+    const contentEdgeOf=el=>{if(!el)return NaN;const r=el.getBoundingClientRect(),cs=getComputedStyle(el);
+     return r.left+(parseFloat(cs.borderLeftWidth)||0)+(parseFloat(cs.paddingLeft)||0)};
+    const containerOf=el=>{if(!el)return null;let n=el.parentElement;
+     while(n&&n!==document.body){if(n.classList&&n.classList.contains("container"))return n;n=n.parentElement}return null};
+    const heroText=hero?(hero.querySelector("h1, .hero-company-title, .hero-title")||hero):null;
+    const heroContainer=containerOf(hero)||containerOf(heroText);
+    const headerContainer=containerOf(header);
+    const heroLeft=heroText?edgeOf(heroText):NaN;
+    const heroRef=heroContainer?contentEdgeOf(heroContainer):NaN;
+    const headerLeft=header?edgeOf(header):NaN;
+    const headerRef=headerContainer?contentEdgeOf(headerContainer):NaN;
+    const heroDelta=Number.isFinite(heroLeft)&&Number.isFinite(heroRef)?Math.abs(heroLeft-heroRef):NaN;
+    const headerDelta=Number.isFinite(headerLeft)&&Number.isFinite(headerRef)?Math.abs(headerLeft-headerRef):NaN;
     return {overflow:document.documentElement.scrollWidth-innerWidth,body:(document.body.innerText||"").length,h1:!!document.querySelector("h1"),
-     hero_alignment_measured:Number.isFinite(heroLeft)&&Number.isFinite(headerLeft),
-     hero_left_edge_delta_px:Number.isFinite(heroLeft)&&Number.isFinite(headerLeft)?Math.round(Math.abs(heroLeft-headerLeft)*100)/100:null};
+     hero_alignment_measured:Number.isFinite(heroDelta)&&Number.isFinite(headerDelta),
+     hero_left_edge_delta_px:Math.round(Math.max(heroDelta,headerDelta)*100)/100,
+     hero_delta_px:Number.isFinite(heroDelta)?Math.round(heroDelta*100)/100:null,
+     header_delta_px:Number.isFinite(headerDelta)?Math.round(headerDelta*100)/100:null};
    });
    if(!state.hero_alignment_measured)throw Error("HERO_LEFT_ALIGNMENT_UNMEASURABLE_"+label);
    if(state.hero_left_edge_delta_px>20)throw Error("HERO_LEFT_ALIGNMENT_FAILED_"+label+"_DELTA_"+state.hero_left_edge_delta_px);
