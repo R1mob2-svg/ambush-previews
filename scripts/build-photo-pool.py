@@ -22,6 +22,38 @@ POOL_PATH = os.path.join(ROOT, 'scripts', 'photo-pool.json')
 CACHE = os.path.join(ROOT, 'scripts', 'photo-cache')
 UA = 'NEO-DigitalAmbush/1.0 (https://geminx.ai; r1mob2@hotmail.com)'
 
+# NEO 2026-11-25: honesty guards. `local_file` must be a real path relative to
+# ROOT (portable across machines/checkouts). Absolute /tmp paths are disposable
+# and must never be persisted; placeholder strings must never be persisted.
+PLACEHOLDER_LOCAL_FILE = 'PERSISTENT_CACHE_BY_SOURCE_URL'
+
+
+def bad_local_file(value):
+    """Return a reason string if local_file is unusable, else None."""
+    if not isinstance(value, str) or not value.strip():
+        return 'missing'
+    if PLACEHOLDER_LOCAL_FILE in value:
+        return 'placeholder'
+    if os.path.isabs(value):
+        return 'absolute-path'
+    if '..' in value.split('/'):
+        return 'path-traversal'
+    if not os.path.exists(os.path.join(ROOT, value)):
+        return 'missing-on-disk'
+    return None
+
+
+def sanitize_pool(pool):
+    """Drop entries whose local_file is a placeholder, absolute or unresolved."""
+    kept, dropped = [], []
+    for p in pool:
+        reason = bad_local_file(p.get('local_file'))
+        if reason:
+            dropped.append({'source_url': p.get('source_url'), 'reason': reason})
+        else:
+            kept.append(p)
+    return kept, dropped
+
 # Trade -> Commons categories that reliably hold genuine on-trade photography.
 # NEO 2026-11-18: widened after measuring the real bottleneck — 8 photos/trade is
 # enough for exactly ONE page per trade, and the queue needs 109 pages. These
@@ -164,6 +196,11 @@ def main():
             pool = json.load(open(POOL_PATH))
         except Exception:
             pool = []
+    pool, dropped = sanitize_pool(pool)
+    if dropped:
+        print(f'PRUNED {len(dropped)} unsafe pool entries:', flush=True)
+        for d in dropped:
+            print(f'  - {d["reason"]}: {d["source_url"]}', flush=True)
     have = {(p['source_url']) for p in pool}
     print(f'pool already has {len(pool)} entries', flush=True)
 
@@ -194,9 +231,14 @@ def main():
                 dest = os.path.join(CACHE, f'{trade}-{slug}.jpg')
                 if not download(info['url'], dest):
                     continue
+                rel = os.path.relpath(dest, ROOT)
+                reason = bad_local_file(rel)
+                if reason:
+                    print(f'  REJECT {trade}: {title[:60]} local_file={rel} ({reason})', flush=True)
+                    continue
                 entry = {
                     'trade': trade,
-                    'local_file': dest,
+                    'local_file': rel,
                     'source_url': info['page'],
                     'license': info['license'],
                     'author': info['author'] or 'Wikimedia Commons contributor',
@@ -208,6 +250,10 @@ def main():
                 got += 1
                 print(f'  + {trade}: {title[:70]} [{info["license"]}]', flush=True)
 
+    # Final guard: never persist an unsafe entry, even if one slipped through.
+    pool, dropped_final = sanitize_pool(pool)
+    if dropped_final:
+        print(f'FINAL_PRUNE {len(dropped_final)} unsafe entries', flush=True)
     json.dump(pool, open(POOL_PATH, 'w'), indent=1)
     print(f'DONE. pool={len(pool)} (+{added} this run)', flush=True)
 

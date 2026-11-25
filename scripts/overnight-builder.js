@@ -212,6 +212,19 @@ function loadPool() {
   try { return JSON.parse(fs.readFileSync(POOL_PATH, 'utf8')); } catch (e) { return []; }
 }
 
+// NEO 2026-11-25: a pool entry is only usable when local_file is a real path
+// relative to REPO (portable) or an absolute path that exists. Placeholder
+// strings and disposable /tmp paths are rejected rather than persisted.
+const PLACEHOLDER_LOCAL_FILE = 'PERSISTENT_CACHE_BY_SOURCE_URL';
+function poolLocalFileUsable(p) {
+  const v = p && p.local_file;
+  if (typeof v !== 'string' || !v.trim()) return false;
+  if (v.includes(PLACEHOLDER_LOCAL_FILE)) return false;
+  const abs = path.isAbsolute(v) ? v : path.join(REPO, v);
+  if (!fs.existsSync(abs)) return false;
+  try { return fs.statSync(abs).size > 2048; } catch (e) { return false; }
+}
+
 // The legacy photo pool points at disposable /tmp paths. On Railway those
 // vanish at restart, silently making every builder job ASSET_SET_UNAVAILABLE.
 // Rehydrate only selected Commons images into the existing persistent RUN_DIR.
@@ -358,7 +371,14 @@ function setLeadStatus(lead, status, extra = {}) {
     `${alreadyBuilt.size} already BUILT_READY_FOR_REVIEW`);
 
   const used = usedOrigins();
-  const cleanPool = loadPool().filter((p) => p.source_url && !used.has(p.source_url));
+  // NEO 2026-11-25: placeholder/absolute-disposable local_file values must be
+  // rejected here, not silently carried into hydration where they always fail.
+  const rawPool = loadPool();
+  const rejectedLocal = rawPool.filter((p) => !poolLocalFileUsable(p));
+  if (rejectedLocal.length) {
+    log(`POOL_LOCAL_FILE_REJECTED ${rejectedLocal.length} entries (placeholder or unresolvable local_file)`);
+  }
+  const cleanPool = rawPool.filter((p) => p.source_url && !used.has(p.source_url) && poolLocalFileUsable(p));
   log(`PHOTO POOL: ${cleanPool.length} unused verified origins (${used.size} already burned board-wide)`);
 
   // bucket by normalised trade so every page gets on-trade photography

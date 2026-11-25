@@ -358,7 +358,14 @@ function setLeadStatus(lead, status, extra = {}) {
     `${alreadyBuilt.size} already BUILT_READY_FOR_REVIEW`);
 
   const used = usedOrigins();
-  const cleanPool = loadPool().filter((p) => p.source_url && !used.has(p.source_url));
+  // NEO 2026-11-25: placeholder/absolute-disposable local_file values must be
+  // rejected here, not silently carried into hydration where they always fail.
+  const rawPool = loadPool();
+  const rejectedLocal = rawPool.filter((p) => !poolLocalFileUsable(p));
+  if (rejectedLocal.length) {
+    log(`POOL_LOCAL_FILE_REJECTED ${rejectedLocal.length} entries (placeholder or unresolvable local_file)`);
+  }
+  const cleanPool = rawPool.filter((p) => p.source_url && !used.has(p.source_url) && poolLocalFileUsable(p));
   log(`PHOTO POOL: ${cleanPool.length} unused verified origins (${used.size} already burned board-wide)`);
 
   // bucket by normalised trade so every page gets on-trade photography
