@@ -26,8 +26,11 @@ function main(){
  // NEO 2026-11-23: the "Agent in a box" / "owner app" wording contradicted the currently founder-approved
  // doctrine Doctrine/DIGITAL_AMBUSH_DARK_EMAIL_APP_SHOWCASE_20261122.md ("Imagine running your business from one app",
  // one-app section, no giant illustrated menu). Gate now enforces the doctrine-compliant offer, not stale wording.
- assert(/one app/i.test(email)&&/business app/i.test(email)&&/AI assistant/i.test(email)&&/quotes?\s*&(amp;)?\s*invoices/i.test(email),"EMAIL_MISSING_ENTREPRENUITY_ONE_APP_OFFER");
- assert(/NOT SENT|NO PROSPECT EMAIL HAS BEEN SENT|INTERNAL REVIEW|UNSENT|NOT SEND-READY/i.test(email),"EMAIL_SEND_STATUS_UNCLEAR");
+ assert(/one app/i.test(email)&&/business app/i.test(email)&&/AI assistant/i.test(email)&&/quotes?\s*(?:&(?:amp;)?|and)\s*invoices/i.test(email),"EMAIL_MISSING_ENTREPRENUITY_ONE_APP_OFFER");
+ // NEO 2026-11-25: a customer-SAFE email carries no internal send-status banner at all. The old
+ // gate required an "UNSENT/NOT SENT" marker, which meant every INTERNAL draft passed and a
+ // genuinely customer-safe build could never pass. Enforce the opposite: no internal banner.
+ assert(!/NOT SENT|NO PROSPECT EMAIL HAS BEEN SENT|INTERNAL REVIEW|UNSENT|NOT SEND-READY|founder review only/i.test(email),"EMAIL_STILL_INTERNAL_DRAFT");
  const shots=receipt.screenshots||[];
  const expectedLabels=["mobile390","tablet820","desktop1200"];
  for(const label of expectedLabels){
