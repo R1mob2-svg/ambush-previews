@@ -37,7 +37,7 @@ const crypto = require('crypto');
 
 const ROOT = path.resolve(__dirname, '..');
 const TEMPLATE_PATH = path.join(ROOT, 'templates', 'simplicity-design-fit-refresh.html');
-const LOCKED_SHA256 = '8f9b23518b5fae0ac99944a2c60e8c9ea6e438e1b9926ab5a5365679d07cb869';
+const LOCKED_SHA256 = '474dae6b093b3f431b13f63e336374c0821d902b975c67442c2577e2c45d4898';
 
 const sha256File = (p) => crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 const sha256Buf = (b) => crypto.createHash('sha256').update(b).digest('hex');
